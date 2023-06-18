@@ -2,7 +2,7 @@ from setuptools import find_packages, setup
 
 
 setup(
-    name="firebase-tools",
+    name="rito",
     version="0.0.1",
     author="Mathias Gout",
     packages=find_packages(exclude=["tests"]),
