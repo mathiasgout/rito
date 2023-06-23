@@ -35,29 +35,30 @@ class ChampionMasteryExtractor(BaseExtractor):
             raise ExtractorError(
                 f"type(champion_masteries_list)={type(champion_masteries_list)} (!= list of dictionnaries)"
             )
+        if not champion_id:
+            raise ExtractorError(f"champion_id={champion_id} (!= non null string)")
 
-        for champion_mastery_dict in champion_masteries_list:
-            if champion_mastery_dict.get("championId", None) == int(champion_id):
-                champion_mastery = ChampionMastery(
-                    puuid=champion_mastery_dict.get("puuid", None),
-                    champion_id=champion_mastery_dict.get("championId", None),
-                    champion_level=champion_mastery_dict.get("championLevel", None),
-                    champion_points=champion_mastery_dict.get("championPoints", None),
-                    last_play_time=champion_mastery_dict.get("lastPlayTime", None),
-                    champion_points_since_last_level=champion_mastery_dict.get(
-                        "championPointsSinceLastLevel", None
-                    ),
-                    champion_points_until_next_level=champion_mastery_dict.get(
-                        "championPointsUntilNextLevel", None
-                    ),
-                    chest_granted=champion_mastery_dict.get("chestGranted", None),
-                    tokens_earned=champion_mastery_dict.get("tokensEarned", None),
-                    summoner_id=champion_mastery_dict.get("summonerId", None),
-                )
-                return champion_mastery
-        raise ExtractorError(
-            f"champion with champion_id={champion_id} not in champion_masteries_list"
+        champion_mastery_dict = self._get_champion_mastery_by_champion_id(
+            champion_masteries_list=champion_masteries_list, champion_id=champion_id
         )
+
+        champion_mastery = ChampionMastery(
+            puuid=champion_mastery_dict.get("puuid", None),
+            champion_id=champion_mastery_dict.get("championId", None),
+            champion_level=champion_mastery_dict.get("championLevel", None),
+            champion_points=champion_mastery_dict.get("championPoints", None),
+            last_play_time=champion_mastery_dict.get("lastPlayTime", None),
+            champion_points_since_last_level=champion_mastery_dict.get(
+                "championPointsSinceLastLevel", None
+            ),
+            champion_points_until_next_level=champion_mastery_dict.get(
+                "championPointsUntilNextLevel", None
+            ),
+            chest_granted=champion_mastery_dict.get("chestGranted", None),
+            tokens_earned=champion_mastery_dict.get("tokensEarned", None),
+            summoner_id=champion_mastery_dict.get("summonerId", None),
+        )
+        return champion_mastery
 
     def extract_totals_from_list(
         self, champion_masteries_list: list[dict]
@@ -79,3 +80,14 @@ class ChampionMasteryExtractor(BaseExtractor):
             total_champion_points=total_champion_points,
         )
         return champion_mastery_summary
+
+    @staticmethod
+    def _get_champion_mastery_by_champion_id(
+        champion_masteries_list: list[dict], champion_id: str
+    ) -> dict:
+        for champion_mastery_dict in champion_masteries_list:
+            if champion_mastery_dict.get("championId", None) == int(champion_id):
+                return champion_mastery_dict
+        raise ExtractorError(
+            f"champion with champion_id={champion_id} not in champion_masteries_list"
+        )

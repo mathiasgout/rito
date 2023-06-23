@@ -1,6 +1,6 @@
 from rito.extractors.base_extractor import BaseExtractor
-from rito.models.league import Entry
 from rito.errors import ExtractorError
+from rito.models.league import Entry
 
 from typing import Optional
 
@@ -17,6 +17,20 @@ class EntriesExtractor(BaseExtractor):
             entry = self.extract_from_entry(entry_dict=entry_dict)
             entries.append(entry)
         return entries
+
+    def extract_entry(self, entries_list: list[dict], queue_type: str) -> Entry:
+        if not isinstance(entries_list, list):
+            raise ExtractorError(
+                f"type(entries_list)={type(entries_list)} (!= list of dictionnaries)"
+            )
+        if not queue_type:
+            raise ExtractorError(f"queue_type={queue_type} (!= non null string)")
+
+        entry_dict = self._get_entry_by_queue_type(
+            entries_list=entries_list, queue_type=queue_type
+        )
+        entry = self.extract_from_entry(entry_dict=entry_dict)
+        return entry
 
     def extract_from_entry(self, entry_dict: dict) -> Entry:
         if not isinstance(entry_dict, dict):
@@ -45,6 +59,14 @@ class EntriesExtractor(BaseExtractor):
         return entry
 
     @staticmethod
+    def _get_entry_by_queue_type(entries_list: list[dict], queue_type: str) -> dict:
+        for entry_dict in entries_list:
+            if queue_type == entry_dict.get("queueType", None):
+                return entry_dict
+
+        raise ExtractorError(f"entry with queue_type={queue_type} not in entries_list")
+
+    @staticmethod
     def _get_total_lp(
         tier: Optional[str], rank: Optional[str], league_points: Optional[int]
     ) -> Optional[int]:
@@ -65,7 +87,6 @@ class EntriesExtractor(BaseExtractor):
                 if (t == tier) and (r == rank):
                     return lp + league_points
                 lp += 100
-        return None
 
 
 class LeagueExtractor:

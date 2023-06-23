@@ -7,34 +7,42 @@ from datetime import datetime, timezone
 
 
 class ActiveGameExtractor(BaseExtractor):
-    def extract(self, active_game: dict) -> ActiveGame:
-        if not isinstance(active_game, dict):
-            raise ExtractorError(f"type(active_game)={type(active_game)} (!= dict)")
+    def extract(self, active_game_dict: dict) -> ActiveGame:
+        if not isinstance(active_game_dict, dict):
+            raise ExtractorError(
+                f"type(active_game)={type(active_game_dict)} (!= dict)"
+            )
+
+        participants_list = self._get_participants(active_game_dict=active_game_dict)
 
         active_game = ActiveGame(
             match_id=self._get_match_id(
-                game_id=active_game.get("gameId", None),
-                platform_id=active_game.get("platformId", None),
+                game_id=active_game_dict.get("gameId", None),
+                platform_id=active_game_dict.get("platformId", None),
             ),
-            queue_id=active_game.get("gameQueueConfigId", None),
+            queue_id=active_game_dict.get("gameQueueConfigId", None),
             game_start_time=self._get_game_start_time(
-                game_start_time=active_game.get("gameStartTime", None)
+                game_start_time=active_game_dict.get("gameStartTime", None)
             ),
             participants_id=self._get_participants_id(
-                active_game.get("participants", None)
+                participants_list=participants_list
             ),
         )
         return active_game
 
     def extract_summoner(
-        self, active_game: dict, summoner_id: str
+        self, active_game_dict: dict, summoner_id: str
     ) -> ActiveGameSummoner:
-        if not isinstance(active_game, dict):
-            raise ExtractorError(f"type(active_game)={type(active_game)} (!= dict)")
+        if not isinstance(active_game_dict, dict):
+            raise ExtractorError(
+                f"type(active_game)={type(active_game_dict)} (!= dict)"
+            )
+        if not summoner_id:
+            raise ExtractorError(f"summoner_id={summoner_id} (!= non null string)")
 
+        participants_list = self._get_participants(active_game_dict=active_game_dict)
         participant_dict = self._get_participant_by_summoner_id(
-            participants_info=active_game.get("participants", None),
-            summoner_id=summoner_id,
+            participants_list=participants_list, summoner_id=summoner_id
         )
 
         active_game_summoner = ActiveGameSummoner(
@@ -48,33 +56,34 @@ class ActiveGameExtractor(BaseExtractor):
         )
         return active_game_summoner
 
-    def _get_game_start_time(self, game_start_time: Optional[int]) -> int:
+    def _get_game_start_time(self, game_start_time: Optional[int] = None) -> int:
         if game_start_time:
             return game_start_time
         return self._get_ts_milli_utc()
 
     @staticmethod
-    def _get_participant_by_summoner_id(
-        participants_info: Optional[list[dict]], summoner_id: Optional[str]
-    ) -> dict:
-        if not participants_info:
-            return {}
-
-        for participant_info in participants_info:
-            if summoner_id == participant_info.get("summonerId", None):
-                return participant_info
-        return {}
+    def _get_participants(active_game_dict: dict) -> list[dict]:
+        participants_list = active_game_dict.get("participants", None)
+        if participants_list:
+            return participants_list
+        raise ExtractorError(f"no participants in active game")
 
     @staticmethod
-    def _get_participants_id(
-        participants_info: Optional[list[dict]],
-    ) -> list[Optional[str]]:
-        if not participants_info:
-            return []
+    def _get_participant_by_summoner_id(
+        participants_list: list[dict], summoner_id: str
+    ) -> dict:
+        for participant_dict in participants_list:
+            if summoner_id == participant_dict.get("summonerId", None):
+                return participant_dict
+        raise ExtractorError(
+            f"summoner with summoner_id={summoner_id} not in participants list"
+        )
 
+    @staticmethod
+    def _get_participants_id(participants_list: list[dict]) -> list[Optional[str]]:
         participants_id = []
-        for participant_info in participants_info:
-            participants_id.append(participant_info.get("summonerId", None))
+        for participant_dict in participants_list:
+            participants_id.append(participant_dict.get("summonerId", None))
         return participants_id
 
     @staticmethod

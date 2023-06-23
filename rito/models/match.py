@@ -10,7 +10,7 @@ class Match(BaseModel):
     game_start_time: Optional[int]
     game_end_time: Optional[int]
     game_duration: Optional[int]
-    participants_puuid: list[Optional[str]]
+    participants_puuid: Optional[list[Optional[str]]]
     participants_id: list[Optional[str]]
 
 
