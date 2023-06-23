@@ -1,7 +1,7 @@
 from rito import errors
 from rito.models import league
 from rito.extractors import base_extractor, league_extractor
-from tests.examples import entries_example
+from tests.examples import entries_example, entry_miniseries_example
 
 import pytest
 
@@ -11,6 +11,24 @@ def test_entriesextractor():
         league_extractor.EntriesExtractor,
         base_extractor.BaseExtractor,
     )
+
+
+def test_entriesextractor_get_miniseries_progress_EXISTS():
+    extractor = league_extractor.EntriesExtractor()
+    e_dict = extractor._get_miniseries_progress(
+        entry_dict=entry_miniseries_example.entry_miniseries_example
+    )
+
+    assert e_dict == "WLN"
+
+
+def test_entriesextractor_get_miniseries_progress_DONT_EXISTS():
+    extractor = league_extractor.EntriesExtractor()
+    e_dict = extractor._get_miniseries_progress(
+        entry_dict=entries_example.entries_example[0]
+    )
+
+    assert e_dict is None
 
 
 def test_entriesextractor_get_entry_by_queue_type_GOOD():
@@ -111,6 +129,32 @@ def test_entriesextractor_extract_from_entry():
         fresh_blood=False,
         hot_streak=False,
         total_lp=1903,
+    )
+
+
+def test_entriesextractor_extract_from_entry_MINISERIE():
+    extractor = league_extractor.EntriesExtractor()
+    ent = extractor.extract_from_entry(
+        entry_dict=entry_miniseries_example.entry_miniseries_example
+    )
+
+    assert type(ent) == league.Entry
+    assert ent == league.Entry(
+        league_id="31a5c2c9-bd43-4aab-9841-282a3431fe29",
+        queue_type="RANKED_SOLO_5x5",
+        tier="DIAMOND",
+        rank="I",
+        summoner_id="JTv9359swD19EdkNFONC9bKI6bJ4fh5J3UjbJs7Gz9NsJaCO",
+        summoner_name="Vorxu",
+        league_points=100,
+        wins=326,
+        losses=282,
+        veteran=False,
+        inactive=False,
+        fresh_blood=True,
+        hot_streak=False,
+        miniseries_progress="WLN",
+        total_lp=2400,
     )
 
 

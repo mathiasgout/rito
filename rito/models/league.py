@@ -17,4 +17,5 @@ class Entry(BaseModel):
     inactive: Optional[bool]
     fresh_blood: Optional[bool]
     hot_streak: Optional[bool]
+    miniseries_progress: Optional[str]
     total_lp: Optional[int]

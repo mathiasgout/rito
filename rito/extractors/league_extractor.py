@@ -50,6 +50,7 @@ class EntriesExtractor(BaseExtractor):
             inactive=entry_dict.get("inactive", None),
             fresh_blood=entry_dict.get("freshBlood", None),
             hot_streak=entry_dict.get("hotStreak", None),
+            miniseries_progress=self._get_miniseries_progress(entry_dict=entry_dict),
             total_lp=self._get_total_lp(
                 tier=entry_dict.get("tier", None),
                 rank=entry_dict.get("rank", None),
@@ -57,6 +58,15 @@ class EntriesExtractor(BaseExtractor):
             ),
         )
         return entry
+
+    @staticmethod
+    def _get_miniseries_progress(entry_dict: dict) -> Optional[str]:
+        miniseries = entry_dict.get("miniSeries", None)
+        if miniseries:
+            miniseries_progress = miniseries.get("progress", None)
+            if miniseries_progress:
+                return miniseries_progress
+        return None
 
     @staticmethod
     def _get_entry_by_queue_type(entries_list: list[dict], queue_type: str) -> dict:
