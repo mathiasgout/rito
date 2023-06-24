@@ -1,4 +1,4 @@
-from rito import clients
+from rito import RitoClient, ExtractorClient
 from rito.apis import champion_mastery_api
 from rito.apis import data_dragon_api
 from rito.apis import league_api
@@ -14,7 +14,7 @@ from rito.extractors import summoner_extractor
 
 
 def test_ritoclient():
-    rito = clients.RitoClient(riot_api_key="riot_api_key", region="EUW", tries_5xx=2)
+    rito = RitoClient(riot_api_key="riot_api_key", region="EUW", tries_5xx=2)
 
     assert type(rito.champion_mastery) == champion_mastery_api.ChampionMasteryAPIV4
     assert type(rito.league) == league_api.LeagueAPIV4
@@ -26,7 +26,7 @@ def test_ritoclient():
 
 
 def test_extractorclient():
-    extractor = clients.ExtractorClient()
+    extractor = ExtractorClient()
 
     assert (
         type(extractor.champion_mastery)

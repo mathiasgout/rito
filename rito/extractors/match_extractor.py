@@ -1,5 +1,5 @@
 from rito.extractors.base_extractor import BaseExtractor
-from rito.models.match import Match, MatchSummoner, MatchTotals
+from rito.models.match import Match, MatchSummoner, MatchTotals, TeamTotals
 from rito.errors import ExtractorError
 
 from typing import Optional
@@ -115,49 +115,57 @@ class MatchExtractor(BaseExtractor):
         participants_infos = self._get_participants_info(info=info_dict)
 
         match_totals = MatchTotals(
-            total_assists_team100=self._get_total_by_key_and_team(
-                participants_info=participants_infos, key="assists", team_id="100"
+            team_100=TeamTotals(
+                total_assists=self._get_total_by_key_and_team(
+                    participants_info=participants_infos, key="assists", team_id="100"
+                ),
+                total_deaths=self._get_total_by_key_and_team(
+                    participants_info=participants_infos, key="deaths", team_id="100"
+                ),
+                total_kills=self._get_total_by_key_and_team(
+                    participants_info=participants_infos, key="kills", team_id="100"
+                ),
+                total_damage_dealt_to_champions=self._get_total_by_key_and_team(
+                    participants_info=participants_infos,
+                    key="totalDamageDealtToChampions",
+                    team_id="100",
+                ),
+                total_damage_taken=self._get_total_by_key_and_team(
+                    participants_info=participants_infos,
+                    key="totalDamageTaken",
+                    team_id="100",
+                ),
+                total_vision_score=self._get_total_by_key_and_team(
+                    participants_info=participants_infos,
+                    key="visionScore",
+                    team_id="100",
+                ),
             ),
-            total_assists_team200=self._get_total_by_key_and_team(
-                participants_info=participants_infos, key="assists", team_id="200"
-            ),
-            total_deaths_team100=self._get_total_by_key_and_team(
-                participants_info=participants_infos, key="deaths", team_id="100"
-            ),
-            total_deaths_team200=self._get_total_by_key_and_team(
-                participants_info=participants_infos, key="deaths", team_id="200"
-            ),
-            total_kills_team100=self._get_total_by_key_and_team(
-                participants_info=participants_infos, key="kills", team_id="100"
-            ),
-            total_kills_team200=self._get_total_by_key_and_team(
-                participants_info=participants_infos, key="kills", team_id="200"
-            ),
-            total_damage_dealt_to_champions_team100=self._get_total_by_key_and_team(
-                participants_info=participants_infos,
-                key="totalDamageDealtToChampions",
-                team_id="100",
-            ),
-            total_damage_dealt_to_champions_team200=self._get_total_by_key_and_team(
-                participants_info=participants_infos,
-                key="totalDamageDealtToChampions",
-                team_id="200",
-            ),
-            total_damage_taken_team100=self._get_total_by_key_and_team(
-                participants_info=participants_infos,
-                key="totalDamageTaken",
-                team_id="100",
-            ),
-            total_damage_taken_team200=self._get_total_by_key_and_team(
-                participants_info=participants_infos,
-                key="totalDamageTaken",
-                team_id="200",
-            ),
-            total_vision_score_team100=self._get_total_by_key_and_team(
-                participants_info=participants_infos, key="visionScore", team_id="100"
-            ),
-            total_vision_score_team200=self._get_total_by_key_and_team(
-                participants_info=participants_infos, key="visionScore", team_id="200"
+            team_200=TeamTotals(
+                total_assists=self._get_total_by_key_and_team(
+                    participants_info=participants_infos, key="assists", team_id="200"
+                ),
+                total_deaths=self._get_total_by_key_and_team(
+                    participants_info=participants_infos, key="deaths", team_id="200"
+                ),
+                total_kills=self._get_total_by_key_and_team(
+                    participants_info=participants_infos, key="kills", team_id="200"
+                ),
+                total_damage_dealt_to_champions=self._get_total_by_key_and_team(
+                    participants_info=participants_infos,
+                    key="totalDamageDealtToChampions",
+                    team_id="200",
+                ),
+                total_damage_taken=self._get_total_by_key_and_team(
+                    participants_info=participants_infos,
+                    key="totalDamageTaken",
+                    team_id="200",
+                ),
+                total_vision_score=self._get_total_by_key_and_team(
+                    participants_info=participants_infos,
+                    key="visionScore",
+                    team_id="200",
+                ),
             ),
         )
         return match_totals

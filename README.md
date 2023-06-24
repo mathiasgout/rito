@@ -10,13 +10,13 @@ pip install git+https://github.com/mathiasgout/rito.git
 
 ## Exemple
 ````python
-from rito.clients import RitoClient, ExtractorClient
+from rito import RitoClient, ExtractorClient
 
-rito = RitoClient(riot_api_key="my_riot_api_key", region="EUW")
-extractor = ExtractorClient()
+rito_client = RitoClient(riot_api_key="my_riot_api_key", region="EUW")
+extractor_client = ExtractorClient()
 
-summoner_dict = rito.summoner.by_name("faker")
-summoner = extractor.summoner.extract(summoner_dict)
+summoner_dict = rito_client.summoner.by_name("faker")
+summoner = extractor_client.summoner.extract(summoner_dict)
 print(summoner.name) # Faker
 print(summoner.summoner_level) # 212
 ````

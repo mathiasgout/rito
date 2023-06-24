@@ -1,5 +1,5 @@
 from rito import errors
-from rito.models import match
+from rito.models import Match, MatchSummoner, MatchTotals, TeamTotals
 from rito.extractors import base_extractor, match_extractor
 from tests.examples import match_example
 
@@ -181,7 +181,7 @@ def test_matchextractor_extract():
     extractor = match_extractor.MatchExtractor()
     m = extractor.extract(match_dict=match_example.match_example)
 
-    assert m == match.Match(
+    assert m == Match(
         match_id="EUW1_6404768237",
         queue_id="420",
         game_version="13.9.506.4846",
@@ -234,7 +234,7 @@ def test_matchextractor_extract_summoner():
         summoner_id="TkLNWG5SiEUcFoduwi6jLiGCAGu2pDaX7fZGYqrJTkZH-EGe",
     )
 
-    assert ms == match.MatchSummoner(
+    assert ms == MatchSummoner(
         team_id="100",
         summoner_id="TkLNWG5SiEUcFoduwi6jLiGCAGu2pDaX7fZGYqrJTkZH-EGe",
         summoner_name="Kanae Ruka",
@@ -274,7 +274,7 @@ def test_matchextractor_extract_opponent():
         summoner_id="ijvE3hsE-fpOJV4zBlCklmK4S4SmeZkDo0MLbuEyexWZ7ag",
     )
 
-    assert ms == match.MatchSummoner(
+    assert ms == MatchSummoner(
         team_id="100",
         summoner_id="TkLNWG5SiEUcFoduwi6jLiGCAGu2pDaX7fZGYqrJTkZH-EGe",
         summoner_name="Kanae Ruka",
@@ -305,17 +305,21 @@ def test_matchextractor_extract_totals():
     extractor = match_extractor.MatchExtractor()
     mt = extractor.extract_totals(match_dict=match_example.match_example)
 
-    assert mt == match.MatchTotals(
-        total_kills_team100=37,
-        total_kills_team200=25,
-        total_deaths_team100=25,
-        total_deaths_team200=37,
-        total_assists_team100=57,
-        total_assists_team200=38,
-        total_damage_dealt_to_champions_team100=99108,
-        total_damage_dealt_to_champions_team200=78915,
-        total_damage_taken_team100=104747,
-        total_damage_taken_team200=118218,
-        total_vision_score_team100=160,
-        total_vision_score_team200=136,
+    assert mt == MatchTotals(
+        team_100=TeamTotals(
+            total_assists=57,
+            total_deaths=25,
+            total_kills=37,
+            total_damage_dealt_to_champions=99108,
+            total_damage_taken=104747,
+            total_vision_score=160,
+        ),
+        team_200=TeamTotals(
+            total_assists=38,
+            total_deaths=37,
+            total_kills=25,
+            total_damage_dealt_to_champions=78915,
+            total_damage_taken=118218,
+            total_vision_score=136,
+        ),
     )

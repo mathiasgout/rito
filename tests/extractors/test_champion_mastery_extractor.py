@@ -1,5 +1,5 @@
 from rito import errors
-from rito.models import champion_mastery
+from rito.models import ChampionMastery, ChampionMasteryTotals
 from rito.extractors import champion_mastery_extractor, base_extractor
 from tests.examples import champion_masteries_example, champion_mastery_example
 
@@ -53,8 +53,8 @@ def test_championmasteryextractor_extract():
     extractor = champion_mastery_extractor.ChampionMasteryExtractor()
     cm = extractor.extract(champion_mastery_example.champion_mastery_example)
 
-    assert type(cm) == champion_mastery.ChampionMastery
-    assert cm == champion_mastery.ChampionMastery(
+    assert type(cm) == ChampionMastery
+    assert cm == ChampionMastery(
         puuid="-kbxQ0spJBMGRZGy2fce97DBckHnpb5miceVkxbBP9HRhgevQhcuwNClRrGahgVKi3u-F3uOgX_RvA",
         champion_id="7",
         champion_points=1110,
@@ -88,8 +88,8 @@ def test_championmasteryextractor_extract_from_list_GOOD():
         champion_masteries_example.champion_masteries_example, champion_id="7"
     )
 
-    assert type(cm) == champion_mastery.ChampionMastery
-    assert cm == champion_mastery.ChampionMastery(
+    assert type(cm) == ChampionMastery
+    assert cm == ChampionMastery(
         puuid="-kbxQ0spJBMGRZGy2fce97DBckHnpb5miceVkxbBP9HRhgevQhcuwNClRrGahgVKi3u-F3uOgX_RvA",
         champion_id="7",
         champion_points=1110,
@@ -125,7 +125,7 @@ def test_championmasteryextractor_extract_totals_from_list():
         champion_masteries_example.champion_masteries_example
     )
 
-    assert type(cm) == champion_mastery.ChampionMasteryTotals
-    assert cm == champion_mastery.ChampionMasteryTotals(
+    assert type(cm) == ChampionMasteryTotals
+    assert cm == ChampionMasteryTotals(
         total_champion_level=79, total_champion_points=427017
     )

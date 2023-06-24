@@ -1,5 +1,5 @@
 from rito import errors
-from rito.models import league
+from rito.models import Entry
 from rito.extractors import base_extractor, league_extractor
 from tests.examples import entries_example, entry_miniseries_example
 
@@ -85,8 +85,8 @@ def test_entriesextractor_extract():
     entries = extractor.extract(entries_list=entries_example.entries_example)
 
     assert len(entries) == 2
-    assert type(entries[0]) == type(entries[1]) == league.Entry
-    assert entries[0] == league.Entry(
+    assert type(entries[0]) == type(entries[1]) == Entry
+    assert entries[0] == Entry(
         league_id="28807304-53bf-485e-9255-333bd57a9e83",
         queue_type="RANKED_FLEX_SR",
         tier="PLATINUM",
@@ -113,8 +113,8 @@ def test_entriesextractor_extract_from_entry():
     extractor = league_extractor.EntriesExtractor()
     ent = extractor.extract_from_entry(entry_dict=entries_example.entries_example[0])
 
-    assert type(ent) == league.Entry
-    assert ent == league.Entry(
+    assert type(ent) == Entry
+    assert ent == Entry(
         league_id="28807304-53bf-485e-9255-333bd57a9e83",
         queue_type="RANKED_FLEX_SR",
         tier="PLATINUM",
@@ -138,8 +138,8 @@ def test_entriesextractor_extract_from_entry_MINISERIE():
         entry_dict=entry_miniseries_example.entry_miniseries_example
     )
 
-    assert type(ent) == league.Entry
-    assert ent == league.Entry(
+    assert type(ent) == Entry
+    assert ent == Entry(
         league_id="31a5c2c9-bd43-4aab-9841-282a3431fe29",
         queue_type="RANKED_SOLO_5x5",
         tier="DIAMOND",
@@ -183,8 +183,8 @@ def test_entriesextractor_extract_entry():
         entries_list=entries_example.entries_example, queue_type="RANKED_FLEX_SR"
     )
 
-    assert type(ent) == league.Entry
-    assert ent == league.Entry(
+    assert type(ent) == Entry
+    assert ent == Entry(
         league_id="28807304-53bf-485e-9255-333bd57a9e83",
         queue_type="RANKED_FLEX_SR",
         tier="PLATINUM",

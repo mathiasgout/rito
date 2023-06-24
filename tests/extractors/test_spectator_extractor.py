@@ -1,5 +1,5 @@
 from rito import errors
-from rito.models import spectator
+from rito.models import ActiveGame, ActiveGameSummoner
 from rito.extractors import base_extractor, spectator_extractor
 from tests.examples import active_game_example
 
@@ -131,7 +131,7 @@ def test_activegameextractor_extract():
     extractor = spectator_extractor.ActiveGameExtractor()
     ag = extractor.extract(active_game_example.active_game_example)
 
-    assert ag == spectator.ActiveGame(
+    assert ag == ActiveGame(
         match_id="EUW1_6462333479",
         queue_id=420,
         game_start_time=1687338155300,
@@ -171,7 +171,7 @@ def test_activegameextractor_extract_summoner():
         summoner_id="OV8fhFOWjGmFeiR6YBfuDNwNWEVh-Y46JZHfu4cUeyEpp9g",
     )
 
-    assert ag == spectator.ActiveGameSummoner(
+    assert ag == ActiveGameSummoner(
         team_id="100",
         champion_id="246",
         summoner_name="KTRSmeb442",

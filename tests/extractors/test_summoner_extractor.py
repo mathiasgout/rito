@@ -1,5 +1,5 @@
 from rito import errors
-from rito.models import summoner
+from rito.models import Summoner
 from rito.extractors import base_extractor, summoner_extractor
 from tests.examples import summoner_example
 
@@ -23,7 +23,7 @@ def test_summonerextractor_extract():
     extractor = summoner_extractor.SummonerExtractor()
     s = extractor.extract(summoner_example.summoner_example)
 
-    assert s == summoner.Summoner(
+    assert s == Summoner(
         summoner_id="GmrzDazS_aYqMvEg8ExGWK79lco2sEY2wi_95O8iuZDXKcQ",
         account_id="bgkop09Cgl3c_jyiY6KAIf8bfZ45XXLymuDRfU1sygZWmA",
         puuid="eZZVkO20LI7XCkfeqBn8X0eae2lNJFxgzlnq3QvjzRTQ-FI2oeBq-mfYGElhsUKgndHdGccJ9zuA0g",

@@ -34,16 +34,15 @@ class MatchSummoner(BaseModel):
     kda: Optional[float]
 
 
+class TeamTotals(BaseModel):
+    total_kills: Optional[int]
+    total_deaths: Optional[int]
+    total_assists: Optional[int]
+    total_damage_dealt_to_champions: Optional[int]
+    total_damage_taken: Optional[int]
+    total_vision_score: Optional[int]
+
+
 class MatchTotals(BaseModel):
-    total_kills_team100: Optional[int]
-    total_kills_team200: Optional[int]
-    total_deaths_team100: Optional[int]
-    total_deaths_team200: Optional[int]
-    total_assists_team100: Optional[int]
-    total_assists_team200: Optional[int]
-    total_damage_dealt_to_champions_team100: Optional[int]
-    total_damage_dealt_to_champions_team200: Optional[int]
-    total_damage_taken_team100: Optional[int]
-    total_damage_taken_team200: Optional[int]
-    total_vision_score_team100: Optional[int]
-    total_vision_score_team200: Optional[int]
+    team_100: TeamTotals
+    team_200: TeamTotals
