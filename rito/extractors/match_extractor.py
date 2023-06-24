@@ -229,7 +229,8 @@ class MatchExtractor(BaseExtractor):
     def _get_kda(
         kills: Optional[int], deaths: Optional[int], assists: Optional[int]
     ) -> Optional[float]:
-        if kills and deaths and assists:
+        if (kills is not None) and (deaths is not None) and (assists is not None):
+            deaths = max(deaths, 1)
             return round((kills + assists) / deaths, 2)
         return None
 

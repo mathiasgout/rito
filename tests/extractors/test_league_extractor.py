@@ -64,7 +64,7 @@ def test_entriesextractor_get_entry_by_queue_type_NO_QUEUE_TYPE():
 
 def test_entriesextractor_get_total_lp_GOOD():
     extractor = league_extractor.EntriesExtractor()
-    assert extractor._get_total_lp(tier="DIAMOND", rank="I", league_points=12) == 2312
+    assert extractor._get_total_lp(tier="DIAMOND", rank="I", league_points=0) == 2300
     assert (
         extractor._get_total_lp(tier="CHALLENGER", rank="I", league_points=1002) == 3402
     )

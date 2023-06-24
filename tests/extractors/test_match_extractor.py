@@ -101,6 +101,16 @@ def test_matchextractor_get_kda_GOOD():
     assert extractor._get_kda(kills=10, deaths=3, assists=9) == 6.33
 
 
+def test_matchextractor_get_kda_GOOD_0deaths():
+    extractor = match_extractor.MatchExtractor()
+    assert extractor._get_kda(kills=10, deaths=0, assists=9) == 19
+
+
+def test_matchextractor_get_kda_GOOD_0assists():
+    extractor = match_extractor.MatchExtractor()
+    assert extractor._get_kda(kills=10, deaths=2, assists=0) == 5
+
+
 def test_matchextractor_get_kda_NONE():
     extractor = match_extractor.MatchExtractor()
     assert extractor._get_kda(kills=None, deaths=3, assists=9) is None
