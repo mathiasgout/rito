@@ -3,7 +3,7 @@ from setuptools import find_packages, setup
 
 setup(
     name="rito",
-    version="0.0.4",
+    version="0.0.5",
     author="Mathias Gout",
     packages=find_packages(exclude=["tests"]),
     install_requires=["requests==2.31.0", "pydantic==1.10.9"],

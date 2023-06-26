@@ -14,7 +14,7 @@ from rito.extractors import summoner_extractor
 
 
 def test_ritoclient():
-    rito = RitoClient(riot_api_key="riot_api_key", region="EUW", tries_5xx=2)
+    rito = RitoClient(riot_api_key="riot_api_key", region="EUW")
 
     assert type(rito.champion_mastery) == champion_mastery_api.ChampionMasteryAPIV4
     assert type(rito.league) == league_api.LeagueAPIV4

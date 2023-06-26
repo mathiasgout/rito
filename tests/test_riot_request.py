@@ -2,6 +2,7 @@ from rito import riot_request
 from rito import errors
 
 import time
+from unittest.mock import call, Mock
 
 import pytest
 
@@ -19,13 +20,13 @@ def test_riotrequest_get_retry_after_value_from_headers_ERROR():
     retry_after = riot_r._get_retry_after_value_from_headers(
         headers={"Retry-After": "lol"}
     )
-    assert retry_after == 10
+    assert retry_after == 5
 
 
 def test_riotrequest_get_retry_after_value_from_headers_NO_RETRY_AFTER():
     riot_r = riot_request.RiotRequest(riot_api_key="riot_api_key")
     retry_after = riot_r._get_retry_after_value_from_headers(headers={})
-    assert retry_after == 10
+    assert retry_after == 5
 
 
 def test_riotrequest_wait_before_try(mocker):
@@ -87,29 +88,33 @@ def test_riotrequest_make_request_GET_429(requests_mock, mocker):
     riot_request.RiotRequest._wait_before_try.assert_called_once_with(seconds=20)
 
 
-def test_riotrequest_make_request_GET_500(requests_mock, mocker):
+def test_riotrequest_make_request_GET_429_TIMEOUT(requests_mock, mocker):
     # Mocks
     mocked_request = requests_mock.register_uri(
         "GET",
         "https://domain.com?key=value",
         [
-            {"status_code": 500},
-            {"status_code": 200, "json": {"lol": "xd"}},
+            {"status_code": 429, "headers": {"Retry-After": "20"}},
+            {"status_code": 429, "headers": {"Retry-After": "10"}},
         ],
     )
     mocker.patch("rito.riot_request.RiotRequest._wait_before_try")
 
     # Calls
-    riot_r = riot_request.RiotRequest(riot_api_key="riot_api_key")
-    return_value = riot_r.make_request("https://domain.com", params={"key": "value"})
+    riot_r = riot_request.RiotRequest(
+        riot_api_key="riot_api_key", timeout=30, tries_max=5
+    )
 
     # Verifs
-    assert return_value == {"lol": "xd"}
+    with pytest.raises(errors.RiotAPIError):
+        riot_r.make_request("https://domain.com", params={"key": "value"})
     assert mocked_request.last_request.headers["X-Riot-Token"] == "riot_api_key"
-    riot_request.RiotRequest._wait_before_try.assert_called_once_with(seconds=5)
+
+    calls = [call(seconds=20), call(seconds=10)]
+    riot_request.RiotRequest._wait_before_try.assert_has_calls(calls)
 
 
-def test_riotrequest_make_request_GET_500_ERROR(requests_mock, mocker):
+def test_riotrequest_make_request_GET_500_TRIES_MAX(requests_mock, mocker):
     # Mocks
     mocked_request = requests_mock.register_uri(
         "GET",
@@ -119,7 +124,7 @@ def test_riotrequest_make_request_GET_500_ERROR(requests_mock, mocker):
     mocker.patch("rito.riot_request.RiotRequest._wait_before_try")
 
     # Calls
-    riot_r = riot_request.RiotRequest(riot_api_key="riot_api_key", tries_5xx=1)
+    riot_r = riot_request.RiotRequest(riot_api_key="riot_api_key", tries_max=1)
 
     # Verifs
     with pytest.raises(errors.RiotAPIError):
@@ -128,12 +133,66 @@ def test_riotrequest_make_request_GET_500_ERROR(requests_mock, mocker):
     riot_request.RiotRequest._wait_before_try.assert_called_once_with(seconds=5)
 
 
+def test_riotrequest_make_request_GET_429_500_TIMEOUT(requests_mock, mocker):
+    # Mocks
+    mocked_request = requests_mock.register_uri(
+        "GET",
+        "https://domain.com?key=value",
+        [
+            {"status_code": 429, "headers": {"Retry-After": "20"}},
+            {"status_code": 500},
+            {"status_code": 429, "headers": {"Retry-After": "10"}},
+        ],
+    )
+    mocker.patch("rito.riot_request.RiotRequest._wait_before_try")
+
+    # Calls
+    riot_r = riot_request.RiotRequest(
+        riot_api_key="riot_api_key", timeout=30, tries_max=5
+    )
+
+    # Verifs
+    with pytest.raises(errors.RiotAPIError):
+        riot_r.make_request("https://domain.com", params={"key": "value"})
+    assert mocked_request.last_request.headers["X-Riot-Token"] == "riot_api_key"
+
+    calls = [call(seconds=20), call(seconds=5), call(seconds=5)]
+    riot_request.RiotRequest._wait_before_try.assert_has_calls(calls)
+
+
+def test_riotrequest_make_request_GET_429_500_TRIES_MAX(requests_mock, mocker):
+    # Mocks
+    mocked_request = requests_mock.register_uri(
+        "GET",
+        "https://domain.com?key=value",
+        [
+            {"status_code": 429, "headers": {"Retry-After": "20"}},
+            {"status_code": 500},
+            {"status_code": 429, "headers": {"Retry-After": "10"}},
+        ],
+    )
+    mocker.patch("rito.riot_request.RiotRequest._wait_before_try")
+
+    # Calls
+    riot_r = riot_request.RiotRequest(
+        riot_api_key="riot_api_key", timeout=300, tries_max=2
+    )
+
+    # Verifs
+    with pytest.raises(errors.RiotAPIError):
+        riot_r.make_request("https://domain.com", params={"key": "value"})
+    assert mocked_request.last_request.headers["X-Riot-Token"] == "riot_api_key"
+
+    calls = [call(seconds=20), call(seconds=5)]
+    riot_request.RiotRequest._wait_before_try.assert_has_calls(calls)
+
+
 def test_riotrequest_make_request_GET_401(requests_mock, mocker):
     # Mocks
     mocked_request = requests_mock.get("https://domain.com?key=value", status_code=401)
 
     # Calls
-    riot_r = riot_request.RiotRequest(riot_api_key="riot_api_key", tries_5xx=1)
+    riot_r = riot_request.RiotRequest(riot_api_key="riot_api_key")
 
     # Verifs
     with pytest.raises(errors.RiotAPIError):

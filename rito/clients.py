@@ -13,16 +13,18 @@ from rito.extractors.summoner_extractor import SummonerExtractor
 
 
 class RitoClient:
-    def __init__(self, riot_api_key: str, region: str, tries_5xx: int = 5) -> None:
+    def __init__(
+        self, riot_api_key: str, region: str, timeout: int = 300, tries_max: int = 5
+    ) -> None:
         self.champion_mastery = ChampionMasteryAPIV4(
-            riot_api_key, region, tries_5xx=tries_5xx
+            riot_api_key, region, timeout, tries_max
         )
-        self.league = LeagueAPIV4(riot_api_key, region, tries_5xx=tries_5xx)
-        self.match = MatchAPIV5(riot_api_key, region, tries_5xx=tries_5xx)
-        self.spectator = SpectatorAPIV4(riot_api_key, region, tries_5xx=tries_5xx)
-        self.summoner = SummonerAPIV4(riot_api_key, region, tries_5xx=tries_5xx)
-        self.data_dragon = DataDragonAPI(riot_api_key, region, tries_5xx=tries_5xx)
-        self.static = StaticAPI(riot_api_key, region, tries_5xx=tries_5xx)
+        self.league = LeagueAPIV4(riot_api_key, region, timeout, tries_max)
+        self.match = MatchAPIV5(riot_api_key, region, timeout, tries_max)
+        self.spectator = SpectatorAPIV4(riot_api_key, region, timeout, tries_max)
+        self.summoner = SummonerAPIV4(riot_api_key, region, timeout, tries_max)
+        self.data_dragon = DataDragonAPI(riot_api_key, region, timeout, tries_max)
+        self.static = StaticAPI(riot_api_key, region, timeout, tries_max)
 
 
 class ExtractorClient:
