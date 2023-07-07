@@ -14,7 +14,7 @@ def test_championmasteryapiv4_by_summoner(mocker):
     cm_api = champion_mastery_api.ChampionMasteryAPIV4(
         riot_api_key="riot_api_key", region="EUW"
     )
-    cm_api.by_summoner("summoner_id1")
+    cm_api.masteries_by_summoner("summoner_id1")
 
     # Verifs
     riot_request.RiotRequest.make_request.assert_called_once_with(

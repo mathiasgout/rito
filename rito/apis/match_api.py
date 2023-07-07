@@ -7,7 +7,7 @@ class MatchAPIV5(BaseRiotAPI):
     def __init__(self, *args, **kwargs) -> None:
         super().__init__(*args, **kwargs)
 
-    def by_puuid(
+    def list_by_puuid(
         self,
         puuid: str,
         start_time: Union[None, int] = None,
@@ -16,7 +16,7 @@ class MatchAPIV5(BaseRiotAPI):
         type: Union[None, str] = None,
         start: Union[None, int] = None,
         count: int = 20,
-    ) -> Union[None, dict]:
+    ) -> Union[None, list[str]]:
         params = {
             "startTime": start_time,
             "endTime": end_time,
