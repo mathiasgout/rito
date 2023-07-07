@@ -12,7 +12,7 @@ def test_matchapiv5_by_puuid(mocker):
 
     # Calls
     m_api = match_api.MatchAPIV5(riot_api_key="riot_api_key", region="EUW")
-    m_api.by_puuid("summoner_puuid1")
+    m_api.list_by_puuid("summoner_puuid1")
 
     # Verifs
     riot_request.RiotRequest.make_request.assert_called_once_with(

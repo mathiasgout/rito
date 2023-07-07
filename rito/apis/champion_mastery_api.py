@@ -7,7 +7,7 @@ class ChampionMasteryAPIV4(BaseRiotAPI):
     def __init__(self, *args, **kwargs) -> None:
         super().__init__(*args, **kwargs)
 
-    def by_summoner(self, summoner_id: str) -> Union[None, list[dict]]:
+    def masteries_by_summoner(self, summoner_id: str) -> Union[None, list[dict]]:
         params = {"count": 500}
         endpoint = f"{self.routes['platform']}/lol/champion-mastery/v4/champion-masteries/by-summoner/{summoner_id}/top"
         return self.riot_request.make_request(endpoint=endpoint, params=params)
