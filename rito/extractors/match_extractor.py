@@ -8,7 +8,7 @@ from typing import Optional
 class MatchExtractor(BaseExtractor):
     def extract(self, match_dict: dict) -> Match:
         if not isinstance(match_dict, dict):
-            raise ExtractorError(f"type(entry_dict)={type(match_dict)} (!= dict)")
+            raise ExtractorError(f"type(match_dict)={type(match_dict)} (!= dict)")
 
         metadata_dict = self._get_metadata_from_match(match_dict=match_dict)
         info_dict = self._get_info_from_match(match_dict=match_dict)
@@ -29,7 +29,7 @@ class MatchExtractor(BaseExtractor):
 
     def extract_summoner(self, match_dict: dict, summoner_id: str) -> MatchSummoner:
         if not isinstance(match_dict, dict):
-            raise ExtractorError(f"type(entry_dict)={type(match_dict)} (!= dict)")
+            raise ExtractorError(f"type(match_dict)={type(match_dict)} (!= dict)")
         if not summoner_id:
             raise ExtractorError(f"summoner_id={summoner_id} (!= non null string)")
 
@@ -69,7 +69,7 @@ class MatchExtractor(BaseExtractor):
 
     def extract_opponent(self, match_dict: dict, summoner_id: str) -> MatchSummoner:
         if not isinstance(match_dict, dict):
-            raise ExtractorError(f"type(entry_dict)={type(match_dict)} (!= dict)")
+            raise ExtractorError(f"type(match_dict)={type(match_dict)} (!= dict)")
         if not summoner_id:
             raise ExtractorError(f"summoner_id={summoner_id} (!= non null string)")
 
@@ -109,7 +109,7 @@ class MatchExtractor(BaseExtractor):
 
     def extract_totals(self, match_dict: dict) -> MatchTotals:
         if not isinstance(match_dict, dict):
-            raise ExtractorError(f"type(entry_dict)={type(match_dict)} (!= dict)")
+            raise ExtractorError(f"type(match_dict)={type(match_dict)} (!= dict)")
 
         info_dict = self._get_info_from_match(match_dict=match_dict)
         participants_infos = self._get_participants_info(info=info_dict)

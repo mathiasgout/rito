@@ -10,7 +10,7 @@ class ActiveGameExtractor(BaseExtractor):
     def extract(self, active_game_dict: dict) -> ActiveGame:
         if not isinstance(active_game_dict, dict):
             raise ExtractorError(
-                f"type(active_game)={type(active_game_dict)} (!= dict)"
+                f"type(active_game_dict)={type(active_game_dict)} (!= dict)"
             )
 
         participants_list = self._get_participants(active_game_dict=active_game_dict)
@@ -35,7 +35,7 @@ class ActiveGameExtractor(BaseExtractor):
     ) -> ActiveGameSummoner:
         if not isinstance(active_game_dict, dict):
             raise ExtractorError(
-                f"type(active_game)={type(active_game_dict)} (!= dict)"
+                f"type(active_game_dict)={type(active_game_dict)} (!= dict)"
             )
         if not summoner_id:
             raise ExtractorError(f"summoner_id={summoner_id} (!= non null string)")

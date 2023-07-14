@@ -6,7 +6,7 @@ from rito.errors import ExtractorError
 class SummonerExtractor(BaseExtractor):
     def extract(self, summoner_dict: dict) -> Summoner:
         if not isinstance(summoner_dict, dict):
-            raise ExtractorError(f"type(entry_dict)={type(summoner_dict)} (!= dict)")
+            raise ExtractorError(f"type(summoner_dict)={type(summoner_dict)} (!= dict)")
 
         summoner = Summoner(
             summoner_id=summoner_dict.get("id", None),
