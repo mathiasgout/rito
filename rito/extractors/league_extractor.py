@@ -80,7 +80,7 @@ class EntriesExtractor(BaseExtractor):
     def _get_total_lp(
         tier: Optional[str], rank: Optional[str], league_points: Optional[int]
     ) -> Optional[int]:
-        classic_tiers = ["IRON", "BRONZE", "SILVER", "GOLD", "PLATINUM", "DIAMOND"]
+        classic_tiers = ["IRON", "BRONZE", "SILVER", "GOLD", "PLATINUM", "EMERALD", "DIAMOND"]
         masters_tiers = ["MASTER", "GRANDMASTER", "CHALLENGER"]
         tiers = classic_tiers + masters_tiers
         ranks = ["IV", "III", "II", "I"]

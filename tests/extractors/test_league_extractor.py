@@ -64,9 +64,9 @@ def test_entriesextractor_get_entry_by_queue_type_NO_QUEUE_TYPE():
 
 def test_entriesextractor_get_total_lp_GOOD():
     extractor = league_extractor.EntriesExtractor()
-    assert extractor._get_total_lp(tier="DIAMOND", rank="I", league_points=0) == 2300
+    assert extractor._get_total_lp(tier="DIAMOND", rank="I", league_points=0) == 2700
     assert (
-        extractor._get_total_lp(tier="CHALLENGER", rank="I", league_points=1002) == 3402
+        extractor._get_total_lp(tier="CHALLENGER", rank="I", league_points=1002) == 3802
     )
 
 
@@ -154,7 +154,7 @@ def test_entriesextractor_extract_from_entry_MINISERIE():
         fresh_blood=True,
         hot_streak=False,
         miniseries_progress="WLN",
-        total_lp=2400,
+        total_lp=2800,
     )
 
 
