@@ -7,10 +7,7 @@ import pytest
 
 
 def test_matchextractor():
-    assert issubclass(
-        match_extractor.MatchExtractor,
-        base_extractor.BaseExtractor,
-    )
+    assert issubclass(match_extractor.MatchExtractor, base_extractor.BaseExtractor)
 
 
 def test_matchextractor_get_total_by_key_and_team_GOOD():

@@ -7,10 +7,7 @@ import pytest
 
 
 def test_championmasteryextractor():
-    assert issubclass(
-        champion_mastery_extractor.ChampionMasteryExtractor,
-        base_extractor.BaseExtractor,
-    )
+    assert issubclass(champion_mastery_extractor.ChampionMasteryExtractor, base_extractor.BaseExtractor)
 
 
 def test_championmasteryextractor_get_champion_mastery_by_champion_id_GOOD():

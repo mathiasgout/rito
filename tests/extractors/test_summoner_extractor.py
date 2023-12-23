@@ -7,10 +7,7 @@ import pytest
 
 
 def test_summonerextractor():
-    assert issubclass(
-        summoner_extractor.SummonerExtractor,
-        base_extractor.BaseExtractor,
-    )
+    assert issubclass(summoner_extractor.SummonerExtractor, base_extractor.BaseExtractor)
 
 
 def test_summonerextractor_extract_ERROR():

@@ -8,10 +8,7 @@ from freezegun import freeze_time
 
 
 def test_activegameextractor():
-    assert issubclass(
-        spectator_extractor.ActiveGameExtractor,
-        base_extractor.BaseExtractor,
-    )
+    assert issubclass(spectator_extractor.ActiveGameExtractor, base_extractor.BaseExtractor)
 
 
 def test_activegameextractor_get_participants_GOOD():

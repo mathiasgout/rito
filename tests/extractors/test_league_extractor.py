@@ -7,10 +7,7 @@ import pytest
 
 
 def test_entriesextractor():
-    assert issubclass(
-        league_extractor.EntriesExtractor,
-        base_extractor.BaseExtractor,
-    )
+    assert issubclass(league_extractor.EntriesExtractor, base_extractor.BaseExtractor)
 
 
 def test_entriesextractor_get_miniseries_progress_EXISTS():
