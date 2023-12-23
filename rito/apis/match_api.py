@@ -25,9 +25,7 @@ class MatchAPIV5(BaseRiotAPI):
             "start": start,
             "count": count,
         }
-        endpoint = (
-            f"{self.routes['regional']}/lol/match/v5/matches/by-puuid/{puuid}/ids"
-        )
+        endpoint = f"{self.routes['regional']}/lol/match/v5/matches/by-puuid/{puuid}/ids"
         return self.riot_request.make_request(endpoint=endpoint, params=params)
 
     def by_match_id(self, match_id: str) -> Union[None, dict]:

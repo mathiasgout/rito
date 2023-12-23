@@ -12,8 +12,6 @@ class ChampionMasteryAPIV4(BaseRiotAPI):
         endpoint = f"{self.routes['platform']}/lol/champion-mastery/v4/champion-masteries/by-summoner/{summoner_id}/top"
         return self.riot_request.make_request(endpoint=endpoint, params=params)
 
-    def by_summoner_and_champion(
-        self, summoner_id: str, champion_id: int
-    ) -> Union[None, dict]:
+    def by_summoner_and_champion(self, summoner_id: str, champion_id: int) -> Union[None, dict]:
         endpoint = f"{self.routes['platform']}/lol/champion-mastery/v4/champion-masteries/by-summoner/{summoner_id}/by-champion/{champion_id}"
         return self.riot_request.make_request(endpoint=endpoint)

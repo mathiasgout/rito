@@ -8,9 +8,7 @@ from typing import Optional
 class EntriesExtractor(BaseExtractor):
     def extract(self, entries_list: list[dict]) -> list[Entry]:
         if not isinstance(entries_list, list):
-            raise ExtractorError(
-                f"type(entries_list)={type(entries_list)} (!= list of dictionnaries)"
-            )
+            raise ExtractorError(f"type(entries_list)={type(entries_list)} (!= list of dictionnaries)")
 
         entries = []
         for entry_dict in entries_list:
@@ -20,15 +18,11 @@ class EntriesExtractor(BaseExtractor):
 
     def extract_entry(self, entries_list: list[dict], queue_type: str) -> Entry:
         if not isinstance(entries_list, list):
-            raise ExtractorError(
-                f"type(entries_list)={type(entries_list)} (!= list of dictionnaries)"
-            )
+            raise ExtractorError(f"type(entries_list)={type(entries_list)} (!= list of dictionnaries)")
         if not queue_type:
             raise ExtractorError(f"queue_type={queue_type} (!= non null string)")
 
-        entry_dict = self._get_entry_by_queue_type(
-            entries_list=entries_list, queue_type=queue_type
-        )
+        entry_dict = self._get_entry_by_queue_type(entries_list=entries_list, queue_type=queue_type)
         entry = self.extract_from_entry(entry_dict=entry_dict)
         return entry
 
@@ -77,9 +71,7 @@ class EntriesExtractor(BaseExtractor):
         raise ExtractorError(f"entry with queue_type={queue_type} not in entries_list")
 
     @staticmethod
-    def _get_total_lp(
-        tier: Optional[str], rank: Optional[str], league_points: Optional[int]
-    ) -> Optional[int]:
+    def _get_total_lp(tier: Optional[str], rank: Optional[str], league_points: Optional[int]) -> Optional[int]:
         classic_tiers = ["IRON", "BRONZE", "SILVER", "GOLD", "PLATINUM", "EMERALD", "DIAMOND"]
         masters_tiers = ["MASTER", "GRANDMASTER", "CHALLENGER"]
         tiers = classic_tiers + masters_tiers

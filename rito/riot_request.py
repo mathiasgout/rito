@@ -11,19 +11,13 @@ logger = logging.getLogger(__name__)
 
 
 class RiotRequest:
-    def __init__(
-        self, riot_api_key: str, timeout: int = 300, tries_max: int = 5
-    ) -> None:
+    def __init__(self, riot_api_key: str, timeout: int = 300, tries_max: int = 5) -> None:
         self.riot_api_key = riot_api_key
         self.timeout = timeout
         self.tries_max = tries_max
 
-    def make_request(
-        self, endpoint: str, params: dict = {}, _tries: int = 0, _waited: int = 0
-    ) -> Union[None, dict]:
-        r_get = requests.get(
-            endpoint, params=params, headers={"X-Riot-Token": self.riot_api_key}
-        )
+    def make_request(self, endpoint: str, params: dict = {}, _tries: int = 0, _waited: int = 0) -> Union[None, dict]:
+        r_get = requests.get(endpoint, params=params, headers={"X-Riot-Token": self.riot_api_key})
 
         if r_get.ok:
             logger.info(f"[HTTP GET Riot API] {r_get.url} (code={r_get.status_code})")
@@ -41,9 +35,7 @@ class RiotRequest:
                     retry_after = self.timeout - _waited
 
                 # Wait before a retry
-                logger.info(
-                    f"[HTTP GET Riot API] {r_get.url} (code={r_get.status_code}) (retry in {retry_after} seconds)"
-                )
+                logger.info(f"[HTTP GET Riot API] {r_get.url} (code={r_get.status_code}) (retry in {retry_after} seconds)")
                 self._wait_before_try(seconds=retry_after)
 
                 # Redo the request
@@ -54,14 +46,10 @@ class RiotRequest:
                     _waited=_waited + retry_after,
                 )
 
-            raise RiotAPIError(
-                f"{r_get.url} (code={r_get.status_code}) (retried={_tries}) (waited={_waited})"
-            )
+            raise RiotAPIError(f"{r_get.url} (code={r_get.status_code}) (retried={_tries}) (waited={_waited})")
 
         else:
-            raise RiotAPIError(
-                f"{r_get.url} (code={r_get.status_code}) (retried=0) (waited=0)"
-            )
+            raise RiotAPIError(f"{r_get.url} (code={r_get.status_code}) (retried=0) (waited=0)")
 
     @staticmethod
     def _get_retry_after_value_from_headers(headers: dict) -> int:

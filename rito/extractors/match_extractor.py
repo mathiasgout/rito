@@ -21,9 +21,7 @@ class MatchExtractor(BaseExtractor):
             game_end_time=info_dict.get("gameEndTimestamp", None),
             game_duration=info_dict.get("gameDuration", None),
             participants_puuid=metadata_dict.get("participants", None),
-            participants_id=self._get_participants_id(
-                self._get_participants_info(info=info_dict)
-            ),
+            participants_id=self._get_participants_id(self._get_participants_info(info=info_dict)),
         )
         return match
 
@@ -52,9 +50,7 @@ class MatchExtractor(BaseExtractor):
             kills=participant_dict.get("kills", None),
             deaths=participant_dict.get("deaths", None),
             assists=participant_dict.get("assists", None),
-            total_damage_dealt_to_champions=participant_dict.get(
-                "totalDamageDealtToChampions", None
-            ),
+            total_damage_dealt_to_champions=participant_dict.get("totalDamageDealtToChampions", None),
             total_damage_taken=participant_dict.get("totalDamageTaken", None),
             vision_score=participant_dict.get("visionScore", None),
             summoner1_id=participant_dict.get("summoner1Id", None),
@@ -92,9 +88,7 @@ class MatchExtractor(BaseExtractor):
             kills=opponent_participant_dict.get("kills", None),
             deaths=opponent_participant_dict.get("deaths", None),
             assists=opponent_participant_dict.get("assists", None),
-            total_damage_dealt_to_champions=opponent_participant_dict.get(
-                "totalDamageDealtToChampions", None
-            ),
+            total_damage_dealt_to_champions=opponent_participant_dict.get("totalDamageDealtToChampions", None),
             total_damage_taken=opponent_participant_dict.get("totalDamageTaken", None),
             vision_score=opponent_participant_dict.get("visionScore", None),
             summoner1_id=opponent_participant_dict.get("summoner1Id", None),
@@ -117,13 +111,19 @@ class MatchExtractor(BaseExtractor):
         match_totals = MatchTotals(
             team_100=TeamTotals(
                 total_assists=self._get_total_by_key_and_team(
-                    participants_info=participants_infos, key="assists", team_id="100"
+                    participants_info=participants_infos, 
+                    key="assists", 
+                    team_id="100"
                 ),
                 total_deaths=self._get_total_by_key_and_team(
-                    participants_info=participants_infos, key="deaths", team_id="100"
+                    participants_info=participants_infos, 
+                    key="deaths", 
+                    team_id="100"
                 ),
                 total_kills=self._get_total_by_key_and_team(
-                    participants_info=participants_infos, key="kills", team_id="100"
+                    participants_info=participants_infos, 
+                    key="kills", 
+                    team_id="100"
                 ),
                 total_damage_dealt_to_champions=self._get_total_by_key_and_team(
                     participants_info=participants_infos,
@@ -143,13 +143,19 @@ class MatchExtractor(BaseExtractor):
             ),
             team_200=TeamTotals(
                 total_assists=self._get_total_by_key_and_team(
-                    participants_info=participants_infos, key="assists", team_id="200"
+                    participants_info=participants_infos, 
+                    key="assists", 
+                    team_id="200"
                 ),
                 total_deaths=self._get_total_by_key_and_team(
-                    participants_info=participants_infos, key="deaths", team_id="200"
+                    participants_info=participants_infos, 
+                    key="deaths", 
+                    team_id="200"
                 ),
                 total_kills=self._get_total_by_key_and_team(
-                    participants_info=participants_infos, key="kills", team_id="200"
+                    participants_info=participants_infos, 
+                    key="kills", 
+                    team_id="200"
                 ),
                 total_damage_dealt_to_champions=self._get_total_by_key_and_team(
                     participants_info=participants_infos,
@@ -171,17 +177,13 @@ class MatchExtractor(BaseExtractor):
         return match_totals
 
     @staticmethod
-    def _get_total_by_key_and_team(
-        participants_info: list[dict], key: str, team_id: str
-    ) -> int:
+    def _get_total_by_key_and_team(participants_info: list[dict], key: str, team_id: str) -> int:
         total = 0
         for participant_info in participants_info:
             if int(team_id) == participant_info.get("teamId", None):
                 value = participant_info.get(key, None)
                 if value is None:
-                    raise ExtractorError(
-                        f"no value for key={key} and team_id={team_id} in participants_info"
-                    )
+                    raise ExtractorError(f"no value for key={key} and team_id={team_id} in participants_info")
                 total += value
         return total
 
@@ -193,20 +195,14 @@ class MatchExtractor(BaseExtractor):
         raise ExtractorError(f"no participants in info")
 
     @staticmethod
-    def _get_participant_by_summoner_id(
-        participants_info: list[dict], summoner_id: str
-    ) -> dict:
+    def _get_participant_by_summoner_id(participants_info: list[dict], summoner_id: str) -> dict:
         for participant_info in participants_info:
             if summoner_id == participant_info.get("summonerId", None):
                 return participant_info
-        raise ExtractorError(
-            f"summoner with summoner_id={summoner_id} not in participants info"
-        )
+        raise ExtractorError(f"summoner with summoner_id={summoner_id} not in participants info")
 
     @staticmethod
-    def _get_opponent_participant_by_summoner_id(
-        participants_info: list[dict], summoner_id: str
-    ) -> dict:
+    def _get_opponent_participant_by_summoner_id(participants_info: list[dict], summoner_id: str) -> dict:
         exists = False
         for participant_info in participants_info:
             if summoner_id == participant_info.get("summonerId", None):
@@ -221,14 +217,10 @@ class MatchExtractor(BaseExtractor):
                         team_position == participant_info.get("teamPosition", None)
                     ) and (team_id != participant_info.get("teamId", None)):
                         return participant_info
-        raise ExtractorError(
-            f"opponent of summoner with summoner_id={summoner_id} not in participants info"
-        )
+        raise ExtractorError(f"opponent of summoner with summoner_id={summoner_id} not in participants info")
 
     @staticmethod
-    def _get_kda(
-        kills: Optional[int], deaths: Optional[int], assists: Optional[int]
-    ) -> Optional[float]:
+    def _get_kda(kills: Optional[int], deaths: Optional[int], assists: Optional[int]) -> Optional[float]:
         if (kills is not None) and (deaths is not None) and (assists is not None):
             deaths = max(deaths, 1)
             return round((kills + assists) / deaths, 2)

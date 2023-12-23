@@ -20,7 +20,5 @@ class SummonerAPIV4(BaseRiotAPI):
         return self.riot_request.make_request(endpoint=endpoint)
 
     def by_puuid(self, puuid: str) -> Union[None, dict]:
-        endpoint = (
-            f"{self.routes['platform']}/lol/summoner/v4/summoners/by-puuid/{puuid}"
-        )
+        endpoint = f"{self.routes['platform']}/lol/summoner/v4/summoners/by-puuid/{puuid}"
         return self.riot_request.make_request(endpoint=endpoint)

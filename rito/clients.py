@@ -13,12 +13,8 @@ from rito.extractors.summoner_extractor import SummonerExtractor
 
 
 class RitoClient:
-    def __init__(
-        self, riot_api_key: str, region: str, timeout: int = 300, tries_max: int = 5
-    ) -> None:
-        self.champion_mastery = ChampionMasteryAPIV4(
-            riot_api_key, region, timeout, tries_max
-        )
+    def __init__(self, riot_api_key: str, region: str, timeout: int = 300, tries_max: int = 5) -> None:
+        self.champion_mastery = ChampionMasteryAPIV4(riot_api_key, region, timeout, tries_max)
         self.league = LeagueAPIV4(riot_api_key, region, timeout, tries_max)
         self.match = MatchAPIV5(riot_api_key, region, timeout, tries_max)
         self.spectator = SpectatorAPIV4(riot_api_key, region, timeout, tries_max)
