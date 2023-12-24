@@ -1,6 +1,7 @@
 from rito.extractors.base_extractor import BaseExtractor
 from rito.errors import ExtractorError
 from rito.models.league import Entry
+from rito import constants
 
 from typing import Optional
 
@@ -72,20 +73,17 @@ class EntriesExtractor(BaseExtractor):
 
     @staticmethod
     def _get_total_lp(tier: Optional[str], rank: Optional[str], league_points: Optional[int]) -> Optional[int]:
-        classic_tiers = ["IRON", "BRONZE", "SILVER", "GOLD", "PLATINUM", "EMERALD", "DIAMOND"]
-        masters_tiers = ["MASTER", "GRANDMASTER", "CHALLENGER"]
-        tiers = classic_tiers + masters_tiers
-        ranks = ["IV", "III", "II", "I"]
+        TIERS = constants.CLASSIC_TIERS + constants.MASTER_TIERS
 
-        if (tier not in tiers) or (rank not in ranks) or (league_points is None):
+        if (tier not in TIERS) or (rank not in constants.RANKS) or (league_points is None):
             return None
 
-        if tier in masters_tiers:
-            return len(classic_tiers) * len(ranks) * 100 + league_points
+        if tier in constants.MASTER_TIERS:
+            return len(constants.CLASSIC_TIERS) * len(constants.RANKS) * 100 + league_points
 
         lp = 0
-        for t in tiers:
-            for r in ranks:
+        for t in TIERS:
+            for r in constants.RANKS:
                 if (t == tier) and (r == rank):
                     return lp + league_points
                 lp += 100

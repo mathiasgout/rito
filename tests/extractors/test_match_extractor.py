@@ -1,5 +1,5 @@
 from rito import errors
-from rito.models import Match, MatchSummoner, MatchTotals, TeamTotals
+from rito.models import Match, MatchSummoner, TeamTotals
 from rito.extractors import base_extractor, match_extractor
 from tests.examples import match_example
 
@@ -73,6 +73,26 @@ def test_matchextractor_get_participant_by_summoner_id_ERROR():
         )
 
 
+def test_matchextractor_get_participant_by_puuid_GOOD():
+    extractor = match_extractor.MatchExtractor()
+    participant_dict = extractor._get_participant_by_puuid(
+        participants_info=match_example.match_example["info"]["participants"],
+        puuid="bYf6lRCCzk9vKgGlIYCOj5aCoEEeeQgwJ3zA1uRdI0D0KGuOtpbazT5qbucaby93ePrA_lS-qcLUOQ",
+    )
+
+    assert type(participant_dict) == dict
+    assert participant_dict["summonerName"] == "Kanae Ruka"
+
+
+def test_matchextractor_get_participant_by_puuid_ERROR():
+    extractor = match_extractor.MatchExtractor()
+    with pytest.raises(errors.ExtractorError):
+        extractor._get_participant_by_puuid(
+            participants_info=match_example.match_example["info"]["participants"],
+            puuid="dlslds",
+        )
+
+
 def test_matchextractor_get_opponent_participant_by_summoner_id_GOOD():
     extractor = match_extractor.MatchExtractor()
     participant_dict = extractor._get_opponent_participant_by_summoner_id(
@@ -90,6 +110,26 @@ def test_matchextractor_get_opponent_participant_by_summoner_id_ERROR():
         extractor._get_opponent_participant_by_summoner_id(
             participants_info=match_example.match_example["info"]["participants"],
             summoner_id="dlslds",
+        )
+
+
+def test_matchextractor_get_opponent_participant_by_puuid_GOOD():
+    extractor = match_extractor.MatchExtractor()
+    participant_dict = extractor._get_opponent_participant_by_puuid(
+        participants_info=match_example.match_example["info"]["participants"],
+        puuid="bYf6lRCCzk9vKgGlIYCOj5aCoEEeeQgwJ3zA1uRdI0D0KGuOtpbazT5qbucaby93ePrA_lS-qcLUOQ",
+    )
+
+    assert type(participant_dict) == dict
+    assert participant_dict["summonerName"] == "Kennen Has A Key"
+
+
+def test_matchextractor_get_opponent_participant_by_puuid_ERROR():
+    extractor = match_extractor.MatchExtractor()
+    with pytest.raises(errors.ExtractorError):
+        extractor._get_opponent_participant_by_puuid(
+            participants_info=match_example.match_example["info"]["participants"],
+            puuid="dlslds",
         )
 
 
@@ -115,9 +155,7 @@ def test_matchextractor_get_kda_NONE():
 
 def test_matchextractor_get_metadata_from_match_GOOD():
     extractor = match_extractor.MatchExtractor()
-    metadata = extractor._get_metadata_from_match(
-        match_dict=match_example.match_example
-    )
+    metadata = extractor._get_metadata(d=match_example.match_example)
     assert metadata == {
         "dataVersion": "2",
         "matchId": "EUW1_6404768237",
@@ -139,14 +177,12 @@ def test_matchextractor_get_metadata_from_match_GOOD():
 def test_matchextractor_get_metadata_from_match_ERROR():
     extractor = match_extractor.MatchExtractor()
     with pytest.raises(errors.ExtractorError):
-        extractor._get_metadata_from_match(
-            match_dict=match_example.match_example["info"]
-        )
+        extractor._get_metadata(d=match_example.match_example["info"])
 
 
 def test_matchextractor_get_info_from_match_GOOD():
     extractor = match_extractor.MatchExtractor()
-    info = extractor._get_info_from_match(match_dict=match_example.match_example)
+    info = extractor._get_info(d=match_example.match_example)
     assert type(info) == dict
     assert info["gameCreation"] == 1684177400505
 
@@ -154,9 +190,7 @@ def test_matchextractor_get_info_from_match_GOOD():
 def test_matchextractor_get_info_from_match_ERROR():
     extractor = match_extractor.MatchExtractor()
     with pytest.raises(errors.ExtractorError):
-        extractor._get_info_from_match(
-            match_dict=match_example.match_example["metadata"]
-        )
+        extractor._get_info(d=match_example.match_example["metadata"])
 
 
 def test_matchextractor_get_participants_id():
@@ -231,10 +265,10 @@ def test_matchextractor_extract_summoner_ERROR():
 def test_matchextractor_extract_summoner_ERROR2():
     extractor = match_extractor.MatchExtractor()
     with pytest.raises(errors.ExtractorError):
-        extractor.extract_summoner({"lol": "oui"}, summoner_id="")
+        extractor.extract_summoner({"lol": "oui"}, summoner_id=None, puuid="")
 
 
-def test_matchextractor_extract_summoner():
+def test_matchextractor_extract_summoner_SUMMONER_ID():
     extractor = match_extractor.MatchExtractor()
     ms = extractor.extract_summoner(
         match_dict=match_example.match_example,
@@ -248,11 +282,49 @@ def test_matchextractor_extract_summoner():
         summoner_puuid="bYf6lRCCzk9vKgGlIYCOj5aCoEEeeQgwJ3zA1uRdI0D0KGuOtpbazT5qbucaby93ePrA_lS-qcLUOQ",
         champion_id="92",
         champion_name="Riven",
+        champion_level=16,
+        individual_position="TOP",
         team_position="TOP",
         win=True,
         kills=9,
         deaths=4,
         assists=6,
+        gold_earned=12811,
+        neutral_minions_killed=12, 
+        total_minions_killed=203,
+        total_damage_dealt_to_champions=23338,
+        total_damage_taken=21949,
+        vision_score=10,
+        summoner1_id=4,
+        summoner2_id=14,
+        kda=3.75,
+    )
+
+
+def test_matchextractor_extract_summoner_PUUID():
+    extractor = match_extractor.MatchExtractor()
+    ms = extractor.extract_summoner(
+        match_dict=match_example.match_example,
+        puuid="bYf6lRCCzk9vKgGlIYCOj5aCoEEeeQgwJ3zA1uRdI0D0KGuOtpbazT5qbucaby93ePrA_lS-qcLUOQ",
+    )
+
+    assert ms == MatchSummoner(
+        team_id="100",
+        summoner_id="TkLNWG5SiEUcFoduwi6jLiGCAGu2pDaX7fZGYqrJTkZH-EGe",
+        summoner_name="Kanae Ruka",
+        summoner_puuid="bYf6lRCCzk9vKgGlIYCOj5aCoEEeeQgwJ3zA1uRdI0D0KGuOtpbazT5qbucaby93ePrA_lS-qcLUOQ",
+        champion_id="92",
+        champion_name="Riven",
+        champion_level=16,
+        individual_position="TOP",
+        team_position="TOP",
+        win=True,
+        kills=9,
+        deaths=4,
+        assists=6,
+        gold_earned=12811,
+        neutral_minions_killed=12, 
+        total_minions_killed=203,
         total_damage_dealt_to_champions=23338,
         total_damage_taken=21949,
         vision_score=10,
@@ -271,10 +343,10 @@ def test_matchextractor_extract_opponent_ERROR():
 def test_matchextractor_extract_opponent_ERROR2():
     extractor = match_extractor.MatchExtractor()
     with pytest.raises(errors.ExtractorError):
-        extractor.extract_opponent({"lol": "oui"}, summoner_id="")
+        extractor.extract_opponent({"lol": "oui"}, summoner_id="", puuid=None)
 
 
-def test_matchextractor_extract_opponent():
+def test_matchextractor_extract_opponent_SUMMONER_ID():
     extractor = match_extractor.MatchExtractor()
     ms = extractor.extract_opponent(
         match_dict=match_example.match_example,
@@ -288,11 +360,16 @@ def test_matchextractor_extract_opponent():
         summoner_puuid="bYf6lRCCzk9vKgGlIYCOj5aCoEEeeQgwJ3zA1uRdI0D0KGuOtpbazT5qbucaby93ePrA_lS-qcLUOQ",
         champion_id="92",
         champion_name="Riven",
+        champion_level=16,
+        individual_position="TOP",
         team_position="TOP",
         win=True,
         kills=9,
         deaths=4,
         assists=6,
+        gold_earned=12811,
+        neutral_minions_killed=12, 
+        total_minions_killed=203,
         total_damage_dealt_to_champions=23338,
         total_damage_taken=21949,
         vision_score=10,
@@ -300,6 +377,40 @@ def test_matchextractor_extract_opponent():
         summoner2_id=14,
         kda=3.75,
     )
+
+
+def test_matchextractor_extract_opponent_PUUID():
+    extractor = match_extractor.MatchExtractor()
+    ms = extractor.extract_opponent(
+        match_dict=match_example.match_example,
+        puuid="yySCXP617QJs3Uz8SA7Gkwmo5V80VzRHMbZUby7eJBdc9OGLjm2-tgKIgFBbXFk9XZZsahPnksxEzg",
+    )
+
+    assert ms == MatchSummoner(
+        team_id="100",
+        summoner_id="TkLNWG5SiEUcFoduwi6jLiGCAGu2pDaX7fZGYqrJTkZH-EGe",
+        summoner_name="Kanae Ruka",
+        summoner_puuid="bYf6lRCCzk9vKgGlIYCOj5aCoEEeeQgwJ3zA1uRdI0D0KGuOtpbazT5qbucaby93ePrA_lS-qcLUOQ",
+        champion_id="92",
+        champion_name="Riven",
+        champion_level=16,
+        individual_position="TOP",
+        team_position="TOP",
+        win=True,
+        kills=9,
+        deaths=4,
+        assists=6,
+        gold_earned=12811,
+        neutral_minions_killed=12, 
+        total_minions_killed=203,
+        total_damage_dealt_to_champions=23338,
+        total_damage_taken=21949,
+        vision_score=10,
+        summoner1_id=4,
+        summoner2_id=14,
+        kda=3.75,
+    )
+
 
 
 def test_matchextractor_extract_totals_ERROR():
@@ -310,23 +421,31 @@ def test_matchextractor_extract_totals_ERROR():
 
 def test_matchextractor_extract_totals():
     extractor = match_extractor.MatchExtractor()
-    mt = extractor.extract_totals(match_dict=match_example.match_example)
+    totals = extractor.extract_totals(match_dict=match_example.match_example)
 
-    assert mt == MatchTotals(
-        team_100=TeamTotals(
+    assert totals == [
+        TeamTotals(
+            team_id=100,
+            total_gold_earned=59843,
             total_assists=57,
             total_deaths=25,
             total_kills=37,
+            total_neutral_minions_killed=156, 
+            total_minions_killed=567,
             total_damage_dealt_to_champions=99108,
             total_damage_taken=104747,
             total_vision_score=160,
         ),
-        team_200=TeamTotals(
+        TeamTotals(
+            team_id=200,
+            total_gold_earned=51099,
             total_assists=38,
             total_deaths=37,
             total_kills=25,
+            total_neutral_minions_killed=114, 
+            total_minions_killed=566,
             total_damage_dealt_to_champions=78915,
             total_damage_taken=118218,
             total_vision_score=136,
         ),
-    )
+    ]
