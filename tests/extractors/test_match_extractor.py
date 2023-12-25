@@ -52,9 +52,7 @@ def test_matchextractor_get_total_by_key_and_team_ERROR():
 
 def test_matchextractor_get_participants_info_GOOD():
     extractor = match_extractor.MatchExtractor()
-    participants_info = extractor._get_participants_info(
-        info=match_example.match_example["info"]
-    )
+    participants_info = extractor._get_participants_info(info=match_example.match_example["info"])
 
     assert len(participants_info) == 10
     assert all(
@@ -68,8 +66,9 @@ def test_matchextractor_get_participants_info_GOOD():
 
 def test_matchextractor_get_participants_info_ERROR():
     extractor = match_extractor.MatchExtractor()
-    with pytest.raises(errors.ExtractorError):
-        extractor._get_participants_info(info=match_example.match_example)
+    participants_info = extractor._get_participants_info(info=match_example.match_example)
+    
+    assert participants_info == []
 
 
 def test_matchextractor_get_participant_by_summoner_id_GOOD():

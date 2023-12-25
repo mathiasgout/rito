@@ -318,7 +318,7 @@ class MatchExtractor(BaseExtractor):
         match_timeline = MatchTimeline(
             match_id=metadata_dict.get("matchId", None),
             participants_puuid=metadata_dict.get("participants", None),
-            participants_ids_map=self._get_participants_ids_map(info_dict["participants"]),
+            participants_ids_map=self._get_participants_ids_map(info_dict.get("participants", [])),
             frame_interval=info_dict.get("frameInterval", None),
             frames=frames
         )
@@ -328,7 +328,7 @@ class MatchExtractor(BaseExtractor):
     def _get_participants_ids_map(participants_ids: list[dict]) -> dict[str, str]:
         participants_ids_map = {}
         for participant_ids in participants_ids:
-            participants_ids_map[participant_ids["puuid"]] = str(participant_ids["participantId"])
+            participants_ids_map[participant_ids.get("puuid", None)] = str(participant_ids.get("participantId", ""))
         return participants_ids_map
 
     @staticmethod
@@ -344,10 +344,8 @@ class MatchExtractor(BaseExtractor):
 
     @staticmethod
     def _get_participants_info(info: dict) -> list[dict]:
-        participants_info = info.get("participants", None)
-        if participants_info:
-            return participants_info
-        raise ExtractorError(f"no participants in info")
+        participants_info = info.get("participants", [])
+        return participants_info
 
     @staticmethod
     def _get_participant_by_summoner_id(participants_info: list[dict], summoner_id: str) -> dict:
