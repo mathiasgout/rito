@@ -31,3 +31,7 @@ class MatchAPIV5(BaseRiotAPI):
     def by_match_id(self, match_id: str) -> Union[None, dict]:
         endpoint = f"{self.routes['regional']}/lol/match/v5/matches/{match_id}"
         return self.riot_request.make_request(endpoint=endpoint)
+
+    def timeline_by_match_id(self, match_id: str) -> Union[None, dict]:
+        endpoint = f"{self.routes['regional']}/lol/match/v5/matches/{match_id}/timeline"
+        return self.riot_request.make_request(endpoint=endpoint)

@@ -1,5 +1,6 @@
 from rito.extractors.base_extractor import BaseExtractor
 from rito.models.match import Match, MatchSummoner, TeamTotals
+from rito.models.match import MatchTimeline, TimelineFrame, TimelineParticipantFrame, TimelineChampionStats, TimelineDamageStats
 from rito.errors import ExtractorError
 
 from typing import Optional
@@ -230,6 +231,106 @@ class MatchExtractor(BaseExtractor):
         ]
         return totals
 
+    def extract_timeline(self, match_timeline_dict: dict) -> MatchTimeline:
+        if not isinstance(match_timeline_dict, dict):
+            raise ExtractorError(f"type(match_timeline_dict)={type(match_timeline_dict)} (!= dict)")
+
+        metadata_dict = self._get_metadata(d=match_timeline_dict)
+        info_dict = self._get_info(d=match_timeline_dict)
+
+        frames = []
+        frames_list = info_dict.get("frames", [])
+        for frame in frames_list:
+            events = frame.get("events", [])
+            timestamp = frame.get("timestamp", None)
+
+            participant_frames = {}
+            participant_frames_dict = frame.get("participantFrames", {})
+            for participant_id, participant_frame in participant_frames_dict.items():
+                champion_stats_dict = participant_frame.get("championStats", {})
+                champion_stats = TimelineChampionStats(
+                    ability_haste=champion_stats_dict.get("abilityHaste", None),
+                    ability_power=champion_stats_dict.get("abilityPower", None),
+                    armor=champion_stats_dict.get("armor", None),
+                    armor_pen=champion_stats_dict.get("armorPen", None),
+                    armor_pen_percent=champion_stats_dict.get("armorPenPercent", None),
+                    attack_damage=champion_stats_dict.get("attackDamage", None),
+                    attack_speed=champion_stats_dict.get("attackSpeed", None),
+                    bonus_armor_pen_percent=champion_stats_dict.get("bonusArmorPenPercent", None),
+                    bonus_magic_pen_percent=champion_stats_dict.get("bonusMagicPenPercent", None),
+                    cc_reduction=champion_stats_dict.get("ccReduction", None),
+                    cooldown_reduction=champion_stats_dict.get("cooldownReduction", None),
+                    health=champion_stats_dict.get("health", None),
+                    health_max=champion_stats_dict.get("healthMax", None),
+                    health_regen=champion_stats_dict.get("healthRegen", None),
+                    lifesteal=champion_stats_dict.get("lifesteal", None),
+                    magic_pen=champion_stats_dict.get("magicPen", None),
+                    magic_pen_percent=champion_stats_dict.get("magicPenPercent", None),
+                    magic_resist=champion_stats_dict.get("magicResist", None),
+                    movement_speed=champion_stats_dict.get("movementSpeed", None),
+                    omnivamp=champion_stats_dict.get("omnivamp", None),
+                    physical_vamp=champion_stats_dict.get("physicalVamp", None),
+                    power=champion_stats_dict.get("power", None),
+                    power_max=champion_stats_dict.get("powerMax", None),
+                    power_regen=champion_stats_dict.get("powerRegen", None),
+                    spell_vamp=champion_stats_dict.get("spellVamp", None)
+                )
+                
+                damage_stats_dict = participant_frame.get("damageStats", {})
+                damage_stats = TimelineDamageStats(
+                    magic_damage_done=damage_stats_dict.get("magicDamageDone", None),
+                    magic_damage_done_to_champions=damage_stats_dict.get("magicDamageDoneToChampions", None),
+                    magic_damage_taken=damage_stats_dict.get("magicDamageTaken", None),
+                    physical_damage_done=damage_stats_dict.get("physicalDamageDone", None),
+                    physical_damage_done_to_champions=damage_stats_dict.get("physicalDamageDoneToChampions", None),
+                    physical_damage_taken=damage_stats_dict.get("physicalDamageTaken", None),
+                    total_damage_done=damage_stats_dict.get("totalDamageDone", None),
+                    total_damage_done_to_champions=damage_stats_dict.get("totalDamageDoneToChampions", None),
+                    total_damage_taken=damage_stats_dict.get("totalDamageTaken", None),
+                    true_damage_done=damage_stats_dict.get("TrueDamageDone", None),
+                    true_damage_done_to_champions=damage_stats_dict.get("TrueDamageDoneToChampions", None),
+                    true_damage_taken=damage_stats_dict.get("TrueDamageTaken", None)
+                )
+
+                timeline_participant_frame = TimelineParticipantFrame(
+                    champion_stats=champion_stats,
+                    current_gold=participant_frame.get("currentGold", None),
+                    damage_stats=damage_stats,
+                    gold_per_second=participant_frame.get("goldPerSecond", None),
+                    jungle_minions_killed=participant_frame.get("jungleMinionsKilled", None),
+                    level=participant_frame.get("level", None),
+                    minions_killed=participant_frame.get("minionsKilled", None),
+                    participant_id=str(participant_frame.get("participantId", None)),
+                    position=participant_frame.get("position", None),
+                    time_enemy_spent_controlled=participant_frame.get("timeEnemySpentControlled", None),
+                    total_gold=participant_frame.get("totalGold", None),
+                    xp=participant_frame.get("xp", None)
+                )
+                participant_frames[str(participant_id)] = timeline_participant_frame
+
+            timeline_frame = TimelineFrame(
+                events=events,
+                participant_frames=participant_frames,
+                timestamp=timestamp
+            )
+            frames.append(timeline_frame)
+    
+        match_timeline = MatchTimeline(
+            match_id=metadata_dict.get("matchId", None),
+            participants_puuid=metadata_dict.get("participants", None),
+            participants_ids_map=self._get_participants_ids_map(info_dict["participants"]),
+            frame_interval=info_dict.get("frameInterval", None),
+            frames=frames
+        )
+        return match_timeline
+
+    @staticmethod
+    def _get_participants_ids_map(participants_ids: list[dict]) -> dict[str, str]:
+        participants_ids_map = {}
+        for participant_ids in participants_ids:
+            participants_ids_map[participant_ids["puuid"]] = str(participant_ids["participantId"])
+        return participants_ids_map
+
     @staticmethod
     def _get_total_by_key_and_team(participants_info: list[dict], key: str, team_id: str) -> int:
         total = 0
@@ -307,17 +408,13 @@ class MatchExtractor(BaseExtractor):
 
     @staticmethod
     def _get_metadata(d: dict) -> dict:
-        metadata = d.get("metadata", None)
-        if metadata:
-            return metadata
-        raise ExtractorError(f"no metadata in dict")
+        metadata = d.get("metadata", {})
+        return metadata
 
     @staticmethod
     def _get_info(d: dict) -> dict:
-        info = d.get("info", None)
-        if info:
-            return info
-        raise ExtractorError(f"no info in dict")
+        info = d.get("info", {})
+        return info
 
     @staticmethod
     def _get_participants_id(participants_info: list[dict]) -> list[Optional[str]]:

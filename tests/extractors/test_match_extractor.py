@@ -1,5 +1,5 @@
 from rito import errors
-from rito.models import Match, MatchSummoner, TeamTotals
+from rito.models import Match, MatchSummoner, TeamTotals, TimelineDamageStats, TimelineChampionStats
 from rito.extractors import base_extractor, match_extractor
 from tests.examples import match_example
 
@@ -8,6 +8,25 @@ import pytest
 
 def test_matchextractor():
     assert issubclass(match_extractor.MatchExtractor, base_extractor.BaseExtractor)
+
+
+def test_matchextractor_get_participants_ids_map_GOOD():
+    extractor = match_extractor.MatchExtractor()
+    participants_ids_map = extractor._get_participants_ids_map(
+        participants_ids=match_example.timeline_example["info"]["participants"]
+    )
+    participants_ids_map == {
+        'eZZVkO20LI7XCkfeqBn8X0eae2lNJFxgzlnq3QvjzRTQ-FI2oeBq-mfYGElhsUKgndHdGccJ9zuA0g': '1', 
+        'KR1LzoXFfbMSgq_ij0Wj9Ph-hnXx9ImSnpJ75YLIXud6Nff8W_FUjplpgNVkdYSguyaUuPGPjL-H2w': '2', 
+        '3LgDeUuEAqUBgGhZcAZzi6diNVfeLWBFiOfTOgZN2Uzdi7VY_dR_kPp5xKICQReyh9LgO-l0dLbycw': '3', 
+        'AJ3DSRe7xoSH5e_7gwkMiaylGWsYg0Zxi42nHd9Sw9VL8uUyGflm3x31Gaj1hHWVPV3zrlDgpBxkLA': '4', 
+        'UqYVg0DMOA4bjITnX81fOdAWCP8xIjPv0H7Y_w66l3diLTrHBLLinUTlWZVwsKUc4ud2JIZUIyOJ5A': '5', 
+        'c6qwXcs0y8zZsoUuvprXb289ckVeVKzbWeIvT54DujWcEFlWgiXXdISmq8gCAPysZPMLboW8hFDlHg': '6', 
+        'GSLeYAqn-ZzGTVhuR4R-EPtIFwDSSmW_QwmF6JWOrocwGugbwj7vg2ojZc7_F8QuIqmqra7qBgG3nw': '7', 
+        'oUwJvToO_ANZg_rx5ib5XKtOVa9lzY9R1cXLCoi20HO0y-4AfidBrBhSj0sHMpv45hkrdmvEKrQFSw': '8', 
+        'fvIR9ToQ8tBruym-hmlZxs9WUUyL8M_wrQNlByht7wrgpIXNyVw4u2DCveIIO_-pPCkHmwBNleZGJA': '9', 
+        'V421Y-fOSwSWfSUZ_Od6MII_FutGBvw97xZrEEXMsukbldO9SLUC_CwrH1uslTR2ZYX4Ti9Knd-oQw': '10'
+    }
 
 
 def test_matchextractor_get_total_by_key_and_team_GOOD():
@@ -176,8 +195,8 @@ def test_matchextractor_get_metadata_from_match_GOOD():
 
 def test_matchextractor_get_metadata_from_match_ERROR():
     extractor = match_extractor.MatchExtractor()
-    with pytest.raises(errors.ExtractorError):
-        extractor._get_metadata(d=match_example.match_example["info"])
+    metadata = extractor._get_metadata(d=match_example.match_example["info"])
+    assert metadata == {}
 
 
 def test_matchextractor_get_info_from_match_GOOD():
@@ -189,8 +208,8 @@ def test_matchextractor_get_info_from_match_GOOD():
 
 def test_matchextractor_get_info_from_match_ERROR():
     extractor = match_extractor.MatchExtractor()
-    with pytest.raises(errors.ExtractorError):
-        extractor._get_info(d=match_example.match_example["metadata"])
+    info = extractor._get_metadata(d=match_example.match_example["metadata"])
+    assert info == {}
 
 
 def test_matchextractor_get_participants_id():
@@ -449,3 +468,99 @@ def test_matchextractor_extract_totals():
             total_vision_score=136,
         ),
     ]
+
+
+def test_matchextractor_extract_timeline_ERROR():
+    extractor = match_extractor.MatchExtractor()
+    with pytest.raises(errors.ExtractorError):
+        extractor.extract_timeline(["lol", "oui"])
+
+
+def test_matchextractor_extract_timeline():
+    extractor = match_extractor.MatchExtractor()
+    timeline = extractor.extract_timeline(match_timeline_dict=match_example.timeline_example)
+
+    assert timeline.match_id == "EUW1_6727944035"
+    assert timeline.participants_puuid == [
+        "eZZVkO20LI7XCkfeqBn8X0eae2lNJFxgzlnq3QvjzRTQ-FI2oeBq-mfYGElhsUKgndHdGccJ9zuA0g",
+        "KR1LzoXFfbMSgq_ij0Wj9Ph-hnXx9ImSnpJ75YLIXud6Nff8W_FUjplpgNVkdYSguyaUuPGPjL-H2w",
+        "3LgDeUuEAqUBgGhZcAZzi6diNVfeLWBFiOfTOgZN2Uzdi7VY_dR_kPp5xKICQReyh9LgO-l0dLbycw",
+        "AJ3DSRe7xoSH5e_7gwkMiaylGWsYg0Zxi42nHd9Sw9VL8uUyGflm3x31Gaj1hHWVPV3zrlDgpBxkLA",
+        "UqYVg0DMOA4bjITnX81fOdAWCP8xIjPv0H7Y_w66l3diLTrHBLLinUTlWZVwsKUc4ud2JIZUIyOJ5A",
+        "c6qwXcs0y8zZsoUuvprXb289ckVeVKzbWeIvT54DujWcEFlWgiXXdISmq8gCAPysZPMLboW8hFDlHg",
+        "GSLeYAqn-ZzGTVhuR4R-EPtIFwDSSmW_QwmF6JWOrocwGugbwj7vg2ojZc7_F8QuIqmqra7qBgG3nw",
+        "oUwJvToO_ANZg_rx5ib5XKtOVa9lzY9R1cXLCoi20HO0y-4AfidBrBhSj0sHMpv45hkrdmvEKrQFSw",
+        "fvIR9ToQ8tBruym-hmlZxs9WUUyL8M_wrQNlByht7wrgpIXNyVw4u2DCveIIO_-pPCkHmwBNleZGJA",
+        "V421Y-fOSwSWfSUZ_Od6MII_FutGBvw97xZrEEXMsukbldO9SLUC_CwrH1uslTR2ZYX4Ti9Knd-oQw"
+    ]
+    assert timeline.frame_interval == 60000
+    assert timeline.participants_ids_map == {
+        'eZZVkO20LI7XCkfeqBn8X0eae2lNJFxgzlnq3QvjzRTQ-FI2oeBq-mfYGElhsUKgndHdGccJ9zuA0g': '1', 
+        'KR1LzoXFfbMSgq_ij0Wj9Ph-hnXx9ImSnpJ75YLIXud6Nff8W_FUjplpgNVkdYSguyaUuPGPjL-H2w': '2', 
+        '3LgDeUuEAqUBgGhZcAZzi6diNVfeLWBFiOfTOgZN2Uzdi7VY_dR_kPp5xKICQReyh9LgO-l0dLbycw': '3', 
+        'AJ3DSRe7xoSH5e_7gwkMiaylGWsYg0Zxi42nHd9Sw9VL8uUyGflm3x31Gaj1hHWVPV3zrlDgpBxkLA': '4', 
+        'UqYVg0DMOA4bjITnX81fOdAWCP8xIjPv0H7Y_w66l3diLTrHBLLinUTlWZVwsKUc4ud2JIZUIyOJ5A': '5', 
+        'c6qwXcs0y8zZsoUuvprXb289ckVeVKzbWeIvT54DujWcEFlWgiXXdISmq8gCAPysZPMLboW8hFDlHg': '6', 
+        'GSLeYAqn-ZzGTVhuR4R-EPtIFwDSSmW_QwmF6JWOrocwGugbwj7vg2ojZc7_F8QuIqmqra7qBgG3nw': '7', 
+        'oUwJvToO_ANZg_rx5ib5XKtOVa9lzY9R1cXLCoi20HO0y-4AfidBrBhSj0sHMpv45hkrdmvEKrQFSw': '8', 
+        'fvIR9ToQ8tBruym-hmlZxs9WUUyL8M_wrQNlByht7wrgpIXNyVw4u2DCveIIO_-pPCkHmwBNleZGJA': '9', 
+        'V421Y-fOSwSWfSUZ_Od6MII_FutGBvw97xZrEEXMsukbldO9SLUC_CwrH1uslTR2ZYX4Ti9Knd-oQw': '10'
+    }
+    assert len(timeline.frames) == 37
+    assert timeline.frames[0].events == [{
+        "realTimestamp": 1703018626410,
+        "timestamp": 0,
+        "type": "PAUSE_END"
+        }
+    ]
+    assert timeline.frames[32].timestamp == 1920623
+    assert timeline.frames[23].participant_frames["1"].champion_stats == TimelineChampionStats(
+        ability_haste=0, 
+        ability_power=0, 
+        armor=136, 
+        armor_pen=0, 
+        armor_pen_percent=0, 
+        attack_damage=218, 
+        attack_speed=194, 
+        bonus_armor_pen_percent=0, 
+        bonus_magic_pen_percent=0, 
+        cc_reduction=0, 
+        cooldown_reduction=0, 
+        health=2598, 
+        health_max=2598, 
+        health_regen=455, 
+        lifesteal=0, 
+        magic_pen=0,
+        magic_pen_percent=0, 
+        magic_resist=93, 
+        movement_speed=411,
+        omnivamp=0, 
+        physical_vamp=0, 
+        power=0, 
+        power_max=0, 
+        power_regen=0, 
+        spell_vamp=0
+    )
+    assert timeline.frames[23].participant_frames["1"].current_gold == 805
+    assert timeline.frames[23].participant_frames["1"].damage_stats == TimelineDamageStats(
+        magic_damage_done=0, 
+        magic_damage_done_to_champions=0, 
+        magic_damage_taken=3559, 
+        physical_damage_done=78953, 
+        physical_damage_done_to_champions=4462, 
+        physical_damage_taken=9532, 
+        total_damage_done=82384, 
+        total_damage_done_to_champions=5288, 
+        total_damage_taken=14107, 
+        true_damage_done=3430, 
+        true_damage_done_to_champions=825, 
+        true_damage_taken=1015
+    )
+    assert timeline.frames[23].participant_frames["1"].gold_per_second == 0
+    assert timeline.frames[23].participant_frames["1"].jungle_minions_killed == 0
+    assert timeline.frames[23].participant_frames["1"].level == 13
+    assert timeline.frames[23].participant_frames["1"].minions_killed == 170
+    assert timeline.frames[23].participant_frames["1"].participant_id == "1"
+    assert timeline.frames[23].participant_frames["1"].position == {'x': 6371, 'y': 940}
+    assert timeline.frames[23].participant_frames["1"].time_enemy_spent_controlled == 110439
+    assert timeline.frames[23].participant_frames["1"].total_gold == 7760

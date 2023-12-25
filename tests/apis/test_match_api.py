@@ -40,3 +40,17 @@ def test_matchapiv5_by_match_id(mocker):
     riot_request.RiotRequest.make_request.assert_called_once_with(
         endpoint="https://europe.api.riotgames.com/lol/match/v5/matches/match_id1"
     )
+
+
+def test_matchapiv5_timeline_by_match_id(mocker):
+    # Patchs
+    mocker.patch("rito.riot_request.RiotRequest.make_request")
+
+    # Calls
+    m_api = match_api.MatchAPIV5(riot_api_key="riot_api_key", region="EUW")
+    m_api.timeline_by_match_id("match_id1")
+
+    # Verifs
+    riot_request.RiotRequest.make_request.assert_called_once_with(
+        endpoint="https://europe.api.riotgames.com/lol/match/v5/matches/match_id1/timeline"
+    )
