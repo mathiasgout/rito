@@ -19,3 +19,11 @@ class Entry(BaseModel):
     hot_streak: Optional[bool]
     miniseries_progress: Optional[str]
     total_lp: Optional[int]
+
+
+class League(BaseModel):
+    tier: Optional[str]
+    league_id: Optional[str]
+    queue: Optional[str]
+    name: Optional[str]
+    entries: Optional[list[Entry]]

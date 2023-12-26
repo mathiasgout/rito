@@ -1,7 +1,7 @@
 from rito import errors
 from rito.models import Entry
 from rito.extractors import base_extractor, league_extractor
-from tests.examples import entries_example, entry_miniseries_example
+from tests.examples import entries_example, entry_miniseries_example, league_example
 
 import pytest
 
@@ -199,6 +199,45 @@ def test_entriesextractor_extract_entry():
     )
 
 
+def test_leaguesextractor():
+    assert issubclass(league_extractor.LeaguesExtractor, base_extractor.BaseExtractor)
+
+
+def test_leaguesextractor_extract_ERROR():
+    with pytest.raises(errors.ExtractorError):
+        league_extractor.LeaguesExtractor().extract(["kok", "lol"])
+
+
+def test_leaguesextractor_extract():
+    extractor = league_extractor.LeaguesExtractor()
+    league = extractor.extract(league_dict=league_example.league_example)
+
+    assert league.tier == "EMERALD"
+    assert league.league_id == "15b4ec05-bd78-4d4b-8da2-ff68bd37c493"
+    assert league.queue == "RANKED_SOLO_5x5"
+    assert league.name == "Miss Fortune's Villains"
+    assert len(league.entries) == 98
+    assert type(league.entries[0]) == type(league.entries[1]) == Entry
+    assert league.entries[0] == Entry(
+        league_id='15b4ec05-bd78-4d4b-8da2-ff68bd37c493', 
+        queue_type='RANKED_SOLO_5x5', 
+        tier='EMERALD', 
+        rank='I', 
+        summoner_id="pPE4MoR7CkND99L38MPw9V1-CWT-PeXZzCxHDtcCxK9mz0U", 
+        summoner_name="Ulltimatum", 
+        league_points=35, 
+        wins=157, 
+        losses=134, 
+        veteran=False, 
+        inactive=False, 
+        fresh_blood=False, 
+        hot_streak=False, 
+        miniseries_progress=None, 
+        total_lp=2335
+    )
+
+
 def test_leagueextractor():
     extractor = league_extractor.LeagueExtractor()
     assert type(extractor.entries) == league_extractor.EntriesExtractor
+    assert type(extractor.leagues) == league_extractor.LeaguesExtractor

@@ -1,6 +1,6 @@
 from rito.extractors.base_extractor import BaseExtractor
 from rito.errors import ExtractorError
-from rito.models.league import Entry
+from rito.models.league import Entry, League
 from rito import constants
 
 from typing import Optional
@@ -89,6 +89,36 @@ class EntriesExtractor(BaseExtractor):
                 lp += 100
 
 
+class LeaguesExtractor(BaseExtractor):
+    def extract(self, league_dict: dict) -> League:
+        if not isinstance(league_dict, dict):
+            raise ExtractorError(f"type(league_dict)={type(league_dict)} (!= dictionnaries)")
+    
+        tier = league_dict.get("tier", None)
+        league_id = league_dict.get("leagueId", None)
+        queue = league_dict.get("queue", None)
+
+        entries_list_raw=league_dict.get("entries", [])
+        entries_list = []
+        for entry_dict in entries_list_raw:
+            entry_dict["leagueId"] = league_id
+            entry_dict["queueType"] = queue
+            entry_dict["tier"] = tier
+            entries_list.append(entry_dict)
+
+        entries_extractor = EntriesExtractor()
+        league = League(
+            tier=tier,
+            league_id=league_id,
+            queue=queue,
+            name=league_dict.get("name", None),
+            entries=entries_extractor.extract(entries_list=entries_list)
+        )
+
+        return league
+
+
 class LeagueExtractor:
     def __init__(self) -> None:
         self.entries = EntriesExtractor()
+        self.leagues = LeaguesExtractor()

@@ -1,6 +1,6 @@
 from rito.models.account import Account
 from rito.models.champion_mastery import ChampionMastery, ChampionMasteryTotals
-from rito.models.league import Entry
+from rito.models.league import Entry, League
 from rito.models.match import Match, MatchSummoner, TeamTotals
 from rito.models.match import MatchTimeline, TimelineFrame, TimelineParticipantFrame, TimelineChampionStats, TimelineDamageStats
 from rito.models.spectator import ActiveGame, ActiveGameSummoner
@@ -12,6 +12,7 @@ __all__ = [
     "ChampionMastery",
     "ChampionMasteryTotals",
     "Entry",
+    "League",
     "Match",
     "MatchSummoner",
     "MatchTimeline",
