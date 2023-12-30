@@ -7,11 +7,10 @@ class ChampionMasteryAPIV4(BaseRiotAPI):
     def __init__(self, *args, **kwargs) -> None:
         super().__init__(*args, **kwargs)
 
-    def masteries_by_summoner(self, summoner_id: str) -> Union[None, list[dict]]:
-        params = {"count": 500}
-        endpoint = f"{self.routes['platform']}/lol/champion-mastery/v4/champion-masteries/by-summoner/{summoner_id}/top"
-        return self.riot_request.make_request(endpoint=endpoint, params=params)
+    def by_puuid(self, puuid: str) -> Union[None, list[dict]]:
+        endpoint = f"{self.routes['platform']}/lol/champion-mastery/v4/champion-masteries/by-puuid/{puuid}"
+        return self.riot_request.make_request(endpoint=endpoint)
 
-    def by_summoner_and_champion(self, summoner_id: str, champion_id: int) -> Union[None, dict]:
-        endpoint = f"{self.routes['platform']}/lol/champion-mastery/v4/champion-masteries/by-summoner/{summoner_id}/by-champion/{champion_id}"
+    def by_puuid_by_champion(self, puuid: str, champion_id: int) -> Union[None, dict]:
+        endpoint = f"{self.routes['platform']}/lol/champion-mastery/v4/champion-masteries/by-puuid/{puuid}/by-champion/{champion_id}"
         return self.riot_request.make_request(endpoint=endpoint)
