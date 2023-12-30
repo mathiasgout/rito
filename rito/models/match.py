@@ -18,7 +18,7 @@ class MatchSummoner(BaseModel):
     team_id: Optional[str]
     summoner_id: Optional[str]
     summoner_name: Optional[str]
-    summoner_puuid: Optional[str]
+    puuid: Optional[str]
     champion_id: Optional[str]
     champion_name: Optional[str]
     champion_level: Optional[int]
