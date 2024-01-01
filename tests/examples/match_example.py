@@ -274,9 +274,9 @@ match_example = {
                 "totalTimeSpentDead": 150,
                 "totalUnitsHealed": 1,
                 "tripleKills": 0,
-                "TrueDamageDealt": 828,
-                "TrueDamageDealtToChampions": 828,
-                "TrueDamageTaken": 521,
+                "trueDamageDealt": 828,
+                "trueDamageDealtToChampions": 828,
+                "trueDamageTaken": 521,
                 "turretKills": 3,
                 "turretTakedowns": 3,
                 "turretsLost": 2,
@@ -537,9 +537,9 @@ match_example = {
                 "totalTimeSpentDead": 192,
                 "totalUnitsHealed": 1,
                 "tripleKills": 0,
-                "TrueDamageDealt": 34884,
-                "TrueDamageDealtToChampions": 1202,
-                "TrueDamageTaken": 4164,
+                "trueDamageDealt": 34884,
+                "trueDamageDealtToChampions": 1202,
+                "trueDamageTaken": 4164,
                 "turretKills": 0,
                 "turretTakedowns": 2,
                 "turretsLost": 2,
@@ -801,9 +801,9 @@ match_example = {
                 "totalTimeSpentDead": 143,
                 "totalUnitsHealed": 1,
                 "tripleKills": 0,
-                "TrueDamageDealt": 1402,
-                "TrueDamageDealtToChampions": 683,
-                "TrueDamageTaken": 560,
+                "trueDamageDealt": 1402,
+                "trueDamageDealtToChampions": 683,
+                "trueDamageTaken": 560,
                 "turretKills": 1,
                 "turretTakedowns": 2,
                 "turretsLost": 2,
@@ -1063,9 +1063,9 @@ match_example = {
                 "totalTimeSpentDead": 134,
                 "totalUnitsHealed": 1,
                 "tripleKills": 0,
-                "TrueDamageDealt": 8768,
-                "TrueDamageDealtToChampions": 1023,
-                "TrueDamageTaken": 971,
+                "trueDamageDealt": 8768,
+                "trueDamageDealtToChampions": 1023,
+                "trueDamageTaken": 971,
                 "turretKills": 3,
                 "turretTakedowns": 4,
                 "turretsLost": 2,
@@ -1328,9 +1328,9 @@ match_example = {
                 "totalTimeSpentDead": 75,
                 "totalUnitsHealed": 3,
                 "tripleKills": 0,
-                "TrueDamageDealt": 1567,
-                "TrueDamageDealtToChampions": 0,
-                "TrueDamageTaken": 0,
+                "trueDamageDealt": 1567,
+                "trueDamageDealtToChampions": 0,
+                "trueDamageTaken": 0,
                 "turretKills": 1,
                 "turretTakedowns": 1,
                 "turretsLost": 2,
@@ -1589,9 +1589,9 @@ match_example = {
                 "totalTimeSpentDead": 209,
                 "totalUnitsHealed": 1,
                 "tripleKills": 0,
-                "TrueDamageDealt": 899,
-                "TrueDamageDealtToChampions": 899,
-                "TrueDamageTaken": 872,
+                "trueDamageDealt": 899,
+                "trueDamageDealtToChampions": 899,
+                "trueDamageTaken": 872,
                 "turretKills": 1,
                 "turretTakedowns": 1,
                 "turretsLost": 9,
@@ -1850,9 +1850,9 @@ match_example = {
                 "totalTimeSpentDead": 174,
                 "totalUnitsHealed": 1,
                 "tripleKills": 0,
-                "TrueDamageDealt": 32699,
-                "TrueDamageDealtToChampions": 1483,
-                "TrueDamageTaken": 560,
+                "trueDamageDealt": 32699,
+                "trueDamageDealtToChampions": 1483,
+                "trueDamageTaken": 560,
                 "turretKills": 0,
                 "turretTakedowns": 0,
                 "turretsLost": 9,
@@ -2114,9 +2114,9 @@ match_example = {
                 "totalTimeSpentDead": 204,
                 "totalUnitsHealed": 1,
                 "tripleKills": 0,
-                "TrueDamageDealt": 8852,
-                "TrueDamageDealtToChampions": 1722,
-                "TrueDamageTaken": 867,
+                "trueDamageDealt": 8852,
+                "trueDamageDealtToChampions": 1722,
+                "trueDamageTaken": 867,
                 "turretKills": 0,
                 "turretTakedowns": 0,
                 "turretsLost": 9,
@@ -2374,9 +2374,9 @@ match_example = {
                 "totalTimeSpentDead": 243,
                 "totalUnitsHealed": 1,
                 "tripleKills": 0,
-                "TrueDamageDealt": 2539,
-                "TrueDamageDealtToChampions": 799,
-                "TrueDamageTaken": 896,
+                "trueDamageDealt": 2539,
+                "trueDamageDealtToChampions": 799,
+                "trueDamageTaken": 896,
                 "turretKills": 1,
                 "turretTakedowns": 1,
                 "turretsLost": 9,
@@ -2635,9 +2635,9 @@ match_example = {
                 "totalTimeSpentDead": 143,
                 "totalUnitsHealed": 5,
                 "tripleKills": 0,
-                "TrueDamageDealt": 7010,
-                "TrueDamageDealtToChampions": 892,
-                "TrueDamageTaken": 499,
+                "trueDamageDealt": 7010,
+                "trueDamageDealtToChampions": 892,
+                "trueDamageTaken": 499,
                 "turretKills": 0,
                 "turretTakedowns": 0,
                 "turretsLost": 9,
@@ -2764,9 +2764,9 @@ timeline_example = {
                             "totalDamageDone": 0,
                             "totalDamageDoneToChampions": 0,
                             "totalDamageTaken": 0,
-                            "TrueDamageDone": 0,
-                            "TrueDamageDoneToChampions": 0,
-                            "TrueDamageTaken": 0
+                            "trueDamageDone": 0,
+                            "trueDamageDoneToChampions": 0,
+                            "trueDamageTaken": 0
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 0,
@@ -2820,9 +2820,9 @@ timeline_example = {
                             "totalDamageDone": 0,
                             "totalDamageDoneToChampions": 0,
                             "totalDamageTaken": 0,
-                            "TrueDamageDone": 0,
-                            "TrueDamageDoneToChampions": 0,
-                            "TrueDamageTaken": 0
+                            "trueDamageDone": 0,
+                            "trueDamageDoneToChampions": 0,
+                            "trueDamageTaken": 0
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 0,
@@ -2876,9 +2876,9 @@ timeline_example = {
                             "totalDamageDone": 0,
                             "totalDamageDoneToChampions": 0,
                             "totalDamageTaken": 0,
-                            "TrueDamageDone": 0,
-                            "TrueDamageDoneToChampions": 0,
-                            "TrueDamageTaken": 0
+                            "trueDamageDone": 0,
+                            "trueDamageDoneToChampions": 0,
+                            "trueDamageTaken": 0
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 0,
@@ -2932,9 +2932,9 @@ timeline_example = {
                             "totalDamageDone": 0,
                             "totalDamageDoneToChampions": 0,
                             "totalDamageTaken": 0,
-                            "TrueDamageDone": 0,
-                            "TrueDamageDoneToChampions": 0,
-                            "TrueDamageTaken": 0
+                            "trueDamageDone": 0,
+                            "trueDamageDoneToChampions": 0,
+                            "trueDamageTaken": 0
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 0,
@@ -2988,9 +2988,9 @@ timeline_example = {
                             "totalDamageDone": 0,
                             "totalDamageDoneToChampions": 0,
                             "totalDamageTaken": 0,
-                            "TrueDamageDone": 0,
-                            "TrueDamageDoneToChampions": 0,
-                            "TrueDamageTaken": 0
+                            "trueDamageDone": 0,
+                            "trueDamageDoneToChampions": 0,
+                            "trueDamageTaken": 0
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 0,
@@ -3044,9 +3044,9 @@ timeline_example = {
                             "totalDamageDone": 0,
                             "totalDamageDoneToChampions": 0,
                             "totalDamageTaken": 0,
-                            "TrueDamageDone": 0,
-                            "TrueDamageDoneToChampions": 0,
-                            "TrueDamageTaken": 0
+                            "trueDamageDone": 0,
+                            "trueDamageDoneToChampions": 0,
+                            "trueDamageTaken": 0
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 0,
@@ -3100,9 +3100,9 @@ timeline_example = {
                             "totalDamageDone": 0,
                             "totalDamageDoneToChampions": 0,
                             "totalDamageTaken": 0,
-                            "TrueDamageDone": 0,
-                            "TrueDamageDoneToChampions": 0,
-                            "TrueDamageTaken": 0
+                            "trueDamageDone": 0,
+                            "trueDamageDoneToChampions": 0,
+                            "trueDamageTaken": 0
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 0,
@@ -3156,9 +3156,9 @@ timeline_example = {
                             "totalDamageDone": 0,
                             "totalDamageDoneToChampions": 0,
                             "totalDamageTaken": 0,
-                            "TrueDamageDone": 0,
-                            "TrueDamageDoneToChampions": 0,
-                            "TrueDamageTaken": 0
+                            "trueDamageDone": 0,
+                            "trueDamageDoneToChampions": 0,
+                            "trueDamageTaken": 0
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 0,
@@ -3212,9 +3212,9 @@ timeline_example = {
                             "totalDamageDone": 0,
                             "totalDamageDoneToChampions": 0,
                             "totalDamageTaken": 0,
-                            "TrueDamageDone": 0,
-                            "TrueDamageDoneToChampions": 0,
-                            "TrueDamageTaken": 0
+                            "trueDamageDone": 0,
+                            "trueDamageDoneToChampions": 0,
+                            "trueDamageTaken": 0
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 0,
@@ -3268,9 +3268,9 @@ timeline_example = {
                             "totalDamageDone": 0,
                             "totalDamageDoneToChampions": 0,
                             "totalDamageTaken": 0,
-                            "TrueDamageDone": 0,
-                            "TrueDamageDoneToChampions": 0,
-                            "TrueDamageTaken": 0
+                            "trueDamageDone": 0,
+                            "trueDamageDoneToChampions": 0,
+                            "trueDamageTaken": 0
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 0,
@@ -3587,7 +3587,7 @@ timeline_example = {
                                 "physicalDamage": 117,
                                 "spellName": "varusbasicattack",
                                 "spellSlot": 64,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             }
                         ],
@@ -3600,7 +3600,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "luxlightbinding",
                                 "spellSlot": 0,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -3611,7 +3611,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "luxilluminationpassive",
                                 "spellSlot": 63,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -3622,7 +3622,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "",
                                 "spellSlot": -1,
-                                "TrueDamage": 10,
+                                "trueDamage": 10,
                                 "type": "OTHER"
                             },
                             {
@@ -3633,7 +3633,7 @@ timeline_example = {
                                 "physicalDamage": 81,
                                 "spellName": "luxbasicattack2",
                                 "spellSlot": 65,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -3644,7 +3644,7 @@ timeline_example = {
                                 "physicalDamage": 56,
                                 "spellName": "vaynebasicattack2",
                                 "spellSlot": 65,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -3655,7 +3655,7 @@ timeline_example = {
                                 "physicalDamage": 99,
                                 "spellName": "vaynetumble",
                                 "spellSlot": 0,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -3666,7 +3666,7 @@ timeline_example = {
                                 "physicalDamage": 61,
                                 "spellName": "vaynebasicattack",
                                 "spellSlot": 64,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -3677,7 +3677,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "luluq",
                                 "spellSlot": 0,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -3688,7 +3688,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "",
                                 "spellSlot": -1,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -3699,7 +3699,7 @@ timeline_example = {
                                 "physicalDamage": 35,
                                 "spellName": "lulubasicattack2",
                                 "spellSlot": 65,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -3710,7 +3710,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "lulupassive",
                                 "spellSlot": 63,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -3721,7 +3721,7 @@ timeline_example = {
                                 "physicalDamage": 42,
                                 "spellName": "brandbasicattack",
                                 "spellSlot": 64,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -3732,7 +3732,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "",
                                 "spellSlot": -1,
-                                "TrueDamage": 10,
+                                "trueDamage": 10,
                                 "type": "OTHER"
                             },
                             {
@@ -3743,7 +3743,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "brandw",
                                 "spellSlot": 1,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             }
                         ],
@@ -3813,9 +3813,9 @@ timeline_example = {
                             "totalDamageDone": 0,
                             "totalDamageDoneToChampions": 0,
                             "totalDamageTaken": 0,
-                            "TrueDamageDone": 0,
-                            "TrueDamageDoneToChampions": 0,
-                            "TrueDamageTaken": 0
+                            "trueDamageDone": 0,
+                            "trueDamageDoneToChampions": 0,
+                            "trueDamageTaken": 0
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 0,
@@ -3869,9 +3869,9 @@ timeline_example = {
                             "totalDamageDone": 134,
                             "totalDamageDoneToChampions": 134,
                             "totalDamageTaken": 0,
-                            "TrueDamageDone": 10,
-                            "TrueDamageDoneToChampions": 10,
-                            "TrueDamageTaken": 0
+                            "trueDamageDone": 10,
+                            "trueDamageDoneToChampions": 10,
+                            "trueDamageTaken": 0
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 0,
@@ -3925,9 +3925,9 @@ timeline_example = {
                             "totalDamageDone": 216,
                             "totalDamageDoneToChampions": 216,
                             "totalDamageTaken": 117,
-                            "TrueDamageDone": 10,
-                            "TrueDamageDoneToChampions": 10,
-                            "TrueDamageTaken": 0
+                            "trueDamageDone": 10,
+                            "trueDamageDoneToChampions": 10,
+                            "trueDamageTaken": 0
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 0,
@@ -3981,9 +3981,9 @@ timeline_example = {
                             "totalDamageDone": 217,
                             "totalDamageDoneToChampions": 217,
                             "totalDamageTaken": 0,
-                            "TrueDamageDone": 0,
-                            "TrueDamageDoneToChampions": 0,
-                            "TrueDamageTaken": 0
+                            "trueDamageDone": 0,
+                            "trueDamageDoneToChampions": 0,
+                            "trueDamageTaken": 0
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 0,
@@ -4037,9 +4037,9 @@ timeline_example = {
                             "totalDamageDone": 129,
                             "totalDamageDoneToChampions": 129,
                             "totalDamageTaken": 0,
-                            "TrueDamageDone": 0,
-                            "TrueDamageDoneToChampions": 0,
-                            "TrueDamageTaken": 0
+                            "trueDamageDone": 0,
+                            "trueDamageDoneToChampions": 0,
+                            "trueDamageTaken": 0
                         },
                         "goldPerSecond": 20,
                         "jungleMinionsKilled": 0,
@@ -4093,9 +4093,9 @@ timeline_example = {
                             "totalDamageDone": 0,
                             "totalDamageDoneToChampions": 0,
                             "totalDamageTaken": 0,
-                            "TrueDamageDone": 0,
-                            "TrueDamageDoneToChampions": 0,
-                            "TrueDamageTaken": 0
+                            "trueDamageDone": 0,
+                            "trueDamageDoneToChampions": 0,
+                            "trueDamageTaken": 0
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 0,
@@ -4149,9 +4149,9 @@ timeline_example = {
                             "totalDamageDone": 0,
                             "totalDamageDoneToChampions": 0,
                             "totalDamageTaken": 0,
-                            "TrueDamageDone": 0,
-                            "TrueDamageDoneToChampions": 0,
-                            "TrueDamageTaken": 0
+                            "trueDamageDone": 0,
+                            "trueDamageDoneToChampions": 0,
+                            "trueDamageTaken": 0
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 0,
@@ -4205,9 +4205,9 @@ timeline_example = {
                             "totalDamageDone": 0,
                             "totalDamageDoneToChampions": 0,
                             "totalDamageTaken": 0,
-                            "TrueDamageDone": 0,
-                            "TrueDamageDoneToChampions": 0,
-                            "TrueDamageTaken": 0
+                            "trueDamageDone": 0,
+                            "trueDamageDoneToChampions": 0,
+                            "trueDamageTaken": 0
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 0,
@@ -4261,9 +4261,9 @@ timeline_example = {
                             "totalDamageDone": 0,
                             "totalDamageDoneToChampions": 0,
                             "totalDamageTaken": 0,
-                            "TrueDamageDone": 0,
-                            "TrueDamageDoneToChampions": 0,
-                            "TrueDamageTaken": 0
+                            "trueDamageDone": 0,
+                            "trueDamageDoneToChampions": 0,
+                            "trueDamageTaken": 0
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 0,
@@ -4317,9 +4317,9 @@ timeline_example = {
                             "totalDamageDone": 117,
                             "totalDamageDoneToChampions": 117,
                             "totalDamageTaken": 697,
-                            "TrueDamageDone": 0,
-                            "TrueDamageDoneToChampions": 0,
-                            "TrueDamageTaken": 20
+                            "trueDamageDone": 0,
+                            "trueDamageDoneToChampions": 0,
+                            "trueDamageTaken": 20
                         },
                         "goldPerSecond": 20,
                         "jungleMinionsKilled": 0,
@@ -4468,9 +4468,9 @@ timeline_example = {
                             "totalDamageDone": 169,
                             "totalDamageDoneToChampions": 0,
                             "totalDamageTaken": 113,
-                            "TrueDamageDone": 0,
-                            "TrueDamageDoneToChampions": 0,
-                            "TrueDamageTaken": 56
+                            "trueDamageDone": 0,
+                            "trueDamageDoneToChampions": 0,
+                            "trueDamageTaken": 56
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 0,
@@ -4524,9 +4524,9 @@ timeline_example = {
                             "totalDamageDone": 3441,
                             "totalDamageDoneToChampions": 134,
                             "totalDamageTaken": 803,
-                            "TrueDamageDone": 1360,
-                            "TrueDamageDoneToChampions": 10,
-                            "TrueDamageTaken": 0
+                            "trueDamageDone": 1360,
+                            "trueDamageDoneToChampions": 10,
+                            "trueDamageTaken": 0
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 4,
@@ -4580,9 +4580,9 @@ timeline_example = {
                             "totalDamageDone": 672,
                             "totalDamageDoneToChampions": 216,
                             "totalDamageTaken": 127,
-                            "TrueDamageDone": 10,
-                            "TrueDamageDoneToChampions": 10,
-                            "TrueDamageTaken": 0
+                            "trueDamageDone": 10,
+                            "trueDamageDoneToChampions": 10,
+                            "trueDamageTaken": 0
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 0,
@@ -4636,9 +4636,9 @@ timeline_example = {
                             "totalDamageDone": 1030,
                             "totalDamageDoneToChampions": 217,
                             "totalDamageTaken": 114,
-                            "TrueDamageDone": 0,
-                            "TrueDamageDoneToChampions": 0,
-                            "TrueDamageTaken": 56
+                            "trueDamageDone": 0,
+                            "trueDamageDoneToChampions": 0,
+                            "trueDamageTaken": 56
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 0,
@@ -4692,9 +4692,9 @@ timeline_example = {
                             "totalDamageDone": 633,
                             "totalDamageDoneToChampions": 129,
                             "totalDamageTaken": 0,
-                            "TrueDamageDone": 0,
-                            "TrueDamageDoneToChampions": 0,
-                            "TrueDamageTaken": 0
+                            "trueDamageDone": 0,
+                            "trueDamageDoneToChampions": 0,
+                            "trueDamageTaken": 0
                         },
                         "goldPerSecond": 20,
                         "jungleMinionsKilled": 0,
@@ -4748,9 +4748,9 @@ timeline_example = {
                             "totalDamageDone": 299,
                             "totalDamageDoneToChampions": 0,
                             "totalDamageTaken": 0,
-                            "TrueDamageDone": 0,
-                            "TrueDamageDoneToChampions": 0,
-                            "TrueDamageTaken": 0
+                            "trueDamageDone": 0,
+                            "trueDamageDoneToChampions": 0,
+                            "trueDamageTaken": 0
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 0,
@@ -4804,9 +4804,9 @@ timeline_example = {
                             "totalDamageDone": 3411,
                             "totalDamageDoneToChampions": 0,
                             "totalDamageTaken": 888,
-                            "TrueDamageDone": 1065,
-                            "TrueDamageDoneToChampions": 0,
-                            "TrueDamageTaken": 0
+                            "trueDamageDone": 1065,
+                            "trueDamageDoneToChampions": 0,
+                            "trueDamageTaken": 0
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 4,
@@ -4860,9 +4860,9 @@ timeline_example = {
                             "totalDamageDone": 945,
                             "totalDamageDoneToChampions": 0,
                             "totalDamageTaken": 0,
-                            "TrueDamageDone": 0,
-                            "TrueDamageDoneToChampions": 0,
-                            "TrueDamageTaken": 0
+                            "trueDamageDone": 0,
+                            "trueDamageDoneToChampions": 0,
+                            "trueDamageTaken": 0
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 0,
@@ -4916,9 +4916,9 @@ timeline_example = {
                             "totalDamageDone": 1087,
                             "totalDamageDoneToChampions": 228,
                             "totalDamageTaken": 0,
-                            "TrueDamageDone": 281,
-                            "TrueDamageDoneToChampions": 112,
-                            "TrueDamageTaken": 0
+                            "trueDamageDone": 281,
+                            "trueDamageDoneToChampions": 112,
+                            "trueDamageTaken": 0
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 0,
@@ -4972,9 +4972,9 @@ timeline_example = {
                             "totalDamageDone": 411,
                             "totalDamageDoneToChampions": 117,
                             "totalDamageTaken": 697,
-                            "TrueDamageDone": 0,
-                            "TrueDamageDoneToChampions": 0,
-                            "TrueDamageTaken": 20
+                            "trueDamageDone": 0,
+                            "trueDamageDoneToChampions": 0,
+                            "trueDamageTaken": 20
                         },
                         "goldPerSecond": 20,
                         "jungleMinionsKilled": 0,
@@ -5184,7 +5184,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "ahriw",
                                 "spellSlot": 1,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -5195,7 +5195,7 @@ timeline_example = {
                                 "physicalDamage": 83,
                                 "spellName": "ahribasicattack",
                                 "spellSlot": 64,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -5206,7 +5206,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "",
                                 "spellSlot": -1,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -5217,7 +5217,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "ahriq",
                                 "spellSlot": 0,
-                                "TrueDamage": 56,
+                                "trueDamage": 56,
                                 "type": "OTHER"
                             }
                         ],
@@ -5230,7 +5230,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "luluq",
                                 "spellSlot": 0,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -5241,7 +5241,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "",
                                 "spellSlot": -1,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -5252,7 +5252,7 @@ timeline_example = {
                                 "physicalDamage": 175,
                                 "spellName": "turretbasicattack",
                                 "spellSlot": 64,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "TOWER"
                             },
                             {
@@ -5263,7 +5263,7 @@ timeline_example = {
                                 "physicalDamage": 254,
                                 "spellName": "vaynetumble",
                                 "spellSlot": 0,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -5274,7 +5274,7 @@ timeline_example = {
                                 "physicalDamage": 70,
                                 "spellName": "vaynebasicattack2",
                                 "spellSlot": 65,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -5285,7 +5285,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "vaynesilveredbolts",
                                 "spellSlot": 1,
-                                "TrueDamage": 50,
+                                "trueDamage": 50,
                                 "type": "OTHER"
                             },
                             {
@@ -5296,7 +5296,7 @@ timeline_example = {
                                 "physicalDamage": 151,
                                 "spellName": "vaynebasicattack",
                                 "spellSlot": 64,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             }
                         ],
@@ -5400,7 +5400,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "lulupassive",
                                 "spellSlot": 63,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -5411,7 +5411,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "lulue",
                                 "spellSlot": 2,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -5422,7 +5422,7 @@ timeline_example = {
                                 "physicalDamage": 107,
                                 "spellName": "lulubasicattack",
                                 "spellSlot": 64,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -5433,7 +5433,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "",
                                 "spellSlot": -1,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -5444,7 +5444,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "luluq",
                                 "spellSlot": 0,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -5455,7 +5455,7 @@ timeline_example = {
                                 "physicalDamage": 71,
                                 "spellName": "lulubasicattack2",
                                 "spellSlot": 65,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             }
                         ],
@@ -5468,7 +5468,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "varusw",
                                 "spellSlot": 1,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -5479,7 +5479,7 @@ timeline_example = {
                                 "physicalDamage": 213,
                                 "spellName": "varuswbasicattack",
                                 "spellSlot": 56,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -5490,7 +5490,7 @@ timeline_example = {
                                 "physicalDamage": 55,
                                 "spellName": "varuse",
                                 "spellSlot": 2,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -5501,7 +5501,7 @@ timeline_example = {
                                 "physicalDamage": 35,
                                 "spellName": "sru_chaosminionrangedbasicattack",
                                 "spellSlot": 64,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "MINION"
                             },
                             {
@@ -5512,7 +5512,7 @@ timeline_example = {
                                 "physicalDamage": 15,
                                 "spellName": "sru_chaosminionsiegebasicattack",
                                 "spellSlot": 64,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "MINION"
                             },
                             {
@@ -5523,7 +5523,7 @@ timeline_example = {
                                 "physicalDamage": 17,
                                 "spellName": "sru_chaosminionrangedbasicattack2",
                                 "spellSlot": 65,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "MINION"
                             },
                             {
@@ -5534,7 +5534,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "ahriw",
                                 "spellSlot": 1,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -5545,7 +5545,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "",
                                 "spellSlot": -1,
-                                "TrueDamage": 12,
+                                "trueDamage": 12,
                                 "type": "OTHER"
                             },
                             {
@@ -5556,7 +5556,7 @@ timeline_example = {
                                 "physicalDamage": 40,
                                 "spellName": "ahribasicattack",
                                 "spellSlot": 64,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             }
                         ],
@@ -5622,9 +5622,9 @@ timeline_example = {
                             "totalDamageDone": 2245,
                             "totalDamageDoneToChampions": 398,
                             "totalDamageTaken": 917,
-                            "TrueDamageDone": 0,
-                            "TrueDamageDoneToChampions": 0,
-                            "TrueDamageTaken": 92
+                            "trueDamageDone": 0,
+                            "trueDamageDoneToChampions": 0,
+                            "trueDamageTaken": 92
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 0,
@@ -5678,9 +5678,9 @@ timeline_example = {
                             "totalDamageDone": 13081,
                             "totalDamageDoneToChampions": 134,
                             "totalDamageTaken": 1753,
-                            "TrueDamageDone": 4342,
-                            "TrueDamageDoneToChampions": 10,
-                            "TrueDamageTaken": 0
+                            "trueDamageDone": 4342,
+                            "trueDamageDoneToChampions": 10,
+                            "trueDamageTaken": 0
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 16,
@@ -5734,9 +5734,9 @@ timeline_example = {
                             "totalDamageDone": 3858,
                             "totalDamageDoneToChampions": 474,
                             "totalDamageTaken": 457,
-                            "TrueDamageDone": 24,
-                            "TrueDamageDoneToChampions": 24,
-                            "TrueDamageTaken": 0
+                            "trueDamageDone": 24,
+                            "trueDamageDoneToChampions": 24,
+                            "trueDamageTaken": 0
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 0,
@@ -5790,9 +5790,9 @@ timeline_example = {
                             "totalDamageDone": 3319,
                             "totalDamageDoneToChampions": 924,
                             "totalDamageTaken": 767,
-                            "TrueDamageDone": 100,
-                            "TrueDamageDoneToChampions": 50,
-                            "TrueDamageTaken": 92
+                            "trueDamageDone": 100,
+                            "trueDamageDoneToChampions": 50,
+                            "trueDamageTaken": 92
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 0,
@@ -5846,9 +5846,9 @@ timeline_example = {
                             "totalDamageDone": 1669,
                             "totalDamageDoneToChampions": 848,
                             "totalDamageTaken": 919,
-                            "TrueDamageDone": 0,
-                            "TrueDamageDoneToChampions": 0,
-                            "TrueDamageTaken": 68
+                            "trueDamageDone": 0,
+                            "trueDamageDoneToChampions": 0,
+                            "trueDamageTaken": 68
                         },
                         "goldPerSecond": 20,
                         "jungleMinionsKilled": 0,
@@ -5902,9 +5902,9 @@ timeline_example = {
                             "totalDamageDone": 3160,
                             "totalDamageDoneToChampions": 654,
                             "totalDamageTaken": 550,
-                            "TrueDamageDone": 36,
-                            "TrueDamageDoneToChampions": 36,
-                            "TrueDamageTaken": 0
+                            "trueDamageDone": 36,
+                            "trueDamageDoneToChampions": 36,
+                            "trueDamageTaken": 0
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 0,
@@ -5958,9 +5958,9 @@ timeline_example = {
                             "totalDamageDone": 11721,
                             "totalDamageDoneToChampions": 0,
                             "totalDamageTaken": 1914,
-                            "TrueDamageDone": 2901,
-                            "TrueDamageDoneToChampions": 0,
-                            "TrueDamageTaken": 0
+                            "trueDamageDone": 2901,
+                            "trueDamageDoneToChampions": 0,
+                            "trueDamageTaken": 0
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 16,
@@ -6014,9 +6014,9 @@ timeline_example = {
                             "totalDamageDone": 3974,
                             "totalDamageDoneToChampions": 312,
                             "totalDamageTaken": 287,
-                            "TrueDamageDone": 0,
-                            "TrueDamageDoneToChampions": 0,
-                            "TrueDamageTaken": 14
+                            "trueDamageDone": 0,
+                            "trueDamageDoneToChampions": 0,
+                            "trueDamageTaken": 14
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 0,
@@ -6070,9 +6070,9 @@ timeline_example = {
                             "totalDamageDone": 2842,
                             "totalDamageDoneToChampions": 657,
                             "totalDamageTaken": 878,
-                            "TrueDamageDone": 630,
-                            "TrueDamageDoneToChampions": 180,
-                            "TrueDamageTaken": 50
+                            "trueDamageDone": 630,
+                            "trueDamageDoneToChampions": 180,
+                            "trueDamageTaken": 50
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 0,
@@ -6126,9 +6126,9 @@ timeline_example = {
                             "totalDamageDone": 2151,
                             "totalDamageDoneToChampions": 1111,
                             "totalDamageTaken": 1478,
-                            "TrueDamageDone": 36,
-                            "TrueDamageDoneToChampions": 36,
-                            "TrueDamageTaken": 20
+                            "trueDamageDone": 36,
+                            "trueDamageDoneToChampions": 36,
+                            "trueDamageTaken": 20
                         },
                         "goldPerSecond": 20,
                         "jungleMinionsKilled": 0,
@@ -6189,7 +6189,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "vaynesilveredbolts",
                                 "spellSlot": 1,
-                                "TrueDamage": 50,
+                                "trueDamage": 50,
                                 "type": "OTHER"
                             },
                             {
@@ -6200,7 +6200,7 @@ timeline_example = {
                                 "physicalDamage": 140,
                                 "spellName": "vaynebasicattack",
                                 "spellSlot": 64,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -6211,7 +6211,7 @@ timeline_example = {
                                 "physicalDamage": 122,
                                 "spellName": "vaynetumble",
                                 "spellSlot": 0,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             }
                         ],
@@ -6224,7 +6224,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "varusw",
                                 "spellSlot": 1,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -6235,7 +6235,7 @@ timeline_example = {
                                 "physicalDamage": 77,
                                 "spellName": "varuswbasicattack",
                                 "spellSlot": 56,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -6246,7 +6246,7 @@ timeline_example = {
                                 "physicalDamage": 18,
                                 "spellName": "sru_chaosminionrangedbasicattack",
                                 "spellSlot": 64,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "MINION"
                             },
                             {
@@ -6257,7 +6257,7 @@ timeline_example = {
                                 "physicalDamage": 27,
                                 "spellName": "sru_chaosminionrangedbasicattack2",
                                 "spellSlot": 65,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "MINION"
                             },
                             {
@@ -6268,7 +6268,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "",
                                 "spellSlot": -1,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -6279,7 +6279,7 @@ timeline_example = {
                                 "physicalDamage": 125,
                                 "spellName": "ahribasicattack",
                                 "spellSlot": 64,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -6290,7 +6290,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "ahriw",
                                 "spellSlot": 1,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -6301,7 +6301,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "ahriq",
                                 "spellSlot": 0,
-                                "TrueDamage": 57,
+                                "trueDamage": 57,
                                 "type": "OTHER"
                             }
                         ],
@@ -6482,7 +6482,7 @@ timeline_example = {
                                 "physicalDamage": 112,
                                 "spellName": "garenq",
                                 "spellSlot": 0,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -6493,7 +6493,7 @@ timeline_example = {
                                 "physicalDamage": 112,
                                 "spellName": "garene",
                                 "spellSlot": 2,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -6504,7 +6504,7 @@ timeline_example = {
                                 "physicalDamage": 61,
                                 "spellName": "garenbasicattack",
                                 "spellSlot": 64,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             }
                         ],
@@ -6517,7 +6517,7 @@ timeline_example = {
                                 "physicalDamage": 80,
                                 "spellName": "yonew",
                                 "spellSlot": 1,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -6528,7 +6528,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "",
                                 "spellSlot": 63,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -6539,7 +6539,7 @@ timeline_example = {
                                 "physicalDamage": 117,
                                 "spellName": "yoneq",
                                 "spellSlot": 0,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -6550,7 +6550,7 @@ timeline_example = {
                                 "physicalDamage": 178,
                                 "spellName": "yonepassive",
                                 "spellSlot": 63,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -6561,7 +6561,7 @@ timeline_example = {
                                 "physicalDamage": 76,
                                 "spellName": "yoneq3",
                                 "spellSlot": 0,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -6572,7 +6572,7 @@ timeline_example = {
                                 "physicalDamage": 3,
                                 "spellName": "sru_chaosminionmeleebasicattack",
                                 "spellSlot": 64,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "MINION"
                             },
                             {
@@ -6583,7 +6583,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "zacq",
                                 "spellSlot": 0,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -6594,7 +6594,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "zacw",
                                 "spellSlot": 1,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -6605,7 +6605,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "burning",
                                 "spellSlot": -1,
-                                "TrueDamage": 3,
+                                "trueDamage": 3,
                                 "type": "OTHER"
                             },
                             {
@@ -6616,7 +6616,7 @@ timeline_example = {
                                 "physicalDamage": 42,
                                 "spellName": "zacbasicattack",
                                 "spellSlot": 64,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             }
                         ],
@@ -6651,7 +6651,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "brandpassive",
                                 "spellSlot": 63,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -6662,7 +6662,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "brande",
                                 "spellSlot": 2,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -6673,7 +6673,7 @@ timeline_example = {
                                 "physicalDamage": 49,
                                 "spellName": "brandbasicattack",
                                 "spellSlot": 64,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -6684,7 +6684,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "",
                                 "spellSlot": -1,
-                                "TrueDamage": 16,
+                                "trueDamage": 16,
                                 "type": "OTHER"
                             },
                             {
@@ -6695,7 +6695,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "brandw",
                                 "spellSlot": 1,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -6706,7 +6706,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "",
                                 "spellSlot": -1,
-                                "TrueDamage": 16,
+                                "trueDamage": 16,
                                 "type": "OTHER"
                             },
                             {
@@ -6717,7 +6717,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "luxlightstrikekugel",
                                 "spellSlot": 2,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -6728,7 +6728,7 @@ timeline_example = {
                                 "physicalDamage": 30,
                                 "spellName": "sru_orderminionrangedbasicattack2",
                                 "spellSlot": 65,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "MINION"
                             },
                             {
@@ -6739,7 +6739,7 @@ timeline_example = {
                                 "physicalDamage": 20,
                                 "spellName": "sru_orderminionrangedbasicattack",
                                 "spellSlot": 64,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "MINION"
                             }
                         ],
@@ -6804,9 +6804,9 @@ timeline_example = {
                             "totalDamageDone": 4329,
                             "totalDamageDoneToChampions": 684,
                             "totalDamageTaken": 1814,
-                            "TrueDamageDone": 0,
-                            "TrueDamageDoneToChampions": 0,
-                            "TrueDamageTaken": 95
+                            "trueDamageDone": 0,
+                            "trueDamageDoneToChampions": 0,
+                            "trueDamageTaken": 95
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 0,
@@ -6860,9 +6860,9 @@ timeline_example = {
                             "totalDamageDone": 17155,
                             "totalDamageDoneToChampions": 432,
                             "totalDamageTaken": 2313,
-                            "TrueDamageDone": 5024,
-                            "TrueDamageDoneToChampions": 26,
-                            "TrueDamageTaken": 0
+                            "trueDamageDone": 5024,
+                            "trueDamageDoneToChampions": 26,
+                            "trueDamageTaken": 0
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 28,
@@ -6916,9 +6916,9 @@ timeline_example = {
                             "totalDamageDone": 6733,
                             "totalDamageDoneToChampions": 1124,
                             "totalDamageTaken": 1128,
-                            "TrueDamageDone": 68,
-                            "TrueDamageDoneToChampions": 68,
-                            "TrueDamageTaken": 0
+                            "trueDamageDone": 68,
+                            "trueDamageDoneToChampions": 68,
+                            "trueDamageTaken": 0
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 0,
@@ -6972,9 +6972,9 @@ timeline_example = {
                             "totalDamageDone": 3719,
                             "totalDamageDoneToChampions": 1236,
                             "totalDamageTaken": 1117,
-                            "TrueDamageDone": 150,
-                            "TrueDamageDoneToChampions": 100,
-                            "TrueDamageTaken": 149
+                            "trueDamageDone": 150,
+                            "trueDamageDoneToChampions": 100,
+                            "trueDamageTaken": 149
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 0,
@@ -7028,9 +7028,9 @@ timeline_example = {
                             "totalDamageDone": 1669,
                             "totalDamageDoneToChampions": 848,
                             "totalDamageTaken": 1260,
-                            "TrueDamageDone": 0,
-                            "TrueDamageDoneToChampions": 0,
-                            "TrueDamageTaken": 68
+                            "trueDamageDone": 0,
+                            "trueDamageDoneToChampions": 0,
+                            "trueDamageTaken": 68
                         },
                         "goldPerSecond": 20,
                         "jungleMinionsKilled": 0,
@@ -7084,9 +7084,9 @@ timeline_example = {
                             "totalDamageDone": 5285,
                             "totalDamageDoneToChampions": 1244,
                             "totalDamageTaken": 888,
-                            "TrueDamageDone": 36,
-                            "TrueDamageDoneToChampions": 36,
-                            "TrueDamageTaken": 0
+                            "trueDamageDone": 36,
+                            "trueDamageDoneToChampions": 36,
+                            "trueDamageTaken": 0
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 0,
@@ -7140,9 +7140,9 @@ timeline_example = {
                             "totalDamageDone": 16968,
                             "totalDamageDoneToChampions": 213,
                             "totalDamageTaken": 2760,
-                            "TrueDamageDone": 4278,
-                            "TrueDamageDoneToChampions": 3,
-                            "TrueDamageTaken": 0
+                            "trueDamageDone": 4278,
+                            "trueDamageDoneToChampions": 3,
+                            "trueDamageTaken": 0
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 24,
@@ -7196,9 +7196,9 @@ timeline_example = {
                             "totalDamageDone": 6696,
                             "totalDamageDoneToChampions": 707,
                             "totalDamageTaken": 1296,
-                            "TrueDamageDone": 4,
-                            "TrueDamageDoneToChampions": 0,
-                            "TrueDamageTaken": 74
+                            "trueDamageDone": 4,
+                            "trueDamageDoneToChampions": 0,
+                            "trueDamageTaken": 74
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 0,
@@ -7252,9 +7252,9 @@ timeline_example = {
                             "totalDamageDone": 6622,
                             "totalDamageDoneToChampions": 1007,
                             "totalDamageTaken": 1428,
-                            "TrueDamageDone": 1699,
-                            "TrueDamageDoneToChampions": 237,
-                            "TrueDamageTaken": 100
+                            "trueDamageDone": 1699,
+                            "trueDamageDoneToChampions": 237,
+                            "trueDamageTaken": 100
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 0,
@@ -7308,9 +7308,9 @@ timeline_example = {
                             "totalDamageDone": 3541,
                             "totalDamageDoneToChampions": 1111,
                             "totalDamageTaken": 1482,
-                            "TrueDamageDone": 36,
-                            "TrueDamageDoneToChampions": 36,
-                            "TrueDamageTaken": 20
+                            "trueDamageDone": 36,
+                            "trueDamageDoneToChampions": 36,
+                            "trueDamageTaken": 20
                         },
                         "goldPerSecond": 20,
                         "jungleMinionsKilled": 0,
@@ -7391,7 +7391,7 @@ timeline_example = {
                                 "physicalDamage": 225,
                                 "spellName": "garenq",
                                 "spellSlot": 0,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -7402,7 +7402,7 @@ timeline_example = {
                                 "physicalDamage": 332,
                                 "spellName": "garene",
                                 "spellSlot": 2,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -7413,7 +7413,7 @@ timeline_example = {
                                 "physicalDamage": 128,
                                 "spellName": "garenbasicattack",
                                 "spellSlot": 64,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -7424,7 +7424,7 @@ timeline_example = {
                                 "physicalDamage": 131,
                                 "spellName": "garene",
                                 "spellSlot": 2,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             }
                         ],
@@ -7437,7 +7437,7 @@ timeline_example = {
                                 "physicalDamage": 155,
                                 "spellName": "yoneq3",
                                 "spellSlot": 0,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -7448,7 +7448,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "",
                                 "spellSlot": 63,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -7459,7 +7459,7 @@ timeline_example = {
                                 "physicalDamage": 131,
                                 "spellName": "yoneq",
                                 "spellSlot": 0,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -7470,7 +7470,7 @@ timeline_example = {
                                 "physicalDamage": 173,
                                 "spellName": "yonepassive",
                                 "spellSlot": 63,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -7481,7 +7481,7 @@ timeline_example = {
                                 "physicalDamage": 43,
                                 "spellName": "yonew",
                                 "spellSlot": 1,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -7492,7 +7492,7 @@ timeline_example = {
                                 "physicalDamage": 47,
                                 "spellName": "sru_chaosminionrangedbasicattack",
                                 "spellSlot": 64,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "MINION"
                             },
                             {
@@ -7503,7 +7503,7 @@ timeline_example = {
                                 "physicalDamage": 60,
                                 "spellName": "sru_chaosminionsiegebasicattack",
                                 "spellSlot": 64,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "MINION"
                             },
                             {
@@ -7514,7 +7514,7 @@ timeline_example = {
                                 "physicalDamage": 16,
                                 "spellName": "sru_chaosminionmeleebasicattack",
                                 "spellSlot": 64,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "MINION"
                             },
                             {
@@ -7525,7 +7525,7 @@ timeline_example = {
                                 "physicalDamage": 44,
                                 "spellName": "sru_chaosminionrangedbasicattack2",
                                 "spellSlot": 65,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "MINION"
                             },
                             {
@@ -7536,7 +7536,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "zace",
                                 "spellSlot": 2,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -7547,7 +7547,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "burning",
                                 "spellSlot": -1,
-                                "TrueDamage": 10,
+                                "trueDamage": 10,
                                 "type": "OTHER"
                             },
                             {
@@ -7558,7 +7558,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "zacw",
                                 "spellSlot": 1,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -7569,7 +7569,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "zacq",
                                 "spellSlot": 0,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -7580,7 +7580,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "",
                                 "spellSlot": -1,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -7591,7 +7591,7 @@ timeline_example = {
                                 "physicalDamage": 85,
                                 "spellName": "zacbasicattack",
                                 "spellSlot": 64,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -7602,7 +7602,7 @@ timeline_example = {
                                 "physicalDamage": 42,
                                 "spellName": "zacbasicattack2",
                                 "spellSlot": 65,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             }
                         ],
@@ -7731,7 +7731,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "varusw",
                                 "spellSlot": 1,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -7742,7 +7742,7 @@ timeline_example = {
                                 "physicalDamage": 169,
                                 "spellName": "varuswbasicattack",
                                 "spellSlot": 56,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -7753,7 +7753,7 @@ timeline_example = {
                                 "physicalDamage": 49,
                                 "spellName": "varuse",
                                 "spellSlot": 2,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -7764,7 +7764,7 @@ timeline_example = {
                                 "physicalDamage": 54,
                                 "spellName": "varusq",
                                 "spellSlot": 0,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -7775,7 +7775,7 @@ timeline_example = {
                                 "physicalDamage": 47,
                                 "spellName": "varusq",
                                 "spellSlot": 0,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -7786,7 +7786,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "varusw",
                                 "spellSlot": 1,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             }
                         ],
@@ -7799,7 +7799,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "brandpassive",
                                 "spellSlot": 63,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -7810,7 +7810,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "brande",
                                 "spellSlot": 2,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -7821,7 +7821,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "brandq",
                                 "spellSlot": 0,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -7832,7 +7832,7 @@ timeline_example = {
                                 "physicalDamage": 45,
                                 "spellName": "brandbasicattack",
                                 "spellSlot": 64,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -7843,7 +7843,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "",
                                 "spellSlot": -1,
-                                "TrueDamage": 16,
+                                "trueDamage": 16,
                                 "type": "OTHER"
                             },
                             {
@@ -7854,7 +7854,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "brandw",
                                 "spellSlot": 1,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -7865,7 +7865,7 @@ timeline_example = {
                                 "physicalDamage": 123,
                                 "spellName": "vaynetumble",
                                 "spellSlot": 0,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -7876,7 +7876,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "vaynesilveredbolts",
                                 "spellSlot": 1,
-                                "TrueDamage": 50,
+                                "trueDamage": 50,
                                 "type": "OTHER"
                             },
                             {
@@ -7887,7 +7887,7 @@ timeline_example = {
                                 "physicalDamage": 147,
                                 "spellName": "vaynebasicattack",
                                 "spellSlot": 64,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -7898,7 +7898,7 @@ timeline_example = {
                                 "physicalDamage": 52,
                                 "spellName": "vaynecondemn",
                                 "spellSlot": 2,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             }
                         ],
@@ -8006,9 +8006,9 @@ timeline_example = {
                             "totalDamageDone": 6141,
                             "totalDamageDoneToChampions": 1215,
                             "totalDamageTaken": 2901,
-                            "TrueDamageDone": 0,
-                            "TrueDamageDoneToChampions": 0,
-                            "TrueDamageTaken": 105
+                            "trueDamageDone": 0,
+                            "trueDamageDoneToChampions": 0,
+                            "trueDamageTaken": 105
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 0,
@@ -8062,9 +8062,9 @@ timeline_example = {
                             "totalDamageDone": 21506,
                             "totalDamageDoneToChampions": 878,
                             "totalDamageTaken": 3198,
-                            "TrueDamageDone": 6027,
-                            "TrueDamageDoneToChampions": 42,
-                            "TrueDamageTaken": 101
+                            "trueDamageDone": 6027,
+                            "trueDamageDoneToChampions": 42,
+                            "trueDamageTaken": 101
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 36,
@@ -8118,9 +8118,9 @@ timeline_example = {
                             "totalDamageDone": 9330,
                             "totalDamageDoneToChampions": 1124,
                             "totalDamageTaken": 1143,
-                            "TrueDamageDone": 68,
-                            "TrueDamageDoneToChampions": 68,
-                            "TrueDamageTaken": 0
+                            "trueDamageDone": 68,
+                            "trueDamageDoneToChampions": 68,
+                            "trueDamageTaken": 0
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 0,
@@ -8174,9 +8174,9 @@ timeline_example = {
                             "totalDamageDone": 6081,
                             "totalDamageDoneToChampions": 1609,
                             "totalDamageTaken": 1236,
-                            "TrueDamageDone": 258,
-                            "TrueDamageDoneToChampions": 150,
-                            "TrueDamageTaken": 160
+                            "trueDamageDone": 258,
+                            "trueDamageDoneToChampions": 150,
+                            "trueDamageTaken": 160
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 0,
@@ -8230,9 +8230,9 @@ timeline_example = {
                             "totalDamageDone": 1794,
                             "totalDamageDoneToChampions": 848,
                             "totalDamageTaken": 1350,
-                            "TrueDamageDone": 0,
-                            "TrueDamageDoneToChampions": 0,
-                            "TrueDamageTaken": 68
+                            "trueDamageDone": 0,
+                            "trueDamageDoneToChampions": 0,
+                            "trueDamageTaken": 68
                         },
                         "goldPerSecond": 20,
                         "jungleMinionsKilled": 0,
@@ -8286,9 +8286,9 @@ timeline_example = {
                             "totalDamageDone": 10280,
                             "totalDamageDoneToChampions": 1842,
                             "totalDamageTaken": 1469,
-                            "TrueDamageDone": 2531,
-                            "TrueDamageDoneToChampions": 36,
-                            "TrueDamageTaken": 0
+                            "trueDamageDone": 2531,
+                            "trueDamageDoneToChampions": 36,
+                            "trueDamageTaken": 0
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 0,
@@ -8342,9 +8342,9 @@ timeline_example = {
                             "totalDamageDone": 17777,
                             "totalDamageDoneToChampions": 533,
                             "totalDamageTaken": 2931,
-                            "TrueDamageDone": 4288,
-                            "TrueDamageDoneToChampions": 13,
-                            "TrueDamageTaken": 0
+                            "trueDamageDone": 4288,
+                            "trueDamageDoneToChampions": 13,
+                            "trueDamageTaken": 0
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 24,
@@ -8398,9 +8398,9 @@ timeline_example = {
                             "totalDamageDone": 10665,
                             "totalDamageDoneToChampions": 707,
                             "totalDamageTaken": 1529,
-                            "TrueDamageDone": 85,
-                            "TrueDamageDoneToChampions": 0,
-                            "TrueDamageTaken": 74
+                            "trueDamageDone": 85,
+                            "trueDamageDoneToChampions": 0,
+                            "trueDamageTaken": 74
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 0,
@@ -8454,9 +8454,9 @@ timeline_example = {
                             "totalDamageDone": 7634,
                             "totalDamageDoneToChampions": 1289,
                             "totalDamageTaken": 1428,
-                            "TrueDamageDone": 2013,
-                            "TrueDamageDoneToChampions": 350,
-                            "TrueDamageTaken": 100
+                            "trueDamageDone": 2013,
+                            "trueDamageDoneToChampions": 350,
+                            "trueDamageTaken": 100
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 0,
@@ -8510,9 +8510,9 @@ timeline_example = {
                             "totalDamageDone": 3942,
                             "totalDamageDoneToChampions": 1512,
                             "totalDamageTaken": 2302,
-                            "TrueDamageDone": 36,
-                            "TrueDamageDoneToChampions": 36,
-                            "TrueDamageTaken": 86
+                            "trueDamageDone": 36,
+                            "trueDamageDoneToChampions": 36,
+                            "trueDamageTaken": 86
                         },
                         "goldPerSecond": 20,
                         "jungleMinionsKilled": 0,
@@ -8618,7 +8618,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "ahriq",
                                 "spellSlot": 0,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -8629,7 +8629,7 @@ timeline_example = {
                                 "physicalDamage": 126,
                                 "spellName": "ahribasicattack",
                                 "spellSlot": 64,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -8640,7 +8640,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "",
                                 "spellSlot": -1,
-                                "TrueDamage": 16,
+                                "trueDamage": 16,
                                 "type": "OTHER"
                             },
                             {
@@ -8651,7 +8651,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "ahriw",
                                 "spellSlot": 1,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -8662,7 +8662,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "ahrie",
                                 "spellSlot": 2,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -8673,7 +8673,7 @@ timeline_example = {
                                 "physicalDamage": 41,
                                 "spellName": "ahribasicattack",
                                 "spellSlot": 64,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -8684,7 +8684,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "ahriq",
                                 "spellSlot": 0,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             }
                         ],
@@ -8697,7 +8697,7 @@ timeline_example = {
                                 "physicalDamage": 198,
                                 "spellName": "turretbasicattack",
                                 "spellSlot": 64,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "TOWER"
                             },
                             {
@@ -8708,7 +8708,7 @@ timeline_example = {
                                 "physicalDamage": 161,
                                 "spellName": "vaynebasicattack2",
                                 "spellSlot": 65,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -8719,7 +8719,7 @@ timeline_example = {
                                 "physicalDamage": 41,
                                 "spellName": "sru_orderminionrangedbasicattack",
                                 "spellSlot": 64,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "MINION"
                             },
                             {
@@ -8730,7 +8730,7 @@ timeline_example = {
                                 "physicalDamage": 18,
                                 "spellName": "sru_orderminionmeleebasicattack",
                                 "spellSlot": 64,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "MINION"
                             },
                             {
@@ -8741,7 +8741,7 @@ timeline_example = {
                                 "physicalDamage": 51,
                                 "spellName": "sru_orderminionrangedbasicattack2",
                                 "spellSlot": 65,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "MINION"
                             },
                             {
@@ -8752,7 +8752,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "luluq",
                                 "spellSlot": 0,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -8763,7 +8763,7 @@ timeline_example = {
                                 "physicalDamage": 120,
                                 "spellName": "lulubasicattack",
                                 "spellSlot": 64,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -8774,7 +8774,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "",
                                 "spellSlot": -1,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -8785,7 +8785,7 @@ timeline_example = {
                                 "physicalDamage": 80,
                                 "spellName": "lulubasicattack2",
                                 "spellSlot": 65,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -8796,7 +8796,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "lulue",
                                 "spellSlot": 2,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -8807,7 +8807,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "lulupassive",
                                 "spellSlot": 63,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             }
                         ],
@@ -8910,7 +8910,7 @@ timeline_example = {
                                 "physicalDamage": 52,
                                 "spellName": "varusq",
                                 "spellSlot": 0,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -8921,7 +8921,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "varusw",
                                 "spellSlot": 1,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -8932,7 +8932,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "varuse",
                                 "spellSlot": 2,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -8943,7 +8943,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "summonerdot",
                                 "spellSlot": 5,
-                                "TrueDamage": 29,
+                                "trueDamage": 29,
                                 "type": "OTHER"
                             },
                             {
@@ -8954,7 +8954,7 @@ timeline_example = {
                                 "physicalDamage": 59,
                                 "spellName": "varuswbasicattack",
                                 "spellSlot": 56,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             }
                         ],
@@ -8967,7 +8967,7 @@ timeline_example = {
                                 "physicalDamage": 794,
                                 "spellName": "turretbasicattack",
                                 "spellSlot": 64,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "TOWER"
                             },
                             {
@@ -8978,7 +8978,7 @@ timeline_example = {
                                 "physicalDamage": 19,
                                 "spellName": "sru_orderminionrangedbasicattack2",
                                 "spellSlot": 65,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "MINION"
                             },
                             {
@@ -8989,7 +8989,7 @@ timeline_example = {
                                 "physicalDamage": 15,
                                 "spellName": "sru_orderminionsiegebasicattack",
                                 "spellSlot": 64,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "MINION"
                             },
                             {
@@ -9000,7 +9000,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "",
                                 "spellSlot": -1,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -9011,7 +9011,7 @@ timeline_example = {
                                 "physicalDamage": 37,
                                 "spellName": "lulubasicattack",
                                 "spellSlot": 64,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -9022,7 +9022,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "lulupassive",
                                 "spellSlot": 63,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -9033,7 +9033,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "luluq",
                                 "spellSlot": 0,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             }
                         ],
@@ -9069,7 +9069,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "luluq",
                                 "spellSlot": 0,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             }
                         ],
@@ -9082,7 +9082,7 @@ timeline_example = {
                                 "physicalDamage": 41,
                                 "spellName": "ahribasicattack",
                                 "spellSlot": 64,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -9093,7 +9093,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "ahriq",
                                 "spellSlot": 0,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -9104,7 +9104,7 @@ timeline_example = {
                                 "physicalDamage": 94,
                                 "spellName": "zacbasicattack2",
                                 "spellSlot": 65,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -9115,7 +9115,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "zacw",
                                 "spellSlot": 1,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -9126,7 +9126,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "zacq",
                                 "spellSlot": 0,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -9137,7 +9137,7 @@ timeline_example = {
                                 "physicalDamage": 8,
                                 "spellName": "sru_chaosminionmeleebasicattack",
                                 "spellSlot": 64,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "MINION"
                             },
                             {
@@ -9148,7 +9148,7 @@ timeline_example = {
                                 "physicalDamage": 9,
                                 "spellName": "sru_chaosminionrangedbasicattack2",
                                 "spellSlot": 65,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "MINION"
                             },
                             {
@@ -9159,7 +9159,7 @@ timeline_example = {
                                 "physicalDamage": 52,
                                 "spellName": "varusq",
                                 "spellSlot": 0,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -9170,7 +9170,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "varusw",
                                 "spellSlot": 1,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -9181,7 +9181,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "varuse",
                                 "spellSlot": 2,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -9192,7 +9192,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "summonerdot",
                                 "spellSlot": 5,
-                                "TrueDamage": 51,
+                                "trueDamage": 51,
                                 "type": "OTHER"
                             },
                             {
@@ -9203,7 +9203,7 @@ timeline_example = {
                                 "physicalDamage": 59,
                                 "spellName": "varuswbasicattack",
                                 "spellSlot": 56,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             }
                         ],
@@ -9331,9 +9331,9 @@ timeline_example = {
                             "totalDamageDone": 9630,
                             "totalDamageDoneToChampions": 1715,
                             "totalDamageTaken": 3562,
-                            "TrueDamageDone": 2605,
-                            "TrueDamageDoneToChampions": 0,
-                            "TrueDamageTaken": 168
+                            "trueDamageDone": 2605,
+                            "trueDamageDoneToChampions": 0,
+                            "trueDamageTaken": 168
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 0,
@@ -9387,9 +9387,9 @@ timeline_example = {
                             "totalDamageDone": 27263,
                             "totalDamageDoneToChampions": 878,
                             "totalDamageTaken": 3559,
-                            "TrueDamageDone": 7158,
-                            "TrueDamageDoneToChampions": 42,
-                            "TrueDamageTaken": 101
+                            "trueDamageDone": 7158,
+                            "trueDamageDoneToChampions": 42,
+                            "trueDamageTaken": 101
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 40,
@@ -9443,9 +9443,9 @@ timeline_example = {
                             "totalDamageDone": 13084,
                             "totalDamageDoneToChampions": 1592,
                             "totalDamageTaken": 1684,
-                            "TrueDamageDone": 105,
-                            "TrueDamageDoneToChampions": 105,
-                            "TrueDamageTaken": 0
+                            "trueDamageDone": 105,
+                            "trueDamageDoneToChampions": 105,
+                            "trueDamageTaken": 0
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 0,
@@ -9499,9 +9499,9 @@ timeline_example = {
                             "totalDamageDone": 6690,
                             "totalDamageDoneToChampions": 1816,
                             "totalDamageTaken": 2086,
-                            "TrueDamageDone": 258,
-                            "TrueDamageDoneToChampions": 150,
-                            "TrueDamageTaken": 176
+                            "trueDamageDone": 258,
+                            "trueDamageDoneToChampions": 150,
+                            "trueDamageTaken": 176
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 0,
@@ -9555,9 +9555,9 @@ timeline_example = {
                             "totalDamageDone": 2692,
                             "totalDamageDoneToChampions": 1606,
                             "totalDamageTaken": 2074,
-                            "TrueDamageDone": 0,
-                            "TrueDamageDoneToChampions": 0,
-                            "TrueDamageTaken": 119
+                            "trueDamageDone": 0,
+                            "trueDamageDoneToChampions": 0,
+                            "trueDamageTaken": 119
                         },
                         "goldPerSecond": 20,
                         "jungleMinionsKilled": 0,
@@ -9611,9 +9611,9 @@ timeline_example = {
                             "totalDamageDone": 15364,
                             "totalDamageDoneToChampions": 2504,
                             "totalDamageTaken": 2165,
-                            "TrueDamageDone": 2593,
-                            "TrueDamageDoneToChampions": 98,
-                            "TrueDamageTaken": 0
+                            "trueDamageDone": 2593,
+                            "trueDamageDoneToChampions": 98,
+                            "trueDamageTaken": 0
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 0,
@@ -9667,9 +9667,9 @@ timeline_example = {
                             "totalDamageDone": 21636,
                             "totalDamageDoneToChampions": 1076,
                             "totalDamageTaken": 3385,
-                            "TrueDamageDone": 4888,
-                            "TrueDamageDoneToChampions": 13,
-                            "TrueDamageTaken": 0
+                            "trueDamageDone": 4888,
+                            "trueDamageDoneToChampions": 13,
+                            "trueDamageTaken": 0
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 24,
@@ -9723,9 +9723,9 @@ timeline_example = {
                             "totalDamageDone": 15565,
                             "totalDamageDoneToChampions": 1158,
                             "totalDamageTaken": 2005,
-                            "TrueDamageDone": 85,
-                            "TrueDamageDoneToChampions": 0,
-                            "TrueDamageTaken": 111
+                            "trueDamageDone": 85,
+                            "trueDamageDoneToChampions": 0,
+                            "trueDamageTaken": 111
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 0,
@@ -9779,9 +9779,9 @@ timeline_example = {
                             "totalDamageDone": 8665,
                             "totalDamageDoneToChampions": 2053,
                             "totalDamageTaken": 2388,
-                            "TrueDamageDone": 2130,
-                            "TrueDamageDoneToChampions": 366,
-                            "TrueDamageTaken": 100
+                            "trueDamageDone": 2130,
+                            "trueDamageDoneToChampions": 366,
+                            "trueDamageTaken": 100
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 0,
@@ -9835,9 +9835,9 @@ timeline_example = {
                             "totalDamageDone": 4496,
                             "totalDamageDoneToChampions": 1741,
                             "totalDamageTaken": 3281,
-                            "TrueDamageDone": 87,
-                            "TrueDamageDoneToChampions": 87,
-                            "TrueDamageTaken": 86
+                            "trueDamageDone": 87,
+                            "trueDamageDoneToChampions": 87,
+                            "trueDamageTaken": 86
                         },
                         "goldPerSecond": 20,
                         "jungleMinionsKilled": 0,
@@ -9916,7 +9916,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "",
                                 "spellSlot": -1,
-                                "TrueDamage": 20,
+                                "trueDamage": 20,
                                 "type": "OTHER"
                             },
                             {
@@ -9927,7 +9927,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "luxlightstrikekugel",
                                 "spellSlot": 2,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -9938,7 +9938,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "luxilluminationpassive",
                                 "spellSlot": 63,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -9949,7 +9949,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "luxr",
                                 "spellSlot": 3,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             }
                         ],
@@ -9962,7 +9962,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "zacw",
                                 "spellSlot": 1,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -9973,7 +9973,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "zacq",
                                 "spellSlot": 0,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -9984,7 +9984,7 @@ timeline_example = {
                                 "physicalDamage": 48,
                                 "spellName": "zacbasicattack2",
                                 "spellSlot": 65,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -9995,7 +9995,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "hweiee",
                                 "spellSlot": 2,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -10006,7 +10006,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "hweiwe",
                                 "spellSlot": 1,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -10017,7 +10017,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "hweiqw",
                                 "spellSlot": 0,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -10028,7 +10028,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "",
                                 "spellSlot": -1,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             }
                         ],
@@ -10175,9 +10175,9 @@ timeline_example = {
                             "totalDamageDone": 13421,
                             "totalDamageDoneToChampions": 1715,
                             "totalDamageTaken": 3562,
-                            "TrueDamageDone": 2605,
-                            "TrueDamageDoneToChampions": 0,
-                            "TrueDamageTaken": 168
+                            "trueDamageDone": 2605,
+                            "trueDamageDoneToChampions": 0,
+                            "trueDamageTaken": 168
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 0,
@@ -10231,9 +10231,9 @@ timeline_example = {
                             "totalDamageDone": 37181,
                             "totalDamageDoneToChampions": 878,
                             "totalDamageTaken": 4205,
-                            "TrueDamageDone": 9285,
-                            "TrueDamageDoneToChampions": 42,
-                            "TrueDamageTaken": 101
+                            "trueDamageDone": 9285,
+                            "trueDamageDoneToChampions": 42,
+                            "trueDamageTaken": 101
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 48,
@@ -10287,9 +10287,9 @@ timeline_example = {
                             "totalDamageDone": 17721,
                             "totalDamageDoneToChampions": 2155,
                             "totalDamageTaken": 2280,
-                            "TrueDamageDone": 125,
-                            "TrueDamageDoneToChampions": 125,
-                            "TrueDamageTaken": 0
+                            "trueDamageDone": 125,
+                            "trueDamageDoneToChampions": 125,
+                            "trueDamageTaken": 0
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 0,
@@ -10343,9 +10343,9 @@ timeline_example = {
                             "totalDamageDone": 8565,
                             "totalDamageDoneToChampions": 1939,
                             "totalDamageTaken": 2528,
-                            "TrueDamageDone": 323,
-                            "TrueDamageDoneToChampions": 150,
-                            "TrueDamageTaken": 176
+                            "trueDamageDone": 323,
+                            "trueDamageDoneToChampions": 150,
+                            "trueDamageTaken": 176
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 0,
@@ -10399,9 +10399,9 @@ timeline_example = {
                             "totalDamageDone": 3019,
                             "totalDamageDoneToChampions": 1687,
                             "totalDamageTaken": 2166,
-                            "TrueDamageDone": 0,
-                            "TrueDamageDoneToChampions": 0,
-                            "TrueDamageTaken": 119
+                            "trueDamageDone": 0,
+                            "trueDamageDoneToChampions": 0,
+                            "trueDamageTaken": 119
                         },
                         "goldPerSecond": 20,
                         "jungleMinionsKilled": 0,
@@ -10455,9 +10455,9 @@ timeline_example = {
                             "totalDamageDone": 17755,
                             "totalDamageDoneToChampions": 2504,
                             "totalDamageTaken": 2252,
-                            "TrueDamageDone": 2593,
-                            "TrueDamageDoneToChampions": 98,
-                            "TrueDamageTaken": 0
+                            "trueDamageDone": 2593,
+                            "trueDamageDoneToChampions": 98,
+                            "trueDamageTaken": 0
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 0,
@@ -10511,9 +10511,9 @@ timeline_example = {
                             "totalDamageDone": 29031,
                             "totalDamageDoneToChampions": 1337,
                             "totalDamageTaken": 3921,
-                            "TrueDamageDone": 6988,
-                            "TrueDamageDoneToChampions": 13,
-                            "TrueDamageTaken": 0
+                            "trueDamageDone": 6988,
+                            "trueDamageDoneToChampions": 13,
+                            "trueDamageTaken": 0
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 28,
@@ -10567,9 +10567,9 @@ timeline_example = {
                             "totalDamageDone": 17955,
                             "totalDamageDoneToChampions": 1682,
                             "totalDamageTaken": 2589,
-                            "TrueDamageDone": 99,
-                            "TrueDamageDoneToChampions": 0,
-                            "TrueDamageTaken": 131
+                            "trueDamageDone": 99,
+                            "trueDamageDoneToChampions": 0,
+                            "trueDamageTaken": 131
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 0,
@@ -10623,9 +10623,9 @@ timeline_example = {
                             "totalDamageDone": 12159,
                             "totalDamageDoneToChampions": 2097,
                             "totalDamageTaken": 2483,
-                            "TrueDamageDone": 3342,
-                            "TrueDamageDoneToChampions": 366,
-                            "TrueDamageTaken": 100
+                            "trueDamageDone": 3342,
+                            "trueDamageDoneToChampions": 366,
+                            "trueDamageTaken": 100
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 0,
@@ -10679,9 +10679,9 @@ timeline_example = {
                             "totalDamageDone": 5099,
                             "totalDamageDoneToChampions": 2113,
                             "totalDamageTaken": 3424,
-                            "TrueDamageDone": 87,
-                            "TrueDamageDoneToChampions": 87,
-                            "TrueDamageTaken": 86
+                            "trueDamageDone": 87,
+                            "trueDamageDoneToChampions": 87,
+                            "trueDamageTaken": 86
                         },
                         "goldPerSecond": 20,
                         "jungleMinionsKilled": 0,
@@ -10843,9 +10843,9 @@ timeline_example = {
                             "totalDamageDone": 14027,
                             "totalDamageDoneToChampions": 1988,
                             "totalDamageTaken": 4449,
-                            "TrueDamageDone": 2605,
-                            "TrueDamageDoneToChampions": 0,
-                            "TrueDamageTaken": 216
+                            "trueDamageDone": 2605,
+                            "trueDamageDoneToChampions": 0,
+                            "trueDamageTaken": 216
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 0,
@@ -10899,9 +10899,9 @@ timeline_example = {
                             "totalDamageDone": 45552,
                             "totalDamageDoneToChampions": 1533,
                             "totalDamageTaken": 4654,
-                            "TrueDamageDone": 10698,
-                            "TrueDamageDoneToChampions": 62,
-                            "TrueDamageTaken": 101
+                            "trueDamageDone": 10698,
+                            "trueDamageDoneToChampions": 62,
+                            "trueDamageTaken": 101
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 56,
@@ -10955,9 +10955,9 @@ timeline_example = {
                             "totalDamageDone": 23555,
                             "totalDamageDoneToChampions": 2745,
                             "totalDamageTaken": 2280,
-                            "TrueDamageDone": 147,
-                            "TrueDamageDoneToChampions": 147,
-                            "TrueDamageTaken": 0
+                            "trueDamageDone": 147,
+                            "trueDamageDoneToChampions": 147,
+                            "trueDamageTaken": 0
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 0,
@@ -11011,9 +11011,9 @@ timeline_example = {
                             "totalDamageDone": 8666,
                             "totalDamageDoneToChampions": 1939,
                             "totalDamageTaken": 2528,
-                            "TrueDamageDone": 323,
-                            "TrueDamageDoneToChampions": 150,
-                            "TrueDamageTaken": 176
+                            "trueDamageDone": 323,
+                            "trueDamageDoneToChampions": 150,
+                            "trueDamageTaken": 176
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 0,
@@ -11067,9 +11067,9 @@ timeline_example = {
                             "totalDamageDone": 3019,
                             "totalDamageDoneToChampions": 1687,
                             "totalDamageTaken": 2226,
-                            "TrueDamageDone": 0,
-                            "TrueDamageDoneToChampions": 0,
-                            "TrueDamageTaken": 119
+                            "trueDamageDone": 0,
+                            "trueDamageDoneToChampions": 0,
+                            "trueDamageTaken": 119
                         },
                         "goldPerSecond": 20,
                         "jungleMinionsKilled": 0,
@@ -11123,9 +11123,9 @@ timeline_example = {
                             "totalDamageDone": 20236,
                             "totalDamageDoneToChampions": 2743,
                             "totalDamageTaken": 3180,
-                            "TrueDamageDone": 2641,
-                            "TrueDamageDoneToChampions": 146,
-                            "TrueDamageTaken": 20
+                            "trueDamageDone": 2641,
+                            "trueDamageDoneToChampions": 146,
+                            "trueDamageTaken": 20
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 0,
@@ -11179,9 +11179,9 @@ timeline_example = {
                             "totalDamageDone": 30516,
                             "totalDamageDoneToChampions": 1337,
                             "totalDamageTaken": 4369,
-                            "TrueDamageDone": 7306,
-                            "TrueDamageDoneToChampions": 13,
-                            "TrueDamageTaken": 0
+                            "trueDamageDone": 7306,
+                            "trueDamageDoneToChampions": 13,
+                            "trueDamageTaken": 0
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 32,
@@ -11235,9 +11235,9 @@ timeline_example = {
                             "totalDamageDone": 20380,
                             "totalDamageDoneToChampions": 1682,
                             "totalDamageTaken": 3200,
-                            "TrueDamageDone": 150,
-                            "TrueDamageDoneToChampions": 0,
-                            "TrueDamageTaken": 153
+                            "trueDamageDone": 150,
+                            "trueDamageDoneToChampions": 0,
+                            "trueDamageTaken": 153
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 0,
@@ -11291,9 +11291,9 @@ timeline_example = {
                             "totalDamageDone": 13327,
                             "totalDamageDoneToChampions": 2097,
                             "totalDamageTaken": 2483,
-                            "TrueDamageDone": 3342,
-                            "TrueDamageDoneToChampions": 366,
-                            "TrueDamageTaken": 100
+                            "trueDamageDone": 3342,
+                            "trueDamageDoneToChampions": 366,
+                            "trueDamageTaken": 100
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 0,
@@ -11347,9 +11347,9 @@ timeline_example = {
                             "totalDamageDone": 5159,
                             "totalDamageDoneToChampions": 2173,
                             "totalDamageTaken": 3445,
-                            "TrueDamageDone": 87,
-                            "TrueDamageDoneToChampions": 87,
-                            "TrueDamageTaken": 86
+                            "trueDamageDone": 87,
+                            "trueDamageDoneToChampions": 87,
+                            "trueDamageTaken": 86
                         },
                         "goldPerSecond": 30,
                         "jungleMinionsKilled": 0,
@@ -11398,7 +11398,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "zace",
                                 "spellSlot": 2,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -11409,7 +11409,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "zacw",
                                 "spellSlot": 1,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -11420,7 +11420,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "zacq",
                                 "spellSlot": 0,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -11431,7 +11431,7 @@ timeline_example = {
                                 "physicalDamage": 93,
                                 "spellName": "zacbasicattack",
                                 "spellSlot": 64,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -11442,7 +11442,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "",
                                 "spellSlot": -1,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -11453,7 +11453,7 @@ timeline_example = {
                                 "physicalDamage": 93,
                                 "spellName": "zacbasicattack2",
                                 "spellSlot": 65,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -11464,7 +11464,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "hweiqw",
                                 "spellSlot": 0,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -11475,7 +11475,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "hweipassive",
                                 "spellSlot": 63,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -11486,7 +11486,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "hweiee",
                                 "spellSlot": 2,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -11497,7 +11497,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "",
                                 "spellSlot": -1,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -11508,7 +11508,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "hweir",
                                 "spellSlot": 3,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             }
                         ],
@@ -11674,7 +11674,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "brandpassive",
                                 "spellSlot": 63,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -11685,7 +11685,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "brande",
                                 "spellSlot": 2,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -11696,7 +11696,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "brandq",
                                 "spellSlot": 0,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -11707,7 +11707,7 @@ timeline_example = {
                                 "physicalDamage": 45,
                                 "spellName": "brandbasicattack",
                                 "spellSlot": 64,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -11718,7 +11718,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "",
                                 "spellSlot": -1,
-                                "TrueDamage": 44,
+                                "trueDamage": 44,
                                 "type": "OTHER"
                             },
                             {
@@ -11729,7 +11729,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "brandw",
                                 "spellSlot": 1,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -11740,7 +11740,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "burning",
                                 "spellSlot": -1,
-                                "TrueDamage": 46,
+                                "trueDamage": 46,
                                 "type": "OTHER"
                             },
                             {
@@ -11751,7 +11751,7 @@ timeline_example = {
                                 "physicalDamage": 90,
                                 "spellName": "brandbasicattack2",
                                 "spellSlot": 65,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -11762,7 +11762,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "brandq",
                                 "spellSlot": 0,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             }
                         ],
@@ -11775,7 +11775,7 @@ timeline_example = {
                                 "physicalDamage": 259,
                                 "spellName": "sru_redbasicattack",
                                 "spellSlot": 64,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "MONSTER"
                             },
                             {
@@ -11786,7 +11786,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "zace",
                                 "spellSlot": 2,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -11797,7 +11797,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "zacw",
                                 "spellSlot": 1,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -11808,7 +11808,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "",
                                 "spellSlot": -1,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -11819,7 +11819,7 @@ timeline_example = {
                                 "physicalDamage": 47,
                                 "spellName": "zacbasicattack",
                                 "spellSlot": 64,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -11830,7 +11830,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "zacq",
                                 "spellSlot": 0,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -11841,7 +11841,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "zacr",
                                 "spellSlot": 3,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -11852,7 +11852,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "summonerdot",
                                 "spellSlot": 5,
-                                "TrueDamage": 150,
+                                "trueDamage": 150,
                                 "type": "OTHER"
                             },
                             {
@@ -11863,7 +11863,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "varusw",
                                 "spellSlot": 1,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -11874,7 +11874,7 @@ timeline_example = {
                                 "physicalDamage": 70,
                                 "spellName": "varuswbasicattack",
                                 "spellSlot": 56,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -11885,7 +11885,7 @@ timeline_example = {
                                 "physicalDamage": 190,
                                 "spellName": "varusq",
                                 "spellSlot": 0,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             }
                         ],
@@ -11944,9 +11944,9 @@ timeline_example = {
                             "totalDamageDone": 17803,
                             "totalDamageDoneToChampions": 1988,
                             "totalDamageTaken": 4734,
-                            "TrueDamageDone": 2605,
-                            "TrueDamageDoneToChampions": 0,
-                            "TrueDamageTaken": 241
+                            "trueDamageDone": 2605,
+                            "trueDamageDoneToChampions": 0,
+                            "trueDamageTaken": 241
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 0,
@@ -12000,9 +12000,9 @@ timeline_example = {
                             "totalDamageDone": 50286,
                             "totalDamageDoneToChampions": 2515,
                             "totalDamageTaken": 6029,
-                            "TrueDamageDone": 11710,
-                            "TrueDamageDoneToChampions": 154,
-                            "TrueDamageTaken": 251
+                            "trueDamageDone": 11710,
+                            "trueDamageDoneToChampions": 154,
+                            "trueDamageTaken": 251
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 60,
@@ -12056,9 +12056,9 @@ timeline_example = {
                             "totalDamageDone": 26854,
                             "totalDamageDoneToChampions": 2745,
                             "totalDamageTaken": 3497,
-                            "TrueDamageDone": 147,
-                            "TrueDamageDoneToChampions": 147,
-                            "TrueDamageTaken": 0
+                            "trueDamageDone": 147,
+                            "trueDamageDoneToChampions": 147,
+                            "trueDamageTaken": 0
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 0,
@@ -12112,9 +12112,9 @@ timeline_example = {
                             "totalDamageDone": 10873,
                             "totalDamageDoneToChampions": 2902,
                             "totalDamageTaken": 2843,
-                            "TrueDamageDone": 444,
-                            "TrueDamageDoneToChampions": 271,
-                            "TrueDamageTaken": 302
+                            "trueDamageDone": 444,
+                            "trueDamageDoneToChampions": 271,
+                            "trueDamageTaken": 302
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 0,
@@ -12168,9 +12168,9 @@ timeline_example = {
                             "totalDamageDone": 4090,
                             "totalDamageDoneToChampions": 2173,
                             "totalDamageTaken": 3145,
-                            "TrueDamageDone": 0,
-                            "TrueDamageDoneToChampions": 0,
-                            "TrueDamageTaken": 245
+                            "trueDamageDone": 0,
+                            "trueDamageDoneToChampions": 0,
+                            "trueDamageTaken": 245
                         },
                         "goldPerSecond": 20,
                         "jungleMinionsKilled": 0,
@@ -12224,9 +12224,9 @@ timeline_example = {
                             "totalDamageDone": 23291,
                             "totalDamageDoneToChampions": 2955,
                             "totalDamageTaken": 3180,
-                            "TrueDamageDone": 2667,
-                            "TrueDamageDoneToChampions": 172,
-                            "TrueDamageTaken": 20
+                            "trueDamageDone": 2667,
+                            "trueDamageDoneToChampions": 172,
+                            "trueDamageTaken": 20
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 0,
@@ -12280,9 +12280,9 @@ timeline_example = {
                             "totalDamageDone": 36717,
                             "totalDamageDoneToChampions": 2559,
                             "totalDamageTaken": 6037,
-                            "TrueDamageDone": 8706,
-                            "TrueDamageDoneToChampions": 13,
-                            "TrueDamageTaken": 212
+                            "trueDamageDone": 8706,
+                            "trueDamageDoneToChampions": 13,
+                            "trueDamageTaken": 212
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 36,
@@ -12336,9 +12336,9 @@ timeline_example = {
                             "totalDamageDone": 26348,
                             "totalDamageDoneToChampions": 2312,
                             "totalDamageTaken": 3208,
-                            "TrueDamageDone": 172,
-                            "TrueDamageDoneToChampions": 0,
-                            "TrueDamageTaken": 153
+                            "trueDamageDone": 172,
+                            "trueDamageDoneToChampions": 0,
+                            "trueDamageTaken": 153
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 0,
@@ -12392,9 +12392,9 @@ timeline_example = {
                             "totalDamageDone": 17910,
                             "totalDamageDoneToChampions": 2806,
                             "totalDamageTaken": 3385,
-                            "TrueDamageDone": 4476,
-                            "TrueDamageDoneToChampions": 618,
-                            "TrueDamageTaken": 100
+                            "trueDamageDone": 4476,
+                            "trueDamageDoneToChampions": 618,
+                            "trueDamageTaken": 100
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 0,
@@ -12448,9 +12448,9 @@ timeline_example = {
                             "totalDamageDone": 6806,
                             "totalDamageDoneToChampions": 3171,
                             "totalDamageTaken": 3914,
-                            "TrueDamageDone": 237,
-                            "TrueDamageDoneToChampions": 237,
-                            "TrueDamageTaken": 86
+                            "trueDamageDone": 237,
+                            "trueDamageDoneToChampions": 237,
+                            "trueDamageTaken": 86
                         },
                         "goldPerSecond": 30,
                         "jungleMinionsKilled": 0,
@@ -12512,7 +12512,7 @@ timeline_example = {
                                 "physicalDamage": 200,
                                 "spellName": "vaynebasicattack2",
                                 "spellSlot": 65,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -12523,7 +12523,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "vaynesilveredbolts",
                                 "spellSlot": 1,
-                                "TrueDamage": 121,
+                                "trueDamage": 121,
                                 "type": "OTHER"
                             },
                             {
@@ -12534,7 +12534,7 @@ timeline_example = {
                                 "physicalDamage": 128,
                                 "spellName": "vaynetumble",
                                 "spellSlot": 0,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -12545,7 +12545,7 @@ timeline_example = {
                                 "physicalDamage": 79,
                                 "spellName": "vaynebasicattack2",
                                 "spellSlot": 65,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -12556,7 +12556,7 @@ timeline_example = {
                                 "physicalDamage": 79,
                                 "spellName": "vaynebasicattack",
                                 "spellSlot": 64,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -12567,7 +12567,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "vaynesilveredbolts",
                                 "spellSlot": 1,
-                                "TrueDamage": 80,
+                                "trueDamage": 80,
                                 "type": "OTHER"
                             },
                             {
@@ -12578,7 +12578,7 @@ timeline_example = {
                                 "physicalDamage": 69,
                                 "spellName": "vaynebasicattack",
                                 "spellSlot": 64,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -12589,7 +12589,7 @@ timeline_example = {
                                 "physicalDamage": 114,
                                 "spellName": "vaynecondemn",
                                 "spellSlot": 2,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -12600,7 +12600,7 @@ timeline_example = {
                                 "physicalDamage": 139,
                                 "spellName": "vaynebasicattack2",
                                 "spellSlot": 65,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             }
                         ],
@@ -12613,7 +12613,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "zace",
                                 "spellSlot": 2,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -12624,7 +12624,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "zacw",
                                 "spellSlot": 1,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -12635,7 +12635,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "zacq",
                                 "spellSlot": 0,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -12646,7 +12646,7 @@ timeline_example = {
                                 "physicalDamage": 51,
                                 "spellName": "zacbasicattack2",
                                 "spellSlot": 65,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -12657,7 +12657,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "burning",
                                 "spellSlot": -1,
-                                "TrueDamage": 3,
+                                "trueDamage": 3,
                                 "type": "OTHER"
                             },
                             {
@@ -12668,7 +12668,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "varusw",
                                 "spellSlot": 1,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -12679,7 +12679,7 @@ timeline_example = {
                                 "physicalDamage": 81,
                                 "spellName": "varuswbasicattack",
                                 "spellSlot": 56,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             }
                         ],
@@ -12708,7 +12708,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "",
                                 "spellSlot": -1,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -12719,7 +12719,7 @@ timeline_example = {
                                 "physicalDamage": 72,
                                 "spellName": "lulubasicattack",
                                 "spellSlot": 64,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -12730,7 +12730,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "lulupassive",
                                 "spellSlot": 63,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -12741,7 +12741,7 @@ timeline_example = {
                                 "physicalDamage": 36,
                                 "spellName": "lulubasicattack2",
                                 "spellSlot": 65,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -12752,7 +12752,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "luluq",
                                 "spellSlot": 0,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -12763,7 +12763,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "",
                                 "spellSlot": -1,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -12774,7 +12774,7 @@ timeline_example = {
                                 "physicalDamage": 41,
                                 "spellName": "lulubasicattack",
                                 "spellSlot": 64,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -12785,7 +12785,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "lulupassive",
                                 "spellSlot": 63,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -12796,7 +12796,7 @@ timeline_example = {
                                 "physicalDamage": 41,
                                 "spellName": "lulubasicattack2",
                                 "spellSlot": 65,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -12807,7 +12807,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "lulupassive",
                                 "spellSlot": 63,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             }
                         ],
@@ -12820,7 +12820,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "burning",
                                 "spellSlot": -1,
-                                "TrueDamage": 6,
+                                "trueDamage": 6,
                                 "type": "OTHER"
                             },
                             {
@@ -12831,7 +12831,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "varusw",
                                 "spellSlot": 1,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -12842,7 +12842,7 @@ timeline_example = {
                                 "physicalDamage": 76,
                                 "spellName": "varuswbasicattack",
                                 "spellSlot": 56,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -12853,7 +12853,7 @@ timeline_example = {
                                 "physicalDamage": 193,
                                 "spellName": "varusq",
                                 "spellSlot": 0,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             }
                         ],
@@ -13020,7 +13020,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "zacq",
                                 "spellSlot": 0,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -13031,7 +13031,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "zacw",
                                 "spellSlot": 1,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -13042,7 +13042,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "zace",
                                 "spellSlot": 2,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -13053,7 +13053,7 @@ timeline_example = {
                                 "physicalDamage": 47,
                                 "spellName": "zacbasicattack2",
                                 "spellSlot": 65,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -13064,7 +13064,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "",
                                 "spellSlot": -1,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             }
                         ],
@@ -13077,7 +13077,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "brandpassive",
                                 "spellSlot": 63,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -13088,7 +13088,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "burning",
                                 "spellSlot": -1,
-                                "TrueDamage": 33,
+                                "trueDamage": 33,
                                 "type": "OTHER"
                             },
                             {
@@ -13099,7 +13099,7 @@ timeline_example = {
                                 "physicalDamage": 45,
                                 "spellName": "brandbasicattack",
                                 "spellSlot": 64,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -13110,7 +13110,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "",
                                 "spellSlot": -1,
-                                "TrueDamage": 22,
+                                "trueDamage": 22,
                                 "type": "OTHER"
                             },
                             {
@@ -13121,7 +13121,7 @@ timeline_example = {
                                 "physicalDamage": 219,
                                 "spellName": "vaynebasicattack2",
                                 "spellSlot": 65,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -13132,7 +13132,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "vaynesilveredbolts",
                                 "spellSlot": 1,
-                                "TrueDamage": 121,
+                                "trueDamage": 121,
                                 "type": "OTHER"
                             },
                             {
@@ -13143,7 +13143,7 @@ timeline_example = {
                                 "physicalDamage": 133,
                                 "spellName": "vaynecondemn",
                                 "spellSlot": 2,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -13154,7 +13154,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "",
                                 "spellSlot": -1,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -13165,7 +13165,7 @@ timeline_example = {
                                 "physicalDamage": 72,
                                 "spellName": "lulubasicattack",
                                 "spellSlot": 64,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -13176,7 +13176,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "lulupassive",
                                 "spellSlot": 63,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -13187,7 +13187,7 @@ timeline_example = {
                                 "physicalDamage": 36,
                                 "spellName": "lulubasicattack2",
                                 "spellSlot": 65,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -13198,7 +13198,7 @@ timeline_example = {
                                 "physicalDamage": 129,
                                 "spellName": "luxbasicattack2",
                                 "spellSlot": 65,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -13209,7 +13209,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "luxr",
                                 "spellSlot": 3,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -13220,7 +13220,7 @@ timeline_example = {
                                 "physicalDamage": 46,
                                 "spellName": "luxbasicattack",
                                 "spellSlot": 64,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -13231,7 +13231,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "",
                                 "spellSlot": -1,
-                                "TrueDamage": 24,
+                                "trueDamage": 24,
                                 "type": "OTHER"
                             },
                             {
@@ -13242,7 +13242,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "luxlightstrikekugel",
                                 "spellSlot": 2,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -13253,7 +13253,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "luxilluminationpassive",
                                 "spellSlot": 63,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -13264,7 +13264,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "luxlightbinding",
                                 "spellSlot": 0,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -13275,7 +13275,7 @@ timeline_example = {
                                 "physicalDamage": 11,
                                 "spellName": "sru_orderminionrangedbasicattack",
                                 "spellSlot": 64,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "MINION"
                             },
                             {
@@ -13286,7 +13286,7 @@ timeline_example = {
                                 "physicalDamage": 28,
                                 "spellName": "sru_orderminionmeleebasicattack",
                                 "spellSlot": 64,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "MINION"
                             },
                             {
@@ -13297,7 +13297,7 @@ timeline_example = {
                                 "physicalDamage": 33,
                                 "spellName": "sru_orderminionrangedbasicattack2",
                                 "spellSlot": 65,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "MINION"
                             }
                         ],
@@ -13327,7 +13327,7 @@ timeline_example = {
                                 "physicalDamage": 52,
                                 "spellName": "luxbasicattack",
                                 "spellSlot": 64,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             }
                         ],
@@ -13340,7 +13340,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "zacq",
                                 "spellSlot": 0,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -13351,7 +13351,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "zacw",
                                 "spellSlot": 1,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -13362,7 +13362,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "zace",
                                 "spellSlot": 2,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -13373,7 +13373,7 @@ timeline_example = {
                                 "physicalDamage": 47,
                                 "spellName": "zacbasicattack2",
                                 "spellSlot": 65,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -13384,7 +13384,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "",
                                 "spellSlot": -1,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -13395,7 +13395,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "burning",
                                 "spellSlot": -1,
-                                "TrueDamage": 15,
+                                "trueDamage": 15,
                                 "type": "OTHER"
                             },
                             {
@@ -13406,7 +13406,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "varusw",
                                 "spellSlot": 1,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -13417,7 +13417,7 @@ timeline_example = {
                                 "physicalDamage": 383,
                                 "spellName": "varuswbasicattack",
                                 "spellSlot": 56,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -13428,7 +13428,7 @@ timeline_example = {
                                 "physicalDamage": 41,
                                 "spellName": "ahribasicattack",
                                 "spellSlot": 64,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -13439,7 +13439,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "",
                                 "spellSlot": -1,
-                                "TrueDamage": 40,
+                                "trueDamage": 40,
                                 "type": "OTHER"
                             },
                             {
@@ -13450,7 +13450,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "ahrie",
                                 "spellSlot": 2,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -13461,7 +13461,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "ahriq",
                                 "spellSlot": 0,
-                                "TrueDamage": 126,
+                                "trueDamage": 126,
                                 "type": "OTHER"
                             },
                             {
@@ -13472,7 +13472,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "ahriw",
                                 "spellSlot": 1,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             }
                         ],
@@ -13528,7 +13528,7 @@ timeline_example = {
                                 "physicalDamage": 190,
                                 "spellName": "garene",
                                 "spellSlot": 2,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -13539,7 +13539,7 @@ timeline_example = {
                                 "physicalDamage": 130,
                                 "spellName": "garenbasicattack2",
                                 "spellSlot": 65,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -13550,7 +13550,7 @@ timeline_example = {
                                 "physicalDamage": 65,
                                 "spellName": "garenbasicattack",
                                 "spellSlot": 64,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -13561,7 +13561,7 @@ timeline_example = {
                                 "physicalDamage": 73,
                                 "spellName": "garenq",
                                 "spellSlot": 0,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             }
                         ],
@@ -13574,7 +13574,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "",
                                 "spellSlot": 63,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -13585,7 +13585,7 @@ timeline_example = {
                                 "physicalDamage": 395,
                                 "spellName": "yoneq",
                                 "spellSlot": 0,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -13596,7 +13596,7 @@ timeline_example = {
                                 "physicalDamage": 153,
                                 "spellName": "yonepassive",
                                 "spellSlot": 63,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -13607,7 +13607,7 @@ timeline_example = {
                                 "physicalDamage": 96,
                                 "spellName": "yonew",
                                 "spellSlot": 1,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -13618,7 +13618,7 @@ timeline_example = {
                                 "physicalDamage": 205,
                                 "spellName": "yoneq3",
                                 "spellSlot": 0,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -13629,7 +13629,7 @@ timeline_example = {
                                 "physicalDamage": 4,
                                 "spellName": "sru_chaosminionmeleebasicattack",
                                 "spellSlot": 64,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "MINION"
                             },
                             {
@@ -13640,7 +13640,7 @@ timeline_example = {
                                 "physicalDamage": 9,
                                 "spellName": "sru_chaosminionrangedbasicattack2",
                                 "spellSlot": 65,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "MINION"
                             }
                         ],
@@ -13773,9 +13773,9 @@ timeline_example = {
                             "totalDamageDone": 21371,
                             "totalDamageDoneToChampions": 2728,
                             "totalDamageTaken": 6119,
-                            "TrueDamageDone": 2605,
-                            "TrueDamageDoneToChampions": 0,
-                            "TrueDamageTaken": 241
+                            "trueDamageDone": 2605,
+                            "trueDamageDoneToChampions": 0,
+                            "trueDamageTaken": 241
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 0,
@@ -13829,9 +13829,9 @@ timeline_example = {
                             "totalDamageDone": 54394,
                             "totalDamageDoneToChampions": 2741,
                             "totalDamageTaken": 6206,
-                            "TrueDamageDone": 12868,
-                            "TrueDamageDoneToChampions": 154,
-                            "TrueDamageTaken": 251
+                            "trueDamageDone": 12868,
+                            "trueDamageDoneToChampions": 154,
+                            "trueDamageTaken": 251
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 64,
@@ -13885,9 +13885,9 @@ timeline_example = {
                             "totalDamageDone": 30368,
                             "totalDamageDoneToChampions": 3804,
                             "totalDamageTaken": 4842,
-                            "TrueDamageDone": 172,
-                            "TrueDamageDoneToChampions": 172,
-                            "TrueDamageTaken": 182
+                            "trueDamageDone": 172,
+                            "trueDamageDoneToChampions": 172,
+                            "trueDamageTaken": 182
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 0,
@@ -13941,9 +13941,9 @@ timeline_example = {
                             "totalDamageDone": 13351,
                             "totalDamageDoneToChampions": 3890,
                             "totalDamageTaken": 3800,
-                            "TrueDamageDone": 690,
-                            "TrueDamageDoneToChampions": 437,
-                            "TrueDamageTaken": 341
+                            "trueDamageDone": 690,
+                            "trueDamageDoneToChampions": 437,
+                            "trueDamageTaken": 341
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 0,
@@ -13997,9 +13997,9 @@ timeline_example = {
                             "totalDamageDone": 4313,
                             "totalDamageDoneToChampions": 2322,
                             "totalDamageTaken": 3469,
-                            "TrueDamageDone": 0,
-                            "TrueDamageDoneToChampions": 0,
-                            "TrueDamageTaken": 252
+                            "trueDamageDone": 0,
+                            "trueDamageDoneToChampions": 0,
+                            "trueDamageTaken": 252
                         },
                         "goldPerSecond": 20,
                         "jungleMinionsKilled": 0,
@@ -14053,9 +14053,9 @@ timeline_example = {
                             "totalDamageDone": 29811,
                             "totalDamageDoneToChampions": 4298,
                             "totalDamageTaken": 4408,
-                            "TrueDamageDone": 2667,
-                            "TrueDamageDoneToChampions": 172,
-                            "TrueDamageTaken": 20
+                            "trueDamageDone": 2667,
+                            "trueDamageDoneToChampions": 172,
+                            "trueDamageTaken": 20
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 0,
@@ -14109,9 +14109,9 @@ timeline_example = {
                             "totalDamageDone": 39083,
                             "totalDamageDoneToChampions": 3382,
                             "totalDamageTaken": 7488,
-                            "TrueDamageDone": 8706,
-                            "TrueDamageDoneToChampions": 13,
-                            "TrueDamageTaken": 246
+                            "trueDamageDone": 8706,
+                            "trueDamageDoneToChampions": 13,
+                            "trueDamageTaken": 246
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 36,
@@ -14165,9 +14165,9 @@ timeline_example = {
                             "totalDamageDone": 31722,
                             "totalDamageDoneToChampions": 2312,
                             "totalDamageTaken": 3338,
-                            "TrueDamageDone": 203,
-                            "TrueDamageDoneToChampions": 0,
-                            "TrueDamageTaken": 153
+                            "trueDamageDone": 203,
+                            "trueDamageDoneToChampions": 0,
+                            "trueDamageTaken": 153
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 0,
@@ -14221,9 +14221,9 @@ timeline_example = {
                             "totalDamageDone": 19136,
                             "totalDamageDoneToChampions": 3299,
                             "totalDamageTaken": 3553,
-                            "TrueDamageDone": 4644,
-                            "TrueDamageDoneToChampions": 785,
-                            "TrueDamageTaken": 100
+                            "trueDamageDone": 4644,
+                            "trueDamageDoneToChampions": 785,
+                            "trueDamageTaken": 100
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 0,
@@ -14277,9 +14277,9 @@ timeline_example = {
                             "totalDamageDone": 8576,
                             "totalDamageDoneToChampions": 4457,
                             "totalDamageTaken": 4625,
-                            "TrueDamageDone": 304,
-                            "TrueDamageDoneToChampions": 297,
-                            "TrueDamageTaken": 252
+                            "trueDamageDone": 304,
+                            "trueDamageDoneToChampions": 297,
+                            "trueDamageTaken": 252
                         },
                         "goldPerSecond": 30,
                         "jungleMinionsKilled": 0,
@@ -14563,7 +14563,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "luxlightbinding",
                                 "spellSlot": 0,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -14574,7 +14574,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "luxilluminationpassive",
                                 "spellSlot": 63,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -14585,7 +14585,7 @@ timeline_example = {
                                 "physicalDamage": 25,
                                 "spellName": "luxbasicattack2",
                                 "spellSlot": 65,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -14596,7 +14596,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "",
                                 "spellSlot": -1,
-                                "TrueDamage": 24,
+                                "trueDamage": 24,
                                 "type": "OTHER"
                             },
                             {
@@ -14607,7 +14607,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "luxlightstrikekugel",
                                 "spellSlot": 2,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             }
                         ],
@@ -14620,7 +14620,7 @@ timeline_example = {
                                 "physicalDamage": 12,
                                 "spellName": "sru_chaosminionrangedbasicattack2",
                                 "spellSlot": 65,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "MINION"
                             },
                             {
@@ -14631,7 +14631,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "zacq",
                                 "spellSlot": 0,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -14642,7 +14642,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "",
                                 "spellSlot": -1,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -14653,7 +14653,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "zacw",
                                 "spellSlot": 1,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -14664,7 +14664,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "",
                                 "spellSlot": -1,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -14675,7 +14675,7 @@ timeline_example = {
                                 "physicalDamage": 49,
                                 "spellName": "zacbasicattack",
                                 "spellSlot": 64,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -14686,7 +14686,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "zacr",
                                 "spellSlot": 3,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -14697,7 +14697,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "hweipassive",
                                 "spellSlot": 63,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -14708,7 +14708,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "hweiwe",
                                 "spellSlot": 1,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -14719,7 +14719,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "hweiqw",
                                 "spellSlot": 0,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -14730,7 +14730,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "",
                                 "spellSlot": -1,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -14741,7 +14741,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "hweir",
                                 "spellSlot": 3,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -14752,7 +14752,7 @@ timeline_example = {
                                 "physicalDamage": 233,
                                 "spellName": "varusq",
                                 "spellSlot": 0,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             }
                         ],
@@ -14823,9 +14823,9 @@ timeline_example = {
                             "totalDamageDone": 26956,
                             "totalDamageDoneToChampions": 2829,
                             "totalDamageTaken": 7731,
-                            "TrueDamageDone": 2605,
-                            "TrueDamageDoneToChampions": 0,
-                            "TrueDamageTaken": 428
+                            "trueDamageDone": 2605,
+                            "trueDamageDoneToChampions": 0,
+                            "trueDamageTaken": 428
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 0,
@@ -14879,9 +14879,9 @@ timeline_example = {
                             "totalDamageDone": 60049,
                             "totalDamageDoneToChampions": 2792,
                             "totalDamageTaken": 6614,
-                            "TrueDamageDone": 15194,
-                            "TrueDamageDoneToChampions": 154,
-                            "TrueDamageTaken": 251
+                            "trueDamageDone": 15194,
+                            "trueDamageDoneToChampions": 154,
+                            "trueDamageTaken": 251
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 68,
@@ -14935,9 +14935,9 @@ timeline_example = {
                             "totalDamageDone": 36742,
                             "totalDamageDoneToChampions": 4302,
                             "totalDamageTaken": 6280,
-                            "TrueDamageDone": 1836,
-                            "TrueDamageDoneToChampions": 196,
-                            "TrueDamageTaken": 182
+                            "trueDamageDone": 1836,
+                            "trueDamageDoneToChampions": 196,
+                            "trueDamageTaken": 182
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 0,
@@ -14991,9 +14991,9 @@ timeline_example = {
                             "totalDamageDone": 18015,
                             "totalDamageDoneToChampions": 3959,
                             "totalDamageTaken": 3943,
-                            "TrueDamageDone": 870,
-                            "TrueDamageDoneToChampions": 437,
-                            "TrueDamageTaken": 341
+                            "trueDamageDone": 870,
+                            "trueDamageDoneToChampions": 437,
+                            "trueDamageTaken": 341
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 0,
@@ -15047,9 +15047,9 @@ timeline_example = {
                             "totalDamageDone": 4964,
                             "totalDamageDoneToChampions": 2322,
                             "totalDamageTaken": 3473,
-                            "TrueDamageDone": 0,
-                            "TrueDamageDoneToChampions": 0,
-                            "TrueDamageTaken": 252
+                            "trueDamageDone": 0,
+                            "trueDamageDoneToChampions": 0,
+                            "trueDamageTaken": 252
                         },
                         "goldPerSecond": 30,
                         "jungleMinionsKilled": 0,
@@ -15103,9 +15103,9 @@ timeline_example = {
                             "totalDamageDone": 34424,
                             "totalDamageDoneToChampions": 5552,
                             "totalDamageTaken": 4585,
-                            "TrueDamageDone": 2854,
-                            "TrueDamageDoneToChampions": 359,
-                            "TrueDamageTaken": 20
+                            "trueDamageDone": 2854,
+                            "trueDamageDoneToChampions": 359,
+                            "trueDamageTaken": 20
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 0,
@@ -15159,9 +15159,9 @@ timeline_example = {
                             "totalDamageDone": 47667,
                             "totalDamageDoneToChampions": 4092,
                             "totalDamageTaken": 7961,
-                            "TrueDamageDone": 10730,
-                            "TrueDamageDoneToChampions": 13,
-                            "TrueDamageTaken": 246
+                            "trueDamageDone": 10730,
+                            "trueDamageDoneToChampions": 13,
+                            "trueDamageTaken": 246
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 40,
@@ -15215,9 +15215,9 @@ timeline_example = {
                             "totalDamageDone": 36531,
                             "totalDamageDoneToChampions": 2794,
                             "totalDamageTaken": 3683,
-                            "TrueDamageDone": 245,
-                            "TrueDamageDoneToChampions": 0,
-                            "TrueDamageTaken": 178
+                            "trueDamageDone": 245,
+                            "trueDamageDoneToChampions": 0,
+                            "trueDamageTaken": 178
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 0,
@@ -15271,9 +15271,9 @@ timeline_example = {
                             "totalDamageDone": 24903,
                             "totalDamageDoneToChampions": 3299,
                             "totalDamageTaken": 3705,
-                            "TrueDamageDone": 6860,
-                            "TrueDamageDoneToChampions": 785,
-                            "TrueDamageTaken": 100
+                            "trueDamageDone": 6860,
+                            "trueDamageDoneToChampions": 785,
+                            "trueDamageTaken": 100
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 0,
@@ -15327,9 +15327,9 @@ timeline_example = {
                             "totalDamageDone": 8810,
                             "totalDamageDoneToChampions": 4691,
                             "totalDamageTaken": 4625,
-                            "TrueDamageDone": 304,
-                            "TrueDamageDoneToChampions": 297,
-                            "TrueDamageTaken": 252
+                            "trueDamageDone": 304,
+                            "trueDamageDoneToChampions": 297,
+                            "trueDamageTaken": 252
                         },
                         "goldPerSecond": 30,
                         "jungleMinionsKilled": 0,
@@ -15581,9 +15581,9 @@ timeline_example = {
                             "totalDamageDone": 29838,
                             "totalDamageDoneToChampions": 2829,
                             "totalDamageTaken": 7736,
-                            "TrueDamageDone": 2605,
-                            "TrueDamageDoneToChampions": 0,
-                            "TrueDamageTaken": 428
+                            "trueDamageDone": 2605,
+                            "trueDamageDoneToChampions": 0,
+                            "trueDamageTaken": 428
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 0,
@@ -15637,9 +15637,9 @@ timeline_example = {
                             "totalDamageDone": 72262,
                             "totalDamageDoneToChampions": 2999,
                             "totalDamageTaken": 7483,
-                            "TrueDamageDone": 16823,
-                            "TrueDamageDoneToChampions": 154,
-                            "TrueDamageTaken": 251
+                            "trueDamageDone": 16823,
+                            "trueDamageDoneToChampions": 154,
+                            "trueDamageTaken": 251
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 76,
@@ -15693,9 +15693,9 @@ timeline_example = {
                             "totalDamageDone": 40632,
                             "totalDamageDoneToChampions": 4592,
                             "totalDamageTaken": 6597,
-                            "TrueDamageDone": 1862,
-                            "TrueDamageDoneToChampions": 222,
-                            "TrueDamageTaken": 182
+                            "trueDamageDone": 1862,
+                            "trueDamageDoneToChampions": 222,
+                            "trueDamageTaken": 182
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 0,
@@ -15749,9 +15749,9 @@ timeline_example = {
                             "totalDamageDone": 23352,
                             "totalDamageDoneToChampions": 4611,
                             "totalDamageTaken": 5006,
-                            "TrueDamageDone": 1196,
-                            "TrueDamageDoneToChampions": 523,
-                            "TrueDamageTaken": 706
+                            "trueDamageDone": 1196,
+                            "trueDamageDoneToChampions": 523,
+                            "trueDamageTaken": 706
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 0,
@@ -15805,9 +15805,9 @@ timeline_example = {
                             "totalDamageDone": 5990,
                             "totalDamageDoneToChampions": 2998,
                             "totalDamageTaken": 3584,
-                            "TrueDamageDone": 0,
-                            "TrueDamageDoneToChampions": 0,
-                            "TrueDamageTaken": 252
+                            "trueDamageDone": 0,
+                            "trueDamageDoneToChampions": 0,
+                            "trueDamageTaken": 252
                         },
                         "goldPerSecond": 30,
                         "jungleMinionsKilled": 0,
@@ -15861,9 +15861,9 @@ timeline_example = {
                             "totalDamageDone": 38873,
                             "totalDamageDoneToChampions": 5552,
                             "totalDamageTaken": 4590,
-                            "TrueDamageDone": 2854,
-                            "TrueDamageDoneToChampions": 359,
-                            "TrueDamageTaken": 20
+                            "trueDamageDone": 2854,
+                            "trueDamageDoneToChampions": 359,
+                            "trueDamageTaken": 20
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 0,
@@ -15917,9 +15917,9 @@ timeline_example = {
                             "totalDamageDone": 50173,
                             "totalDamageDoneToChampions": 4092,
                             "totalDamageTaken": 8158,
-                            "TrueDamageDone": 11795,
-                            "TrueDamageDoneToChampions": 13,
-                            "TrueDamageTaken": 246
+                            "trueDamageDone": 11795,
+                            "trueDamageDoneToChampions": 13,
+                            "trueDamageTaken": 246
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 44,
@@ -15973,9 +15973,9 @@ timeline_example = {
                             "totalDamageDone": 42705,
                             "totalDamageDoneToChampions": 3467,
                             "totalDamageTaken": 4302,
-                            "TrueDamageDone": 274,
-                            "TrueDamageDoneToChampions": 0,
-                            "TrueDamageTaken": 204
+                            "trueDamageDone": 274,
+                            "trueDamageDoneToChampions": 0,
+                            "trueDamageTaken": 204
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 0,
@@ -16029,9 +16029,9 @@ timeline_example = {
                             "totalDamageDone": 31531,
                             "totalDamageDoneToChampions": 3785,
                             "totalDamageTaken": 4481,
-                            "TrueDamageDone": 8934,
-                            "TrueDamageDoneToChampions": 980,
-                            "TrueDamageTaken": 100
+                            "trueDamageDone": 8934,
+                            "trueDamageDoneToChampions": 980,
+                            "trueDamageTaken": 100
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 0,
@@ -16085,9 +16085,9 @@ timeline_example = {
                             "totalDamageDone": 9988,
                             "totalDamageDoneToChampions": 5377,
                             "totalDamageTaken": 5666,
-                            "TrueDamageDone": 476,
-                            "TrueDamageDoneToChampions": 467,
-                            "TrueDamageTaken": 338
+                            "trueDamageDone": 476,
+                            "trueDamageDoneToChampions": 467,
+                            "trueDamageTaken": 338
                         },
                         "goldPerSecond": 30,
                         "jungleMinionsKilled": 0,
@@ -16161,7 +16161,7 @@ timeline_example = {
                                 "physicalDamage": 86,
                                 "spellName": "varuse",
                                 "spellSlot": 2,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -16172,7 +16172,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "varusw",
                                 "spellSlot": 1,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -16183,7 +16183,7 @@ timeline_example = {
                                 "physicalDamage": 430,
                                 "spellName": "varuswbasicattack",
                                 "spellSlot": 56,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -16194,7 +16194,7 @@ timeline_example = {
                                 "physicalDamage": 200,
                                 "spellName": "varusq",
                                 "spellSlot": 0,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             }
                         ],
@@ -16207,7 +16207,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "brandr",
                                 "spellSlot": 3,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -16218,7 +16218,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "",
                                 "spellSlot": -1,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -16229,7 +16229,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "brandpassive",
                                 "spellSlot": 63,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -16240,7 +16240,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "lulupassive",
                                 "spellSlot": 63,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -16251,7 +16251,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "lulue",
                                 "spellSlot": 2,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -16262,7 +16262,7 @@ timeline_example = {
                                 "physicalDamage": 76,
                                 "spellName": "lulubasicattack2",
                                 "spellSlot": 65,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -16273,7 +16273,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "",
                                 "spellSlot": -1,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             }
                         ],
@@ -16309,7 +16309,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "ahrie",
                                 "spellSlot": 2,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -16320,7 +16320,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "ahriq",
                                 "spellSlot": 0,
-                                "TrueDamage": 170,
+                                "trueDamage": 170,
                                 "type": "OTHER"
                             },
                             {
@@ -16331,7 +16331,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "ahrie",
                                 "spellSlot": 2,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -16342,7 +16342,7 @@ timeline_example = {
                                 "physicalDamage": 119,
                                 "spellName": "ahribasicattack",
                                 "spellSlot": 64,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -16353,7 +16353,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "",
                                 "spellSlot": -1,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -16364,7 +16364,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "ahriw",
                                 "spellSlot": 1,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             }
                         ],
@@ -16377,7 +16377,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "luluq",
                                 "spellSlot": 0,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -16388,7 +16388,7 @@ timeline_example = {
                                 "physicalDamage": 40,
                                 "spellName": "lulubasicattack",
                                 "spellSlot": 64,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -16399,7 +16399,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "",
                                 "spellSlot": -1,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -16410,7 +16410,7 @@ timeline_example = {
                                 "physicalDamage": 40,
                                 "spellName": "lulubasicattack2",
                                 "spellSlot": 65,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -16421,7 +16421,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "lulupassive",
                                 "spellSlot": 63,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -16432,7 +16432,7 @@ timeline_example = {
                                 "physicalDamage": 234,
                                 "spellName": "turretbasicattack",
                                 "spellSlot": 64,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "TOWER"
                             },
                             {
@@ -16443,7 +16443,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "",
                                 "spellSlot": -1,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -16454,7 +16454,7 @@ timeline_example = {
                                 "physicalDamage": 37,
                                 "spellName": "sru_orderminionmeleebasicattack",
                                 "spellSlot": 64,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "MINION"
                             },
                             {
@@ -16465,7 +16465,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "",
                                 "spellSlot": -1,
-                                "TrueDamage": 24,
+                                "trueDamage": 24,
                                 "type": "OTHER"
                             },
                             {
@@ -16476,7 +16476,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "brandpassive",
                                 "spellSlot": 63,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -16487,7 +16487,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "brande",
                                 "spellSlot": 2,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -16498,7 +16498,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "brandq",
                                 "spellSlot": 0,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -16509,7 +16509,7 @@ timeline_example = {
                                 "physicalDamage": 50,
                                 "spellName": "brandbasicattack2",
                                 "spellSlot": 65,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             }
                         ],
@@ -16565,7 +16565,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "zacw",
                                 "spellSlot": 1,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             }
                         ],
@@ -16613,7 +16613,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "",
                                 "spellSlot": -1,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -16624,7 +16624,7 @@ timeline_example = {
                                 "physicalDamage": 97,
                                 "spellName": "zacbasicattack",
                                 "spellSlot": 64,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -16635,7 +16635,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "zacw",
                                 "spellSlot": 1,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -16646,7 +16646,7 @@ timeline_example = {
                                 "physicalDamage": 48,
                                 "spellName": "zacbasicattack2",
                                 "spellSlot": 65,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -16657,7 +16657,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "zacq",
                                 "spellSlot": 0,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             }
                         ],
@@ -16670,7 +16670,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "lulue",
                                 "spellSlot": 2,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -16681,7 +16681,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "",
                                 "spellSlot": -1,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -16692,7 +16692,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "brandq",
                                 "spellSlot": 0,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -16703,7 +16703,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "s5_summonersmiteplayerganker",
                                 "spellSlot": 4,
-                                "TrueDamage": 40,
+                                "trueDamage": 40,
                                 "type": "OTHER"
                             },
                             {
@@ -16714,7 +16714,7 @@ timeline_example = {
                                 "physicalDamage": 99,
                                 "spellName": "brandbasicattack",
                                 "spellSlot": 64,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -16725,7 +16725,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "",
                                 "spellSlot": -1,
-                                "TrueDamage": 73,
+                                "trueDamage": 73,
                                 "type": "OTHER"
                             },
                             {
@@ -16736,7 +16736,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "brande",
                                 "spellSlot": 2,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -16747,7 +16747,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "brandpassive",
                                 "spellSlot": 63,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -16758,7 +16758,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "brandw",
                                 "spellSlot": 1,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -16769,7 +16769,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "luxlightbinding",
                                 "spellSlot": 0,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -16780,7 +16780,7 @@ timeline_example = {
                                 "physicalDamage": 34,
                                 "spellName": "luxbasicattack",
                                 "spellSlot": 64,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -16791,7 +16791,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "",
                                 "spellSlot": -1,
-                                "TrueDamage": 26,
+                                "trueDamage": 26,
                                 "type": "OTHER"
                             },
                             {
@@ -16802,7 +16802,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "luxilluminationpassive",
                                 "spellSlot": 63,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -16813,7 +16813,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "luxlightstrikekugel",
                                 "spellSlot": 2,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             }
                         ],
@@ -16904,9 +16904,9 @@ timeline_example = {
                             "totalDamageDone": 31376,
                             "totalDamageDoneToChampions": 2829,
                             "totalDamageTaken": 7853,
-                            "TrueDamageDone": 2605,
-                            "TrueDamageDoneToChampions": 0,
-                            "TrueDamageTaken": 428
+                            "trueDamageDone": 2605,
+                            "trueDamageDoneToChampions": 0,
+                            "trueDamageTaken": 428
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 0,
@@ -16960,9 +16960,9 @@ timeline_example = {
                             "totalDamageDone": 75336,
                             "totalDamageDoneToChampions": 4615,
                             "totalDamageTaken": 8148,
-                            "TrueDamageDone": 16960,
-                            "TrueDamageDoneToChampions": 291,
-                            "TrueDamageTaken": 251
+                            "trueDamageDone": 16960,
+                            "trueDamageDoneToChampions": 291,
+                            "trueDamageTaken": 251
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 76,
@@ -17016,9 +17016,9 @@ timeline_example = {
                             "totalDamageDone": 47498,
                             "totalDamageDoneToChampions": 5199,
                             "totalDamageTaken": 6645,
-                            "TrueDamageDone": 1889,
-                            "TrueDamageDoneToChampions": 249,
-                            "TrueDamageTaken": 182
+                            "trueDamageDone": 1889,
+                            "trueDamageDoneToChampions": 249,
+                            "trueDamageTaken": 182
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 0,
@@ -17072,9 +17072,9 @@ timeline_example = {
                             "totalDamageDone": 26585,
                             "totalDamageDoneToChampions": 4611,
                             "totalDamageTaken": 5414,
-                            "TrueDamageDone": 1386,
-                            "TrueDamageDoneToChampions": 523,
-                            "TrueDamageTaken": 877
+                            "trueDamageDone": 1386,
+                            "trueDamageDoneToChampions": 523,
+                            "trueDamageTaken": 877
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 0,
@@ -17128,9 +17128,9 @@ timeline_example = {
                             "totalDamageDone": 6928,
                             "totalDamageDoneToChampions": 3765,
                             "totalDamageTaken": 4792,
-                            "TrueDamageDone": 0,
-                            "TrueDamageDoneToChampions": 0,
-                            "TrueDamageTaken": 252
+                            "trueDamageDone": 0,
+                            "trueDamageDoneToChampions": 0,
+                            "trueDamageTaken": 252
                         },
                         "goldPerSecond": 30,
                         "jungleMinionsKilled": 0,
@@ -17184,9 +17184,9 @@ timeline_example = {
                             "totalDamageDone": 42985,
                             "totalDamageDoneToChampions": 5646,
                             "totalDamageTaken": 4597,
-                            "TrueDamageDone": 2854,
-                            "TrueDamageDoneToChampions": 359,
-                            "TrueDamageTaken": 20
+                            "trueDamageDone": 2854,
+                            "trueDamageDoneToChampions": 359,
+                            "trueDamageTaken": 20
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 0,
@@ -17240,9 +17240,9 @@ timeline_example = {
                             "totalDamageDone": 56570,
                             "totalDamageDoneToChampions": 4664,
                             "totalDamageTaken": 10278,
-                            "TrueDamageDone": 13664,
-                            "TrueDamageDoneToChampions": 13,
-                            "TrueDamageTaken": 386
+                            "trueDamageDone": 13664,
+                            "trueDamageDoneToChampions": 13,
+                            "trueDamageTaken": 386
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 48,
@@ -17296,9 +17296,9 @@ timeline_example = {
                             "totalDamageDone": 48178,
                             "totalDamageDoneToChampions": 3467,
                             "totalDamageTaken": 4473,
-                            "TrueDamageDone": 283,
-                            "TrueDamageDoneToChampions": 0,
-                            "TrueDamageTaken": 204
+                            "trueDamageDone": 283,
+                            "trueDamageDoneToChampions": 0,
+                            "trueDamageTaken": 204
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 0,
@@ -17352,9 +17352,9 @@ timeline_example = {
                             "totalDamageDone": 35262,
                             "totalDamageDoneToChampions": 4607,
                             "totalDamageTaken": 5155,
-                            "TrueDamageDone": 10130,
-                            "TrueDamageDoneToChampions": 1151,
-                            "TrueDamageTaken": 124
+                            "trueDamageDone": 10130,
+                            "trueDamageDoneToChampions": 1151,
+                            "trueDamageTaken": 124
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 0,
@@ -17408,9 +17408,9 @@ timeline_example = {
                             "totalDamageDone": 10822,
                             "totalDamageDoneToChampions": 6211,
                             "totalDamageTaken": 6135,
-                            "TrueDamageDone": 476,
-                            "TrueDamageDoneToChampions": 467,
-                            "TrueDamageTaken": 338
+                            "trueDamageDone": 476,
+                            "trueDamageDoneToChampions": 467,
+                            "trueDamageTaken": 338
                         },
                         "goldPerSecond": 30,
                         "jungleMinionsKilled": 0,
@@ -17642,7 +17642,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "",
                                 "spellSlot": -1,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -17653,7 +17653,7 @@ timeline_example = {
                                 "physicalDamage": 289,
                                 "spellName": "vaynetumble",
                                 "spellSlot": 0,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -17664,7 +17664,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "",
                                 "spellSlot": -1,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             }
                         ],
@@ -17677,7 +17677,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "varusr",
                                 "spellSlot": 3,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -17688,7 +17688,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "varusw",
                                 "spellSlot": 1,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -17699,7 +17699,7 @@ timeline_example = {
                                 "physicalDamage": 242,
                                 "spellName": "varuswbasicattack",
                                 "spellSlot": 56,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -17710,7 +17710,7 @@ timeline_example = {
                                 "physicalDamage": 220,
                                 "spellName": "varusq",
                                 "spellSlot": 0,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -17721,7 +17721,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "",
                                 "spellSlot": -1,
-                                "TrueDamage": 24,
+                                "trueDamage": 24,
                                 "type": "OTHER"
                             },
                             {
@@ -17732,7 +17732,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "ahrie",
                                 "spellSlot": 2,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -17743,7 +17743,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "",
                                 "spellSlot": -1,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -17754,7 +17754,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "ahriw",
                                 "spellSlot": 1,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -17765,7 +17765,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "ahrir",
                                 "spellSlot": 3,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             }
                         ],
@@ -17807,7 +17807,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "luluq",
                                 "spellSlot": 0,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -17818,7 +17818,7 @@ timeline_example = {
                                 "physicalDamage": 41,
                                 "spellName": "lulubasicattack",
                                 "spellSlot": 64,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -17829,7 +17829,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "",
                                 "spellSlot": -1,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -17840,7 +17840,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "lulupassive",
                                 "spellSlot": 63,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -17851,7 +17851,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "lulue",
                                 "spellSlot": 2,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -17862,7 +17862,7 @@ timeline_example = {
                                 "physicalDamage": 40,
                                 "spellName": "lulubasicattack2",
                                 "spellSlot": 65,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             }
                         ],
@@ -17875,7 +17875,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "",
                                 "spellSlot": -1,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -17886,7 +17886,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "",
                                 "spellSlot": -1,
-                                "TrueDamage": 24,
+                                "trueDamage": 24,
                                 "type": "OTHER"
                             },
                             {
@@ -17897,7 +17897,7 @@ timeline_example = {
                                 "physicalDamage": 132,
                                 "spellName": "ahribasicattack",
                                 "spellSlot": 64,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -17908,7 +17908,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "ahriq",
                                 "spellSlot": 0,
-                                "TrueDamage": 171,
+                                "trueDamage": 171,
                                 "type": "OTHER"
                             },
                             {
@@ -17919,7 +17919,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "varusr",
                                 "spellSlot": 3,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -17930,7 +17930,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "varusw",
                                 "spellSlot": 1,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -17941,7 +17941,7 @@ timeline_example = {
                                 "physicalDamage": 510,
                                 "spellName": "varuswbasicattack",
                                 "spellSlot": 56,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -17952,7 +17952,7 @@ timeline_example = {
                                 "physicalDamage": 102,
                                 "spellName": "varuse",
                                 "spellSlot": 2,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -17963,7 +17963,7 @@ timeline_example = {
                                 "physicalDamage": 221,
                                 "spellName": "varusq",
                                 "spellSlot": 0,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             }
                         ],
@@ -18035,9 +18035,9 @@ timeline_example = {
                             "totalDamageDone": 33706,
                             "totalDamageDoneToChampions": 2943,
                             "totalDamageTaken": 8336,
-                            "TrueDamageDone": 2605,
-                            "TrueDamageDoneToChampions": 0,
-                            "TrueDamageTaken": 456
+                            "trueDamageDone": 2605,
+                            "trueDamageDoneToChampions": 0,
+                            "trueDamageTaken": 456
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 0,
@@ -18091,9 +18091,9 @@ timeline_example = {
                             "totalDamageDone": 90105,
                             "totalDamageDoneToChampions": 4615,
                             "totalDamageTaken": 8505,
-                            "TrueDamageDone": 19185,
-                            "TrueDamageDoneToChampions": 291,
-                            "TrueDamageTaken": 251
+                            "trueDamageDone": 19185,
+                            "trueDamageDoneToChampions": 291,
+                            "trueDamageTaken": 251
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 84,
@@ -18147,9 +18147,9 @@ timeline_example = {
                             "totalDamageDone": 54429,
                             "totalDamageDoneToChampions": 5929,
                             "totalDamageTaken": 7090,
-                            "TrueDamageDone": 1915,
-                            "TrueDamageDoneToChampions": 275,
-                            "TrueDamageTaken": 182
+                            "trueDamageDone": 1915,
+                            "trueDamageDoneToChampions": 275,
+                            "trueDamageTaken": 182
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 0,
@@ -18203,9 +18203,9 @@ timeline_example = {
                             "totalDamageDone": 28333,
                             "totalDamageDoneToChampions": 5214,
                             "totalDamageTaken": 6894,
-                            "TrueDamageDone": 1386,
-                            "TrueDamageDoneToChampions": 523,
-                            "TrueDamageTaken": 901
+                            "trueDamageDone": 1386,
+                            "trueDamageDoneToChampions": 523,
+                            "trueDamageTaken": 901
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 0,
@@ -18259,9 +18259,9 @@ timeline_example = {
                             "totalDamageDone": 7614,
                             "totalDamageDoneToChampions": 4066,
                             "totalDamageTaken": 6379,
-                            "TrueDamageDone": 0,
-                            "TrueDamageDoneToChampions": 0,
-                            "TrueDamageTaken": 448
+                            "trueDamageDone": 0,
+                            "trueDamageDoneToChampions": 0,
+                            "trueDamageTaken": 448
                         },
                         "goldPerSecond": 30,
                         "jungleMinionsKilled": 0,
@@ -18315,9 +18315,9 @@ timeline_example = {
                             "totalDamageDone": 49794,
                             "totalDamageDoneToChampions": 6105,
                             "totalDamageTaken": 5009,
-                            "TrueDamageDone": 2882,
-                            "TrueDamageDoneToChampions": 387,
-                            "TrueDamageTaken": 20
+                            "trueDamageDone": 2882,
+                            "trueDamageDoneToChampions": 387,
+                            "trueDamageTaken": 20
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 0,
@@ -18371,9 +18371,9 @@ timeline_example = {
                             "totalDamageDone": 65435,
                             "totalDamageDoneToChampions": 4664,
                             "totalDamageTaken": 10596,
-                            "TrueDamageDone": 18395,
-                            "TrueDamageDoneToChampions": 13,
-                            "TrueDamageTaken": 386
+                            "trueDamageDone": 18395,
+                            "trueDamageDoneToChampions": 13,
+                            "trueDamageTaken": 386
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 52,
@@ -18427,9 +18427,9 @@ timeline_example = {
                             "totalDamageDone": 54854,
                             "totalDamageDoneToChampions": 3898,
                             "totalDamageTaken": 5204,
-                            "TrueDamageDone": 386,
-                            "TrueDamageDoneToChampions": 0,
-                            "TrueDamageTaken": 231
+                            "trueDamageDone": 386,
+                            "trueDamageDoneToChampions": 0,
+                            "trueDamageTaken": 231
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 0,
@@ -18483,9 +18483,9 @@ timeline_example = {
                             "totalDamageDone": 43602,
                             "totalDamageDoneToChampions": 5662,
                             "totalDamageTaken": 5970,
-                            "TrueDamageDone": 12534,
-                            "TrueDamageDoneToChampions": 1372,
-                            "TrueDamageTaken": 124
+                            "trueDamageDone": 12534,
+                            "trueDamageDoneToChampions": 1372,
+                            "trueDamageTaken": 124
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 0,
@@ -18539,9 +18539,9 @@ timeline_example = {
                             "totalDamageDone": 15008,
                             "totalDamageDoneToChampions": 8223,
                             "totalDamageTaken": 6297,
-                            "TrueDamageDone": 476,
-                            "TrueDamageDoneToChampions": 467,
-                            "TrueDamageTaken": 338
+                            "trueDamageDone": 476,
+                            "trueDamageDoneToChampions": 467,
+                            "trueDamageTaken": 338
                         },
                         "goldPerSecond": 30,
                         "jungleMinionsKilled": 0,
@@ -18703,7 +18703,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "hweipassive",
                                 "spellSlot": 63,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -18714,7 +18714,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "hweiqe",
                                 "spellSlot": 2,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -18725,7 +18725,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "",
                                 "spellSlot": -1,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -18736,7 +18736,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "hweibasicattack2",
                                 "spellSlot": 52,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -18747,7 +18747,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "hweir",
                                 "spellSlot": 3,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -18758,7 +18758,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "hweieq",
                                 "spellSlot": 2,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             }
                         ],
@@ -18771,7 +18771,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "",
                                 "spellSlot": -1,
-                                "TrueDamage": 28,
+                                "trueDamage": 28,
                                 "type": "OTHER"
                             },
                             {
@@ -18782,7 +18782,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "luxlightstrikekugel",
                                 "spellSlot": 2,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -18793,7 +18793,7 @@ timeline_example = {
                                 "physicalDamage": 49,
                                 "spellName": "sru_orderminionsiegebasicattack",
                                 "spellSlot": 64,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "MINION"
                             },
                             {
@@ -18804,7 +18804,7 @@ timeline_example = {
                                 "physicalDamage": 47,
                                 "spellName": "sru_orderminionmeleebasicattack",
                                 "spellSlot": 64,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "MINION"
                             },
                             {
@@ -18815,7 +18815,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "brandpassive",
                                 "spellSlot": 63,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -18826,7 +18826,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "brande",
                                 "spellSlot": 2,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -18837,7 +18837,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "",
                                 "spellSlot": -1,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -18848,7 +18848,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "",
                                 "spellSlot": -1,
-                                "TrueDamage": 26,
+                                "trueDamage": 26,
                                 "type": "OTHER"
                             },
                             {
@@ -18859,7 +18859,7 @@ timeline_example = {
                                 "physicalDamage": 247,
                                 "spellName": "turretbasicattack",
                                 "spellSlot": 64,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "TOWER"
                             }
                         ],
@@ -18950,9 +18950,9 @@ timeline_example = {
                             "totalDamageDone": 36149,
                             "totalDamageDoneToChampions": 3244,
                             "totalDamageTaken": 8704,
-                            "TrueDamageDone": 2605,
-                            "TrueDamageDoneToChampions": 0,
-                            "TrueDamageTaken": 518
+                            "trueDamageDone": 2605,
+                            "trueDamageDoneToChampions": 0,
+                            "trueDamageTaken": 518
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 0,
@@ -19006,9 +19006,9 @@ timeline_example = {
                             "totalDamageDone": 96115,
                             "totalDamageDoneToChampions": 4914,
                             "totalDamageTaken": 9350,
-                            "TrueDamageDone": 20486,
-                            "TrueDamageDoneToChampions": 318,
-                            "TrueDamageTaken": 475
+                            "trueDamageDone": 20486,
+                            "trueDamageDoneToChampions": 318,
+                            "trueDamageTaken": 475
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 88,
@@ -19062,9 +19062,9 @@ timeline_example = {
                             "totalDamageDone": 64019,
                             "totalDamageDoneToChampions": 6287,
                             "totalDamageTaken": 7973,
-                            "TrueDamageDone": 1944,
-                            "TrueDamageDoneToChampions": 304,
-                            "TrueDamageTaken": 182
+                            "trueDamageDone": 1944,
+                            "trueDamageDoneToChampions": 304,
+                            "trueDamageTaken": 182
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 0,
@@ -19118,9 +19118,9 @@ timeline_example = {
                             "totalDamageDone": 35057,
                             "totalDamageDoneToChampions": 5214,
                             "totalDamageTaken": 7397,
-                            "TrueDamageDone": 1766,
-                            "TrueDamageDoneToChampions": 523,
-                            "TrueDamageTaken": 901
+                            "trueDamageDone": 1766,
+                            "trueDamageDoneToChampions": 523,
+                            "trueDamageTaken": 901
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 0,
@@ -19174,9 +19174,9 @@ timeline_example = {
                             "totalDamageDone": 7617,
                             "totalDamageDoneToChampions": 4066,
                             "totalDamageTaken": 6379,
-                            "TrueDamageDone": 0,
-                            "TrueDamageDoneToChampions": 0,
-                            "TrueDamageTaken": 448
+                            "trueDamageDone": 0,
+                            "trueDamageDoneToChampions": 0,
+                            "trueDamageTaken": 448
                         },
                         "goldPerSecond": 30,
                         "jungleMinionsKilled": 0,
@@ -19230,9 +19230,9 @@ timeline_example = {
                             "totalDamageDone": 56547,
                             "totalDamageDoneToChampions": 6474,
                             "totalDamageTaken": 5377,
-                            "TrueDamageDone": 2944,
-                            "TrueDamageDoneToChampions": 449,
-                            "TrueDamageTaken": 20
+                            "trueDamageDone": 2944,
+                            "trueDamageDoneToChampions": 449,
+                            "trueDamageTaken": 20
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 0,
@@ -19286,9 +19286,9 @@ timeline_example = {
                             "totalDamageDone": 76355,
                             "totalDamageDoneToChampions": 4789,
                             "totalDamageTaken": 12086,
-                            "TrueDamageDone": 23705,
-                            "TrueDamageDoneToChampions": 13,
-                            "TrueDamageTaken": 386
+                            "trueDamageDone": 23705,
+                            "trueDamageDoneToChampions": 13,
+                            "trueDamageTaken": 386
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 60,
@@ -19342,9 +19342,9 @@ timeline_example = {
                             "totalDamageDone": 59556,
                             "totalDamageDoneToChampions": 4656,
                             "totalDamageTaken": 6205,
-                            "TrueDamageDone": 399,
-                            "TrueDamageDoneToChampions": 0,
-                            "TrueDamageTaken": 286
+                            "trueDamageDone": 399,
+                            "trueDamageDoneToChampions": 0,
+                            "trueDamageTaken": 286
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 0,
@@ -19398,9 +19398,9 @@ timeline_example = {
                             "totalDamageDone": 48587,
                             "totalDamageDoneToChampions": 6260,
                             "totalDamageTaken": 6168,
-                            "TrueDamageDone": 13746,
-                            "TrueDamageDoneToChampions": 1596,
-                            "TrueDamageTaken": 124
+                            "trueDamageDone": 13746,
+                            "trueDamageDoneToChampions": 1596,
+                            "trueDamageTaken": 124
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 0,
@@ -19454,9 +19454,9 @@ timeline_example = {
                             "totalDamageDone": 17192,
                             "totalDamageDoneToChampions": 8576,
                             "totalDamageTaken": 6343,
-                            "TrueDamageDone": 478,
-                            "TrueDamageDoneToChampions": 467,
-                            "TrueDamageTaken": 338
+                            "trueDamageDone": 478,
+                            "trueDamageDoneToChampions": 467,
+                            "trueDamageTaken": 338
                         },
                         "goldPerSecond": 30,
                         "jungleMinionsKilled": 0,
@@ -19681,7 +19681,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "hweipassive",
                                 "spellSlot": 63,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -19692,7 +19692,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "hweiee",
                                 "spellSlot": 2,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -19703,7 +19703,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "hweiqe",
                                 "spellSlot": 2,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -19714,7 +19714,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "hweiqe",
                                 "spellSlot": 0,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -19725,7 +19725,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "hweiwe",
                                 "spellSlot": 1,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -19736,7 +19736,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "",
                                 "spellSlot": -1,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -19747,7 +19747,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "",
                                 "spellSlot": -1,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             }
                         ],
@@ -19760,7 +19760,7 @@ timeline_example = {
                                 "physicalDamage": 34,
                                 "spellName": "sru_orderminionsiegebasicattack",
                                 "spellSlot": 64,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "MINION"
                             },
                             {
@@ -19771,7 +19771,7 @@ timeline_example = {
                                 "physicalDamage": 52,
                                 "spellName": "luxbasicattack",
                                 "spellSlot": 64,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -19782,7 +19782,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "",
                                 "spellSlot": -1,
-                                "TrueDamage": 61,
+                                "trueDamage": 61,
                                 "type": "OTHER"
                             },
                             {
@@ -19793,7 +19793,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "",
                                 "spellSlot": -1,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -19804,7 +19804,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "luxlightstrikekugel",
                                 "spellSlot": 2,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -19815,7 +19815,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "luxlightbinding",
                                 "spellSlot": 0,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -19826,7 +19826,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "luxilluminationpassive",
                                 "spellSlot": 63,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -19837,7 +19837,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "",
                                 "spellSlot": -1,
-                                "TrueDamage": 28,
+                                "trueDamage": 28,
                                 "type": "OTHER"
                             },
                             {
@@ -19848,7 +19848,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "brandw",
                                 "spellSlot": 1,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -19859,7 +19859,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "",
                                 "spellSlot": -1,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             }
                         ],
@@ -19924,9 +19924,9 @@ timeline_example = {
                             "totalDamageDone": 44682,
                             "totalDamageDoneToChampions": 3291,
                             "totalDamageTaken": 9017,
-                            "TrueDamageDone": 2605,
-                            "TrueDamageDoneToChampions": 0,
-                            "TrueDamageTaken": 518
+                            "trueDamageDone": 2605,
+                            "trueDamageDoneToChampions": 0,
+                            "trueDamageTaken": 518
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 0,
@@ -19980,9 +19980,9 @@ timeline_example = {
                             "totalDamageDone": 104031,
                             "totalDamageDoneToChampions": 5291,
                             "totalDamageTaken": 9910,
-                            "TrueDamageDone": 22121,
-                            "TrueDamageDoneToChampions": 346,
-                            "TrueDamageTaken": 475
+                            "trueDamageDone": 22121,
+                            "trueDamageDoneToChampions": 346,
+                            "trueDamageTaken": 475
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 96,
@@ -20036,9 +20036,9 @@ timeline_example = {
                             "totalDamageDone": 69720,
                             "totalDamageDoneToChampions": 7585,
                             "totalDamageTaken": 8830,
-                            "TrueDamageDone": 2005,
-                            "TrueDamageDoneToChampions": 365,
-                            "TrueDamageTaken": 182
+                            "trueDamageDone": 2005,
+                            "trueDamageDoneToChampions": 365,
+                            "trueDamageTaken": 182
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 0,
@@ -20092,9 +20092,9 @@ timeline_example = {
                             "totalDamageDone": 39302,
                             "totalDamageDoneToChampions": 5214,
                             "totalDamageTaken": 7397,
-                            "TrueDamageDone": 1997,
-                            "TrueDamageDoneToChampions": 523,
-                            "TrueDamageTaken": 901
+                            "trueDamageDone": 1997,
+                            "trueDamageDoneToChampions": 523,
+                            "trueDamageTaken": 901
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 0,
@@ -20148,9 +20148,9 @@ timeline_example = {
                             "totalDamageDone": 7617,
                             "totalDamageDoneToChampions": 4066,
                             "totalDamageTaken": 6379,
-                            "TrueDamageDone": 0,
-                            "TrueDamageDoneToChampions": 0,
-                            "TrueDamageTaken": 448
+                            "trueDamageDone": 0,
+                            "trueDamageDoneToChampions": 0,
+                            "trueDamageTaken": 448
                         },
                         "goldPerSecond": 30,
                         "jungleMinionsKilled": 0,
@@ -20204,9 +20204,9 @@ timeline_example = {
                             "totalDamageDone": 60971,
                             "totalDamageDoneToChampions": 6767,
                             "totalDamageTaken": 6028,
-                            "TrueDamageDone": 2944,
-                            "TrueDamageDoneToChampions": 449,
-                            "TrueDamageTaken": 20
+                            "trueDamageDone": 2944,
+                            "trueDamageDoneToChampions": 449,
+                            "trueDamageTaken": 20
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 0,
@@ -20260,9 +20260,9 @@ timeline_example = {
                             "totalDamageDone": 89087,
                             "totalDamageDoneToChampions": 4789,
                             "totalDamageTaken": 13173,
-                            "TrueDamageDone": 26132,
-                            "TrueDamageDoneToChampions": 13,
-                            "TrueDamageTaken": 386
+                            "trueDamageDone": 26132,
+                            "trueDamageDoneToChampions": 13,
+                            "trueDamageTaken": 386
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 68,
@@ -20316,9 +20316,9 @@ timeline_example = {
                             "totalDamageDone": 62139,
                             "totalDamageDoneToChampions": 5497,
                             "totalDamageTaken": 7774,
-                            "TrueDamageDone": 439,
-                            "TrueDamageDoneToChampions": 0,
-                            "TrueDamageTaken": 375
+                            "trueDamageDone": 439,
+                            "trueDamageDoneToChampions": 0,
+                            "trueDamageTaken": 375
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 0,
@@ -20372,9 +20372,9 @@ timeline_example = {
                             "totalDamageDone": 52275,
                             "totalDamageDoneToChampions": 6260,
                             "totalDamageTaken": 6168,
-                            "TrueDamageDone": 14869,
-                            "TrueDamageDoneToChampions": 1596,
-                            "TrueDamageTaken": 124
+                            "trueDamageDone": 14869,
+                            "trueDamageDoneToChampions": 1596,
+                            "trueDamageTaken": 124
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 0,
@@ -20428,9 +20428,9 @@ timeline_example = {
                             "totalDamageDone": 18503,
                             "totalDamageDoneToChampions": 8876,
                             "totalDamageTaken": 6360,
-                            "TrueDamageDone": 481,
-                            "TrueDamageDoneToChampions": 467,
-                            "TrueDamageTaken": 338
+                            "trueDamageDone": 481,
+                            "trueDamageDoneToChampions": 467,
+                            "trueDamageTaken": 338
                         },
                         "goldPerSecond": 30,
                         "jungleMinionsKilled": 0,
@@ -20492,7 +20492,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "luxlightbinding",
                                 "spellSlot": 0,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -20503,7 +20503,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "",
                                 "spellSlot": -1,
-                                "TrueDamage": 30,
+                                "trueDamage": 30,
                                 "type": "OTHER"
                             },
                             {
@@ -20514,7 +20514,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "luxlightstrikekugel",
                                 "spellSlot": 2,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             }
                         ],
@@ -20527,7 +20527,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "hweipassive",
                                 "spellSlot": 63,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -20538,7 +20538,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "hweiee",
                                 "spellSlot": 2,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -20549,7 +20549,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "hweiqe",
                                 "spellSlot": 2,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -20560,7 +20560,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "hweiqe",
                                 "spellSlot": 0,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -20571,7 +20571,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "hweiwe",
                                 "spellSlot": 1,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -20582,7 +20582,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "",
                                 "spellSlot": -1,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -20593,7 +20593,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "",
                                 "spellSlot": -1,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -20604,7 +20604,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "sru_chaosminionrangedbasicattack",
                                 "spellSlot": 64,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "MINION"
                             },
                             {
@@ -20615,7 +20615,7 @@ timeline_example = {
                                 "physicalDamage": 15,
                                 "spellName": "sru_chaosminionrangedbasicattack2",
                                 "spellSlot": 65,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "MINION"
                             },
                             {
@@ -20626,7 +20626,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "",
                                 "spellSlot": -1,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -20637,7 +20637,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "zacbasicattack2",
                                 "spellSlot": 65,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -20648,7 +20648,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "zacr",
                                 "spellSlot": 3,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -20659,7 +20659,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "s5_summonersmiteplayerganker",
                                 "spellSlot": 5,
-                                "TrueDamage": 40,
+                                "trueDamage": 40,
                                 "type": "OTHER"
                             },
                             {
@@ -20670,7 +20670,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "burning",
                                 "spellSlot": -1,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -20681,7 +20681,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "zacw",
                                 "spellSlot": 1,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -20692,7 +20692,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "",
                                 "spellSlot": -1,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -20703,7 +20703,7 @@ timeline_example = {
                                 "physicalDamage": 312,
                                 "spellName": "varusq",
                                 "spellSlot": 0,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             }
                         ],
@@ -20739,7 +20739,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "ahriw",
                                 "spellSlot": 1,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -20750,7 +20750,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "",
                                 "spellSlot": -1,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -20761,7 +20761,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "ahrir",
                                 "spellSlot": 3,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -20772,7 +20772,7 @@ timeline_example = {
                                 "physicalDamage": 88,
                                 "spellName": "ahribasicattack",
                                 "spellSlot": 64,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -20783,7 +20783,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "",
                                 "spellSlot": -1,
-                                "TrueDamage": 26,
+                                "trueDamage": 26,
                                 "type": "OTHER"
                             },
                             {
@@ -20794,7 +20794,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "ahrie",
                                 "spellSlot": 2,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -20805,7 +20805,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "ahriq",
                                 "spellSlot": 0,
-                                "TrueDamage": 224,
+                                "trueDamage": 224,
                                 "type": "OTHER"
                             },
                             {
@@ -20816,7 +20816,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "ahriw",
                                 "spellSlot": 1,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -20827,7 +20827,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "",
                                 "spellSlot": -1,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -20838,7 +20838,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "ahrir",
                                 "spellSlot": 3,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             }
                         ],
@@ -20851,7 +20851,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "",
                                 "spellSlot": -1,
-                                "TrueDamage": 57,
+                                "trueDamage": 57,
                                 "type": "OTHER"
                             },
                             {
@@ -20862,7 +20862,7 @@ timeline_example = {
                                 "physicalDamage": 52,
                                 "spellName": "brandbasicattack2",
                                 "spellSlot": 65,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -20873,7 +20873,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "brandpassive",
                                 "spellSlot": 63,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -20884,7 +20884,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "brande",
                                 "spellSlot": 2,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -20895,7 +20895,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "",
                                 "spellSlot": -1,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -20906,7 +20906,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "brandq",
                                 "spellSlot": 0,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -20917,7 +20917,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "brandw",
                                 "spellSlot": 1,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -20928,7 +20928,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "luluq",
                                 "spellSlot": 0,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -20939,7 +20939,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "",
                                 "spellSlot": -1,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -20950,7 +20950,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "",
                                 "spellSlot": -1,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -20961,7 +20961,7 @@ timeline_example = {
                                 "physicalDamage": 123,
                                 "spellName": "vaynetumble",
                                 "spellSlot": 0,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             }
                         ],
@@ -21004,7 +21004,7 @@ timeline_example = {
                                 "physicalDamage": 104,
                                 "spellName": "varuse",
                                 "spellSlot": 2,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -21015,7 +21015,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "varusr",
                                 "spellSlot": 3,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -21026,7 +21026,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "varusw",
                                 "spellSlot": 1,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -21037,7 +21037,7 @@ timeline_example = {
                                 "physicalDamage": 69,
                                 "spellName": "varuswbasicattack",
                                 "spellSlot": 56,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -21048,7 +21048,7 @@ timeline_example = {
                                 "physicalDamage": 290,
                                 "spellName": "varusq",
                                 "spellSlot": 0,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -21059,7 +21059,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "summonerdot",
                                 "spellSlot": 5,
-                                "TrueDamage": 126,
+                                "trueDamage": 126,
                                 "type": "OTHER"
                             },
                             {
@@ -21070,7 +21070,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "varusw",
                                 "spellSlot": 1,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -21081,7 +21081,7 @@ timeline_example = {
                                 "physicalDamage": 136,
                                 "spellName": "varuswbasicattack",
                                 "spellSlot": 56,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -21092,7 +21092,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "varusw",
                                 "spellSlot": 1,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -21103,7 +21103,7 @@ timeline_example = {
                                 "physicalDamage": 141,
                                 "spellName": "varuswbasicattack",
                                 "spellSlot": 56,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             }
                         ],
@@ -21116,7 +21116,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "brandr",
                                 "spellSlot": 3,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -21127,7 +21127,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "",
                                 "spellSlot": -1,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -21138,7 +21138,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "brandpassive",
                                 "spellSlot": 63,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -21149,7 +21149,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "brandw",
                                 "spellSlot": 1,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -21160,7 +21160,7 @@ timeline_example = {
                                 "physicalDamage": 217,
                                 "spellName": "vaynetumble",
                                 "spellSlot": 0,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -21171,7 +21171,7 @@ timeline_example = {
                                 "physicalDamage": 226,
                                 "spellName": "vaynetumble",
                                 "spellSlot": 0,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -21182,7 +21182,7 @@ timeline_example = {
                                 "physicalDamage": 62,
                                 "spellName": "vaynecondemn",
                                 "spellSlot": 2,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -21193,7 +21193,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "vaynesilveredbolts",
                                 "spellSlot": 1,
-                                "TrueDamage": 115,
+                                "trueDamage": 115,
                                 "type": "OTHER"
                             }
                         ],
@@ -21240,7 +21240,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "",
                                 "spellSlot": -1,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -21251,7 +21251,7 @@ timeline_example = {
                                 "physicalDamage": 74,
                                 "spellName": "vaynetumble",
                                 "spellSlot": 0,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -21262,7 +21262,7 @@ timeline_example = {
                                 "physicalDamage": 118,
                                 "spellName": "vaynetumble",
                                 "spellSlot": 0,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -21273,7 +21273,7 @@ timeline_example = {
                                 "physicalDamage": 112,
                                 "spellName": "vaynecritattack",
                                 "spellSlot": 73,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             }
                         ],
@@ -21286,7 +21286,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "zacq",
                                 "spellSlot": 0,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -21297,7 +21297,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "",
                                 "spellSlot": -1,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -21308,7 +21308,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "zacw",
                                 "spellSlot": 1,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -21319,7 +21319,7 @@ timeline_example = {
                                 "physicalDamage": 290,
                                 "spellName": "varusq",
                                 "spellSlot": 0,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -21330,7 +21330,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "summonerdot",
                                 "spellSlot": 5,
-                                "TrueDamage": 168,
+                                "trueDamage": 168,
                                 "type": "OTHER"
                             },
                             {
@@ -21341,7 +21341,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "varusw",
                                 "spellSlot": 1,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -21352,7 +21352,7 @@ timeline_example = {
                                 "physicalDamage": 136,
                                 "spellName": "varuswbasicattack",
                                 "spellSlot": 56,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -21363,7 +21363,7 @@ timeline_example = {
                                 "physicalDamage": 113,
                                 "spellName": "varuse",
                                 "spellSlot": 2,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -21374,7 +21374,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "ahriw",
                                 "spellSlot": 1,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -21385,7 +21385,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "",
                                 "spellSlot": -1,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             }
                         ],
@@ -21471,7 +21471,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "",
                                 "spellSlot": -1,
-                                "TrueDamage": 30,
+                                "trueDamage": 30,
                                 "type": "OTHER"
                             },
                             {
@@ -21482,7 +21482,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "",
                                 "spellSlot": -1,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -21493,7 +21493,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "luxlightstrikekugel",
                                 "spellSlot": 2,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -21504,7 +21504,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "luxlightbinding",
                                 "spellSlot": 0,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -21515,7 +21515,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "",
                                 "spellSlot": -1,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -21526,7 +21526,7 @@ timeline_example = {
                                 "physicalDamage": 74,
                                 "spellName": "vaynetumble",
                                 "spellSlot": 0,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -21537,7 +21537,7 @@ timeline_example = {
                                 "physicalDamage": 118,
                                 "spellName": "vaynetumble",
                                 "spellSlot": 0,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -21548,7 +21548,7 @@ timeline_example = {
                                 "physicalDamage": 112,
                                 "spellName": "vaynecritattack",
                                 "spellSlot": 73,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -21559,7 +21559,7 @@ timeline_example = {
                                 "physicalDamage": 26,
                                 "spellName": "lulubasicattack2",
                                 "spellSlot": 65,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -21570,7 +21570,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "",
                                 "spellSlot": -1,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -21581,7 +21581,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "lulue",
                                 "spellSlot": 2,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -21592,7 +21592,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "luluq",
                                 "spellSlot": 0,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -21603,7 +21603,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "",
                                 "spellSlot": -1,
-                                "TrueDamage": 30,
+                                "trueDamage": 30,
                                 "type": "OTHER"
                             },
                             {
@@ -21614,7 +21614,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "brandpassive",
                                 "spellSlot": 63,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -21625,7 +21625,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "brande",
                                 "spellSlot": 2,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -21636,7 +21636,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "",
                                 "spellSlot": -1,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -21647,7 +21647,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "brandw",
                                 "spellSlot": 1,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             }
                         ],
@@ -21758,9 +21758,9 @@ timeline_example = {
                             "totalDamageDone": 46931,
                             "totalDamageDoneToChampions": 3336,
                             "totalDamageTaken": 9317,
-                            "TrueDamageDone": 2605,
-                            "TrueDamageDoneToChampions": 0,
-                            "TrueDamageTaken": 518
+                            "trueDamageDone": 2605,
+                            "trueDamageDoneToChampions": 0,
+                            "trueDamageTaken": 518
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 0,
@@ -21814,9 +21814,9 @@ timeline_example = {
                             "totalDamageDone": 113404,
                             "totalDamageDoneToChampions": 9335,
                             "totalDamageTaken": 11393,
-                            "TrueDamageDone": 23255,
-                            "TrueDamageDoneToChampions": 1376,
-                            "TrueDamageTaken": 726
+                            "trueDamageDone": 23255,
+                            "trueDamageDoneToChampions": 1376,
+                            "trueDamageTaken": 726
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 100,
@@ -21870,9 +21870,9 @@ timeline_example = {
                             "totalDamageDone": 70404,
                             "totalDamageDoneToChampions": 8269,
                             "totalDamageTaken": 9812,
-                            "TrueDamageDone": 2036,
-                            "TrueDamageDoneToChampions": 396,
-                            "TrueDamageTaken": 222
+                            "trueDamageDone": 2036,
+                            "trueDamageDoneToChampions": 396,
+                            "trueDamageTaken": 222
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 0,
@@ -21926,9 +21926,9 @@ timeline_example = {
                             "totalDamageDone": 48929,
                             "totalDamageDoneToChampions": 6419,
                             "totalDamageTaken": 8755,
-                            "TrueDamageDone": 10087,
-                            "TrueDamageDoneToChampions": 638,
-                            "TrueDamageTaken": 1069
+                            "trueDamageDone": 10087,
+                            "trueDamageDoneToChampions": 638,
+                            "trueDamageTaken": 1069
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 0,
@@ -21982,9 +21982,9 @@ timeline_example = {
                             "totalDamageDone": 8029,
                             "totalDamageDoneToChampions": 4478,
                             "totalDamageTaken": 7983,
-                            "TrueDamageDone": 0,
-                            "TrueDamageDoneToChampions": 0,
-                            "TrueDamageTaken": 528
+                            "trueDamageDone": 0,
+                            "trueDamageDoneToChampions": 0,
+                            "trueDamageTaken": 528
                         },
                         "goldPerSecond": 30,
                         "jungleMinionsKilled": 0,
@@ -22038,9 +22038,9 @@ timeline_example = {
                             "totalDamageDone": 71624,
                             "totalDamageDoneToChampions": 7067,
                             "totalDamageTaken": 6741,
-                            "TrueDamageDone": 2944,
-                            "TrueDamageDoneToChampions": 449,
-                            "TrueDamageTaken": 20
+                            "trueDamageDone": 2944,
+                            "trueDamageDoneToChampions": 449,
+                            "trueDamageTaken": 20
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 0,
@@ -22094,9 +22094,9 @@ timeline_example = {
                             "totalDamageDone": 92042,
                             "totalDamageDoneToChampions": 7629,
                             "totalDamageTaken": 17059,
-                            "TrueDamageDone": 26603,
-                            "TrueDamageDoneToChampions": 484,
-                            "TrueDamageTaken": 1741
+                            "trueDamageDone": 26603,
+                            "trueDamageDoneToChampions": 484,
+                            "trueDamageTaken": 1741
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 68,
@@ -22150,9 +22150,9 @@ timeline_example = {
                             "totalDamageDone": 66230,
                             "totalDamageDoneToChampions": 5497,
                             "totalDamageTaken": 7774,
-                            "TrueDamageDone": 463,
-                            "TrueDamageDoneToChampions": 0,
-                            "TrueDamageTaken": 375
+                            "trueDamageDone": 463,
+                            "trueDamageDoneToChampions": 0,
+                            "trueDamageTaken": 375
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 0,
@@ -22206,9 +22206,9 @@ timeline_example = {
                             "totalDamageDone": 53750,
                             "totalDamageDoneToChampions": 7735,
                             "totalDamageTaken": 7595,
-                            "TrueDamageDone": 15120,
-                            "TrueDamageDoneToChampions": 1847,
-                            "TrueDamageTaken": 181
+                            "trueDamageDone": 15120,
+                            "trueDamageDoneToChampions": 1847,
+                            "trueDamageTaken": 181
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 0,
@@ -22262,9 +22262,9 @@ timeline_example = {
                             "totalDamageDone": 19967,
                             "totalDamageDoneToChampions": 10340,
                             "totalDamageTaken": 7754,
-                            "TrueDamageDone": 649,
-                            "TrueDamageDoneToChampions": 635,
-                            "TrueDamageTaken": 453
+                            "trueDamageDone": 649,
+                            "trueDamageDoneToChampions": 635,
+                            "trueDamageTaken": 453
                         },
                         "goldPerSecond": 30,
                         "jungleMinionsKilled": 0,
@@ -22470,7 +22470,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "hweiqq",
                                 "spellSlot": 0,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -22481,7 +22481,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "hweieq",
                                 "spellSlot": 2,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -22492,7 +22492,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "",
                                 "spellSlot": -1,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -22503,7 +22503,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "hweiwe",
                                 "spellSlot": 1,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -22514,7 +22514,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "hweiqq",
                                 "spellSlot": 0,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -22525,7 +22525,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "",
                                 "spellSlot": -1,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -22536,7 +22536,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "",
                                 "spellSlot": -1,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             }
                         ],
@@ -22549,7 +22549,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "",
                                 "spellSlot": -1,
-                                "TrueDamage": 64,
+                                "trueDamage": 64,
                                 "type": "OTHER"
                             },
                             {
@@ -22560,7 +22560,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "brandpassive",
                                 "spellSlot": 63,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -22571,7 +22571,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "brande",
                                 "spellSlot": 2,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -22582,7 +22582,7 @@ timeline_example = {
                                 "physicalDamage": 50,
                                 "spellName": "brandbasicattack",
                                 "spellSlot": 64,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -22593,7 +22593,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "",
                                 "spellSlot": -1,
-                                "TrueDamage": 30,
+                                "trueDamage": 30,
                                 "type": "OTHER"
                             },
                             {
@@ -22604,7 +22604,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "brandw",
                                 "spellSlot": 1,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -22615,7 +22615,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "lulue",
                                 "spellSlot": 2,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -22626,7 +22626,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "",
                                 "spellSlot": -1,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -22637,7 +22637,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "luluq",
                                 "spellSlot": 0,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -22648,7 +22648,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "burning",
                                 "spellSlot": -1,
-                                "TrueDamage": 13,
+                                "trueDamage": 13,
                                 "type": "OTHER"
                             },
                             {
@@ -22659,7 +22659,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "",
                                 "spellSlot": -1,
-                                "TrueDamage": 32,
+                                "trueDamage": 32,
                                 "type": "OTHER"
                             },
                             {
@@ -22670,7 +22670,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "luxr",
                                 "spellSlot": 3,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             }
                         ],
@@ -22766,9 +22766,9 @@ timeline_example = {
                             "totalDamageDone": 51844,
                             "totalDamageDoneToChampions": 3336,
                             "totalDamageTaken": 9369,
-                            "TrueDamageDone": 2605,
-                            "TrueDamageDoneToChampions": 0,
-                            "TrueDamageTaken": 518
+                            "trueDamageDone": 2605,
+                            "trueDamageDoneToChampions": 0,
+                            "trueDamageTaken": 518
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 0,
@@ -22822,9 +22822,9 @@ timeline_example = {
                             "totalDamageDone": 121513,
                             "totalDamageDoneToChampions": 10253,
                             "totalDamageTaken": 12595,
-                            "TrueDamageDone": 24079,
-                            "TrueDamageDoneToChampions": 1484,
-                            "TrueDamageTaken": 726
+                            "trueDamageDone": 24079,
+                            "trueDamageDoneToChampions": 1484,
+                            "trueDamageTaken": 726
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 104,
@@ -22878,9 +22878,9 @@ timeline_example = {
                             "totalDamageDone": 79944,
                             "totalDamageDoneToChampions": 8752,
                             "totalDamageTaken": 10919,
-                            "TrueDamageDone": 2068,
-                            "TrueDamageDoneToChampions": 428,
-                            "TrueDamageTaken": 222
+                            "trueDamageDone": 2068,
+                            "trueDamageDoneToChampions": 428,
+                            "trueDamageTaken": 222
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 0,
@@ -22934,9 +22934,9 @@ timeline_example = {
                             "totalDamageDone": 58960,
                             "totalDamageDoneToChampions": 6419,
                             "totalDamageTaken": 9074,
-                            "TrueDamageDone": 11434,
-                            "TrueDamageDoneToChampions": 638,
-                            "TrueDamageTaken": 1069
+                            "trueDamageDone": 11434,
+                            "trueDamageDoneToChampions": 638,
+                            "trueDamageTaken": 1069
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 4,
@@ -22990,9 +22990,9 @@ timeline_example = {
                             "totalDamageDone": 9119,
                             "totalDamageDoneToChampions": 4734,
                             "totalDamageTaken": 8085,
-                            "TrueDamageDone": 0,
-                            "TrueDamageDoneToChampions": 0,
-                            "TrueDamageTaken": 528
+                            "trueDamageDone": 0,
+                            "trueDamageDoneToChampions": 0,
+                            "trueDamageTaken": 528
                         },
                         "goldPerSecond": 30,
                         "jungleMinionsKilled": 0,
@@ -23046,9 +23046,9 @@ timeline_example = {
                             "totalDamageDone": 77167,
                             "totalDamageDoneToChampions": 7067,
                             "totalDamageTaken": 7390,
-                            "TrueDamageDone": 2944,
-                            "TrueDamageDoneToChampions": 449,
-                            "TrueDamageTaken": 20
+                            "trueDamageDone": 2944,
+                            "trueDamageDoneToChampions": 449,
+                            "trueDamageTaken": 20
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 4,
@@ -23102,9 +23102,9 @@ timeline_example = {
                             "totalDamageDone": 101691,
                             "totalDamageDoneToChampions": 7629,
                             "totalDamageTaken": 17663,
-                            "TrueDamageDone": 29298,
-                            "TrueDamageDoneToChampions": 484,
-                            "TrueDamageTaken": 1741
+                            "trueDamageDone": 29298,
+                            "trueDamageDoneToChampions": 484,
+                            "trueDamageTaken": 1741
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 76,
@@ -23158,9 +23158,9 @@ timeline_example = {
                             "totalDamageDone": 73061,
                             "totalDamageDoneToChampions": 7785,
                             "totalDamageTaken": 9432,
-                            "TrueDamageDone": 478,
-                            "TrueDamageDoneToChampions": 0,
-                            "TrueDamageTaken": 516
+                            "trueDamageDone": 478,
+                            "trueDamageDoneToChampions": 0,
+                            "trueDamageTaken": 516
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 0,
@@ -23214,9 +23214,9 @@ timeline_example = {
                             "totalDamageDone": 62608,
                             "totalDamageDoneToChampions": 7735,
                             "totalDamageTaken": 7642,
-                            "TrueDamageDone": 18051,
-                            "TrueDamageDoneToChampions": 1847,
-                            "TrueDamageTaken": 181
+                            "trueDamageDone": 18051,
+                            "trueDamageDoneToChampions": 1847,
+                            "trueDamageTaken": 181
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 0,
@@ -23270,9 +23270,9 @@ timeline_example = {
                             "totalDamageDone": 19973,
                             "totalDamageDoneToChampions": 10340,
                             "totalDamageTaken": 7754,
-                            "TrueDamageDone": 652,
-                            "TrueDamageDoneToChampions": 635,
-                            "TrueDamageTaken": 453
+                            "trueDamageDone": 652,
+                            "trueDamageDoneToChampions": 635,
+                            "trueDamageTaken": 453
                         },
                         "goldPerSecond": 30,
                         "jungleMinionsKilled": 0,
@@ -23358,7 +23358,7 @@ timeline_example = {
                                 "physicalDamage": 104,
                                 "spellName": "yoner",
                                 "spellSlot": 3,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -23369,7 +23369,7 @@ timeline_example = {
                                 "physicalDamage": 119,
                                 "spellName": "yoneq",
                                 "spellSlot": 0,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -23380,7 +23380,7 @@ timeline_example = {
                                 "physicalDamage": 294,
                                 "spellName": "",
                                 "spellSlot": -1,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -23391,7 +23391,7 @@ timeline_example = {
                                 "physicalDamage": 153,
                                 "spellName": "yoneq3",
                                 "spellSlot": 0,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -23402,7 +23402,7 @@ timeline_example = {
                                 "physicalDamage": 64,
                                 "spellName": "yonew",
                                 "spellSlot": 1,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -23413,7 +23413,7 @@ timeline_example = {
                                 "physicalDamage": 134,
                                 "spellName": "yoner",
                                 "spellSlot": 3,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -23424,7 +23424,7 @@ timeline_example = {
                                 "physicalDamage": 224,
                                 "spellName": "yonepassive",
                                 "spellSlot": 63,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -23435,7 +23435,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "",
                                 "spellSlot": 63,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -23446,7 +23446,7 @@ timeline_example = {
                                 "physicalDamage": 153,
                                 "spellName": "yoneq",
                                 "spellSlot": 0,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             }
                         ],
@@ -23459,7 +23459,7 @@ timeline_example = {
                                 "physicalDamage": 67,
                                 "spellName": "sru_orderminionrangedbasicattack",
                                 "spellSlot": 64,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "MINION"
                             },
                             {
@@ -23470,7 +23470,7 @@ timeline_example = {
                                 "physicalDamage": 9,
                                 "spellName": "sru_orderminionmeleebasicattack",
                                 "spellSlot": 64,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "MINION"
                             },
                             {
@@ -23481,7 +23481,7 @@ timeline_example = {
                                 "physicalDamage": 45,
                                 "spellName": "sru_orderminionsiegebasicattack",
                                 "spellSlot": 64,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "MINION"
                             },
                             {
@@ -23492,7 +23492,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "sru_orderminionrangedbasicattack2",
                                 "spellSlot": 65,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "MINION"
                             },
                             {
@@ -23503,7 +23503,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "brandpassive",
                                 "spellSlot": 63,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -23514,7 +23514,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "summonersmiteavataroffensive",
                                 "spellSlot": 4,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -23525,7 +23525,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "",
                                 "spellSlot": -1,
-                                "TrueDamage": 30,
+                                "trueDamage": 30,
                                 "type": "OTHER"
                             },
                             {
@@ -23536,7 +23536,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "",
                                 "spellSlot": -1,
-                                "TrueDamage": 21,
+                                "trueDamage": 21,
                                 "type": "OTHER"
                             },
                             {
@@ -23547,7 +23547,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "brandr",
                                 "spellSlot": 3,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -23558,7 +23558,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "brandq",
                                 "spellSlot": 0,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -23569,7 +23569,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "brandw",
                                 "spellSlot": 1,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -23580,7 +23580,7 @@ timeline_example = {
                                 "physicalDamage": 196,
                                 "spellName": "garenq",
                                 "spellSlot": 0,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -23591,7 +23591,7 @@ timeline_example = {
                                 "physicalDamage": 269,
                                 "spellName": "garene",
                                 "spellSlot": 2,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -23602,7 +23602,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "garenr",
                                 "spellSlot": 3,
-                                "TrueDamage": 825,
+                                "trueDamage": 825,
                                 "type": "OTHER"
                             }
                         ],
@@ -23786,9 +23786,9 @@ timeline_example = {
                             "totalDamageDone": 64030,
                             "totalDamageDoneToChampions": 4628,
                             "totalDamageTaken": 10154,
-                            "TrueDamageDone": 3430,
-                            "TrueDamageDoneToChampions": 825,
-                            "TrueDamageTaken": 640
+                            "trueDamageDone": 3430,
+                            "trueDamageDoneToChampions": 825,
+                            "trueDamageTaken": 640
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 0,
@@ -23842,9 +23842,9 @@ timeline_example = {
                             "totalDamageDone": 136996,
                             "totalDamageDoneToChampions": 11558,
                             "totalDamageTaken": 14450,
-                            "TrueDamageDone": 25548,
-                            "TrueDamageDoneToChampions": 1537,
-                            "TrueDamageTaken": 1083
+                            "trueDamageDone": 25548,
+                            "trueDamageDoneToChampions": 1537,
+                            "trueDamageTaken": 1083
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 112,
@@ -23898,9 +23898,9 @@ timeline_example = {
                             "totalDamageDone": 82250,
                             "totalDamageDoneToChampions": 8752,
                             "totalDamageTaken": 10919,
-                            "TrueDamageDone": 2068,
-                            "TrueDamageDoneToChampions": 428,
-                            "TrueDamageTaken": 222
+                            "trueDamageDone": 2068,
+                            "trueDamageDoneToChampions": 428,
+                            "trueDamageTaken": 222
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 0,
@@ -23954,9 +23954,9 @@ timeline_example = {
                             "totalDamageDone": 65625,
                             "totalDamageDoneToChampions": 6419,
                             "totalDamageTaken": 9158,
-                            "TrueDamageDone": 11712,
-                            "TrueDamageDoneToChampions": 638,
-                            "TrueDamageTaken": 1069
+                            "trueDamageDone": 11712,
+                            "trueDamageDoneToChampions": 638,
+                            "trueDamageTaken": 1069
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 4,
@@ -24010,9 +24010,9 @@ timeline_example = {
                             "totalDamageDone": 9123,
                             "totalDamageDoneToChampions": 4734,
                             "totalDamageTaken": 8085,
-                            "TrueDamageDone": 0,
-                            "TrueDamageDoneToChampions": 0,
-                            "TrueDamageTaken": 528
+                            "trueDamageDone": 0,
+                            "trueDamageDoneToChampions": 0,
+                            "trueDamageTaken": 528
                         },
                         "goldPerSecond": 30,
                         "jungleMinionsKilled": 0,
@@ -24066,9 +24066,9 @@ timeline_example = {
                             "totalDamageDone": 80356,
                             "totalDamageDoneToChampions": 9260,
                             "totalDamageTaken": 10110,
-                            "TrueDamageDone": 3423,
-                            "TrueDamageDoneToChampions": 928,
-                            "TrueDamageTaken": 898
+                            "trueDamageDone": 3423,
+                            "trueDamageDoneToChampions": 928,
+                            "trueDamageTaken": 898
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 4,
@@ -24122,9 +24122,9 @@ timeline_example = {
                             "totalDamageDone": 107202,
                             "totalDamageDoneToChampions": 7629,
                             "totalDamageTaken": 18578,
-                            "TrueDamageDone": 30521,
-                            "TrueDamageDoneToChampions": 484,
-                            "TrueDamageTaken": 1741
+                            "trueDamageDone": 30521,
+                            "trueDamageDoneToChampions": 484,
+                            "trueDamageTaken": 1741
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 84,
@@ -24178,9 +24178,9 @@ timeline_example = {
                             "totalDamageDone": 77178,
                             "totalDamageDoneToChampions": 7785,
                             "totalDamageTaken": 9490,
-                            "TrueDamageDone": 500,
-                            "TrueDamageDoneToChampions": 0,
-                            "TrueDamageTaken": 516
+                            "trueDamageDone": 500,
+                            "trueDamageDoneToChampions": 0,
+                            "trueDamageTaken": 516
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 0,
@@ -24234,9 +24234,9 @@ timeline_example = {
                             "totalDamageDone": 70650,
                             "totalDamageDoneToChampions": 7735,
                             "totalDamageTaken": 7670,
-                            "TrueDamageDone": 20532,
-                            "TrueDamageDoneToChampions": 1847,
-                            "TrueDamageTaken": 181
+                            "trueDamageDone": 20532,
+                            "trueDamageDoneToChampions": 1847,
+                            "trueDamageTaken": 181
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 0,
@@ -24290,9 +24290,9 @@ timeline_example = {
                             "totalDamageDone": 25039,
                             "totalDamageDoneToChampions": 10340,
                             "totalDamageTaken": 7825,
-                            "TrueDamageDone": 655,
-                            "TrueDamageDoneToChampions": 635,
-                            "TrueDamageTaken": 453
+                            "trueDamageDone": 655,
+                            "trueDamageDoneToChampions": 635,
+                            "trueDamageTaken": 453
                         },
                         "goldPerSecond": 30,
                         "jungleMinionsKilled": 0,
@@ -24529,9 +24529,9 @@ timeline_example = {
                             "totalDamageDone": 67645,
                             "totalDamageDoneToChampions": 4628,
                             "totalDamageTaken": 10615,
-                            "TrueDamageDone": 3430,
-                            "TrueDamageDoneToChampions": 825,
-                            "TrueDamageTaken": 640
+                            "trueDamageDone": 3430,
+                            "trueDamageDoneToChampions": 825,
+                            "trueDamageTaken": 640
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 0,
@@ -24585,9 +24585,9 @@ timeline_example = {
                             "totalDamageDone": 146584,
                             "totalDamageDoneToChampions": 12084,
                             "totalDamageTaken": 16003,
-                            "TrueDamageDone": 28989,
-                            "TrueDamageDoneToChampions": 1675,
-                            "TrueDamageTaken": 1339
+                            "trueDamageDone": 28989,
+                            "trueDamageDoneToChampions": 1675,
+                            "trueDamageTaken": 1339
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 120,
@@ -24641,9 +24641,9 @@ timeline_example = {
                             "totalDamageDone": 90966,
                             "totalDamageDoneToChampions": 10370,
                             "totalDamageTaken": 11548,
-                            "TrueDamageDone": 2134,
-                            "TrueDamageDoneToChampions": 494,
-                            "TrueDamageTaken": 222
+                            "trueDamageDone": 2134,
+                            "trueDamageDoneToChampions": 494,
+                            "trueDamageTaken": 222
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 0,
@@ -24697,9 +24697,9 @@ timeline_example = {
                             "totalDamageDone": 70125,
                             "totalDamageDoneToChampions": 6419,
                             "totalDamageTaken": 9158,
-                            "TrueDamageDone": 11983,
-                            "TrueDamageDoneToChampions": 638,
-                            "TrueDamageTaken": 1069
+                            "trueDamageDone": 11983,
+                            "trueDamageDoneToChampions": 638,
+                            "trueDamageTaken": 1069
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 4,
@@ -24753,9 +24753,9 @@ timeline_example = {
                             "totalDamageDone": 9465,
                             "totalDamageDoneToChampions": 4734,
                             "totalDamageTaken": 8085,
-                            "TrueDamageDone": 0,
-                            "TrueDamageDoneToChampions": 0,
-                            "TrueDamageTaken": 528
+                            "trueDamageDone": 0,
+                            "trueDamageDoneToChampions": 0,
+                            "trueDamageTaken": 528
                         },
                         "goldPerSecond": 30,
                         "jungleMinionsKilled": 0,
@@ -24809,9 +24809,9 @@ timeline_example = {
                             "totalDamageDone": 86016,
                             "totalDamageDoneToChampions": 9260,
                             "totalDamageTaken": 10110,
-                            "TrueDamageDone": 3423,
-                            "TrueDamageDoneToChampions": 928,
-                            "TrueDamageTaken": 898
+                            "trueDamageDone": 3423,
+                            "trueDamageDoneToChampions": 928,
+                            "trueDamageTaken": 898
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 4,
@@ -24865,9 +24865,9 @@ timeline_example = {
                             "totalDamageDone": 115977,
                             "totalDamageDoneToChampions": 7972,
                             "totalDamageTaken": 18924,
-                            "TrueDamageDone": 31698,
-                            "TrueDamageDoneToChampions": 484,
-                            "TrueDamageTaken": 1741
+                            "trueDamageDone": 31698,
+                            "trueDamageDoneToChampions": 484,
+                            "trueDamageTaken": 1741
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 88,
@@ -24921,9 +24921,9 @@ timeline_example = {
                             "totalDamageDone": 86444,
                             "totalDamageDoneToChampions": 7785,
                             "totalDamageTaken": 10748,
-                            "TrueDamageDone": 500,
-                            "TrueDamageDoneToChampions": 0,
-                            "TrueDamageTaken": 549
+                            "trueDamageDone": 500,
+                            "trueDamageDoneToChampions": 0,
+                            "trueDamageTaken": 549
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 0,
@@ -24977,9 +24977,9 @@ timeline_example = {
                             "totalDamageDone": 71833,
                             "totalDamageDoneToChampions": 8918,
                             "totalDamageTaken": 8673,
-                            "TrueDamageDone": 20788,
-                            "TrueDamageDoneToChampions": 2103,
-                            "TrueDamageTaken": 352
+                            "trueDamageDone": 20788,
+                            "trueDamageDoneToChampions": 2103,
+                            "trueDamageTaken": 352
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 0,
@@ -25033,9 +25033,9 @@ timeline_example = {
                             "totalDamageDone": 25895,
                             "totalDamageDoneToChampions": 10969,
                             "totalDamageTaken": 7825,
-                            "TrueDamageDone": 659,
-                            "TrueDamageDoneToChampions": 635,
-                            "TrueDamageTaken": 453
+                            "trueDamageDone": 659,
+                            "trueDamageDoneToChampions": 635,
+                            "trueDamageTaken": 453
                         },
                         "goldPerSecond": 30,
                         "jungleMinionsKilled": 0,
@@ -25109,7 +25109,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "",
                                 "spellSlot": -1,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -25120,7 +25120,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "zace",
                                 "spellSlot": 2,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -25131,7 +25131,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "zacq",
                                 "spellSlot": 0,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -25142,7 +25142,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "zacw",
                                 "spellSlot": 1,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -25153,7 +25153,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "s5_summonersmiteplayerganker",
                                 "spellSlot": 5,
-                                "TrueDamage": 40,
+                                "trueDamage": 40,
                                 "type": "OTHER"
                             },
                             {
@@ -25164,7 +25164,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "zacr",
                                 "spellSlot": 3,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -25175,7 +25175,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "",
                                 "spellSlot": -1,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -25186,7 +25186,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "",
                                 "spellSlot": -1,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -25197,7 +25197,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "hweiqq",
                                 "spellSlot": 0,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -25208,7 +25208,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "hweiee",
                                 "spellSlot": 2,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -25219,7 +25219,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "",
                                 "spellSlot": -1,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             }
                         ],
@@ -25248,7 +25248,7 @@ timeline_example = {
                                 "physicalDamage": 26,
                                 "spellName": "lulubasicattack",
                                 "spellSlot": 64,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -25259,7 +25259,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "lulupassive",
                                 "spellSlot": 63,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             }
                         ],
@@ -25272,7 +25272,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "",
                                 "spellSlot": -1,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -25283,7 +25283,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "zacq",
                                 "spellSlot": 0,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -25294,7 +25294,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "zacw",
                                 "spellSlot": 1,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -25305,7 +25305,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "zacr",
                                 "spellSlot": 3,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -25316,7 +25316,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "",
                                 "spellSlot": -1,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -25327,7 +25327,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "",
                                 "spellSlot": -1,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -25338,7 +25338,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "hweipassive",
                                 "spellSlot": 63,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -25349,7 +25349,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "hweiee",
                                 "spellSlot": 2,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -25360,7 +25360,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "",
                                 "spellSlot": -1,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -25371,7 +25371,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "hweir",
                                 "spellSlot": 3,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             }
                         ],
@@ -25436,7 +25436,7 @@ timeline_example = {
                                 "physicalDamage": 211,
                                 "spellName": "garene",
                                 "spellSlot": 2,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -25447,7 +25447,7 @@ timeline_example = {
                                 "physicalDamage": 185,
                                 "spellName": "garenq",
                                 "spellSlot": 0,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             }
                         ],
@@ -25460,7 +25460,7 @@ timeline_example = {
                                 "physicalDamage": 183,
                                 "spellName": "yonew",
                                 "spellSlot": 1,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -25471,7 +25471,7 @@ timeline_example = {
                                 "physicalDamage": 411,
                                 "spellName": "yonepassive",
                                 "spellSlot": 63,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -25482,7 +25482,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "yonee",
                                 "spellSlot": 2,
-                                "TrueDamage": 334,
+                                "trueDamage": 334,
                                 "type": "OTHER"
                             },
                             {
@@ -25493,7 +25493,7 @@ timeline_example = {
                                 "physicalDamage": 726,
                                 "spellName": "",
                                 "spellSlot": -1,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -25504,7 +25504,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "",
                                 "spellSlot": 63,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -25515,7 +25515,7 @@ timeline_example = {
                                 "physicalDamage": 112,
                                 "spellName": "yoneq",
                                 "spellSlot": 0,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -25526,7 +25526,7 @@ timeline_example = {
                                 "physicalDamage": 112,
                                 "spellName": "yoneq3",
                                 "spellSlot": 0,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -25537,7 +25537,7 @@ timeline_example = {
                                 "physicalDamage": 14,
                                 "spellName": "sru_chaosminionrangedbasicattack",
                                 "spellSlot": 64,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "MINION"
                             },
                             {
@@ -25548,7 +25548,7 @@ timeline_example = {
                                 "physicalDamage": 25,
                                 "spellName": "sru_chaosminionmeleebasicattack",
                                 "spellSlot": 64,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "MINION"
                             },
                             {
@@ -25559,7 +25559,7 @@ timeline_example = {
                                 "physicalDamage": 42,
                                 "spellName": "sru_chaosminionrangedbasicattack2",
                                 "spellSlot": 65,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "MINION"
                             },
                             {
@@ -25570,7 +25570,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "",
                                 "spellSlot": -1,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -25581,7 +25581,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "zacw",
                                 "spellSlot": 1,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -25592,7 +25592,7 @@ timeline_example = {
                                 "physicalDamage": 38,
                                 "spellName": "zacbasicattack",
                                 "spellSlot": 64,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -25603,7 +25603,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "s5_summonersmiteplayerganker",
                                 "spellSlot": 5,
-                                "TrueDamage": 40,
+                                "trueDamage": 40,
                                 "type": "OTHER"
                             }
                         ],
@@ -25742,9 +25742,9 @@ timeline_example = {
                             "totalDamageDone": 69794,
                             "totalDamageDoneToChampions": 5024,
                             "totalDamageTaken": 13330,
-                            "TrueDamageDone": 3430,
-                            "TrueDamageDoneToChampions": 825,
-                            "TrueDamageTaken": 1015
+                            "trueDamageDone": 3430,
+                            "trueDamageDoneToChampions": 825,
+                            "trueDamageTaken": 1015
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 0,
@@ -25798,9 +25798,9 @@ timeline_example = {
                             "totalDamageDone": 154317,
                             "totalDamageDoneToChampions": 12084,
                             "totalDamageTaken": 18136,
-                            "TrueDamageDone": 29857,
-                            "TrueDamageDoneToChampions": 1675,
-                            "TrueDamageTaken": 1379
+                            "trueDamageDone": 29857,
+                            "trueDamageDoneToChampions": 1675,
+                            "trueDamageTaken": 1379
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 124,
@@ -25854,9 +25854,9 @@ timeline_example = {
                             "totalDamageDone": 97806,
                             "totalDamageDoneToChampions": 10839,
                             "totalDamageTaken": 11777,
-                            "TrueDamageDone": 2168,
-                            "TrueDamageDoneToChampions": 528,
-                            "TrueDamageTaken": 222
+                            "trueDamageDone": 2168,
+                            "trueDamageDoneToChampions": 528,
+                            "trueDamageTaken": 222
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 0,
@@ -25910,9 +25910,9 @@ timeline_example = {
                             "totalDamageDone": 83000,
                             "totalDamageDoneToChampions": 6513,
                             "totalDamageTaken": 9984,
-                            "TrueDamageDone": 13350,
-                            "TrueDamageDoneToChampions": 638,
-                            "TrueDamageTaken": 1069
+                            "trueDamageDone": 13350,
+                            "trueDamageDoneToChampions": 638,
+                            "trueDamageTaken": 1069
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 8,
@@ -25966,9 +25966,9 @@ timeline_example = {
                             "totalDamageDone": 9544,
                             "totalDamageDoneToChampions": 4814,
                             "totalDamageTaken": 9915,
-                            "TrueDamageDone": 0,
-                            "TrueDamageDoneToChampions": 0,
-                            "TrueDamageTaken": 528
+                            "trueDamageDone": 0,
+                            "trueDamageDoneToChampions": 0,
+                            "trueDamageTaken": 528
                         },
                         "goldPerSecond": 30,
                         "jungleMinionsKilled": 0,
@@ -26022,9 +26022,9 @@ timeline_example = {
                             "totalDamageDone": 94208,
                             "totalDamageDoneToChampions": 11534,
                             "totalDamageTaken": 10614,
-                            "TrueDamageDone": 3758,
-                            "TrueDamageDoneToChampions": 1263,
-                            "TrueDamageTaken": 898
+                            "trueDamageDone": 3758,
+                            "trueDamageDoneToChampions": 1263,
+                            "trueDamageTaken": 898
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 4,
@@ -26078,9 +26078,9 @@ timeline_example = {
                             "totalDamageDone": 121203,
                             "totalDamageDoneToChampions": 10465,
                             "totalDamageTaken": 20778,
-                            "TrueDamageDone": 32726,
-                            "TrueDamageDoneToChampions": 564,
-                            "TrueDamageTaken": 1741
+                            "trueDamageDone": 32726,
+                            "trueDamageDoneToChampions": 564,
+                            "trueDamageTaken": 1741
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 88,
@@ -26134,9 +26134,9 @@ timeline_example = {
                             "totalDamageDone": 92558,
                             "totalDamageDoneToChampions": 9742,
                             "totalDamageTaken": 11402,
-                            "TrueDamageDone": 693,
-                            "TrueDamageDoneToChampions": 0,
-                            "TrueDamageTaken": 583
+                            "trueDamageDone": 693,
+                            "trueDamageDoneToChampions": 0,
+                            "trueDamageTaken": 583
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 0,
@@ -26190,9 +26190,9 @@ timeline_example = {
                             "totalDamageDone": 81667,
                             "totalDamageDoneToChampions": 9505,
                             "totalDamageTaken": 8942,
-                            "TrueDamageDone": 23866,
-                            "TrueDamageDoneToChampions": 2103,
-                            "TrueDamageTaken": 352
+                            "trueDamageDone": 23866,
+                            "trueDamageDoneToChampions": 2103,
+                            "trueDamageTaken": 352
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 0,
@@ -26246,9 +26246,9 @@ timeline_example = {
                             "totalDamageDone": 29570,
                             "totalDamageDoneToChampions": 10969,
                             "totalDamageTaken": 8026,
-                            "TrueDamageDone": 661,
-                            "TrueDamageDoneToChampions": 635,
-                            "TrueDamageTaken": 453
+                            "trueDamageDone": 661,
+                            "trueDamageDoneToChampions": 635,
+                            "trueDamageTaken": 453
                         },
                         "goldPerSecond": 30,
                         "jungleMinionsKilled": 0,
@@ -26364,7 +26364,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "varusr",
                                 "spellSlot": 3,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             }
                         ],
@@ -26377,7 +26377,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "lulue",
                                 "spellSlot": 2,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -26388,7 +26388,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "baronacidballchampion",
                                 "spellSlot": -1,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "MONSTER"
                             },
                             {
@@ -26399,7 +26399,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "baronspellcaster",
                                 "spellSlot": 2,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "MONSTER"
                             },
                             {
@@ -26410,7 +26410,7 @@ timeline_example = {
                                 "physicalDamage": 96,
                                 "spellName": "",
                                 "spellSlot": -1,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -26421,7 +26421,7 @@ timeline_example = {
                                 "physicalDamage": 144,
                                 "spellName": "vaynetumble",
                                 "spellSlot": 0,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -26432,7 +26432,7 @@ timeline_example = {
                                 "physicalDamage": 541,
                                 "spellName": "vaynetumble",
                                 "spellSlot": 0,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -26443,7 +26443,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "vaynesilveredbolts",
                                 "spellSlot": 1,
-                                "TrueDamage": 148,
+                                "trueDamage": 148,
                                 "type": "OTHER"
                             },
                             {
@@ -26454,7 +26454,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "burning",
                                 "spellSlot": -1,
-                                "TrueDamage": 26,
+                                "trueDamage": 26,
                                 "type": "OTHER"
                             }
                         ],
@@ -26485,7 +26485,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "",
                                 "spellSlot": -1,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -26496,7 +26496,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "zacq",
                                 "spellSlot": 0,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -26507,7 +26507,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "zacw",
                                 "spellSlot": 1,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -26518,7 +26518,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "",
                                 "spellSlot": -1,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -26529,7 +26529,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "",
                                 "spellSlot": -1,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -26540,7 +26540,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "zacq",
                                 "spellSlot": 0,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -26551,7 +26551,7 @@ timeline_example = {
                                 "physicalDamage": 59,
                                 "spellName": "zacbasicattack",
                                 "spellSlot": 64,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -26562,7 +26562,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "zacw",
                                 "spellSlot": 1,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -26573,7 +26573,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "",
                                 "spellSlot": -1,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             }
                         ],
@@ -26586,7 +26586,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "lulue",
                                 "spellSlot": 2,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -26597,7 +26597,7 @@ timeline_example = {
                                 "physicalDamage": 19,
                                 "spellName": "lulubasicattack2",
                                 "spellSlot": 65,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -26608,7 +26608,7 @@ timeline_example = {
                                 "physicalDamage": 1178,
                                 "spellName": "baronspike",
                                 "spellSlot": 1,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "MONSTER"
                             },
                             {
@@ -26619,7 +26619,7 @@ timeline_example = {
                                 "physicalDamage": 144,
                                 "spellName": "baronattackmelee",
                                 "spellSlot": 0,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "MONSTER"
                             },
                             {
@@ -26630,7 +26630,7 @@ timeline_example = {
                                 "physicalDamage": 584,
                                 "spellName": "baronbasicattack",
                                 "spellSlot": 65,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "MONSTER"
                             },
                             {
@@ -26641,7 +26641,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "baronacidballchampion",
                                 "spellSlot": -1,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "MONSTER"
                             },
                             {
@@ -26652,7 +26652,7 @@ timeline_example = {
                                 "physicalDamage": 73,
                                 "spellName": "baronspellcaster",
                                 "spellSlot": 2,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "MONSTER"
                             },
                             {
@@ -26663,7 +26663,7 @@ timeline_example = {
                                 "physicalDamage": 137,
                                 "spellName": "",
                                 "spellSlot": -1,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -26674,7 +26674,7 @@ timeline_example = {
                                 "physicalDamage": 225,
                                 "spellName": "vaynetumble",
                                 "spellSlot": 0,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -26685,7 +26685,7 @@ timeline_example = {
                                 "physicalDamage": 183,
                                 "spellName": "vaynetumble",
                                 "spellSlot": 0,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -26696,7 +26696,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "vaynesilveredbolts",
                                 "spellSlot": 1,
-                                "TrueDamage": 275,
+                                "trueDamage": 275,
                                 "type": "OTHER"
                             },
                             {
@@ -26707,7 +26707,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "burning",
                                 "spellSlot": -1,
-                                "TrueDamage": 53,
+                                "trueDamage": 53,
                                 "type": "OTHER"
                             },
                             {
@@ -26718,7 +26718,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "",
                                 "spellSlot": -1,
-                                "TrueDamage": 32,
+                                "trueDamage": 32,
                                 "type": "OTHER"
                             },
                             {
@@ -26729,7 +26729,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "",
                                 "spellSlot": -1,
-                                "TrueDamage": 55,
+                                "trueDamage": 55,
                                 "type": "OTHER"
                             },
                             {
@@ -26740,7 +26740,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "brandpassive",
                                 "spellSlot": 63,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -26751,7 +26751,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "brande",
                                 "spellSlot": 2,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -26762,7 +26762,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "",
                                 "spellSlot": -1,
-                                "TrueDamage": 34,
+                                "trueDamage": 34,
                                 "type": "OTHER"
                             },
                             {
@@ -26773,7 +26773,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "luxlightbinding",
                                 "spellSlot": 0,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -26784,7 +26784,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "luxlightstrikekugel",
                                 "spellSlot": 2,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -26795,7 +26795,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "",
                                 "spellSlot": -1,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -26806,7 +26806,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "luxilluminationpassive",
                                 "spellSlot": 63,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -26817,7 +26817,7 @@ timeline_example = {
                                 "physicalDamage": 26,
                                 "spellName": "luxbasicattack2",
                                 "spellSlot": 65,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             }
                         ],
@@ -26955,9 +26955,9 @@ timeline_example = {
                             "totalDamageDone": 72979,
                             "totalDamageDoneToChampions": 5288,
                             "totalDamageTaken": 13801,
-                            "TrueDamageDone": 3430,
-                            "TrueDamageDoneToChampions": 825,
-                            "TrueDamageTaken": 1015
+                            "trueDamageDone": 3430,
+                            "trueDamageDoneToChampions": 825,
+                            "trueDamageTaken": 1015
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 0,
@@ -27011,9 +27011,9 @@ timeline_example = {
                             "totalDamageDone": 159559,
                             "totalDamageDoneToChampions": 13765,
                             "totalDamageTaken": 18755,
-                            "TrueDamageDone": 30093,
-                            "TrueDamageDoneToChampions": 1912,
-                            "TrueDamageTaken": 1379
+                            "trueDamageDone": 30093,
+                            "trueDamageDoneToChampions": 1912,
+                            "trueDamageTaken": 1379
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 124,
@@ -27067,9 +27067,9 @@ timeline_example = {
                             "totalDamageDone": 101605,
                             "totalDamageDoneToChampions": 12074,
                             "totalDamageTaken": 13032,
-                            "TrueDamageDone": 2238,
-                            "TrueDamageDoneToChampions": 598,
-                            "TrueDamageTaken": 222
+                            "trueDamageDone": 2238,
+                            "trueDamageDoneToChampions": 598,
+                            "trueDamageTaken": 222
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 0,
@@ -27123,9 +27123,9 @@ timeline_example = {
                             "totalDamageDone": 89373,
                             "totalDamageDoneToChampions": 9560,
                             "totalDamageTaken": 10842,
-                            "TrueDamageDone": 14235,
-                            "TrueDamageDoneToChampions": 1413,
-                            "TrueDamageTaken": 1069
+                            "trueDamageDone": 14235,
+                            "trueDamageDoneToChampions": 1413,
+                            "trueDamageTaken": 1069
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 8,
@@ -27179,9 +27179,9 @@ timeline_example = {
                             "totalDamageDone": 10213,
                             "totalDamageDoneToChampions": 5099,
                             "totalDamageTaken": 10062,
-                            "TrueDamageDone": 0,
-                            "TrueDamageDoneToChampions": 0,
-                            "TrueDamageTaken": 528
+                            "trueDamageDone": 0,
+                            "trueDamageDoneToChampions": 0,
+                            "trueDamageTaken": 528
                         },
                         "goldPerSecond": 30,
                         "jungleMinionsKilled": 0,
@@ -27235,9 +27235,9 @@ timeline_example = {
                             "totalDamageDone": 96723,
                             "totalDamageDoneToChampions": 11534,
                             "totalDamageTaken": 12333,
-                            "TrueDamageDone": 3758,
-                            "TrueDamageDoneToChampions": 1263,
-                            "TrueDamageTaken": 1169
+                            "trueDamageDone": 3758,
+                            "trueDamageDoneToChampions": 1263,
+                            "trueDamageTaken": 1169
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 4,
@@ -27291,9 +27291,9 @@ timeline_example = {
                             "totalDamageDone": 125021,
                             "totalDamageDoneToChampions": 11670,
                             "totalDamageTaken": 23341,
-                            "TrueDamageDone": 33818,
-                            "TrueDamageDoneToChampions": 564,
-                            "TrueDamageTaken": 2192
+                            "trueDamageDone": 33818,
+                            "trueDamageDoneToChampions": 564,
+                            "trueDamageTaken": 2192
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 88,
@@ -27347,9 +27347,9 @@ timeline_example = {
                             "totalDamageDone": 98155,
                             "totalDamageDoneToChampions": 11000,
                             "totalDamageTaken": 13124,
-                            "TrueDamageDone": 927,
-                            "TrueDamageDoneToChampions": 0,
-                            "TrueDamageTaken": 767
+                            "trueDamageDone": 927,
+                            "trueDamageDoneToChampions": 0,
+                            "trueDamageTaken": 767
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 0,
@@ -27403,9 +27403,9 @@ timeline_example = {
                             "totalDamageDone": 84942,
                             "totalDamageDoneToChampions": 9977,
                             "totalDamageTaken": 9720,
-                            "TrueDamageDone": 24112,
-                            "TrueDamageDoneToChampions": 2103,
-                            "TrueDamageTaken": 352
+                            "trueDamageDone": 24112,
+                            "trueDamageDoneToChampions": 2103,
+                            "trueDamageTaken": 352
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 0,
@@ -27459,9 +27459,9 @@ timeline_example = {
                             "totalDamageDone": 33043,
                             "totalDamageDoneToChampions": 11093,
                             "totalDamageTaken": 9588,
-                            "TrueDamageDone": 661,
-                            "TrueDamageDoneToChampions": 635,
-                            "TrueDamageTaken": 628
+                            "trueDamageDone": 661,
+                            "trueDamageDoneToChampions": 635,
+                            "trueDamageTaken": 628
                         },
                         "goldPerSecond": 30,
                         "jungleMinionsKilled": 4,
@@ -27706,9 +27706,9 @@ timeline_example = {
                             "totalDamageDone": 82384,
                             "totalDamageDoneToChampions": 5288,
                             "totalDamageTaken": 14107,
-                            "TrueDamageDone": 3430,
-                            "TrueDamageDoneToChampions": 825,
-                            "TrueDamageTaken": 1015
+                            "trueDamageDone": 3430,
+                            "trueDamageDoneToChampions": 825,
+                            "trueDamageTaken": 1015
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 0,
@@ -27762,9 +27762,9 @@ timeline_example = {
                             "totalDamageDone": 185079,
                             "totalDamageDoneToChampions": 14481,
                             "totalDamageTaken": 19990,
-                            "TrueDamageDone": 35914,
-                            "TrueDamageDoneToChampions": 2049,
-                            "TrueDamageTaken": 1379
+                            "trueDamageDone": 35914,
+                            "trueDamageDoneToChampions": 2049,
+                            "trueDamageTaken": 1379
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 136,
@@ -27818,9 +27818,9 @@ timeline_example = {
                             "totalDamageDone": 107183,
                             "totalDamageDoneToChampions": 14468,
                             "totalDamageTaken": 13407,
-                            "TrueDamageDone": 2238,
-                            "TrueDamageDoneToChampions": 598,
-                            "TrueDamageTaken": 222
+                            "trueDamageDone": 2238,
+                            "trueDamageDoneToChampions": 598,
+                            "trueDamageTaken": 222
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 0,
@@ -27874,9 +27874,9 @@ timeline_example = {
                             "totalDamageDone": 94712,
                             "totalDamageDoneToChampions": 9560,
                             "totalDamageTaken": 11106,
-                            "TrueDamageDone": 14235,
-                            "TrueDamageDoneToChampions": 1413,
-                            "TrueDamageTaken": 1069
+                            "trueDamageDone": 14235,
+                            "trueDamageDoneToChampions": 1413,
+                            "trueDamageTaken": 1069
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 8,
@@ -27930,9 +27930,9 @@ timeline_example = {
                             "totalDamageDone": 10516,
                             "totalDamageDoneToChampions": 5099,
                             "totalDamageTaken": 10062,
-                            "TrueDamageDone": 0,
-                            "TrueDamageDoneToChampions": 0,
-                            "TrueDamageTaken": 528
+                            "trueDamageDone": 0,
+                            "trueDamageDoneToChampions": 0,
+                            "trueDamageTaken": 528
                         },
                         "goldPerSecond": 30,
                         "jungleMinionsKilled": 0,
@@ -27986,9 +27986,9 @@ timeline_example = {
                             "totalDamageDone": 102065,
                             "totalDamageDoneToChampions": 11534,
                             "totalDamageTaken": 13049,
-                            "TrueDamageDone": 3758,
-                            "TrueDamageDoneToChampions": 1263,
-                            "TrueDamageTaken": 1307
+                            "trueDamageDone": 3758,
+                            "trueDamageDoneToChampions": 1263,
+                            "trueDamageTaken": 1307
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 8,
@@ -28042,9 +28042,9 @@ timeline_example = {
                             "totalDamageDone": 147488,
                             "totalDamageDoneToChampions": 11670,
                             "totalDamageTaken": 24400,
-                            "TrueDamageDone": 43818,
-                            "TrueDamageDoneToChampions": 564,
-                            "TrueDamageTaken": 2192
+                            "trueDamageDone": 43818,
+                            "trueDamageDoneToChampions": 564,
+                            "trueDamageTaken": 2192
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 98,
@@ -28098,9 +28098,9 @@ timeline_example = {
                             "totalDamageDone": 101637,
                             "totalDamageDoneToChampions": 11908,
                             "totalDamageTaken": 13726,
-                            "TrueDamageDone": 927,
-                            "TrueDamageDoneToChampions": 0,
-                            "TrueDamageTaken": 767
+                            "trueDamageDone": 927,
+                            "trueDamageDoneToChampions": 0,
+                            "trueDamageTaken": 767
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 0,
@@ -28154,9 +28154,9 @@ timeline_example = {
                             "totalDamageDone": 89616,
                             "totalDamageDoneToChampions": 9977,
                             "totalDamageTaken": 10462,
-                            "TrueDamageDone": 24851,
-                            "TrueDamageDoneToChampions": 2103,
-                            "TrueDamageTaken": 352
+                            "trueDamageDone": 24851,
+                            "trueDamageDoneToChampions": 2103,
+                            "trueDamageTaken": 352
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 0,
@@ -28210,9 +28210,9 @@ timeline_example = {
                             "totalDamageDone": 33434,
                             "totalDamageDoneToChampions": 11480,
                             "totalDamageTaken": 10887,
-                            "TrueDamageDone": 663,
-                            "TrueDamageDoneToChampions": 635,
-                            "TrueDamageTaken": 628
+                            "trueDamageDone": 663,
+                            "trueDamageDoneToChampions": 635,
+                            "trueDamageTaken": 628
                         },
                         "goldPerSecond": 30,
                         "jungleMinionsKilled": 4,
@@ -28398,7 +28398,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "hweiqw",
                                 "spellSlot": 0,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -28409,7 +28409,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "",
                                 "spellSlot": -1,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -28420,7 +28420,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "",
                                 "spellSlot": -1,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -28431,7 +28431,7 @@ timeline_example = {
                                 "physicalDamage": 400,
                                 "spellName": "varusq",
                                 "spellSlot": 0,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -28442,7 +28442,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "",
                                 "spellSlot": -1,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -28453,7 +28453,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "ahrir",
                                 "spellSlot": 3,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -28464,7 +28464,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "ahriw",
                                 "spellSlot": 1,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -28475,7 +28475,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "ahrie",
                                 "spellSlot": 2,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -28486,7 +28486,7 @@ timeline_example = {
                                 "physicalDamage": 53,
                                 "spellName": "ahribasicattack",
                                 "spellSlot": 64,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -28497,7 +28497,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "",
                                 "spellSlot": -1,
-                                "TrueDamage": 32,
+                                "trueDamage": 32,
                                 "type": "OTHER"
                             },
                             {
@@ -28508,7 +28508,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "ahriq",
                                 "spellSlot": 0,
-                                "TrueDamage": 253,
+                                "trueDamage": 253,
                                 "type": "OTHER"
                             }
                         ],
@@ -28613,9 +28613,9 @@ timeline_example = {
                             "totalDamageDone": 96568,
                             "totalDamageDoneToChampions": 5288,
                             "totalDamageTaken": 14676,
-                            "TrueDamageDone": 3430,
-                            "TrueDamageDoneToChampions": 825,
-                            "TrueDamageTaken": 1015
+                            "trueDamageDone": 3430,
+                            "trueDamageDoneToChampions": 825,
+                            "trueDamageTaken": 1015
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 0,
@@ -28669,9 +28669,9 @@ timeline_example = {
                             "totalDamageDone": 185980,
                             "totalDamageDoneToChampions": 14481,
                             "totalDamageTaken": 22604,
-                            "TrueDamageDone": 36267,
-                            "TrueDamageDoneToChampions": 2049,
-                            "TrueDamageTaken": 1665
+                            "trueDamageDone": 36267,
+                            "trueDamageDoneToChampions": 2049,
+                            "trueDamageTaken": 1665
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 140,
@@ -28725,9 +28725,9 @@ timeline_example = {
                             "totalDamageDone": 107657,
                             "totalDamageDoneToChampions": 14468,
                             "totalDamageTaken": 13513,
-                            "TrueDamageDone": 2238,
-                            "TrueDamageDoneToChampions": 598,
-                            "TrueDamageTaken": 222
+                            "trueDamageDone": 2238,
+                            "trueDamageDoneToChampions": 598,
+                            "trueDamageTaken": 222
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 0,
@@ -28781,9 +28781,9 @@ timeline_example = {
                             "totalDamageDone": 103440,
                             "totalDamageDoneToChampions": 9749,
                             "totalDamageTaken": 11300,
-                            "TrueDamageDone": 14878,
-                            "TrueDamageDoneToChampions": 1413,
-                            "TrueDamageTaken": 1069
+                            "trueDamageDone": 14878,
+                            "trueDamageDoneToChampions": 1413,
+                            "trueDamageTaken": 1069
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 8,
@@ -28837,9 +28837,9 @@ timeline_example = {
                             "totalDamageDone": 10903,
                             "totalDamageDoneToChampions": 5099,
                             "totalDamageTaken": 10173,
-                            "TrueDamageDone": 0,
-                            "TrueDamageDoneToChampions": 0,
-                            "TrueDamageTaken": 528
+                            "trueDamageDone": 0,
+                            "trueDamageDoneToChampions": 0,
+                            "trueDamageTaken": 528
                         },
                         "goldPerSecond": 30,
                         "jungleMinionsKilled": 0,
@@ -28893,9 +28893,9 @@ timeline_example = {
                             "totalDamageDone": 116680,
                             "totalDamageDoneToChampions": 11534,
                             "totalDamageTaken": 13699,
-                            "TrueDamageDone": 3758,
-                            "TrueDamageDoneToChampions": 1263,
-                            "TrueDamageTaken": 1307
+                            "trueDamageDone": 3758,
+                            "trueDamageDoneToChampions": 1263,
+                            "trueDamageTaken": 1307
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 8,
@@ -28949,9 +28949,9 @@ timeline_example = {
                             "totalDamageDone": 156047,
                             "totalDamageDoneToChampions": 11670,
                             "totalDamageTaken": 24519,
-                            "TrueDamageDone": 45809,
-                            "TrueDamageDoneToChampions": 564,
-                            "TrueDamageTaken": 2192
+                            "trueDamageDone": 45809,
+                            "trueDamageDoneToChampions": 564,
+                            "trueDamageTaken": 2192
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 104,
@@ -29005,9 +29005,9 @@ timeline_example = {
                             "totalDamageDone": 107466,
                             "totalDamageDoneToChampions": 12484,
                             "totalDamageTaken": 14042,
-                            "TrueDamageDone": 969,
-                            "TrueDamageDoneToChampions": 0,
-                            "TrueDamageTaken": 767
+                            "trueDamageDone": 969,
+                            "trueDamageDoneToChampions": 0,
+                            "trueDamageTaken": 767
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 0,
@@ -29061,9 +29061,9 @@ timeline_example = {
                             "totalDamageDone": 92864,
                             "totalDamageDoneToChampions": 11801,
                             "totalDamageTaken": 10722,
-                            "TrueDamageDone": 25391,
-                            "TrueDamageDoneToChampions": 2389,
-                            "TrueDamageTaken": 352
+                            "trueDamageDone": 25391,
+                            "trueDamageDoneToChampions": 2389,
+                            "trueDamageTaken": 352
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 0,
@@ -29117,9 +29117,9 @@ timeline_example = {
                             "totalDamageDone": 35331,
                             "totalDamageDoneToChampions": 11881,
                             "totalDamageTaken": 10887,
-                            "TrueDamageDone": 667,
-                            "TrueDamageDoneToChampions": 635,
-                            "TrueDamageTaken": 628
+                            "trueDamageDone": 667,
+                            "trueDamageDoneToChampions": 635,
+                            "trueDamageTaken": 628
                         },
                         "goldPerSecond": 30,
                         "jungleMinionsKilled": 4,
@@ -29311,9 +29311,9 @@ timeline_example = {
                             "totalDamageDone": 104164,
                             "totalDamageDoneToChampions": 7560,
                             "totalDamageTaken": 17726,
-                            "TrueDamageDone": 4233,
-                            "TrueDamageDoneToChampions": 1628,
-                            "TrueDamageTaken": 1290
+                            "trueDamageDone": 4233,
+                            "trueDamageDoneToChampions": 1628,
+                            "trueDamageTaken": 1290
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 0,
@@ -29367,9 +29367,9 @@ timeline_example = {
                             "totalDamageDone": 185980,
                             "totalDamageDoneToChampions": 14481,
                             "totalDamageTaken": 22604,
-                            "TrueDamageDone": 36267,
-                            "TrueDamageDoneToChampions": 2049,
-                            "TrueDamageTaken": 1665
+                            "trueDamageDone": 36267,
+                            "trueDamageDoneToChampions": 2049,
+                            "trueDamageTaken": 1665
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 140,
@@ -29423,9 +29423,9 @@ timeline_example = {
                             "totalDamageDone": 113616,
                             "totalDamageDoneToChampions": 16151,
                             "totalDamageTaken": 14311,
-                            "TrueDamageDone": 2274,
-                            "TrueDamageDoneToChampions": 634,
-                            "TrueDamageTaken": 222
+                            "trueDamageDone": 2274,
+                            "trueDamageDoneToChampions": 634,
+                            "trueDamageTaken": 222
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 4,
@@ -29479,9 +29479,9 @@ timeline_example = {
                             "totalDamageDone": 109910,
                             "totalDamageDoneToChampions": 10166,
                             "totalDamageTaken": 11756,
-                            "TrueDamageDone": 15191,
-                            "TrueDamageDoneToChampions": 1413,
-                            "TrueDamageTaken": 1123
+                            "trueDamageDone": 15191,
+                            "trueDamageDoneToChampions": 1413,
+                            "trueDamageTaken": 1123
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 8,
@@ -29535,9 +29535,9 @@ timeline_example = {
                             "totalDamageDone": 11109,
                             "totalDamageDoneToChampions": 5305,
                             "totalDamageTaken": 10296,
-                            "TrueDamageDone": 0,
-                            "TrueDamageDoneToChampions": 0,
-                            "TrueDamageTaken": 528
+                            "trueDamageDone": 0,
+                            "trueDamageDoneToChampions": 0,
+                            "trueDamageTaken": 528
                         },
                         "goldPerSecond": 30,
                         "jungleMinionsKilled": 0,
@@ -29591,9 +29591,9 @@ timeline_example = {
                             "totalDamageDone": 123621,
                             "totalDamageDoneToChampions": 13298,
                             "totalDamageTaken": 14245,
-                            "TrueDamageDone": 4033,
-                            "TrueDamageDoneToChampions": 1538,
-                            "TrueDamageTaken": 1307
+                            "trueDamageDone": 4033,
+                            "trueDamageDoneToChampions": 1538,
+                            "trueDamageTaken": 1307
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 8,
@@ -29647,9 +29647,9 @@ timeline_example = {
                             "totalDamageDone": 161621,
                             "totalDamageDoneToChampions": 12628,
                             "totalDamageTaken": 27873,
-                            "TrueDamageDone": 46947,
-                            "TrueDamageDoneToChampions": 564,
-                            "TrueDamageTaken": 3031
+                            "trueDamageDone": 46947,
+                            "trueDamageDoneToChampions": 564,
+                            "trueDamageTaken": 3031
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 108,
@@ -29703,9 +29703,9 @@ timeline_example = {
                             "totalDamageDone": 116665,
                             "totalDamageDoneToChampions": 13446,
                             "totalDamageTaken": 14546,
-                            "TrueDamageDone": 985,
-                            "TrueDamageDoneToChampions": 0,
-                            "TrueDamageTaken": 767
+                            "trueDamageDone": 985,
+                            "trueDamageDoneToChampions": 0,
+                            "trueDamageTaken": 767
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 0,
@@ -29759,9 +29759,9 @@ timeline_example = {
                             "totalDamageDone": 95727,
                             "totalDamageDoneToChampions": 12141,
                             "totalDamageTaken": 10882,
-                            "TrueDamageDone": 25635,
-                            "TrueDamageDoneToChampions": 2389,
-                            "TrueDamageTaken": 352
+                            "trueDamageDone": 25635,
+                            "trueDamageDoneToChampions": 2389,
+                            "trueDamageTaken": 352
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 0,
@@ -29815,9 +29815,9 @@ timeline_example = {
                             "totalDamageDone": 39289,
                             "totalDamageDoneToChampions": 12105,
                             "totalDamageTaken": 11938,
-                            "TrueDamageDone": 723,
-                            "TrueDamageDoneToChampions": 689,
-                            "TrueDamageTaken": 628
+                            "trueDamageDone": 723,
+                            "trueDamageDoneToChampions": 689,
+                            "trueDamageTaken": 628
                         },
                         "goldPerSecond": 30,
                         "jungleMinionsKilled": 4,
@@ -29860,7 +29860,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "summonerdot",
                                 "spellSlot": 5,
-                                "TrueDamage": 216,
+                                "trueDamage": 216,
                                 "type": "OTHER"
                             },
                             {
@@ -29871,7 +29871,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "varusw",
                                 "spellSlot": 1,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -29882,7 +29882,7 @@ timeline_example = {
                                 "physicalDamage": 318,
                                 "spellName": "varuswbasicattack",
                                 "spellSlot": 56,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -29893,7 +29893,7 @@ timeline_example = {
                                 "physicalDamage": 287,
                                 "spellName": "varusq",
                                 "spellSlot": 0,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             }
                         ],
@@ -29906,7 +29906,7 @@ timeline_example = {
                                 "physicalDamage": 122,
                                 "spellName": "",
                                 "spellSlot": -1,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -29917,7 +29917,7 @@ timeline_example = {
                                 "physicalDamage": 418,
                                 "spellName": "vaynetumble",
                                 "spellSlot": 0,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -29928,7 +29928,7 @@ timeline_example = {
                                 "physicalDamage": 619,
                                 "spellName": "vaynetumble",
                                 "spellSlot": 0,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -29939,7 +29939,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "vaynesilveredbolts",
                                 "spellSlot": 1,
-                                "TrueDamage": 319,
+                                "trueDamage": 319,
                                 "type": "OTHER"
                             }
                         ],
@@ -30001,7 +30001,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "",
                                 "spellSlot": -1,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -30012,7 +30012,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "",
                                 "spellSlot": -1,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -30023,7 +30023,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "ahriw",
                                 "spellSlot": 1,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -30034,7 +30034,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "",
                                 "spellSlot": -1,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -30045,7 +30045,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "ahriw",
                                 "spellSlot": 1,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -30056,7 +30056,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "",
                                 "spellSlot": -1,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -30067,7 +30067,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "ahrir",
                                 "spellSlot": 3,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             }
                         ],
@@ -30080,7 +30080,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "",
                                 "spellSlot": -1,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -30091,7 +30091,7 @@ timeline_example = {
                                 "physicalDamage": 319,
                                 "spellName": "vaynetumble",
                                 "spellSlot": 0,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -30102,7 +30102,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "",
                                 "spellSlot": -1,
-                                "TrueDamage": 77,
+                                "trueDamage": 77,
                                 "type": "OTHER"
                             },
                             {
@@ -30113,7 +30113,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "brandpassive",
                                 "spellSlot": 63,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -30124,7 +30124,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "brande",
                                 "spellSlot": 2,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -30135,7 +30135,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "",
                                 "spellSlot": -1,
-                                "TrueDamage": 69,
+                                "trueDamage": 69,
                                 "type": "OTHER"
                             },
                             {
@@ -30146,7 +30146,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "brandr",
                                 "spellSlot": 3,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             }
                         ],
@@ -30193,7 +30193,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "",
                                 "spellSlot": -1,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -30204,7 +30204,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "hweiee",
                                 "spellSlot": 2,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -30215,7 +30215,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "hweiwe",
                                 "spellSlot": 1,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -30226,7 +30226,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "",
                                 "spellSlot": -1,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -30237,7 +30237,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "hweiwe",
                                 "spellSlot": 1,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -30248,7 +30248,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "hweir",
                                 "spellSlot": 3,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -30259,7 +30259,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "",
                                 "spellSlot": -1,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             }
                         ],
@@ -30272,7 +30272,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "luxr",
                                 "spellSlot": 3,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -30283,7 +30283,7 @@ timeline_example = {
                                 "physicalDamage": 67,
                                 "spellName": "sru_orderminionrangedbasicattack",
                                 "spellSlot": 64,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "MINION"
                             },
                             {
@@ -30294,7 +30294,7 @@ timeline_example = {
                                 "physicalDamage": 196,
                                 "spellName": "sru_orderminionmeleebasicattack",
                                 "spellSlot": 64,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "MINION"
                             },
                             {
@@ -30305,7 +30305,7 @@ timeline_example = {
                                 "physicalDamage": 67,
                                 "spellName": "sru_orderminionrangedbasicattack2",
                                 "spellSlot": 65,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "MINION"
                             },
                             {
@@ -30316,7 +30316,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "brandr",
                                 "spellSlot": 3,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -30327,7 +30327,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "",
                                 "spellSlot": -1,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -30338,7 +30338,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "brandpassive",
                                 "spellSlot": 63,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -30349,7 +30349,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "brandw",
                                 "spellSlot": 1,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             }
                         ],
@@ -30386,7 +30386,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "",
                                 "spellSlot": -1,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -30397,7 +30397,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "zace",
                                 "spellSlot": 2,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -30408,7 +30408,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "zacw",
                                 "spellSlot": 1,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -30419,7 +30419,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "",
                                 "spellSlot": -1,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -30430,7 +30430,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "zacbasicattack",
                                 "spellSlot": 64,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -30441,7 +30441,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "zacq",
                                 "spellSlot": 0,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -30452,7 +30452,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "",
                                 "spellSlot": -1,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             }
                         ],
@@ -30465,7 +30465,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "brandq",
                                 "spellSlot": 0,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -30476,7 +30476,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "",
                                 "spellSlot": -1,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -30487,7 +30487,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "brandpassive",
                                 "spellSlot": 63,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -30498,7 +30498,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "",
                                 "spellSlot": -1,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -30509,7 +30509,7 @@ timeline_example = {
                                 "physicalDamage": 38,
                                 "spellName": "luxbasicattack",
                                 "spellSlot": 64,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -30520,7 +30520,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "",
                                 "spellSlot": -1,
-                                "TrueDamage": 36,
+                                "trueDamage": 36,
                                 "type": "OTHER"
                             },
                             {
@@ -30531,7 +30531,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "luxr",
                                 "spellSlot": 3,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -30542,7 +30542,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "",
                                 "spellSlot": -1,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -30553,7 +30553,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "",
                                 "spellSlot": -1,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -30564,7 +30564,7 @@ timeline_example = {
                                 "physicalDamage": 475,
                                 "spellName": "vaynetumble",
                                 "spellSlot": 0,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -30575,7 +30575,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "vaynesilveredbolts",
                                 "spellSlot": 1,
-                                "TrueDamage": 308,
+                                "trueDamage": 308,
                                 "type": "OTHER"
                             },
                             {
@@ -30586,7 +30586,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "lulue",
                                 "spellSlot": 2,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             }
                         ],
@@ -30674,7 +30674,7 @@ timeline_example = {
                                 "physicalDamage": 48,
                                 "spellName": "vaynecondemn",
                                 "spellSlot": 2,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             }
                         ],
@@ -30687,7 +30687,7 @@ timeline_example = {
                                 "physicalDamage": 62,
                                 "spellName": "",
                                 "spellSlot": -1,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -30698,7 +30698,7 @@ timeline_example = {
                                 "physicalDamage": 194,
                                 "spellName": "yoneq3",
                                 "spellSlot": 0,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -30709,7 +30709,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "yoner",
                                 "spellSlot": 3,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -30720,7 +30720,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "",
                                 "spellSlot": -1,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -30731,7 +30731,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "yonee",
                                 "spellSlot": 2,
-                                "TrueDamage": 172,
+                                "trueDamage": 172,
                                 "type": "OTHER"
                             },
                             {
@@ -30742,7 +30742,7 @@ timeline_example = {
                                 "physicalDamage": 96,
                                 "spellName": "yonepassive",
                                 "spellSlot": 63,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -30753,7 +30753,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "",
                                 "spellSlot": 63,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -30764,7 +30764,7 @@ timeline_example = {
                                 "physicalDamage": 126,
                                 "spellName": "yoneq",
                                 "spellSlot": 0,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             }
                         ],
@@ -30825,7 +30825,7 @@ timeline_example = {
                                 "physicalDamage": 110,
                                 "spellName": "yonew",
                                 "spellSlot": 1,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -30836,7 +30836,7 @@ timeline_example = {
                                 "physicalDamage": 88,
                                 "spellName": "yonew",
                                 "spellSlot": 1,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             }
                         ],
@@ -30849,7 +30849,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "luxlightbinding",
                                 "spellSlot": 0,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -30860,7 +30860,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "luxlightstrikekugel",
                                 "spellSlot": 2,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -30871,7 +30871,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "",
                                 "spellSlot": -1,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -30882,7 +30882,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "",
                                 "spellSlot": -1,
-                                "TrueDamage": 73,
+                                "trueDamage": 73,
                                 "type": "OTHER"
                             },
                             {
@@ -30893,7 +30893,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "luxilluminationpassive",
                                 "spellSlot": 63,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -30904,7 +30904,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "luxr",
                                 "spellSlot": 3,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -30915,7 +30915,7 @@ timeline_example = {
                                 "physicalDamage": 41,
                                 "spellName": "luxbasicattack2",
                                 "spellSlot": 65,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -30926,7 +30926,7 @@ timeline_example = {
                                 "physicalDamage": 63,
                                 "spellName": "brandbasicattack",
                                 "spellSlot": 64,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -30937,7 +30937,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "",
                                 "spellSlot": -1,
-                                "TrueDamage": 36,
+                                "trueDamage": 36,
                                 "type": "OTHER"
                             },
                             {
@@ -30948,7 +30948,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "",
                                 "spellSlot": -1,
-                                "TrueDamage": 103,
+                                "trueDamage": 103,
                                 "type": "OTHER"
                             },
                             {
@@ -30959,7 +30959,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "summonersmiteavataroffensive",
                                 "spellSlot": 4,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -30970,7 +30970,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "brandpassive",
                                 "spellSlot": 63,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -30981,7 +30981,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "brande",
                                 "spellSlot": 2,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -30992,7 +30992,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "brandw",
                                 "spellSlot": 1,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -31003,7 +31003,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "brandq",
                                 "spellSlot": 0,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -31014,7 +31014,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "lulubasicattack2",
                                 "spellSlot": 65,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -31025,7 +31025,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "",
                                 "spellSlot": -1,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -31036,7 +31036,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "lulupassive",
                                 "spellSlot": 63,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -31047,7 +31047,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "lulue",
                                 "spellSlot": 2,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -31058,7 +31058,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "luluq",
                                 "spellSlot": 0,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -31069,7 +31069,7 @@ timeline_example = {
                                 "physicalDamage": 48,
                                 "spellName": "vaynecondemn",
                                 "spellSlot": 2,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             }
                         ],
@@ -31198,9 +31198,9 @@ timeline_example = {
                             "totalDamageDone": 120854,
                             "totalDamageDoneToChampions": 7560,
                             "totalDamageTaken": 17956,
-                            "TrueDamageDone": 4233,
-                            "TrueDamageDoneToChampions": 1628,
-                            "TrueDamageTaken": 1290
+                            "trueDamageDone": 4233,
+                            "trueDamageDoneToChampions": 1628,
+                            "trueDamageTaken": 1290
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 0,
@@ -31254,9 +31254,9 @@ timeline_example = {
                             "totalDamageDone": 195245,
                             "totalDamageDoneToChampions": 19281,
                             "totalDamageTaken": 25216,
-                            "TrueDamageDone": 36790,
-                            "TrueDamageDoneToChampions": 2572,
-                            "TrueDamageTaken": 1665
+                            "trueDamageDone": 36790,
+                            "trueDamageDoneToChampions": 2572,
+                            "trueDamageTaken": 1665
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 140,
@@ -31310,9 +31310,9 @@ timeline_example = {
                             "totalDamageDone": 124997,
                             "totalDamageDoneToChampions": 19654,
                             "totalDamageTaken": 14350,
-                            "TrueDamageDone": 3112,
-                            "TrueDamageDoneToChampions": 1472,
-                            "TrueDamageTaken": 222
+                            "trueDamageDone": 3112,
+                            "trueDamageDoneToChampions": 1472,
+                            "trueDamageTaken": 222
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 4,
@@ -31366,9 +31366,9 @@ timeline_example = {
                             "totalDamageDone": 120195,
                             "totalDamageDoneToChampions": 13343,
                             "totalDamageTaken": 14174,
-                            "TrueDamageDone": 16528,
-                            "TrueDamageDoneToChampions": 2530,
-                            "TrueDamageTaken": 1512
+                            "trueDamageDone": 16528,
+                            "trueDamageDoneToChampions": 2530,
+                            "trueDamageTaken": 1512
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 8,
@@ -31422,9 +31422,9 @@ timeline_example = {
                             "totalDamageDone": 13120,
                             "totalDamageDoneToChampions": 5836,
                             "totalDamageTaken": 11947,
-                            "TrueDamageDone": 81,
-                            "TrueDamageDoneToChampions": 81,
-                            "TrueDamageTaken": 528
+                            "trueDamageDone": 81,
+                            "trueDamageDoneToChampions": 81,
+                            "trueDamageTaken": 528
                         },
                         "goldPerSecond": 30,
                         "jungleMinionsKilled": 0,
@@ -31478,9 +31478,9 @@ timeline_example = {
                             "totalDamageDone": 131530,
                             "totalDamageDoneToChampions": 14505,
                             "totalDamageTaken": 17403,
-                            "TrueDamageDone": 4205,
-                            "TrueDamageDoneToChampions": 1710,
-                            "TrueDamageTaken": 1521
+                            "trueDamageDone": 4205,
+                            "trueDamageDoneToChampions": 1710,
+                            "trueDamageTaken": 1521
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 8,
@@ -31534,9 +31534,9 @@ timeline_example = {
                             "totalDamageDone": 163256,
                             "totalDamageDoneToChampions": 14262,
                             "totalDamageTaken": 31921,
-                            "TrueDamageDone": 47313,
-                            "TrueDamageDoneToChampions": 930,
-                            "TrueDamageTaken": 5276
+                            "trueDamageDone": 47313,
+                            "trueDamageDoneToChampions": 930,
+                            "trueDamageTaken": 5276
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 108,
@@ -31590,9 +31590,9 @@ timeline_example = {
                             "totalDamageDone": 117817,
                             "totalDamageDoneToChampions": 14598,
                             "totalDamageTaken": 16427,
-                            "TrueDamageDone": 985,
-                            "TrueDamageDoneToChampions": 0,
-                            "TrueDamageTaken": 767
+                            "trueDamageDone": 985,
+                            "trueDamageDoneToChampions": 0,
+                            "trueDamageTaken": 767
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 0,
@@ -31646,9 +31646,9 @@ timeline_example = {
                             "totalDamageDone": 96571,
                             "totalDamageDoneToChampions": 12984,
                             "totalDamageTaken": 12696,
-                            "TrueDamageDone": 25635,
-                            "TrueDamageDoneToChampions": 2389,
-                            "TrueDamageTaken": 499
+                            "trueDamageDone": 25635,
+                            "trueDamageDoneToChampions": 2389,
+                            "trueDamageTaken": 499
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 0,
@@ -31702,9 +31702,9 @@ timeline_example = {
                             "totalDamageDone": 41188,
                             "totalDamageDoneToChampions": 13196,
                             "totalDamageTaken": 13452,
-                            "TrueDamageDone": 939,
-                            "TrueDamageDoneToChampions": 905,
-                            "TrueDamageTaken": 948
+                            "trueDamageDone": 939,
+                            "trueDamageDoneToChampions": 905,
+                            "trueDamageTaken": 948
                         },
                         "goldPerSecond": 30,
                         "jungleMinionsKilled": 4,
@@ -31751,7 +31751,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "",
                                 "spellSlot": -1,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -31762,7 +31762,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "ahrie",
                                 "spellSlot": 2,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -31773,7 +31773,7 @@ timeline_example = {
                                 "physicalDamage": 95,
                                 "spellName": "ahribasicattack",
                                 "spellSlot": 64,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -31784,7 +31784,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "",
                                 "spellSlot": -1,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -31795,7 +31795,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "ahriq",
                                 "spellSlot": 0,
-                                "TrueDamage": 62,
+                                "trueDamage": 62,
                                 "type": "OTHER"
                             },
                             {
@@ -31806,7 +31806,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "ahriw",
                                 "spellSlot": 1,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             }
                         ],
@@ -31864,7 +31864,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "",
                                 "spellSlot": -1,
-                                "TrueDamage": 38,
+                                "trueDamage": 38,
                                 "type": "OTHER"
                             },
                             {
@@ -31875,7 +31875,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "brandpassive",
                                 "spellSlot": 63,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -31886,7 +31886,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "brande",
                                 "spellSlot": 2,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -31897,7 +31897,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "",
                                 "spellSlot": -1,
-                                "TrueDamage": 36,
+                                "trueDamage": 36,
                                 "type": "OTHER"
                             },
                             {
@@ -31908,7 +31908,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "brandq",
                                 "spellSlot": 0,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             }
                         ],
@@ -31921,7 +31921,7 @@ timeline_example = {
                                 "physicalDamage": 46,
                                 "spellName": "ahribasicattack",
                                 "spellSlot": 64,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -31932,7 +31932,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "",
                                 "spellSlot": -1,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -31943,7 +31943,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "ahriw",
                                 "spellSlot": 1,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             }
                         ],
@@ -31978,7 +31978,7 @@ timeline_example = {
                                 "physicalDamage": 132,
                                 "spellName": "ahribasicattack",
                                 "spellSlot": 64,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -31989,7 +31989,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "",
                                 "spellSlot": -1,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -32000,7 +32000,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "ahrir",
                                 "spellSlot": 3,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -32011,7 +32011,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "ahriw",
                                 "spellSlot": 1,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -32022,7 +32022,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "ahriq",
                                 "spellSlot": 0,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             }
                         ],
@@ -32035,7 +32035,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "luxlightbinding",
                                 "spellSlot": 0,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -32046,7 +32046,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "",
                                 "spellSlot": -1,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -32057,7 +32057,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "luxilluminationpassive",
                                 "spellSlot": 63,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -32068,7 +32068,7 @@ timeline_example = {
                                 "physicalDamage": 116,
                                 "spellName": "luxbasicattack",
                                 "spellSlot": 64,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -32079,7 +32079,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "",
                                 "spellSlot": -1,
-                                "TrueDamage": 77,
+                                "trueDamage": 77,
                                 "type": "OTHER"
                             },
                             {
@@ -32090,7 +32090,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "",
                                 "spellSlot": -1,
-                                "TrueDamage": 38,
+                                "trueDamage": 38,
                                 "type": "OTHER"
                             },
                             {
@@ -32101,7 +32101,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "brandpassive",
                                 "spellSlot": 63,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -32112,7 +32112,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "brande",
                                 "spellSlot": 2,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -32123,7 +32123,7 @@ timeline_example = {
                                 "physicalDamage": 55,
                                 "spellName": "brandbasicattack",
                                 "spellSlot": 64,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -32134,7 +32134,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "",
                                 "spellSlot": -1,
-                                "TrueDamage": 36,
+                                "trueDamage": 36,
                                 "type": "OTHER"
                             },
                             {
@@ -32145,7 +32145,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "brandq",
                                 "spellSlot": 0,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -32156,7 +32156,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "brandw",
                                 "spellSlot": 1,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             }
                         ],
@@ -32343,9 +32343,9 @@ timeline_example = {
                             "totalDamageDone": 123297,
                             "totalDamageDoneToChampions": 7560,
                             "totalDamageTaken": 19200,
-                            "TrueDamageDone": 4233,
-                            "TrueDamageDoneToChampions": 1628,
-                            "TrueDamageTaken": 1290
+                            "trueDamageDone": 4233,
+                            "trueDamageDoneToChampions": 1628,
+                            "trueDamageTaken": 1290
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 0,
@@ -32399,9 +32399,9 @@ timeline_example = {
                             "totalDamageDone": 196448,
                             "totalDamageDoneToChampions": 20484,
                             "totalDamageTaken": 25501,
-                            "TrueDamageDone": 36865,
-                            "TrueDamageDoneToChampions": 2648,
-                            "TrueDamageTaken": 1665
+                            "trueDamageDone": 36865,
+                            "trueDamageDoneToChampions": 2648,
+                            "trueDamageTaken": 1665
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 140,
@@ -32455,9 +32455,9 @@ timeline_example = {
                             "totalDamageDone": 125927,
                             "totalDamageDoneToChampions": 20585,
                             "totalDamageTaken": 15459,
-                            "TrueDamageDone": 3190,
-                            "TrueDamageDoneToChampions": 1550,
-                            "TrueDamageTaken": 222
+                            "trueDamageDone": 3190,
+                            "trueDamageDoneToChampions": 1550,
+                            "trueDamageTaken": 222
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 4,
@@ -32511,9 +32511,9 @@ timeline_example = {
                             "totalDamageDone": 126806,
                             "totalDamageDoneToChampions": 13343,
                             "totalDamageTaken": 14467,
-                            "TrueDamageDone": 17259,
-                            "TrueDamageDoneToChampions": 2530,
-                            "TrueDamageTaken": 1512
+                            "trueDamageDone": 17259,
+                            "trueDamageDoneToChampions": 2530,
+                            "trueDamageTaken": 1512
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 8,
@@ -32567,9 +32567,9 @@ timeline_example = {
                             "totalDamageDone": 13120,
                             "totalDamageDoneToChampions": 5836,
                             "totalDamageTaken": 12908,
-                            "TrueDamageDone": 81,
-                            "TrueDamageDoneToChampions": 81,
-                            "TrueDamageTaken": 591
+                            "trueDamageDone": 81,
+                            "trueDamageDoneToChampions": 81,
+                            "trueDamageTaken": 591
                         },
                         "goldPerSecond": 30,
                         "jungleMinionsKilled": 0,
@@ -32623,9 +32623,9 @@ timeline_example = {
                             "totalDamageDone": 131530,
                             "totalDamageDoneToChampions": 14505,
                             "totalDamageTaken": 17403,
-                            "TrueDamageDone": 4205,
-                            "TrueDamageDoneToChampions": 1710,
-                            "TrueDamageTaken": 1521
+                            "trueDamageDone": 4205,
+                            "trueDamageDoneToChampions": 1710,
+                            "trueDamageTaken": 1521
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 8,
@@ -32679,9 +32679,9 @@ timeline_example = {
                             "totalDamageDone": 179853,
                             "totalDamageDoneToChampions": 14262,
                             "totalDamageTaken": 31921,
-                            "TrueDamageDone": 49613,
-                            "TrueDamageDoneToChampions": 930,
-                            "TrueDamageTaken": 5276
+                            "trueDamageDone": 49613,
+                            "trueDamageDoneToChampions": 930,
+                            "trueDamageTaken": 5276
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 112,
@@ -32735,9 +32735,9 @@ timeline_example = {
                             "totalDamageDone": 123763,
                             "totalDamageDoneToChampions": 15119,
                             "totalDamageTaken": 16521,
-                            "TrueDamageDone": 985,
-                            "TrueDamageDoneToChampions": 0,
-                            "TrueDamageTaken": 767
+                            "trueDamageDone": 985,
+                            "trueDamageDoneToChampions": 0,
+                            "trueDamageTaken": 767
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 0,
@@ -32791,9 +32791,9 @@ timeline_example = {
                             "totalDamageDone": 99055,
                             "totalDamageDoneToChampions": 15339,
                             "totalDamageTaken": 14829,
-                            "TrueDamageDone": 25698,
-                            "TrueDamageDoneToChampions": 2451,
-                            "TrueDamageTaken": 652
+                            "trueDamageDone": 25698,
+                            "trueDamageDoneToChampions": 2451,
+                            "trueDamageTaken": 652
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 0,
@@ -32847,9 +32847,9 @@ timeline_example = {
                             "totalDamageDone": 47342,
                             "totalDamageDoneToChampions": 13919,
                             "totalDamageTaken": 13977,
-                            "TrueDamageDone": 939,
-                            "TrueDamageDoneToChampions": 905,
-                            "TrueDamageTaken": 948
+                            "trueDamageDone": 939,
+                            "trueDamageDoneToChampions": 905,
+                            "trueDamageTaken": 948
                         },
                         "goldPerSecond": 30,
                         "jungleMinionsKilled": 4,
@@ -33049,9 +33049,9 @@ timeline_example = {
                             "totalDamageDone": 136681,
                             "totalDamageDoneToChampions": 8032,
                             "totalDamageTaken": 22009,
-                            "TrueDamageDone": 4233,
-                            "TrueDamageDoneToChampions": 1628,
-                            "TrueDamageTaken": 1664
+                            "trueDamageDone": 4233,
+                            "trueDamageDoneToChampions": 1628,
+                            "trueDamageTaken": 1664
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 0,
@@ -33105,9 +33105,9 @@ timeline_example = {
                             "totalDamageDone": 201978,
                             "totalDamageDoneToChampions": 20484,
                             "totalDamageTaken": 25657,
-                            "TrueDamageDone": 38378,
-                            "TrueDamageDoneToChampions": 2648,
-                            "TrueDamageTaken": 1665
+                            "trueDamageDone": 38378,
+                            "trueDamageDoneToChampions": 2648,
+                            "trueDamageTaken": 1665
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 144,
@@ -33161,9 +33161,9 @@ timeline_example = {
                             "totalDamageDone": 131595,
                             "totalDamageDoneToChampions": 20585,
                             "totalDamageTaken": 15459,
-                            "TrueDamageDone": 3190,
-                            "TrueDamageDoneToChampions": 1550,
-                            "TrueDamageTaken": 222
+                            "trueDamageDone": 3190,
+                            "trueDamageDoneToChampions": 1550,
+                            "trueDamageTaken": 222
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 4,
@@ -33217,9 +33217,9 @@ timeline_example = {
                             "totalDamageDone": 144060,
                             "totalDamageDoneToChampions": 14918,
                             "totalDamageTaken": 16011,
-                            "TrueDamageDone": 19082,
-                            "TrueDamageDoneToChampions": 2833,
-                            "TrueDamageTaken": 1851
+                            "trueDamageDone": 19082,
+                            "trueDamageDoneToChampions": 2833,
+                            "trueDamageTaken": 1851
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 12,
@@ -33273,9 +33273,9 @@ timeline_example = {
                             "totalDamageDone": 13124,
                             "totalDamageDoneToChampions": 5836,
                             "totalDamageTaken": 12908,
-                            "TrueDamageDone": 81,
-                            "TrueDamageDoneToChampions": 81,
-                            "TrueDamageTaken": 591
+                            "trueDamageDone": 81,
+                            "trueDamageDoneToChampions": 81,
+                            "trueDamageTaken": 591
                         },
                         "goldPerSecond": 30,
                         "jungleMinionsKilled": 0,
@@ -33329,9 +33329,9 @@ timeline_example = {
                             "totalDamageDone": 154627,
                             "totalDamageDoneToChampions": 16955,
                             "totalDamageTaken": 18814,
-                            "TrueDamageDone": 4580,
-                            "TrueDamageDoneToChampions": 2085,
-                            "TrueDamageTaken": 1521
+                            "trueDamageDone": 4580,
+                            "trueDamageDoneToChampions": 2085,
+                            "trueDamageTaken": 1521
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 12,
@@ -33385,9 +33385,9 @@ timeline_example = {
                             "totalDamageDone": 195087,
                             "totalDamageDoneToChampions": 14262,
                             "totalDamageTaken": 31921,
-                            "TrueDamageDone": 54756,
-                            "TrueDamageDoneToChampions": 930,
-                            "TrueDamageTaken": 5276
+                            "trueDamageDone": 54756,
+                            "trueDamageDoneToChampions": 930,
+                            "trueDamageTaken": 5276
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 120,
@@ -33441,9 +33441,9 @@ timeline_example = {
                             "totalDamageDone": 130598,
                             "totalDamageDoneToChampions": 15383,
                             "totalDamageTaken": 16521,
-                            "TrueDamageDone": 1057,
-                            "TrueDamageDoneToChampions": 0,
-                            "TrueDamageTaken": 767
+                            "trueDamageDone": 1057,
+                            "trueDamageDoneToChampions": 0,
+                            "trueDamageTaken": 767
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 0,
@@ -33497,9 +33497,9 @@ timeline_example = {
                             "totalDamageDone": 100294,
                             "totalDamageDoneToChampions": 16578,
                             "totalDamageTaken": 16404,
-                            "TrueDamageDone": 26037,
-                            "TrueDamageDoneToChampions": 2791,
-                            "TrueDamageTaken": 955
+                            "trueDamageDone": 26037,
+                            "trueDamageDoneToChampions": 2791,
+                            "trueDamageTaken": 955
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 0,
@@ -33553,9 +33553,9 @@ timeline_example = {
                             "totalDamageDone": 53132,
                             "totalDamageDoneToChampions": 13919,
                             "totalDamageTaken": 13977,
-                            "TrueDamageDone": 943,
-                            "TrueDamageDoneToChampions": 905,
-                            "TrueDamageTaken": 948
+                            "trueDamageDone": 943,
+                            "trueDamageDoneToChampions": 905,
+                            "trueDamageTaken": 948
                         },
                         "goldPerSecond": 30,
                         "jungleMinionsKilled": 8,
@@ -33692,9 +33692,9 @@ timeline_example = {
                             "totalDamageDone": 147524,
                             "totalDamageDoneToChampions": 8032,
                             "totalDamageTaken": 22037,
-                            "TrueDamageDone": 4233,
-                            "TrueDamageDoneToChampions": 1628,
-                            "TrueDamageTaken": 1664
+                            "trueDamageDone": 4233,
+                            "trueDamageDoneToChampions": 1628,
+                            "trueDamageTaken": 1664
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 0,
@@ -33748,9 +33748,9 @@ timeline_example = {
                             "totalDamageDone": 216500,
                             "totalDamageDoneToChampions": 21164,
                             "totalDamageTaken": 26109,
-                            "TrueDamageDone": 39752,
-                            "TrueDamageDoneToChampions": 2771,
-                            "TrueDamageTaken": 1665
+                            "trueDamageDone": 39752,
+                            "trueDamageDoneToChampions": 2771,
+                            "trueDamageTaken": 1665
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 148,
@@ -33804,9 +33804,9 @@ timeline_example = {
                             "totalDamageDone": 131595,
                             "totalDamageDoneToChampions": 20585,
                             "totalDamageTaken": 15459,
-                            "TrueDamageDone": 3190,
-                            "TrueDamageDoneToChampions": 1550,
-                            "TrueDamageTaken": 222
+                            "trueDamageDone": 3190,
+                            "trueDamageDoneToChampions": 1550,
+                            "trueDamageTaken": 222
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 4,
@@ -33860,9 +33860,9 @@ timeline_example = {
                             "totalDamageDone": 149867,
                             "totalDamageDoneToChampions": 15021,
                             "totalDamageTaken": 16451,
-                            "TrueDamageDone": 19430,
-                            "TrueDamageDoneToChampions": 2833,
-                            "TrueDamageTaken": 1851
+                            "trueDamageDone": 19430,
+                            "trueDamageDoneToChampions": 2833,
+                            "trueDamageTaken": 1851
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 12,
@@ -33916,9 +33916,9 @@ timeline_example = {
                             "totalDamageDone": 13126,
                             "totalDamageDoneToChampions": 5836,
                             "totalDamageTaken": 12908,
-                            "TrueDamageDone": 81,
-                            "TrueDamageDoneToChampions": 81,
-                            "TrueDamageTaken": 591
+                            "trueDamageDone": 81,
+                            "trueDamageDoneToChampions": 81,
+                            "trueDamageTaken": 591
                         },
                         "goldPerSecond": 30,
                         "jungleMinionsKilled": 0,
@@ -33972,9 +33972,9 @@ timeline_example = {
                             "totalDamageDone": 158110,
                             "totalDamageDoneToChampions": 16955,
                             "totalDamageTaken": 18832,
-                            "TrueDamageDone": 4580,
-                            "TrueDamageDoneToChampions": 2085,
-                            "TrueDamageTaken": 1521
+                            "trueDamageDone": 4580,
+                            "trueDamageDoneToChampions": 2085,
+                            "trueDamageTaken": 1521
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 12,
@@ -34028,9 +34028,9 @@ timeline_example = {
                             "totalDamageDone": 195087,
                             "totalDamageDoneToChampions": 14262,
                             "totalDamageTaken": 31921,
-                            "TrueDamageDone": 54756,
-                            "TrueDamageDoneToChampions": 930,
-                            "TrueDamageTaken": 5276
+                            "trueDamageDone": 54756,
+                            "trueDamageDoneToChampions": 930,
+                            "trueDamageTaken": 5276
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 120,
@@ -34084,9 +34084,9 @@ timeline_example = {
                             "totalDamageDone": 134004,
                             "totalDamageDoneToChampions": 15383,
                             "totalDamageTaken": 17498,
-                            "TrueDamageDone": 1057,
-                            "TrueDamageDoneToChampions": 0,
-                            "TrueDamageTaken": 890
+                            "trueDamageDone": 1057,
+                            "trueDamageDoneToChampions": 0,
+                            "trueDamageTaken": 890
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 0,
@@ -34140,9 +34140,9 @@ timeline_example = {
                             "totalDamageDone": 105335,
                             "totalDamageDoneToChampions": 16578,
                             "totalDamageTaken": 16652,
-                            "TrueDamageDone": 27865,
-                            "TrueDamageDoneToChampions": 2791,
-                            "TrueDamageTaken": 955
+                            "trueDamageDone": 27865,
+                            "trueDamageDoneToChampions": 2791,
+                            "trueDamageTaken": 955
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 0,
@@ -34196,9 +34196,9 @@ timeline_example = {
                             "totalDamageDone": 56155,
                             "totalDamageDoneToChampions": 14708,
                             "totalDamageTaken": 13977,
-                            "TrueDamageDone": 943,
-                            "TrueDamageDoneToChampions": 905,
-                            "TrueDamageTaken": 948
+                            "trueDamageDone": 943,
+                            "trueDamageDoneToChampions": 905,
+                            "trueDamageTaken": 948
                         },
                         "goldPerSecond": 30,
                         "jungleMinionsKilled": 8,
@@ -34408,9 +34408,9 @@ timeline_example = {
                             "totalDamageDone": 152943,
                             "totalDamageDoneToChampions": 8032,
                             "totalDamageTaken": 23565,
-                            "TrueDamageDone": 4233,
-                            "TrueDamageDoneToChampions": 1628,
-                            "TrueDamageTaken": 2004
+                            "trueDamageDone": 4233,
+                            "trueDamageDoneToChampions": 1628,
+                            "trueDamageTaken": 2004
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 0,
@@ -34464,9 +34464,9 @@ timeline_example = {
                             "totalDamageDone": 225293,
                             "totalDamageDoneToChampions": 21164,
                             "totalDamageTaken": 27298,
-                            "TrueDamageDone": 42344,
-                            "TrueDamageDoneToChampions": 2771,
-                            "TrueDamageTaken": 1665
+                            "trueDamageDone": 42344,
+                            "trueDamageDoneToChampions": 2771,
+                            "trueDamageTaken": 1665
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 152,
@@ -34520,9 +34520,9 @@ timeline_example = {
                             "totalDamageDone": 139633,
                             "totalDamageDoneToChampions": 21134,
                             "totalDamageTaken": 16288,
-                            "TrueDamageDone": 3190,
-                            "TrueDamageDoneToChampions": 1550,
-                            "TrueDamageTaken": 527
+                            "trueDamageDone": 3190,
+                            "trueDamageDoneToChampions": 1550,
+                            "trueDamageTaken": 527
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 4,
@@ -34576,9 +34576,9 @@ timeline_example = {
                             "totalDamageDone": 164714,
                             "totalDamageDoneToChampions": 15021,
                             "totalDamageTaken": 16635,
-                            "TrueDamageDone": 21587,
-                            "TrueDamageDoneToChampions": 2833,
-                            "TrueDamageTaken": 1851
+                            "trueDamageDone": 21587,
+                            "trueDamageDoneToChampions": 2833,
+                            "trueDamageTaken": 1851
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 12,
@@ -34632,9 +34632,9 @@ timeline_example = {
                             "totalDamageDone": 13770,
                             "totalDamageDoneToChampions": 5836,
                             "totalDamageTaken": 13955,
-                            "TrueDamageDone": 81,
-                            "TrueDamageDoneToChampions": 81,
-                            "TrueDamageTaken": 591
+                            "trueDamageDone": 81,
+                            "trueDamageDoneToChampions": 81,
+                            "trueDamageTaken": 591
                         },
                         "goldPerSecond": 30,
                         "jungleMinionsKilled": 0,
@@ -34688,9 +34688,9 @@ timeline_example = {
                             "totalDamageDone": 171169,
                             "totalDamageDoneToChampions": 16955,
                             "totalDamageTaken": 19543,
-                            "TrueDamageDone": 4580,
-                            "TrueDamageDoneToChampions": 2085,
-                            "TrueDamageTaken": 1521
+                            "trueDamageDone": 4580,
+                            "trueDamageDoneToChampions": 2085,
+                            "trueDamageTaken": 1521
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 12,
@@ -34744,9 +34744,9 @@ timeline_example = {
                             "totalDamageDone": 206808,
                             "totalDamageDoneToChampions": 14262,
                             "totalDamageTaken": 33574,
-                            "TrueDamageDone": 59162,
-                            "TrueDamageDoneToChampions": 930,
-                            "TrueDamageTaken": 5276
+                            "trueDamageDone": 59162,
+                            "trueDamageDoneToChampions": 930,
+                            "trueDamageTaken": 5276
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 128,
@@ -34800,9 +34800,9 @@ timeline_example = {
                             "totalDamageDone": 144774,
                             "totalDamageDoneToChampions": 16024,
                             "totalDamageTaken": 17582,
-                            "TrueDamageDone": 1107,
-                            "TrueDamageDoneToChampions": 0,
-                            "TrueDamageTaken": 890
+                            "trueDamageDone": 1107,
+                            "trueDamageDoneToChampions": 0,
+                            "trueDamageTaken": 890
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 0,
@@ -34856,9 +34856,9 @@ timeline_example = {
                             "totalDamageDone": 107373,
                             "totalDamageDoneToChampions": 18128,
                             "totalDamageTaken": 16652,
-                            "TrueDamageDone": 28510,
-                            "TrueDamageDoneToChampions": 3435,
-                            "TrueDamageTaken": 955
+                            "trueDamageDone": 28510,
+                            "trueDamageDoneToChampions": 3435,
+                            "trueDamageTaken": 955
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 0,
@@ -34912,9 +34912,9 @@ timeline_example = {
                             "totalDamageDone": 61492,
                             "totalDamageDoneToChampions": 14708,
                             "totalDamageTaken": 14170,
-                            "TrueDamageDone": 944,
-                            "TrueDamageDoneToChampions": 905,
-                            "TrueDamageTaken": 948
+                            "trueDamageDone": 944,
+                            "trueDamageDoneToChampions": 905,
+                            "trueDamageTaken": 948
                         },
                         "goldPerSecond": 30,
                         "jungleMinionsKilled": 8,
@@ -35050,7 +35050,7 @@ timeline_example = {
                                 "physicalDamage": 113,
                                 "spellName": "",
                                 "spellSlot": -1,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -35061,7 +35061,7 @@ timeline_example = {
                                 "physicalDamage": 378,
                                 "spellName": "garenq",
                                 "spellSlot": 0,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -35072,7 +35072,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "garenr",
                                 "spellSlot": 3,
-                                "TrueDamage": 1033,
+                                "trueDamage": 1033,
                                 "type": "OTHER"
                             },
                             {
@@ -35083,7 +35083,7 @@ timeline_example = {
                                 "physicalDamage": 165,
                                 "spellName": "garenbasicattack2",
                                 "spellSlot": 65,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -35094,7 +35094,7 @@ timeline_example = {
                                 "physicalDamage": 332,
                                 "spellName": "garene",
                                 "spellSlot": 2,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             }
                         ],
@@ -35107,7 +35107,7 @@ timeline_example = {
                                 "physicalDamage": 13,
                                 "spellName": "sru_chaosminionrangedbasicattack",
                                 "spellSlot": 64,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "MINION"
                             },
                             {
@@ -35118,7 +35118,7 @@ timeline_example = {
                                 "physicalDamage": 49,
                                 "spellName": "sru_chaosminionsiegebasicattack",
                                 "spellSlot": 64,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "MINION"
                             },
                             {
@@ -35129,7 +35129,7 @@ timeline_example = {
                                 "physicalDamage": 107,
                                 "spellName": "sru_chaosminionmeleebasicattack",
                                 "spellSlot": 64,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "MINION"
                             },
                             {
@@ -35140,7 +35140,7 @@ timeline_example = {
                                 "physicalDamage": 97,
                                 "spellName": "sru_chaosminionrangedbasicattack2",
                                 "spellSlot": 65,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "MINION"
                             },
                             {
@@ -35151,7 +35151,7 @@ timeline_example = {
                                 "physicalDamage": 142,
                                 "spellName": "yonew",
                                 "spellSlot": 1,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -35162,7 +35162,7 @@ timeline_example = {
                                 "physicalDamage": 501,
                                 "spellName": "",
                                 "spellSlot": -1,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -35173,7 +35173,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "",
                                 "spellSlot": 63,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -35184,7 +35184,7 @@ timeline_example = {
                                 "physicalDamage": 294,
                                 "spellName": "yoneq",
                                 "spellSlot": 0,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -35195,7 +35195,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "yonee",
                                 "spellSlot": 2,
-                                "TrueDamage": 554,
+                                "trueDamage": 554,
                                 "type": "OTHER"
                             },
                             {
@@ -35206,7 +35206,7 @@ timeline_example = {
                                 "physicalDamage": 762,
                                 "spellName": "yonepassive",
                                 "spellSlot": 63,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -35217,7 +35217,7 @@ timeline_example = {
                                 "physicalDamage": 105,
                                 "spellName": "yoner",
                                 "spellSlot": 3,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -35228,7 +35228,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "varusw",
                                 "spellSlot": 1,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -35239,7 +35239,7 @@ timeline_example = {
                                 "physicalDamage": 270,
                                 "spellName": "varuswbasicattack",
                                 "spellSlot": 56,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -35250,7 +35250,7 @@ timeline_example = {
                                 "physicalDamage": 81,
                                 "spellName": "varuse",
                                 "spellSlot": 2,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -35261,7 +35261,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "summonerdot",
                                 "spellSlot": 5,
-                                "TrueDamage": 124,
+                                "trueDamage": 124,
                                 "type": "OTHER"
                             }
                         ],
@@ -35287,7 +35287,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "varusw",
                                 "spellSlot": 1,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -35298,7 +35298,7 @@ timeline_example = {
                                 "physicalDamage": 184,
                                 "spellName": "varuswbasicattack",
                                 "spellSlot": 56,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             }
                         ],
@@ -35311,7 +35311,7 @@ timeline_example = {
                                 "physicalDamage": 92,
                                 "spellName": "summonersmiteavataroffensive",
                                 "spellSlot": 4,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "MINION"
                             },
                             {
@@ -35322,7 +35322,7 @@ timeline_example = {
                                 "physicalDamage": 19,
                                 "spellName": "sru_orderminionsiegebasicattack",
                                 "spellSlot": 64,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "MINION"
                             },
                             {
@@ -35333,7 +35333,7 @@ timeline_example = {
                                 "physicalDamage": 103,
                                 "spellName": "sru_orderminionmeleebasicattack",
                                 "spellSlot": 64,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "MINION"
                             },
                             {
@@ -35344,7 +35344,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "",
                                 "spellSlot": -1,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -35355,7 +35355,7 @@ timeline_example = {
                                 "physicalDamage": 450,
                                 "spellName": "vaynetumble",
                                 "spellSlot": 0,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -35366,7 +35366,7 @@ timeline_example = {
                                 "physicalDamage": 693,
                                 "spellName": "vaynetumble",
                                 "spellSlot": 0,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -35377,7 +35377,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "vaynesilveredbolts",
                                 "spellSlot": 1,
-                                "TrueDamage": 182,
+                                "trueDamage": 182,
                                 "type": "OTHER"
                             }
                         ],
@@ -35443,7 +35443,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "",
                                 "spellSlot": -1,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -35454,7 +35454,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "",
                                 "spellSlot": -1,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -35465,7 +35465,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "zacr",
                                 "spellSlot": 3,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -35476,7 +35476,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "zacw",
                                 "spellSlot": 1,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             }
                         ],
@@ -35489,7 +35489,7 @@ timeline_example = {
                                 "physicalDamage": 92,
                                 "spellName": "summonersmiteavataroffensive",
                                 "spellSlot": 4,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "MINION"
                             },
                             {
@@ -35500,7 +35500,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "sru_orderminionmeleebasicattack",
                                 "spellSlot": 64,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "MINION"
                             },
                             {
@@ -35511,7 +35511,7 @@ timeline_example = {
                                 "physicalDamage": 183,
                                 "spellName": "",
                                 "spellSlot": -1,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -35522,7 +35522,7 @@ timeline_example = {
                                 "physicalDamage": 426,
                                 "spellName": "vaynetumble",
                                 "spellSlot": 0,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -35533,7 +35533,7 @@ timeline_example = {
                                 "physicalDamage": 968,
                                 "spellName": "vaynetumble",
                                 "spellSlot": 0,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -35544,7 +35544,7 @@ timeline_example = {
                                 "physicalDamage": 65,
                                 "spellName": "vaynecondemn",
                                 "spellSlot": 2,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -35555,7 +35555,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "vaynesilveredbolts",
                                 "spellSlot": 1,
-                                "TrueDamage": 1399,
+                                "trueDamage": 1399,
                                 "type": "OTHER"
                             },
                             {
@@ -35566,7 +35566,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "lulue",
                                 "spellSlot": 2,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -35577,7 +35577,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "lulupassive",
                                 "spellSlot": 63,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -35588,7 +35588,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "lulubasicattack2",
                                 "spellSlot": 65,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -35599,7 +35599,7 @@ timeline_example = {
                                 "physicalDamage": 33,
                                 "spellName": "lulubasicattack",
                                 "spellSlot": 64,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -35610,7 +35610,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "",
                                 "spellSlot": -1,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -35621,7 +35621,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "luluq",
                                 "spellSlot": 0,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             }
                         ],
@@ -35675,9 +35675,9 @@ timeline_example = {
                             "totalDamageDone": 164257,
                             "totalDamageDoneToChampions": 10055,
                             "totalDamageTaken": 27636,
-                            "TrueDamageDone": 5266,
-                            "TrueDamageDoneToChampions": 2661,
-                            "TrueDamageTaken": 2682
+                            "trueDamageDone": 5266,
+                            "trueDamageDoneToChampions": 2661,
+                            "trueDamageTaken": 2682
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 0,
@@ -35731,9 +35731,9 @@ timeline_example = {
                             "totalDamageDone": 240210,
                             "totalDamageDoneToChampions": 21164,
                             "totalDamageTaken": 27398,
-                            "TrueDamageDone": 44063,
-                            "TrueDamageDoneToChampions": 2771,
-                            "TrueDamageTaken": 1665
+                            "trueDamageDone": 44063,
+                            "trueDamageDoneToChampions": 2771,
+                            "trueDamageTaken": 1665
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 159,
@@ -35787,9 +35787,9 @@ timeline_example = {
                             "totalDamageDone": 152488,
                             "totalDamageDoneToChampions": 21965,
                             "totalDamageTaken": 16288,
-                            "TrueDamageDone": 3900,
-                            "TrueDamageDoneToChampions": 2260,
-                            "TrueDamageTaken": 527
+                            "trueDamageDone": 3900,
+                            "trueDamageDoneToChampions": 2260,
+                            "trueDamageTaken": 527
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 4,
@@ -35843,9 +35843,9 @@ timeline_example = {
                             "totalDamageDone": 179671,
                             "totalDamageDoneToChampions": 21748,
                             "totalDamageTaken": 17187,
-                            "TrueDamageDone": 24228,
-                            "TrueDamageDoneToChampions": 5074,
-                            "TrueDamageTaken": 1851
+                            "trueDamageDone": 24228,
+                            "trueDamageDoneToChampions": 5074,
+                            "trueDamageTaken": 1851
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 16,
@@ -35899,9 +35899,9 @@ timeline_example = {
                             "totalDamageDone": 14431,
                             "totalDamageDoneToChampions": 6258,
                             "totalDamageTaken": 14630,
-                            "TrueDamageDone": 280,
-                            "TrueDamageDoneToChampions": 280,
-                            "TrueDamageTaken": 591
+                            "trueDamageDone": 280,
+                            "trueDamageDoneToChampions": 280,
+                            "trueDamageTaken": 591
                         },
                         "goldPerSecond": 30,
                         "jungleMinionsKilled": 0,
@@ -35955,9 +35955,9 @@ timeline_example = {
                             "totalDamageDone": 183499,
                             "totalDamageDoneToChampions": 20103,
                             "totalDamageTaken": 22677,
-                            "TrueDamageDone": 5135,
-                            "TrueDamageDoneToChampions": 2640,
-                            "TrueDamageTaken": 2555
+                            "trueDamageDone": 5135,
+                            "trueDamageDoneToChampions": 2640,
+                            "trueDamageTaken": 2555
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 12,
@@ -36011,9 +36011,9 @@ timeline_example = {
                             "totalDamageDone": 218327,
                             "totalDamageDoneToChampions": 15696,
                             "totalDamageTaken": 39807,
-                            "TrueDamageDone": 62716,
-                            "TrueDamageDoneToChampions": 1518,
-                            "TrueDamageTaken": 8831
+                            "trueDamageDone": 62716,
+                            "trueDamageDoneToChampions": 1518,
+                            "trueDamageTaken": 8831
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 136,
@@ -36067,9 +36067,9 @@ timeline_example = {
                             "totalDamageDone": 152542,
                             "totalDamageDoneToChampions": 16024,
                             "totalDamageTaken": 17888,
-                            "TrueDamageDone": 1125,
-                            "TrueDamageDoneToChampions": 0,
-                            "TrueDamageTaken": 890
+                            "trueDamageDone": 1125,
+                            "trueDamageDoneToChampions": 0,
+                            "trueDamageTaken": 890
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 0,
@@ -36123,9 +36123,9 @@ timeline_example = {
                             "totalDamageDone": 116278,
                             "totalDamageDoneToChampions": 18128,
                             "totalDamageTaken": 16671,
-                            "TrueDamageDone": 29728,
-                            "TrueDamageDoneToChampions": 3435,
-                            "TrueDamageTaken": 955
+                            "trueDamageDone": 29728,
+                            "trueDamageDoneToChampions": 3435,
+                            "trueDamageTaken": 955
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 0,
@@ -36179,9 +36179,9 @@ timeline_example = {
                             "totalDamageDone": 64224,
                             "totalDamageDoneToChampions": 15562,
                             "totalDamageTaken": 16120,
-                            "TrueDamageDone": 1068,
-                            "TrueDamageDoneToChampions": 1029,
-                            "TrueDamageTaken": 1130
+                            "trueDamageDone": 1068,
+                            "trueDamageDoneToChampions": 1029,
+                            "trueDamageTaken": 1130
                         },
                         "goldPerSecond": 30,
                         "jungleMinionsKilled": 8,
@@ -36455,9 +36455,9 @@ timeline_example = {
                             "totalDamageDone": 172364,
                             "totalDamageDoneToChampions": 10055,
                             "totalDamageTaken": 27636,
-                            "TrueDamageDone": 5266,
-                            "TrueDamageDoneToChampions": 2661,
-                            "TrueDamageTaken": 2682
+                            "trueDamageDone": 5266,
+                            "trueDamageDoneToChampions": 2661,
+                            "trueDamageTaken": 2682
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 0,
@@ -36511,9 +36511,9 @@ timeline_example = {
                             "totalDamageDone": 249903,
                             "totalDamageDoneToChampions": 22030,
                             "totalDamageTaken": 29402,
-                            "TrueDamageDone": 45967,
-                            "TrueDamageDoneToChampions": 2874,
-                            "TrueDamageTaken": 1665
+                            "trueDamageDone": 45967,
+                            "trueDamageDoneToChampions": 2874,
+                            "trueDamageTaken": 1665
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 163,
@@ -36567,9 +36567,9 @@ timeline_example = {
                             "totalDamageDone": 166744,
                             "totalDamageDoneToChampions": 21965,
                             "totalDamageTaken": 18074,
-                            "TrueDamageDone": 3900,
-                            "TrueDamageDoneToChampions": 2260,
-                            "TrueDamageTaken": 563
+                            "trueDamageDone": 3900,
+                            "trueDamageDoneToChampions": 2260,
+                            "trueDamageTaken": 563
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 4,
@@ -36623,9 +36623,9 @@ timeline_example = {
                             "totalDamageDone": 194722,
                             "totalDamageDoneToChampions": 22371,
                             "totalDamageTaken": 17514,
-                            "TrueDamageDone": 24563,
-                            "TrueDamageDoneToChampions": 5074,
-                            "TrueDamageTaken": 1851
+                            "trueDamageDone": 24563,
+                            "trueDamageDoneToChampions": 5074,
+                            "trueDamageTaken": 1851
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 16,
@@ -36679,9 +36679,9 @@ timeline_example = {
                             "totalDamageDone": 14886,
                             "totalDamageDoneToChampions": 6258,
                             "totalDamageTaken": 15185,
-                            "TrueDamageDone": 280,
-                            "TrueDamageDoneToChampions": 280,
-                            "TrueDamageTaken": 591
+                            "trueDamageDone": 280,
+                            "trueDamageDoneToChampions": 280,
+                            "trueDamageTaken": 591
                         },
                         "goldPerSecond": 30,
                         "jungleMinionsKilled": 0,
@@ -36735,9 +36735,9 @@ timeline_example = {
                             "totalDamageDone": 184114,
                             "totalDamageDoneToChampions": 20714,
                             "totalDamageTaken": 23543,
-                            "TrueDamageDone": 5135,
-                            "TrueDamageDoneToChampions": 2640,
-                            "TrueDamageTaken": 2658
+                            "trueDamageDone": 5135,
+                            "trueDamageDoneToChampions": 2640,
+                            "trueDamageTaken": 2658
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 12,
@@ -36791,9 +36791,9 @@ timeline_example = {
                             "totalDamageDone": 218327,
                             "totalDamageDoneToChampions": 15696,
                             "totalDamageTaken": 39807,
-                            "TrueDamageDone": 62716,
-                            "TrueDamageDoneToChampions": 1518,
-                            "TrueDamageTaken": 8831
+                            "trueDamageDone": 62716,
+                            "trueDamageDoneToChampions": 1518,
+                            "trueDamageTaken": 8831
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 136,
@@ -36847,9 +36847,9 @@ timeline_example = {
                             "totalDamageDone": 163314,
                             "totalDamageDoneToChampions": 16754,
                             "totalDamageTaken": 18605,
-                            "TrueDamageDone": 1143,
-                            "TrueDamageDoneToChampions": 0,
-                            "TrueDamageTaken": 890
+                            "trueDamageDone": 1143,
+                            "trueDamageDoneToChampions": 0,
+                            "trueDamageTaken": 890
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 0,
@@ -36903,9 +36903,9 @@ timeline_example = {
                             "totalDamageDone": 130550,
                             "totalDamageDoneToChampions": 19762,
                             "totalDamageTaken": 16786,
-                            "TrueDamageDone": 33422,
-                            "TrueDamageDoneToChampions": 3472,
-                            "TrueDamageTaken": 955
+                            "trueDamageDone": 33422,
+                            "trueDamageDoneToChampions": 3472,
+                            "trueDamageTaken": 955
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 0,
@@ -36959,9 +36959,9 @@ timeline_example = {
                             "totalDamageDone": 68405,
                             "totalDamageDoneToChampions": 15562,
                             "totalDamageTaken": 16153,
-                            "TrueDamageDone": 1070,
-                            "TrueDamageDoneToChampions": 1029,
-                            "TrueDamageTaken": 1130
+                            "trueDamageDone": 1070,
+                            "trueDamageDoneToChampions": 1029,
+                            "trueDamageTaken": 1130
                         },
                         "goldPerSecond": 30,
                         "jungleMinionsKilled": 8,
@@ -37185,9 +37185,9 @@ timeline_example = {
                             "totalDamageDone": 193873,
                             "totalDamageDoneToChampions": 10055,
                             "totalDamageTaken": 29570,
-                            "TrueDamageDone": 5266,
-                            "TrueDamageDoneToChampions": 2661,
-                            "TrueDamageTaken": 3053
+                            "trueDamageDone": 5266,
+                            "trueDamageDoneToChampions": 2661,
+                            "trueDamageTaken": 3053
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 0,
@@ -37241,9 +37241,9 @@ timeline_example = {
                             "totalDamageDone": 268757,
                             "totalDamageDoneToChampions": 22030,
                             "totalDamageTaken": 29469,
-                            "TrueDamageDone": 48164,
-                            "TrueDamageDoneToChampions": 2874,
-                            "TrueDamageTaken": 1665
+                            "trueDamageDone": 48164,
+                            "trueDamageDoneToChampions": 2874,
+                            "trueDamageTaken": 1665
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 171,
@@ -37297,9 +37297,9 @@ timeline_example = {
                             "totalDamageDone": 179208,
                             "totalDamageDoneToChampions": 21965,
                             "totalDamageTaken": 18254,
-                            "TrueDamageDone": 3900,
-                            "TrueDamageDoneToChampions": 2260,
-                            "TrueDamageTaken": 563
+                            "trueDamageDone": 3900,
+                            "trueDamageDoneToChampions": 2260,
+                            "trueDamageTaken": 563
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 4,
@@ -37353,9 +37353,9 @@ timeline_example = {
                             "totalDamageDone": 205614,
                             "totalDamageDoneToChampions": 22490,
                             "totalDamageTaken": 17514,
-                            "TrueDamageDone": 24939,
-                            "TrueDamageDoneToChampions": 5074,
-                            "TrueDamageTaken": 1851
+                            "trueDamageDone": 24939,
+                            "trueDamageDoneToChampions": 5074,
+                            "trueDamageTaken": 1851
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 20,
@@ -37409,9 +37409,9 @@ timeline_example = {
                             "totalDamageDone": 15292,
                             "totalDamageDoneToChampions": 6258,
                             "totalDamageTaken": 15185,
-                            "TrueDamageDone": 280,
-                            "TrueDamageDoneToChampions": 280,
-                            "TrueDamageTaken": 591
+                            "trueDamageDone": 280,
+                            "trueDamageDoneToChampions": 280,
+                            "trueDamageTaken": 591
                         },
                         "goldPerSecond": 30,
                         "jungleMinionsKilled": 0,
@@ -37465,9 +37465,9 @@ timeline_example = {
                             "totalDamageDone": 200696,
                             "totalDamageDoneToChampions": 20714,
                             "totalDamageTaken": 23597,
-                            "TrueDamageDone": 5135,
-                            "TrueDamageDoneToChampions": 2640,
-                            "TrueDamageTaken": 2658
+                            "trueDamageDone": 5135,
+                            "trueDamageDoneToChampions": 2640,
+                            "trueDamageTaken": 2658
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 12,
@@ -37521,9 +37521,9 @@ timeline_example = {
                             "totalDamageDone": 224149,
                             "totalDamageDoneToChampions": 15834,
                             "totalDamageTaken": 40051,
-                            "TrueDamageDone": 65085,
-                            "TrueDamageDoneToChampions": 1518,
-                            "TrueDamageTaken": 8831
+                            "trueDamageDone": 65085,
+                            "trueDamageDoneToChampions": 1518,
+                            "trueDamageTaken": 8831
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 140,
@@ -37577,9 +37577,9 @@ timeline_example = {
                             "totalDamageDone": 168613,
                             "totalDamageDoneToChampions": 16754,
                             "totalDamageTaken": 18681,
-                            "TrueDamageDone": 1156,
-                            "TrueDamageDoneToChampions": 0,
-                            "TrueDamageTaken": 890
+                            "trueDamageDone": 1156,
+                            "trueDamageDoneToChampions": 0,
+                            "trueDamageTaken": 890
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 0,
@@ -37633,9 +37633,9 @@ timeline_example = {
                             "totalDamageDone": 143362,
                             "totalDamageDoneToChampions": 21118,
                             "totalDamageTaken": 16948,
-                            "TrueDamageDone": 37127,
-                            "TrueDamageDoneToChampions": 3842,
-                            "TrueDamageTaken": 955
+                            "trueDamageDone": 37127,
+                            "trueDamageDoneToChampions": 3842,
+                            "trueDamageTaken": 955
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 0,
@@ -37689,9 +37689,9 @@ timeline_example = {
                             "totalDamageDone": 71104,
                             "totalDamageDoneToChampions": 15562,
                             "totalDamageTaken": 16272,
-                            "TrueDamageDone": 1072,
-                            "TrueDamageDoneToChampions": 1029,
-                            "TrueDamageTaken": 1130
+                            "trueDamageDone": 1072,
+                            "trueDamageDoneToChampions": 1029,
+                            "trueDamageTaken": 1130
                         },
                         "goldPerSecond": 30,
                         "jungleMinionsKilled": 8,
@@ -37876,9 +37876,9 @@ timeline_example = {
                             "totalDamageDone": 211197,
                             "totalDamageDoneToChampions": 10113,
                             "totalDamageTaken": 30223,
-                            "TrueDamageDone": 5266,
-                            "TrueDamageDoneToChampions": 2661,
-                            "TrueDamageTaken": 3053
+                            "trueDamageDone": 5266,
+                            "trueDamageDoneToChampions": 2661,
+                            "trueDamageTaken": 3053
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 0,
@@ -37932,9 +37932,9 @@ timeline_example = {
                             "totalDamageDone": 282979,
                             "totalDamageDoneToChampions": 22030,
                             "totalDamageTaken": 29854,
-                            "TrueDamageDone": 50468,
-                            "TrueDamageDoneToChampions": 2874,
-                            "TrueDamageTaken": 1665
+                            "trueDamageDone": 50468,
+                            "trueDamageDoneToChampions": 2874,
+                            "trueDamageTaken": 1665
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 175,
@@ -37988,9 +37988,9 @@ timeline_example = {
                             "totalDamageDone": 185260,
                             "totalDamageDoneToChampions": 25249,
                             "totalDamageTaken": 18254,
-                            "TrueDamageDone": 3985,
-                            "TrueDamageDoneToChampions": 2345,
-                            "TrueDamageTaken": 563
+                            "trueDamageDone": 3985,
+                            "trueDamageDoneToChampions": 2345,
+                            "trueDamageTaken": 563
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 4,
@@ -38044,9 +38044,9 @@ timeline_example = {
                             "totalDamageDone": 219728,
                             "totalDamageDoneToChampions": 22571,
                             "totalDamageTaken": 17967,
-                            "TrueDamageDone": 25895,
-                            "TrueDamageDoneToChampions": 5114,
-                            "TrueDamageTaken": 1851
+                            "trueDamageDone": 25895,
+                            "trueDamageDoneToChampions": 5114,
+                            "trueDamageTaken": 1851
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 23,
@@ -38100,9 +38100,9 @@ timeline_example = {
                             "totalDamageDone": 16644,
                             "totalDamageDoneToChampions": 6488,
                             "totalDamageTaken": 15271,
-                            "TrueDamageDone": 280,
-                            "TrueDamageDoneToChampions": 280,
-                            "TrueDamageTaken": 591
+                            "trueDamageDone": 280,
+                            "trueDamageDoneToChampions": 280,
+                            "trueDamageTaken": 591
                         },
                         "goldPerSecond": 30,
                         "jungleMinionsKilled": 0,
@@ -38156,9 +38156,9 @@ timeline_example = {
                             "totalDamageDone": 208015,
                             "totalDamageDoneToChampions": 20995,
                             "totalDamageTaken": 23746,
-                            "TrueDamageDone": 5135,
-                            "TrueDamageDoneToChampions": 2640,
-                            "TrueDamageTaken": 2658
+                            "trueDamageDone": 5135,
+                            "trueDamageDoneToChampions": 2640,
+                            "trueDamageTaken": 2658
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 12,
@@ -38212,9 +38212,9 @@ timeline_example = {
                             "totalDamageDone": 232809,
                             "totalDamageDoneToChampions": 15878,
                             "totalDamageTaken": 40190,
-                            "TrueDamageDone": 67300,
-                            "TrueDamageDoneToChampions": 1518,
-                            "TrueDamageTaken": 8871
+                            "trueDamageDone": 67300,
+                            "trueDamageDoneToChampions": 1518,
+                            "trueDamageTaken": 8871
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 144,
@@ -38268,9 +38268,9 @@ timeline_example = {
                             "totalDamageDone": 173151,
                             "totalDamageDoneToChampions": 16754,
                             "totalDamageTaken": 21067,
-                            "TrueDamageDone": 1185,
-                            "TrueDamageDoneToChampions": 0,
-                            "TrueDamageTaken": 933
+                            "trueDamageDone": 1185,
+                            "trueDamageDoneToChampions": 0,
+                            "trueDamageTaken": 933
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 0,
@@ -38324,9 +38324,9 @@ timeline_example = {
                             "totalDamageDone": 156869,
                             "totalDamageDoneToChampions": 21118,
                             "totalDamageTaken": 17270,
-                            "TrueDamageDone": 40092,
-                            "TrueDamageDoneToChampions": 3842,
-                            "TrueDamageTaken": 955
+                            "trueDamageDone": 40092,
+                            "trueDamageDoneToChampions": 3842,
+                            "trueDamageTaken": 955
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 0,
@@ -38380,9 +38380,9 @@ timeline_example = {
                             "totalDamageDone": 74116,
                             "totalDamageDoneToChampions": 15933,
                             "totalDamageTaken": 17950,
-                            "TrueDamageDone": 1072,
-                            "TrueDamageDoneToChampions": 1029,
-                            "TrueDamageTaken": 1173
+                            "trueDamageDone": 1072,
+                            "trueDamageDoneToChampions": 1029,
+                            "trueDamageTaken": 1173
                         },
                         "goldPerSecond": 30,
                         "jungleMinionsKilled": 8,
@@ -38551,7 +38551,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "varusr",
                                 "spellSlot": 3,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -38562,7 +38562,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "summonerdot",
                                 "spellSlot": 5,
-                                "TrueDamage": 132,
+                                "trueDamage": 132,
                                 "type": "OTHER"
                             },
                             {
@@ -38573,7 +38573,7 @@ timeline_example = {
                                 "physicalDamage": 48,
                                 "spellName": "",
                                 "spellSlot": -1,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -38584,7 +38584,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "varusw",
                                 "spellSlot": 1,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -38595,7 +38595,7 @@ timeline_example = {
                                 "physicalDamage": 177,
                                 "spellName": "varuswbasicattack",
                                 "spellSlot": 56,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             }
                         ],
@@ -38608,7 +38608,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "",
                                 "spellSlot": -1,
-                                "TrueDamage": 77,
+                                "trueDamage": 77,
                                 "type": "OTHER"
                             },
                             {
@@ -38619,7 +38619,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "brandr",
                                 "spellSlot": 3,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -38630,7 +38630,7 @@ timeline_example = {
                                 "physicalDamage": 56,
                                 "spellName": "brandbasicattack",
                                 "spellSlot": 64,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -38641,7 +38641,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "",
                                 "spellSlot": -1,
-                                "TrueDamage": 42,
+                                "trueDamage": 42,
                                 "type": "OTHER"
                             },
                             {
@@ -38652,7 +38652,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "brandpassive",
                                 "spellSlot": 63,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -38663,7 +38663,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "brandq",
                                 "spellSlot": 0,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -38674,7 +38674,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "brandw",
                                 "spellSlot": 1,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             }
                         ],
@@ -38704,7 +38704,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "hweiee",
                                 "spellSlot": 2,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -38715,7 +38715,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "hweiwe",
                                 "spellSlot": 1,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -38726,7 +38726,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "hweir",
                                 "spellSlot": 3,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -38737,7 +38737,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "",
                                 "spellSlot": -1,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -38748,7 +38748,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "",
                                 "spellSlot": -1,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             }
                         ],
@@ -38761,7 +38761,7 @@ timeline_example = {
                                 "physicalDamage": 28,
                                 "spellName": "sru_orderminionrangedbasicattack2",
                                 "spellSlot": 65,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "MINION"
                             },
                             {
@@ -38772,7 +38772,7 @@ timeline_example = {
                                 "physicalDamage": 86,
                                 "spellName": "sru_orderminionrangedbasicattack",
                                 "spellSlot": 64,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "MINION"
                             },
                             {
@@ -38783,7 +38783,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "",
                                 "spellSlot": -1,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -38794,7 +38794,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "",
                                 "spellSlot": -1,
-                                "TrueDamage": 42,
+                                "trueDamage": 42,
                                 "type": "OTHER"
                             },
                             {
@@ -38805,7 +38805,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "luxr",
                                 "spellSlot": 3,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -38816,7 +38816,7 @@ timeline_example = {
                                 "physicalDamage": 298,
                                 "spellName": "vaynecondemn",
                                 "spellSlot": 2,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -38827,7 +38827,7 @@ timeline_example = {
                                 "physicalDamage": 105,
                                 "spellName": "",
                                 "spellSlot": -1,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -38838,7 +38838,7 @@ timeline_example = {
                                 "physicalDamage": 446,
                                 "spellName": "vaynetumble",
                                 "spellSlot": 0,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -38849,7 +38849,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "",
                                 "spellSlot": -1,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             }
                         ],
@@ -38886,7 +38886,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "",
                                 "spellSlot": -1,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -38897,7 +38897,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "zacq",
                                 "spellSlot": 0,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -38908,7 +38908,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "zacr",
                                 "spellSlot": 3,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -38919,7 +38919,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "zacw",
                                 "spellSlot": 1,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -38930,7 +38930,7 @@ timeline_example = {
                                 "physicalDamage": 52,
                                 "spellName": "zacbasicattack",
                                 "spellSlot": 64,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -38941,7 +38941,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "",
                                 "spellSlot": -1,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -38952,7 +38952,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "",
                                 "spellSlot": -1,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -38963,7 +38963,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "zace",
                                 "spellSlot": 2,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -38974,7 +38974,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "zacq",
                                 "spellSlot": 0,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -38985,7 +38985,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "zacw",
                                 "spellSlot": 1,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -38996,7 +38996,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "zacr",
                                 "spellSlot": 3,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -39007,7 +39007,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "",
                                 "spellSlot": -1,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -39018,7 +39018,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "",
                                 "spellSlot": -1,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -39029,7 +39029,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "zacw",
                                 "spellSlot": 1,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -39040,7 +39040,7 @@ timeline_example = {
                                 "physicalDamage": 57,
                                 "spellName": "zacbasicattack2",
                                 "spellSlot": 65,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             }
                         ],
@@ -39053,7 +39053,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "luxr",
                                 "spellSlot": 3,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -39064,7 +39064,7 @@ timeline_example = {
                                 "physicalDamage": 33,
                                 "spellName": "luxbasicattack",
                                 "spellSlot": 64,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -39075,7 +39075,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "",
                                 "spellSlot": -1,
-                                "TrueDamage": 85,
+                                "trueDamage": 85,
                                 "type": "OTHER"
                             },
                             {
@@ -39086,7 +39086,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "",
                                 "spellSlot": -1,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -39097,7 +39097,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "luxlightstrikekugel",
                                 "spellSlot": 2,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -39108,7 +39108,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "luxilluminationpassive",
                                 "spellSlot": 63,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -39119,7 +39119,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "luxlightbinding",
                                 "spellSlot": 0,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -39130,7 +39130,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "lulue",
                                 "spellSlot": 2,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -39141,7 +39141,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "lulupassive",
                                 "spellSlot": 63,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -39152,7 +39152,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "",
                                 "spellSlot": -1,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -39163,7 +39163,7 @@ timeline_example = {
                                 "physicalDamage": 50,
                                 "spellName": "lulubasicattack",
                                 "spellSlot": 64,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -39174,7 +39174,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "luluq",
                                 "spellSlot": 0,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -39185,7 +39185,7 @@ timeline_example = {
                                 "physicalDamage": 136,
                                 "spellName": "",
                                 "spellSlot": -1,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -39196,7 +39196,7 @@ timeline_example = {
                                 "physicalDamage": 255,
                                 "spellName": "vaynetumble",
                                 "spellSlot": 0,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -39207,7 +39207,7 @@ timeline_example = {
                                 "physicalDamage": 1126,
                                 "spellName": "vaynetumble",
                                 "spellSlot": 0,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -39218,7 +39218,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "vaynesilveredbolts",
                                 "spellSlot": 1,
-                                "TrueDamage": 1151,
+                                "trueDamage": 1151,
                                 "type": "OTHER"
                             },
                             {
@@ -39229,7 +39229,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "",
                                 "spellSlot": -1,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -39240,7 +39240,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "",
                                 "spellSlot": -1,
-                                "TrueDamage": 42,
+                                "trueDamage": 42,
                                 "type": "OTHER"
                             },
                             {
@@ -39251,7 +39251,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "brande",
                                 "spellSlot": 2,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -39262,7 +39262,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "brandq",
                                 "spellSlot": 0,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             }
                         ],
@@ -39334,9 +39334,9 @@ timeline_example = {
                             "totalDamageDone": 224290,
                             "totalDamageDoneToChampions": 10133,
                             "totalDamageTaken": 30516,
-                            "TrueDamageDone": 5266,
-                            "TrueDamageDoneToChampions": 2661,
-                            "TrueDamageTaken": 3053
+                            "trueDamageDone": 5266,
+                            "trueDamageDoneToChampions": 2661,
+                            "trueDamageTaken": 3053
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 0,
@@ -39390,9 +39390,9 @@ timeline_example = {
                             "totalDamageDone": 294281,
                             "totalDamageDoneToChampions": 24271,
                             "totalDamageTaken": 32154,
-                            "TrueDamageDone": 51694,
-                            "TrueDamageDoneToChampions": 3038,
-                            "TrueDamageTaken": 1797
+                            "trueDamageDone": 51694,
+                            "trueDamageDoneToChampions": 3038,
+                            "trueDamageTaken": 1797
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 183,
@@ -39446,9 +39446,9 @@ timeline_example = {
                             "totalDamageDone": 191595,
                             "totalDamageDoneToChampions": 27539,
                             "totalDamageTaken": 20066,
-                            "TrueDamageDone": 4114,
-                            "TrueDamageDoneToChampions": 2474,
-                            "TrueDamageTaken": 563
+                            "trueDamageDone": 4114,
+                            "trueDamageDoneToChampions": 2474,
+                            "trueDamageTaken": 563
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 4,
@@ -39502,9 +39502,9 @@ timeline_example = {
                             "totalDamageDone": 237237,
                             "totalDamageDoneToChampions": 26806,
                             "totalDamageTaken": 19193,
-                            "TrueDamageDone": 27625,
-                            "TrueDamageDoneToChampions": 6266,
-                            "TrueDamageTaken": 1970
+                            "trueDamageDone": 27625,
+                            "trueDamageDoneToChampions": 6266,
+                            "trueDamageTaken": 1970
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 23,
@@ -39558,9 +39558,9 @@ timeline_example = {
                             "totalDamageDone": 16849,
                             "totalDamageDoneToChampions": 6692,
                             "totalDamageTaken": 16184,
-                            "TrueDamageDone": 280,
-                            "TrueDamageDoneToChampions": 280,
-                            "TrueDamageTaken": 591
+                            "trueDamageDone": 280,
+                            "trueDamageDoneToChampions": 280,
+                            "trueDamageTaken": 591
                         },
                         "goldPerSecond": 30,
                         "jungleMinionsKilled": 0,
@@ -39614,9 +39614,9 @@ timeline_example = {
                             "totalDamageDone": 210494,
                             "totalDamageDoneToChampions": 21650,
                             "totalDamageTaken": 23765,
-                            "TrueDamageDone": 5254,
-                            "TrueDamageDoneToChampions": 2759,
-                            "TrueDamageTaken": 2658
+                            "trueDamageDone": 5254,
+                            "trueDamageDoneToChampions": 2759,
+                            "trueDamageTaken": 2658
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 12,
@@ -39670,9 +39670,9 @@ timeline_example = {
                             "totalDamageDone": 240684,
                             "totalDamageDoneToChampions": 19118,
                             "totalDamageTaken": 45328,
-                            "TrueDamageDone": 69205,
-                            "TrueDamageDoneToChampions": 1518,
-                            "TrueDamageTaken": 10151
+                            "trueDamageDone": 69205,
+                            "trueDamageDoneToChampions": 1518,
+                            "trueDamageTaken": 10151
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 148,
@@ -39726,9 +39726,9 @@ timeline_example = {
                             "totalDamageDone": 183995,
                             "totalDamageDoneToChampions": 17835,
                             "totalDamageTaken": 23381,
-                            "TrueDamageDone": 1207,
-                            "TrueDamageDoneToChampions": 0,
-                            "TrueDamageTaken": 976
+                            "trueDamageDone": 1207,
+                            "trueDamageDoneToChampions": 0,
+                            "trueDamageTaken": 976
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 0,
@@ -39782,9 +39782,9 @@ timeline_example = {
                             "totalDamageDone": 162535,
                             "totalDamageDoneToChampions": 21118,
                             "totalDamageTaken": 17270,
-                            "TrueDamageDone": 41251,
-                            "TrueDamageDoneToChampions": 3842,
-                            "TrueDamageTaken": 955
+                            "trueDamageDone": 41251,
+                            "trueDamageDoneToChampions": 3842,
+                            "trueDamageTaken": 955
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 0,
@@ -39838,9 +39838,9 @@ timeline_example = {
                             "totalDamageDone": 77082,
                             "totalDamageDoneToChampions": 17063,
                             "totalDamageTaken": 19810,
-                            "TrueDamageDone": 1204,
-                            "TrueDamageDoneToChampions": 1161,
-                            "TrueDamageTaken": 1294
+                            "trueDamageDone": 1204,
+                            "trueDamageDoneToChampions": 1161,
+                            "trueDamageTaken": 1294
                         },
                         "goldPerSecond": 30,
                         "jungleMinionsKilled": 8,
@@ -39899,7 +39899,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "",
                                 "spellSlot": -1,
-                                "TrueDamage": 140,
+                                "trueDamage": 140,
                                 "type": "OTHER"
                             },
                             {
@@ -39910,7 +39910,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "",
                                 "spellSlot": -1,
-                                "TrueDamage": 42,
+                                "trueDamage": 42,
                                 "type": "OTHER"
                             },
                             {
@@ -39921,7 +39921,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "brandpassive",
                                 "spellSlot": 63,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -39932,7 +39932,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "brande",
                                 "spellSlot": 2,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             }
                         ],
@@ -39945,7 +39945,7 @@ timeline_example = {
                                 "physicalDamage": 59,
                                 "spellName": "sru_chaosminionmeleebasicattack",
                                 "spellSlot": 64,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "MINION"
                             },
                             {
@@ -39956,7 +39956,7 @@ timeline_example = {
                                 "physicalDamage": 212,
                                 "spellName": "turretbasicattack",
                                 "spellSlot": 64,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "TOWER"
                             },
                             {
@@ -39967,7 +39967,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "",
                                 "spellSlot": -1,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -39978,7 +39978,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "ahriw",
                                 "spellSlot": 1,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -39989,7 +39989,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "ahriq",
                                 "spellSlot": 0,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             }
                         ],
@@ -40019,7 +40019,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "",
                                 "spellSlot": -1,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -40030,7 +40030,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "ahriq",
                                 "spellSlot": 0,
-                                "TrueDamage": 386,
+                                "trueDamage": 386,
                                 "type": "OTHER"
                             },
                             {
@@ -40041,7 +40041,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "",
                                 "spellSlot": -1,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -40052,7 +40052,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "ahriw",
                                 "spellSlot": 1,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -40063,7 +40063,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "",
                                 "spellSlot": -1,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -40074,7 +40074,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "ahrie",
                                 "spellSlot": 2,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -40085,7 +40085,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "",
                                 "spellSlot": -1,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -40096,7 +40096,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "ahriq",
                                 "spellSlot": 0,
-                                "TrueDamage": 386,
+                                "trueDamage": 386,
                                 "type": "OTHER"
                             }
                         ],
@@ -40109,7 +40109,7 @@ timeline_example = {
                                 "physicalDamage": 105,
                                 "spellName": "",
                                 "spellSlot": -1,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -40120,7 +40120,7 @@ timeline_example = {
                                 "physicalDamage": 329,
                                 "spellName": "vaynecritattack",
                                 "spellSlot": 73,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -40131,7 +40131,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "vaynesilveredbolts",
                                 "spellSlot": 1,
-                                "TrueDamage": 226,
+                                "trueDamage": 226,
                                 "type": "OTHER"
                             },
                             {
@@ -40142,7 +40142,7 @@ timeline_example = {
                                 "physicalDamage": 165,
                                 "spellName": "vaynebasicattack",
                                 "spellSlot": 64,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -40153,7 +40153,7 @@ timeline_example = {
                                 "physicalDamage": 168,
                                 "spellName": "vaynebasicattack2",
                                 "spellSlot": 65,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -40164,7 +40164,7 @@ timeline_example = {
                                 "physicalDamage": 368,
                                 "spellName": "vaynetumble",
                                 "spellSlot": 0,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -40175,7 +40175,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "",
                                 "spellSlot": -1,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -40186,7 +40186,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "",
                                 "spellSlot": -1,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -40197,7 +40197,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "brandw",
                                 "spellSlot": 1,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -40208,7 +40208,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "",
                                 "spellSlot": -1,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             }
                         ],
@@ -40246,7 +40246,7 @@ timeline_example = {
                                 "physicalDamage": 163,
                                 "spellName": "yonew",
                                 "spellSlot": 1,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -40257,7 +40257,7 @@ timeline_example = {
                                 "physicalDamage": 122,
                                 "spellName": "",
                                 "spellSlot": -1,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -40268,7 +40268,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "",
                                 "spellSlot": 63,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -40279,7 +40279,7 @@ timeline_example = {
                                 "physicalDamage": 88,
                                 "spellName": "yoneq",
                                 "spellSlot": 0,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -40290,7 +40290,7 @@ timeline_example = {
                                 "physicalDamage": 209,
                                 "spellName": "yonepassive",
                                 "spellSlot": 63,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -40301,7 +40301,7 @@ timeline_example = {
                                 "physicalDamage": 105,
                                 "spellName": "yonew",
                                 "spellSlot": 1,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -40312,7 +40312,7 @@ timeline_example = {
                                 "physicalDamage": 238,
                                 "spellName": "",
                                 "spellSlot": -1,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -40323,7 +40323,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "yonee",
                                 "spellSlot": 2,
-                                "TrueDamage": 265,
+                                "trueDamage": 265,
                                 "type": "OTHER"
                             },
                             {
@@ -40334,7 +40334,7 @@ timeline_example = {
                                 "physicalDamage": 371,
                                 "spellName": "yonepassive",
                                 "spellSlot": 63,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -40345,7 +40345,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "",
                                 "spellSlot": 63,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -40356,7 +40356,7 @@ timeline_example = {
                                 "physicalDamage": 325,
                                 "spellName": "yoneq",
                                 "spellSlot": 0,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             }
                         ],
@@ -40369,7 +40369,7 @@ timeline_example = {
                                 "physicalDamage": 155,
                                 "spellName": "",
                                 "spellSlot": -1,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -40380,7 +40380,7 @@ timeline_example = {
                                 "physicalDamage": 307,
                                 "spellName": "garenq",
                                 "spellSlot": 0,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -40391,7 +40391,7 @@ timeline_example = {
                                 "physicalDamage": 123,
                                 "spellName": "6631active",
                                 "spellSlot": 7,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -40402,7 +40402,7 @@ timeline_example = {
                                 "physicalDamage": 476,
                                 "spellName": "garene",
                                 "spellSlot": 2,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -40413,7 +40413,7 @@ timeline_example = {
                                 "physicalDamage": 178,
                                 "spellName": "garenbasicattack",
                                 "spellSlot": 64,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -40424,7 +40424,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "garenr",
                                 "spellSlot": 3,
-                                "TrueDamage": 1326,
+                                "trueDamage": 1326,
                                 "type": "OTHER"
                             },
                             {
@@ -40435,7 +40435,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "",
                                 "spellSlot": -1,
-                                "TrueDamage": 140,
+                                "trueDamage": 140,
                                 "type": "OTHER"
                             },
                             {
@@ -40446,7 +40446,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "",
                                 "spellSlot": -1,
-                                "TrueDamage": 42,
+                                "trueDamage": 42,
                                 "type": "OTHER"
                             },
                             {
@@ -40457,7 +40457,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "brandpassive",
                                 "spellSlot": 63,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -40468,7 +40468,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "brande",
                                 "spellSlot": 2,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -40479,7 +40479,7 @@ timeline_example = {
                                 "physicalDamage": 80,
                                 "spellName": "",
                                 "spellSlot": -1,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -40490,7 +40490,7 @@ timeline_example = {
                                 "physicalDamage": 258,
                                 "spellName": "vaynetumble",
                                 "spellSlot": 0,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -40501,7 +40501,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "",
                                 "spellSlot": -1,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -40512,7 +40512,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "",
                                 "spellSlot": -1,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -40523,7 +40523,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "luxr",
                                 "spellSlot": 3,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             },
                             {
@@ -40534,7 +40534,7 @@ timeline_example = {
                                 "physicalDamage": 0,
                                 "spellName": "",
                                 "spellSlot": -1,
-                                "TrueDamage": 0,
+                                "trueDamage": 0,
                                 "type": "OTHER"
                             }
                         ],
@@ -40697,9 +40697,9 @@ timeline_example = {
                             "totalDamageDone": 229334,
                             "totalDamageDoneToChampions": 12700,
                             "totalDamageTaken": 32755,
-                            "TrueDamageDone": 6593,
-                            "TrueDamageDoneToChampions": 3988,
-                            "TrueDamageTaken": 3439
+                            "trueDamageDone": 6593,
+                            "trueDamageDoneToChampions": 3988,
+                            "trueDamageTaken": 3439
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 0,
@@ -40753,9 +40753,9 @@ timeline_example = {
                             "totalDamageDone": 296342,
                             "totalDamageDoneToChampions": 25365,
                             "totalDamageTaken": 33282,
-                            "TrueDamageDone": 51877,
-                            "TrueDamageDoneToChampions": 3221,
-                            "TrueDamageTaken": 1797
+                            "trueDamageDone": 51877,
+                            "trueDamageDoneToChampions": 3221,
+                            "trueDamageTaken": 1797
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 183,
@@ -40809,9 +40809,9 @@ timeline_example = {
                             "totalDamageDone": 198149,
                             "totalDamageDoneToChampions": 27983,
                             "totalDamageTaken": 20066,
-                            "TrueDamageDone": 4114,
-                            "TrueDamageDoneToChampions": 2474,
-                            "TrueDamageTaken": 563
+                            "trueDamageDone": 4114,
+                            "trueDamageDoneToChampions": 2474,
+                            "trueDamageTaken": 563
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 4,
@@ -40865,9 +40865,9 @@ timeline_example = {
                             "totalDamageDone": 246517,
                             "totalDamageDoneToChampions": 28932,
                             "totalDamageTaken": 21228,
-                            "TrueDamageDone": 27852,
-                            "TrueDamageDoneToChampions": 6493,
-                            "TrueDamageTaken": 2236
+                            "trueDamageDone": 27852,
+                            "trueDamageDoneToChampions": 6493,
+                            "trueDamageTaken": 2236
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 23,
@@ -40921,9 +40921,9 @@ timeline_example = {
                             "totalDamageDone": 17371,
                             "totalDamageDoneToChampions": 6692,
                             "totalDamageTaken": 17150,
-                            "TrueDamageDone": 280,
-                            "TrueDamageDoneToChampions": 280,
-                            "TrueDamageTaken": 977
+                            "trueDamageDone": 280,
+                            "trueDamageDoneToChampions": 280,
+                            "trueDamageTaken": 977
                         },
                         "goldPerSecond": 30,
                         "jungleMinionsKilled": 0,
@@ -40977,9 +40977,9 @@ timeline_example = {
                             "totalDamageDone": 212824,
                             "totalDamageDoneToChampions": 23980,
                             "totalDamageTaken": 27701,
-                            "TrueDamageDone": 5519,
-                            "TrueDamageDoneToChampions": 3024,
-                            "TrueDamageTaken": 4167
+                            "trueDamageDone": 5519,
+                            "trueDamageDoneToChampions": 3024,
+                            "trueDamageTaken": 4167
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 12,
@@ -41033,9 +41033,9 @@ timeline_example = {
                             "totalDamageDone": 240684,
                             "totalDamageDoneToChampions": 19118,
                             "totalDamageTaken": 45328,
-                            "TrueDamageDone": 69205,
-                            "TrueDamageDoneToChampions": 1518,
-                            "TrueDamageTaken": 10151
+                            "trueDamageDone": 69205,
+                            "trueDamageDoneToChampions": 1518,
+                            "trueDamageTaken": 10151
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 148,
@@ -41089,9 +41089,9 @@ timeline_example = {
                             "totalDamageDone": 183995,
                             "totalDamageDoneToChampions": 17835,
                             "totalDamageTaken": 23381,
-                            "TrueDamageDone": 1207,
-                            "TrueDamageDoneToChampions": 0,
-                            "TrueDamageTaken": 976
+                            "trueDamageDone": 1207,
+                            "trueDamageDoneToChampions": 0,
+                            "trueDamageTaken": 976
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 0,
@@ -41145,9 +41145,9 @@ timeline_example = {
                             "totalDamageDone": 165770,
                             "totalDamageDoneToChampions": 24199,
                             "totalDamageTaken": 19565,
-                            "TrueDamageDone": 42024,
-                            "TrueDamageDoneToChampions": 4615,
-                            "TrueDamageTaken": 1182
+                            "trueDamageDone": 42024,
+                            "trueDamageDoneToChampions": 4615,
+                            "trueDamageTaken": 1182
                         },
                         "goldPerSecond": 0,
                         "jungleMinionsKilled": 0,
@@ -41201,9 +41201,9 @@ timeline_example = {
                             "totalDamageDone": 77082,
                             "totalDamageDoneToChampions": 17063,
                             "totalDamageTaken": 19810,
-                            "TrueDamageDone": 1204,
-                            "TrueDamageDoneToChampions": 1161,
-                            "TrueDamageTaken": 1294
+                            "trueDamageDone": 1204,
+                            "trueDamageDoneToChampions": 1161,
+                            "trueDamageTaken": 1294
                         },
                         "goldPerSecond": 30,
                         "jungleMinionsKilled": 8,

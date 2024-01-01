@@ -287,9 +287,9 @@ class MatchExtractor(BaseExtractor):
                     total_damage_done=damage_stats_dict.get("totalDamageDone", None),
                     total_damage_done_to_champions=damage_stats_dict.get("totalDamageDoneToChampions", None),
                     total_damage_taken=damage_stats_dict.get("totalDamageTaken", None),
-                    true_damage_done=damage_stats_dict.get("TrueDamageDone", None),
-                    true_damage_done_to_champions=damage_stats_dict.get("TrueDamageDoneToChampions", None),
-                    true_damage_taken=damage_stats_dict.get("TrueDamageTaken", None)
+                    true_damage_done=damage_stats_dict.get("trueDamageDone", None),
+                    true_damage_done_to_champions=damage_stats_dict.get("trueDamageDoneToChampions", None),
+                    true_damage_taken=damage_stats_dict.get("trueDamageTaken", None)
                 )
 
                 timeline_participant_frame = TimelineParticipantFrame(
