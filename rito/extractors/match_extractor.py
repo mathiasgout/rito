@@ -53,6 +53,7 @@ class MatchExtractor(BaseExtractor):
             champion_id=participant_dict.get("championId", None),
             champion_name=participant_dict.get("championName", None),
             champion_level=participant_dict.get("champLevel", None),
+            damage_dealt_to_turrets=participant_dict.get("damageDealtToTurrets", None),
             individual_position=participant_dict.get("individualPosition", None),
             team_position=participant_dict.get("teamPosition", None),
             win=participant_dict.get("win", None),
@@ -102,6 +103,7 @@ class MatchExtractor(BaseExtractor):
             champion_id=opponent_participant_dict.get("championId", None),
             champion_name=opponent_participant_dict.get("championName", None),
             champion_level=opponent_participant_dict.get("champLevel", None),
+            damage_dealt_to_turrets=opponent_participant_dict.get("damageDealtToTurrets", None),
             individual_position=opponent_participant_dict.get("individualPosition", None),
             team_position=opponent_participant_dict.get("teamPosition", None),
             win=opponent_participant_dict.get("win", None),
@@ -169,6 +171,11 @@ class MatchExtractor(BaseExtractor):
                     key="totalDamageDealtToChampions",
                     team_id="100",
                 ),
+                total_damage_dealt_to_turrets=self._get_total_by_key_and_team(
+                    participants_info=participants_infos,
+                    key="damageDealtToTurrets",
+                    team_id="100",
+                ),
                 total_damage_taken=self._get_total_by_key_and_team(
                     participants_info=participants_infos,
                     key="totalDamageTaken",
@@ -215,6 +222,11 @@ class MatchExtractor(BaseExtractor):
                 total_damage_dealt_to_champions=self._get_total_by_key_and_team(
                     participants_info=participants_infos,
                     key="totalDamageDealtToChampions",
+                    team_id="200",
+                ),
+                total_damage_dealt_to_turrets=self._get_total_by_key_and_team(
+                    participants_info=participants_infos,
+                    key="damageDealtToTurrets",
                     team_id="200",
                 ),
                 total_damage_taken=self._get_total_by_key_and_team(

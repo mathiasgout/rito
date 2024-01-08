@@ -22,6 +22,7 @@ class MatchSummoner(BaseModel):
     champion_id: Optional[str]
     champion_name: Optional[str]
     champion_level: Optional[int]
+    damage_dealt_to_turrets: Optional[int]
     individual_position: Optional[str]
     team_position: Optional[str]
     win: Optional[bool]
@@ -48,6 +49,7 @@ class TeamTotals(BaseModel):
     total_minions_killed: Optional[int]
     total_gold_earned: Optional[int]
     total_damage_dealt_to_champions: Optional[int]
+    total_damage_dealt_to_turrets: Optional[int]
     total_damage_taken: Optional[int]
     total_vision_score: Optional[int]
 
