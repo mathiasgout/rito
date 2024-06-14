@@ -1,3 +1,3 @@
-from rito.clients import RitoClient, ExtractorClient
+from rito.clients import RitoClient
 
-__all__ = ["RitoClient", "ExtractorClient"]
+__all__ = ["RitoClient"]

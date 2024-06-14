@@ -1,18 +1,19 @@
 from rito.apis import spectator_api, base_api
+from rito.models import spectator
 from rito import riot_request
 
 
 def test_entryapi():
     ag_api = spectator_api.ActiveGameAPI(
-        riot_api_key="riot_api_key",
-        routes={
-            "regional": "https://europe.api.riotgames.com",
-            "platform": "https://euw1.api.riotgames.com",
-        },
-        riot_request=riot_request.RiotRequest("riot_api_key"),
+        riot_api_key="riot_api_key", 
+        region="EUW",
+        return_none_on_404=True,
+        retry_on_rate_limit=True,
+        timeout_on_servor_error=10
     )
 
     assert ag_api.riot_api_key == "riot_api_key"
+    assert ag_api.region == "EUW"
     assert ag_api.routes == {
         "regional": "https://europe.api.riotgames.com",
         "platform": "https://euw1.api.riotgames.com",
@@ -22,27 +23,34 @@ def test_entryapi():
 
 def test_entryapi_by_summoner(mocker):
     # Patchs
-    mocker.patch("rito.riot_request.RiotRequest.make_request")
+    mocker.patch("rito.riot_request.RiotRequest.make_request", return_value={"lol": "xd"})
 
     # Calls
     ag_api = spectator_api.ActiveGameAPI(
-        riot_api_key="riot_api_key",
-        routes={
-            "regional": "https://europe.api.riotgames.com",
-            "platform": "https://euw1.api.riotgames.com",
-        },
-        riot_request=riot_request.RiotRequest("riot_api_key"),
+        riot_api_key="riot_api_key", 
+        region="EUW",
+        return_none_on_404=True,
+        retry_on_rate_limit=True,
+        timeout_on_servor_error=10
     )
-    ag_api.by_summoner("summoner_id1")
+    return_value = ag_api.by_summoner("summoner_id1")
 
     # Verifs
     riot_request.RiotRequest.make_request.assert_called_once_with(
-        endpoint="https://euw1.api.riotgames.com/lol/spectator/v4/active-games/by-summoner/summoner_id1"
+        endpoint="https://euw1.api.riotgames.com/lol/spectator/v5/active-games/by-summoner/summoner_id1"
     )
+    assert return_value._json == {"lol": "xd"}
+    assert type(return_value) == spectator.ActiveGame
 
 
 def test_leagueapiv4():
-    ag_api = spectator_api.SpectatorAPIV4(riot_api_key="riot_api_key", region="EUW")
+    ag_api = spectator_api.SpectatorAPIV5(
+        riot_api_key="riot_api_key", 
+        region="EUW",
+        return_none_on_404=True,
+        retry_on_rate_limit=True,
+        timeout_on_servor_error=10
+    )
 
-    assert issubclass(spectator_api.SpectatorAPIV4, base_api.BaseRiotAPI)
+    assert issubclass(spectator_api.SpectatorAPIV5, base_api.BaseRiotAPI)
     assert isinstance(ag_api.active_game, spectator_api.ActiveGameAPI)

@@ -1,24 +1,16 @@
 from rito.apis.base_api import BaseRiotAPI
-
-from typing import Union
-
-
-class ActiveGameAPI:
-    def __init__(self, riot_api_key: str, routes: dict, riot_request) -> None:
-        self.riot_api_key = riot_api_key
-        self.routes = routes
-        self.riot_request = riot_request
-
-    def by_summoner(self, summoner_id: str) -> Union[None, dict]:
-        endpoint = f"{self.routes['platform']}/lol/spectator/v4/active-games/by-summoner/{summoner_id}"
-        return self.riot_request.make_request(endpoint=endpoint)
+from rito.models.spectator import ActiveGame
 
 
-class SpectatorAPIV4(BaseRiotAPI):
+class ActiveGameAPI(BaseRiotAPI):
+    def by_summoner(self, puuid: str) -> ActiveGame:
+        endpoint = f"{self.routes['platform']}/lol/spectator/v5/active-games/by-summoner/{puuid}"
+        j = self.riot_request.make_request(endpoint=endpoint)
+        result = ActiveGame()
+        return result.parse(json=j)
+
+
+class SpectatorAPIV5(BaseRiotAPI):
     def __init__(self, *args, **kwargs) -> None:
         super().__init__(*args, **kwargs)
-        self.active_game = ActiveGameAPI(
-            riot_api_key=self.riot_api_key,
-            routes=self.routes,
-            riot_request=self.riot_request,
-        )
+        self.active_game = ActiveGameAPI(self.riot_api_key, self.region, self.return_none_on_404, self.retry_on_rate_limit, self.timeout_on_servor_error)

@@ -1,13 +1,13 @@
-from pydantic import BaseModel
-
-from typing import Optional
+from rito.models.base_model import Model
 
 
-class Summoner(BaseModel):
-    summoner_id: Optional[str]
-    account_id: Optional[str]
-    puuid: Optional[str]
-    name: Optional[str]
-    profile_icon_id: Optional[str]
-    revision_date: Optional[int]
-    summoner_level: Optional[int]
+class Summoner(Model):
+    @classmethod
+    def parse(cls, json):
+        summoner = cls()
+        setattr(summoner, "_json", json)
+
+        if json is not None:
+            for k, v in json.items():
+                setattr(summoner, cls._format_attribute_name(self=cls, raw_attribute_name=k), v)
+        return summoner
