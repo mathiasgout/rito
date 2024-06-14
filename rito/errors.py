@@ -1,8 +1,18 @@
-class RiotAPIError(Exception):
-    def __init__(self, *args: object) -> None:
-        super().__init__(*args)
+class RiotAPIError404(Exception):
+    pass
+
+
+class RiotAPIError429(Exception):
+    pass
+
+
+class RiotAPIError5xx(Exception):
+    pass
+
+
+class RiotAPIErrorUnknown(Exception):
+    pass
 
 
 class ExtractorError(Exception):
-    def __init__(self, *args: object) -> None:
-        super().__init__(*args)
+    pass

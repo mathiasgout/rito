@@ -1,29 +1,29 @@
-from pydantic import BaseModel
-
-from typing import Optional
+from rito.models.base_model import Model
 
 
-class Entry(BaseModel):
-    league_id: Optional[str]
-    queue_type: Optional[str]
-    tier: Optional[str]
-    rank: Optional[str]
-    summoner_id: Optional[str]
-    summoner_name: Optional[str]
-    league_points: Optional[int]
-    wins: Optional[int]
-    losses: Optional[int]
-    veteran: Optional[bool]
-    inactive: Optional[bool]
-    fresh_blood: Optional[bool]
-    hot_streak: Optional[bool]
-    miniseries_progress: Optional[str]
-    total_lp: Optional[int]
+class Entry(Model):
+    @classmethod
+    def parse(cls, json):
+        entry = cls()
+        setattr(entry, "_json", json)
+
+        if json is not None:
+            for k, v in json.items():
+                setattr(entry, cls._format_attribute_name(self=cls, raw_attribute_name=k), v)
+        return entry
 
 
-class League(BaseModel):
-    tier: Optional[str]
-    league_id: Optional[str]
-    queue: Optional[str]
-    name: Optional[str]
-    entries: Optional[list[Entry]]
+class League(Model):
+    @classmethod
+    def parse(cls, json):
+        league = cls()
+        setattr(league, "_json", json)
+
+        if json is not None:
+            for k, v in json.items():
+                if k == "entries":
+                    l = [Entry().parse(j) for j in v]
+                    setattr(league, "entries", l)
+                else:
+                    setattr(league, cls._format_attribute_name(self=cls, raw_attribute_name=k), v)
+        return league

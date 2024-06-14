@@ -11,7 +11,13 @@ def test_staticapi_queues(mocker):
     mocker.patch("rito.riot_request.RiotRequest.make_request")
 
     # Calls
-    s_api = static_api.StaticAPI(riot_api_key="riot_api_key", region="EUW")
+    s_api = static_api.StaticAPI(
+        riot_api_key="riot_api_key", 
+        region="EUW",
+        return_none_on_404=True,
+        retry_on_rate_limit=True,
+        timeout_on_servor_error=10
+    )
     s_api.queues
 
     # Verifs

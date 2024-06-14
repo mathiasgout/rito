@@ -1,9 +1,13 @@
-from pydantic import BaseModel
-
-from typing import Optional
+from rito.models.base_model import Model
 
 
-class Account(BaseModel):
-    puuid: Optional[str]
-    game_name: Optional[str]
-    tag_line: Optional[str]
+class Account(Model):
+    @classmethod
+    def parse(cls, json):
+        account = cls()
+        setattr(account, "_json", json)
+
+        if json is not None:
+            for k, v in json.items():
+                setattr(account, cls._format_attribute_name(self=cls, raw_attribute_name=k), v)
+        return account
