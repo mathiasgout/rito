@@ -9,7 +9,7 @@ class RewardConfig(Model):
 
         if json is not None:
             for k, v in json.items():
-                setattr(reward_config, cls._format_attribute_name(self=cls, raw_attribute_name=k), v)
+                setattr(reward_config, k, v)
         return reward_config
     
 
@@ -23,9 +23,9 @@ class NextSeasonMilestone(Model):
             for k, v in json.items():
                 if k == "rewardConfig":
                     reward_config = RewardConfig()
-                    setattr(next_season_milestone, "reward_config", reward_config.parse(v))
+                    setattr(next_season_milestone, k, reward_config.parse(v))
                 else:
-                    setattr(next_season_milestone, cls._format_attribute_name(self=cls, raw_attribute_name=k), v)
+                    setattr(next_season_milestone, k, v)
         return next_season_milestone
     
 
@@ -39,7 +39,7 @@ class ChampionMastery(Model):
             for k, v in json.items():
                 if k == "nextSeasonMilestone":
                     next_season_milestone = NextSeasonMilestone()
-                    setattr(champion_mastery, "next_season_milestone", next_season_milestone.parse(v))
+                    setattr(champion_mastery, k, next_season_milestone.parse(v))
                 else:
-                    setattr(champion_mastery, cls._format_attribute_name(self=cls, raw_attribute_name=k), v)
+                    setattr(champion_mastery, k, v)
         return champion_mastery

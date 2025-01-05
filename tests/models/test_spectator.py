@@ -11,7 +11,7 @@ def test_perksactivegames_parse():
 
     assert type(a) == spectator.PerksActiveGame
     assert a._json == {"lolXd": "xd"}
-    assert a.lol_xd == "xd"
+    assert a.lolXd == "xd"
 
 
 def test_participantactivegames_inheritance():
@@ -24,7 +24,7 @@ def test_participantactivegames_parse():
 
     assert type(a) == spectator.ParticipantActiveGame
     assert a._json == {"lolXd": "xd"}
-    assert a.lol_xd == "xd"
+    assert a.lolXd == "xd"
 
 
 def test_participantactivegames_parse_PERKS():
@@ -33,7 +33,7 @@ def test_participantactivegames_parse_PERKS():
 
     assert a.perks._json == {"lolXd": "xd"}
     assert type(a.perks) == spectator.PerksActiveGame
-    assert a.perks.lol_xd == "xd"
+    assert a.perks.lolXd == "xd"
 
 
 def test_observers_inheritance():
@@ -46,7 +46,7 @@ def test_observers_parse():
 
     assert type(a) == spectator.Observers
     assert a._json == {"lolXd": "xd"}
-    assert a.lol_xd == "xd"
+    assert a.lolXd == "xd"
 
 
 def test_bannedchampion_inheritance():
@@ -59,7 +59,7 @@ def test_bannedchampion_parse():
 
     assert type(a) == spectator.BannedChampion
     assert a._json == {"lolXd": "xd"}
-    assert a.lol_xd == "xd"
+    assert a.lolXd == "xd"
 
 
 def test_activegame_inheritance():
@@ -72,7 +72,7 @@ def test_activegame_parse():
 
     assert type(a) == spectator.ActiveGame
     assert a._json == {"lolXd": "xd"}
-    assert a.lol_xd == "xd"
+    assert a.lolXd == "xd"
 
 
 def test_activegame_parse_OBSERVERS():
@@ -81,7 +81,7 @@ def test_activegame_parse_OBSERVERS():
 
     assert a.observers._json == {"lolXd": "xd"}
     assert type(a.observers) == spectator.Observers
-    assert a.observers.lol_xd == "xd"
+    assert a.observers.lolXd == "xd"
 
 
 def test_activegame_parse_PARTICIPANTS():
@@ -91,14 +91,73 @@ def test_activegame_parse_PARTICIPANTS():
     assert len(a.participants) == 1
     assert a.participants[0]._json == {"lolXd": "xd"}
     assert type(a.participants[0]) == spectator.ParticipantActiveGame
-    assert a.participants[0].lol_xd == "xd"
+    assert a.participants[0].lolXd == "xd"
 
 
 def test_activegame_parse_BANNEDCHAMPIONS():
     result = spectator.ActiveGame()
     a = result.parse({"lolXd": "xd", "bannedChampions": [{"lolXd": "xd"}]})
 
-    assert len(a.banned_champions) == 1
-    assert a.banned_champions[0]._json == {"lolXd": "xd"}
-    assert type(a.banned_champions[0]) == spectator.BannedChampion
-    assert a.banned_champions[0].lol_xd == "xd"
+    assert len(a.bannedChampions) == 1
+    assert a.bannedChampions[0]._json == {"lolXd": "xd"}
+    assert type(a.bannedChampions[0]) == spectator.BannedChampion
+    assert a.bannedChampions[0].lolXd == "xd"
+
+
+def test_participantfeaturedgame_inheritance():
+    isinstance(spectator.ParticipantFeaturedGame(), base_model.Model)
+
+
+def test_participantfeaturedgame_parse():
+    result = spectator.ParticipantFeaturedGame()
+    a = result.parse({"lolXd": "xd"})
+
+    assert type(a) == spectator.ParticipantFeaturedGame
+    assert a._json == {"lolXd": "xd"}
+    assert a.lolXd == "xd"
+
+
+def test_featuredgame_inheritance():
+    isinstance(spectator.FeaturedGame(), base_model.Model)
+
+
+def test_featuredgame_parse():
+    result = spectator.FeaturedGame()
+    a = result.parse({"lolXd": "xd"})
+
+    assert type(a) == spectator.FeaturedGame
+    assert a._json == {"lolXd": "xd"}
+    assert a.lolXd == "xd"
+
+
+def test_featuredgame_parse_PARTICIPANTS():
+    result = spectator.FeaturedGame()
+    a = result.parse({"lolXd": "xd", "participants": [{"lolXd": "xd"}]})
+
+    assert len(a.participants) == 1
+    assert a.participants[0]._json == {"lolXd": "xd"}
+    assert type(a.participants[0]) == spectator.ParticipantFeaturedGame
+    assert a.participants[0].lolXd == "xd"
+
+
+def test_featuredgames_inheritance():
+    isinstance(spectator.FeaturedGames(), base_model.Model)
+
+
+def test_featuredgames_parse():
+    result = spectator.FeaturedGames()
+    a = result.parse({"lolXd": "xd"})
+
+    assert type(a) == spectator.FeaturedGames
+    assert a._json == {"lolXd": "xd"}
+    assert a.lolXd == "xd"
+
+
+def test_featuredgame_parse_GAMELISTS():
+    result = spectator.FeaturedGames()
+    a = result.parse({"lolXd": "xd", "gameList": [{"lolXd": "xd"}]})
+
+    assert len(a.gameList) == 1
+    assert a.gameList[0]._json == {"lolXd": "xd"}
+    assert type(a.gameList[0]) == spectator.FeaturedGame
+    assert a.gameList[0].lolXd == "xd"

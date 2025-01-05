@@ -11,4 +11,4 @@ def test_account_parse():
 
     assert type(a) == account.Account
     assert a._json == {"lolXd": "xd"}
-    assert a.lol_xd == "xd"
+    assert a.lolXd == "xd"

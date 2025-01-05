@@ -9,5 +9,5 @@ class Summoner(Model):
 
         if json is not None:
             for k, v in json.items():
-                setattr(summoner, cls._format_attribute_name(self=cls, raw_attribute_name=k), v)
+                setattr(summoner, k, v)
         return summoner
