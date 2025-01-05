@@ -11,4 +11,4 @@ def test_summoner_parse():
 
     assert type(a) == summoner.Summoner
     assert a._json == {"lolXd": "xd"}
-    assert a.lol_xd == "xd"
+    assert a.lolXd == "xd"

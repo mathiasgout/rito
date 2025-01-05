@@ -11,7 +11,7 @@ def test_rewardconfig_parse():
 
     assert type(a) == champion_mastery.RewardConfig
     assert a._json == {"lolXd": "xd"}
-    assert a.lol_xd == "xd"
+    assert a.lolXd == "xd"
 
 
 def test_nextseasonmilestone_inheritance():
@@ -24,7 +24,7 @@ def test_nextseasonmilestone_parse():
 
     assert type(a) == champion_mastery.NextSeasonMilestone
     assert a._json == {"lolXd": "xd"}
-    assert a.lol_xd == "xd"
+    assert a.lolXd == "xd"
 
 
 def test_nextseasonmilestone_parse_REWARDCONFIG():
@@ -32,9 +32,9 @@ def test_nextseasonmilestone_parse_REWARDCONFIG():
     a = result.parse({"lolXd": "xd", "rewardConfig": {"lolXd": "xd"}})
 
     assert a._json == {"lolXd": "xd", "rewardConfig": {"lolXd": "xd"}}
-    assert a.reward_config._json == {"lolXd": "xd"}
-    assert type(a.reward_config) == champion_mastery.RewardConfig
-    assert a.reward_config.lol_xd == "xd"
+    assert a.rewardConfig._json == {"lolXd": "xd"}
+    assert type(a.rewardConfig) == champion_mastery.RewardConfig
+    assert a.rewardConfig.lolXd == "xd"
 
 
 def test_championmastery_inheritance():
@@ -47,7 +47,7 @@ def test_championmastery_parse():
 
     assert type(a) == champion_mastery.ChampionMastery
     assert a._json == {"lolXd": "xd"}
-    assert a.lol_xd == "xd"
+    assert a.lolXd == "xd"
 
 
 def test_championmastery_parse_NEXTSEASONMILESTONE():
@@ -55,6 +55,6 @@ def test_championmastery_parse_NEXTSEASONMILESTONE():
     a = result.parse({"lolXd": "xd", "nextSeasonMilestone": {"lolXd": "xd"}})
 
     assert a._json == {"lolXd": "xd", "nextSeasonMilestone": {"lolXd": "xd"}}
-    assert a.next_season_milestone._json == {"lolXd": "xd"}
-    assert type(a.next_season_milestone) == champion_mastery.NextSeasonMilestone
-    assert a.next_season_milestone.lol_xd == "xd"
+    assert a.nextSeasonMilestone._json == {"lolXd": "xd"}
+    assert type(a.nextSeasonMilestone) == champion_mastery.NextSeasonMilestone
+    assert a.nextSeasonMilestone.lolXd == "xd"

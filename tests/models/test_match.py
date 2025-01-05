@@ -11,7 +11,7 @@ def test_metadata_parse():
 
     assert type(a) == match.Metadata
     assert a._json == {"lolXd": "xd"}
-    assert a.lol_xd == "xd"
+    assert a.lolXd == "xd"
 
 
 def test_ban_inheritance():
@@ -24,7 +24,7 @@ def test_ban_parse():
 
     assert type(a) == match.Ban
     assert a._json == {"lolXd": "xd"}
-    assert a.lol_xd == "xd"
+    assert a.lolXd == "xd"
 
 
 def test_objectives_inheritance():
@@ -37,7 +37,7 @@ def test_objectives_parse():
 
     assert type(a) == match.Objectives
     assert a._json == {"lolXd": "xd"}
-    assert a.lol_xd == "xd"
+    assert a.lolXd == "xd"
 
 
 def test_team_inheritance():
@@ -50,7 +50,7 @@ def test_team_parse():
 
     assert type(a) == match.Team
     assert a._json == {"lolXd": "xd"}
-    assert a.lol_xd == "xd"
+    assert a.lolXd == "xd"
 
 
 def test_team_parse_BANS():
@@ -60,7 +60,7 @@ def test_team_parse_BANS():
     assert len(a.bans) == 1
     assert a.bans[0]._json == {"lolXd": "xd"}
     assert type(a.bans[0]) == match.Ban
-    assert a.bans[0].lol_xd == "xd"
+    assert a.bans[0].lolXd == "xd"
 
 
 def test_team_parse_OBJECTIVES():
@@ -69,7 +69,7 @@ def test_team_parse_OBJECTIVES():
 
     assert a.objectives._json == {"lolXd": "xd"}
     assert type(a.objectives) == match.Objectives
-    assert a.objectives.lol_xd == "xd"
+    assert a.objectives.lolXd == "xd"
 
 
 def test_challenges_inheritance():
@@ -82,7 +82,7 @@ def test_challenges_parse():
 
     assert type(a) == match.Challenges
     assert a._json == {"lolXd": "xd"}
-    assert a.lol_xd == "xd"
+    assert a.lolXd == "xd"
 
 
 def test_missions_inheritance():
@@ -95,7 +95,7 @@ def test_missions_parse():
 
     assert type(a) == match.Missions
     assert a._json == {"lolXd": "xd"}
-    assert a.lol_xd == "xd"
+    assert a.lolXd == "xd"
 
 
 def test_styles_inheritance():
@@ -108,7 +108,7 @@ def test_styles_parse():
 
     assert type(a) == match.Styles
     assert a._json == {"lolXd": "xd"}
-    assert a.lol_xd == "xd"
+    assert a.lolXd == "xd"
 
 
 def test_perks_inheritance():
@@ -121,7 +121,7 @@ def test_perks_parse():
 
     assert type(a) == match.PerksMatch
     assert a._json == {"lolXd": "xd"}
-    assert a.lol_xd == "xd"
+    assert a.lolXd == "xd"
 
 
 def test_perks_parse_STYLES():
@@ -131,7 +131,7 @@ def test_perks_parse_STYLES():
     assert len(a.styles) == 1
     assert a.styles[0]._json == {"lolXd": "xd"}
     assert type(a.styles[0]) == match.Styles
-    assert a.styles[0].lol_xd == "xd"
+    assert a.styles[0].lolXd == "xd"
 
 
 def test_participant_inheritance():
@@ -144,7 +144,7 @@ def test_participant_parse():
 
     assert type(a) == match.ParticipantMatch
     assert a._json == {"lolXd": "xd"}
-    assert a.lol_xd == "xd"
+    assert a.lolXd == "xd"
 
 
 def test_participant_parse_CHALLENGES():
@@ -153,7 +153,7 @@ def test_participant_parse_CHALLENGES():
 
     assert a.challenges._json == {"lolXd": "xd"}
     assert type(a.challenges) == match.Challenges
-    assert a.challenges.lol_xd == "xd"
+    assert a.challenges.lolXd == "xd"
 
 
 def test_participant_parse_MISSIONS():
@@ -162,7 +162,7 @@ def test_participant_parse_MISSIONS():
 
     assert a.missions._json == {"lolXd": "xd"}
     assert type(a.missions) == match.Missions
-    assert a.missions.lol_xd == "xd"
+    assert a.missions.lolXd == "xd"
 
 
 def test_participant_parse_PERKS():
@@ -171,7 +171,7 @@ def test_participant_parse_PERKS():
 
     assert a.perks._json == {"lolXd": "xd"}
     assert type(a.perks) == match.PerksMatch
-    assert a.perks.lol_xd == "xd"
+    assert a.perks.lolXd == "xd"
 
 
 def test_infomatch_inheritance():
@@ -184,7 +184,7 @@ def test_infomatch_parse():
 
     assert type(a) == match.InfoMatch
     assert a._json == {"lolXd": "xd"}
-    assert a.lol_xd == "xd"
+    assert a.lolXd == "xd"
 
 
 def test_infomatch_parse_TEAMS():
@@ -194,7 +194,7 @@ def test_infomatch_parse_TEAMS():
     assert len(a.teams) == 1
     assert a.teams[0]._json == {"lolXd": "xd"}
     assert type(a.teams[0]) == match.Team
-    assert a.teams[0].lol_xd == "xd"
+    assert a.teams[0].lolXd == "xd"
 
 
 def test_infomatch_parse_PARTICIPANTS():
@@ -204,7 +204,7 @@ def test_infomatch_parse_PARTICIPANTS():
     assert len(a.participants) == 1
     assert a.participants[0]._json == {"lolXd": "xd"}
     assert type(a.participants[0]) == match.ParticipantMatch
-    assert a.participants[0].lol_xd == "xd"
+    assert a.participants[0].lolXd == "xd"
 
 
 def test_match_inheritance():
@@ -217,7 +217,7 @@ def test_match_parse():
 
     assert type(a) == match.Match
     assert a._json == {"lolXd": "xd"}
-    assert a.lol_xd == "xd"
+    assert a.lolXd == "xd"
 
 
 def test_match_parse_METADATA():
@@ -226,7 +226,7 @@ def test_match_parse_METADATA():
 
     assert a.metadata._json == {"lolXd": "xd"}
     assert type(a.metadata) == match.Metadata
-    assert a.metadata.lol_xd == "xd"
+    assert a.metadata.lolXd == "xd"
 
 
 def test_match_parse_INFO():
@@ -235,7 +235,7 @@ def test_match_parse_INFO():
 
     assert a.info._json == {"lolXd": "xd"}
     assert type(a.info) == match.InfoMatch
-    assert a.info.lol_xd == "xd"
+    assert a.info.lolXd == "xd"
 
 
 def test_participanttimeline_inheritance():
@@ -248,7 +248,7 @@ def test_participanttimeline_parse():
 
     assert type(a) == match.ParticipantTimeline
     assert a._json == {"lolXd": "xd"}
-    assert a.lol_xd == "xd"
+    assert a.lolXd == "xd"
 
 
 def test_championstats_inheritance():
@@ -261,7 +261,7 @@ def test_championstats_parse():
 
     assert type(a) == match.ChampionStats
     assert a._json == {"lolXd": "xd"}
-    assert a.lol_xd == "xd"
+    assert a.lolXd == "xd"
 
 
 def test_damagestats_inheritance():
@@ -274,7 +274,7 @@ def test_damagestats_parse():
 
     assert type(a) == match.DamageStats
     assert a._json == {"lolXd": "xd"}
-    assert a.lol_xd == "xd"
+    assert a.lolXd == "xd"
 
 
 def test_participantframe_inheritance():
@@ -287,25 +287,25 @@ def test_participantframe_parse():
 
     assert type(a) == match.ParticipantFrame
     assert a._json == {"lolXd": "xd"}
-    assert a.lol_xd == "xd"
+    assert a.lolXd == "xd"
 
 
 def test_participantframe_parse_CHAMPIONSTATS():
     result = match.ParticipantFrame()
     a = result.parse({"lolXd": "xd", "championStats": {"lolXd": "xd"}})
 
-    assert a.champion_stats._json == {"lolXd": "xd"}
-    assert type(a.champion_stats) == match.ChampionStats
-    assert a.champion_stats.lol_xd == "xd"
+    assert a.championStats._json == {"lolXd": "xd"}
+    assert type(a.championStats) == match.ChampionStats
+    assert a.championStats.lolXd == "xd"
 
 
 def test_participantframe_parse_DAMAGESTATS():
     result = match.ParticipantFrame()
     a = result.parse({"lolXd": "xd", "damageStats": {"lolXd": "xd"}})
 
-    assert a.damage_stats._json == {"lolXd": "xd"}
-    assert type(a.damage_stats) == match.DamageStats
-    assert a.damage_stats.lol_xd == "xd"
+    assert a.damageStats._json == {"lolXd": "xd"}
+    assert type(a.damageStats) == match.DamageStats
+    assert a.damageStats.lolXd == "xd"
 
 
 def test_event_inheritance():
@@ -318,7 +318,7 @@ def test_event_parse():
 
     assert type(a) == match.Event
     assert a._json == {"lolXd": "xd"}
-    assert a.lol_xd == "xd"
+    assert a.lolXd == "xd"
 
 
 def test_frame_inheritance():
@@ -331,17 +331,17 @@ def test_frame_parse():
 
     assert type(a) == match.Frame
     assert a._json == {"lolXd": "xd"}
-    assert a.lol_xd == "xd"
+    assert a.lolXd == "xd"
 
 
 def test_frame_parse_PARTICIPANTFRAMES():
     result = match.Frame()
     a = result.parse({"lolXd": "xd", "participantFrames": {"1": {"lolXd": "xd"}}})
 
-    assert type(a.participant_frames) == dict
-    assert a.participant_frames["1"]._json == {"lolXd": "xd"}
-    assert type(a.participant_frames["1"]) == match.ParticipantFrame
-    assert a.participant_frames["1"].lol_xd == "xd"
+    assert type(a.participantFrames) == dict
+    assert a.participantFrames["1"]._json == {"lolXd": "xd"}
+    assert type(a.participantFrames["1"]) == match.ParticipantFrame
+    assert a.participantFrames["1"].lolXd == "xd"
 
 
 def test_frame_parse_EVENTS():
@@ -351,7 +351,7 @@ def test_frame_parse_EVENTS():
     assert len(a.events) == 1
     assert a.events[0]._json == {"lolXd": "xd"}
     assert type(a.events[0]) == match.Event
-    assert a.events[0].lol_xd == "xd"
+    assert a.events[0].lolXd == "xd"
 
 
 def test_infotimeline_inheritance():
@@ -364,7 +364,7 @@ def test_infotimeline_parse():
 
     assert type(a) == match.InfoTimeline
     assert a._json == {"lolXd": "xd"}
-    assert a.lol_xd == "xd"
+    assert a.lolXd == "xd"
 
 
 def test_infotimeline_parse_PARTICIPANTS():
@@ -374,7 +374,7 @@ def test_infotimeline_parse_PARTICIPANTS():
     assert len(a.participants) == 1
     assert a.participants[0]._json == {"lolXd": "xd"}
     assert type(a.participants[0]) == match.ParticipantTimeline
-    assert a.participants[0].lol_xd == "xd"
+    assert a.participants[0].lolXd == "xd"
 
 
 def test_infotimeline_parse_FRAMES():
@@ -384,7 +384,7 @@ def test_infotimeline_parse_FRAMES():
     assert len(a.frames) == 1
     assert a.frames[0]._json == {"lolXd": "xd"}
     assert type(a.frames[0]) == match.Frame
-    assert a.frames[0].lol_xd == "xd"
+    assert a.frames[0].lolXd == "xd"
 
 
 def test_timeline_inheritance():
@@ -397,7 +397,7 @@ def test_timeline_parse():
 
     assert type(a) == match.Timeline
     assert a._json == {"lolXd": "xd"}
-    assert a.lol_xd == "xd"
+    assert a.lolXd == "xd"
 
 
 def test_timeline_parse_METADATA():
@@ -406,7 +406,7 @@ def test_timeline_parse_METADATA():
 
     assert a.metadata._json == {"lolXd": "xd"}
     assert type(a.metadata) == match.Metadata
-    assert a.metadata.lol_xd == "xd"
+    assert a.metadata.lolXd == "xd"
 
 
 def test_timeline_parse_INFO():
@@ -415,4 +415,4 @@ def test_timeline_parse_INFO():
 
     assert a.info._json == {"lolXd": "xd"}
     assert type(a.info) == match.InfoTimeline
-    assert a.info.lol_xd == "xd"
+    assert a.info.lolXd == "xd"

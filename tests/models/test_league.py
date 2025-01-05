@@ -11,7 +11,7 @@ def test_entry_parse():
 
     assert type(a) == league.Entry
     assert a._json == {"lolXd": "xd"}
-    assert a.lol_xd == "xd"
+    assert a.lolXd == "xd"
 
 
 def test_league_inheritance():
@@ -24,7 +24,7 @@ def test_league_parse():
 
     assert type(a) == league.League
     assert a._json == {"lolXd": "xd"}
-    assert a.lol_xd == "xd"
+    assert a.lolXd == "xd"
 
 
 def test_league_parse_ENTRIES():
@@ -34,4 +34,4 @@ def test_league_parse_ENTRIES():
     assert len(a.entries) == 1
     assert a.entries[0]._json == {"lolXd": "xd"}
     assert type(a.entries[0]) == league.Entry
-    assert a.entries[0].lol_xd == "xd"
+    assert a.entries[0].lolXd == "xd"

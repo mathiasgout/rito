@@ -7,6 +7,8 @@ from rito.apis import match_api
 from rito.apis import spectator_api
 from rito.apis import static_api
 from rito.apis import summoner_api
+from rito.apis import challenges_api
+from rito.apis import champion_api
 
 
 def test_ritoclient():
@@ -20,3 +22,5 @@ def test_ritoclient():
     assert type(rito.summoner) == summoner_api.SummonerAPIV4
     assert type(rito.data_dragon) == data_dragon_api.DataDragonAPI
     assert type(rito.static) == static_api.StaticAPI
+    assert type(rito.challenges) == challenges_api.ChallengesV1
+    assert type(rito.champion) == champion_api.ChampionV3

@@ -9,7 +9,7 @@ class Entry(Model):
 
         if json is not None:
             for k, v in json.items():
-                setattr(entry, cls._format_attribute_name(self=cls, raw_attribute_name=k), v)
+                setattr(entry, k, v)
         return entry
 
 
@@ -23,7 +23,7 @@ class League(Model):
             for k, v in json.items():
                 if k == "entries":
                     l = [Entry().parse(j) for j in v]
-                    setattr(league, "entries", l)
+                    setattr(league, k, l)
                 else:
-                    setattr(league, cls._format_attribute_name(self=cls, raw_attribute_name=k), v)
+                    setattr(league, k, v)
         return league
